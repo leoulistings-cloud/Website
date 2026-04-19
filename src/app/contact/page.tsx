@@ -1,0 +1,236 @@
+"use client";
+import { useState } from "react";
+import Image from "next/image";
+import { Phone, Mail, MapPin, Clock, Check } from "lucide-react";
+
+const offices = [
+  {
+    city: "Miami",
+    address: "1200 Brickell Avenue, Suite 1850",
+    zip: "Miami, FL 33131",
+    phone: "(305) 555-0100",
+    email: "miami@grandluxe.com",
+  },
+  {
+    city: "Los Angeles",
+    address: "9720 Wilshire Boulevard, Suite 400",
+    zip: "Beverly Hills, CA 90212",
+    phone: "(310) 555-0200",
+    email: "la@grandluxe.com",
+  },
+  {
+    city: "New York",
+    address: "590 Madison Avenue, 21st Floor",
+    zip: "New York, NY 10022",
+    phone: "(212) 555-0300",
+    email: "ny@grandluxe.com",
+  },
+  {
+    city: "Aspen",
+    address: "415 East Hyman Avenue",
+    zip: "Aspen, CO 81611",
+    phone: "(970) 555-0400",
+    email: "aspen@grandluxe.com",
+  },
+];
+
+const inquiryTypes = [
+  "Buying a Property",
+  "Selling a Property",
+  "Off-Market Inquiry",
+  "Investment Advisory",
+  "General Inquiry",
+];
+
+export default function ContactPage() {
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    setSubmitted(true);
+  };
+
+  return (
+    <>
+      {/* Header */}
+      <section className="relative pt-32 pb-20 overflow-hidden">
+        <div className="absolute inset-0">
+          <Image
+            src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1920&q=80"
+            alt=""
+            fill
+            className="object-cover"
+            sizes="100vw"
+          />
+          <div className="absolute inset-0 bg-navy-950/88" />
+        </div>
+        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
+          <p className="section-label mb-3">Begin a Conversation</p>
+          <h1 className="section-title mb-4">
+            Get in <span className="text-gold-500 italic">Touch</span>
+          </h1>
+          <div className="gold-divider" />
+          <p className="text-white/50 text-sm mt-4 max-w-lg leading-relaxed">
+            Whether you're exploring the market or ready to make your move, we're here to help. All inquiries are acknowledged within 24 hours.
+          </p>
+        </div>
+      </section>
+
+      {/* Main content */}
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+            {/* Contact Info */}
+            <div className="lg:col-span-1 space-y-8">
+              <div>
+                <p className="text-gold-500 text-xs tracking-[0.2em] uppercase mb-4">Our Offices</p>
+                <div className="space-y-6">
+                  {offices.map((office) => (
+                    <div key={office.city} className="border border-white/5 hover:border-gold-500/20 p-5 transition-colors">
+                      <p className="font-serif text-white text-lg mb-3">{office.city}</p>
+                      <div className="space-y-2">
+                        <div className="flex items-start gap-2 text-white/50 text-xs">
+                          <MapPin size={11} className="text-gold-500 shrink-0 mt-0.5" />
+                          <span>{office.address}<br />{office.zip}</span>
+                        </div>
+                        <div className="flex items-center gap-2 text-white/50 text-xs">
+                          <Phone size={11} className="text-gold-500" />
+                          <a href={`tel:${office.phone}`} className="hover:text-white transition-colors">
+                            {office.phone}
+                          </a>
+                        </div>
+                        <div className="flex items-center gap-2 text-white/50 text-xs">
+                          <Mail size={11} className="text-gold-500" />
+                          <a href={`mailto:${office.email}`} className="hover:text-white transition-colors">
+                            {office.email}
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              <div className="glass-card p-6">
+                <p className="text-gold-500 text-xs tracking-[0.2em] uppercase mb-4">Hours</p>
+                <div className="space-y-2 text-sm">
+                  <div className="flex justify-between">
+                    <span className="text-white/50">Mon – Fri</span>
+                    <span className="text-white/80">9:00 AM – 7:00 PM</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-white/50">Saturday</span>
+                    <span className="text-white/80">10:00 AM – 5:00 PM</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-white/50">Sunday</span>
+                    <span className="text-white/80">By Appointment</span>
+                  </div>
+                </div>
+                <p className="text-white/30 text-xs mt-4">
+                  Urgent client matters are handled 24/7.
+                </p>
+              </div>
+            </div>
+
+            {/* Form */}
+            <div className="lg:col-span-2">
+              {submitted ? (
+                <div className="h-full flex items-center justify-center py-20">
+                  <div className="text-center">
+                    <div className="w-16 h-16 bg-gold-500 flex items-center justify-center mx-auto mb-6">
+                      <Check size={28} className="text-navy-950" />
+                    </div>
+                    <h3 className="font-serif text-white text-3xl mb-3">Message Received</h3>
+                    <p className="text-white/50 text-sm max-w-sm leading-relaxed">
+                      Thank you for reaching out. A member of our team will be in touch within 24 hours.
+                    </p>
+                  </div>
+                </div>
+              ) : (
+                <div className="bg-navy-900 border border-white/5 p-8 lg:p-12">
+                  <h2 className="font-serif text-white text-2xl mb-6">Send Us a Message</h2>
+                  <form onSubmit={handleSubmit} className="space-y-5">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                      <div>
+                        <label className="text-white/40 text-xs tracking-widest uppercase block mb-2">First Name *</label>
+                        <input
+                          required
+                          type="text"
+                          className="w-full bg-navy-950 border border-white/10 text-white text-sm px-4 py-3 outline-none focus:border-gold-500 transition-colors placeholder:text-white/20"
+                          placeholder="Alexandra"
+                        />
+                      </div>
+                      <div>
+                        <label className="text-white/40 text-xs tracking-widest uppercase block mb-2">Last Name *</label>
+                        <input
+                          required
+                          type="text"
+                          className="w-full bg-navy-950 border border-white/10 text-white text-sm px-4 py-3 outline-none focus:border-gold-500 transition-colors placeholder:text-white/20"
+                          placeholder="Worthington"
+                        />
+                      </div>
+                    </div>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                      <div>
+                        <label className="text-white/40 text-xs tracking-widest uppercase block mb-2">Email *</label>
+                        <input
+                          required
+                          type="email"
+                          className="w-full bg-navy-950 border border-white/10 text-white text-sm px-4 py-3 outline-none focus:border-gold-500 transition-colors placeholder:text-white/20"
+                          placeholder="your@email.com"
+                        />
+                      </div>
+                      <div>
+                        <label className="text-white/40 text-xs tracking-widest uppercase block mb-2">Phone</label>
+                        <input
+                          type="tel"
+                          className="w-full bg-navy-950 border border-white/10 text-white text-sm px-4 py-3 outline-none focus:border-gold-500 transition-colors placeholder:text-white/20"
+                          placeholder="+1 (555) 000-0000"
+                        />
+                      </div>
+                    </div>
+                    <div>
+                      <label className="text-white/40 text-xs tracking-widest uppercase block mb-2">Inquiry Type</label>
+                      <select className="w-full bg-navy-950 border border-white/10 text-white/70 text-sm px-4 py-3 outline-none focus:border-gold-500 transition-colors">
+                        {inquiryTypes.map((t) => (
+                          <option key={t} value={t} className="bg-navy-950">{t}</option>
+                        ))}
+                      </select>
+                    </div>
+                    <div>
+                      <label className="text-white/40 text-xs tracking-widest uppercase block mb-2">Budget / Price Range</label>
+                      <select className="w-full bg-navy-950 border border-white/10 text-white/70 text-sm px-4 py-3 outline-none focus:border-gold-500 transition-colors">
+                        {["Under $5M", "$5M – $10M", "$10M – $25M", "$25M – $50M", "$50M+", "Prefer not to say"].map((r) => (
+                          <option key={r} className="bg-navy-950">{r}</option>
+                        ))}
+                      </select>
+                    </div>
+                    <div>
+                      <label className="text-white/40 text-xs tracking-widest uppercase block mb-2">Message *</label>
+                      <textarea
+                        required
+                        rows={5}
+                        className="w-full bg-navy-950 border border-white/10 text-white text-sm px-4 py-3 outline-none focus:border-gold-500 transition-colors placeholder:text-white/20 resize-none"
+                        placeholder="Tell us about your property goals, timeline, or any specific requirements..."
+                      />
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <input type="checkbox" id="privacy" className="mt-1 accent-gold-500" required />
+                      <label htmlFor="privacy" className="text-white/40 text-xs leading-relaxed">
+                        I understand that all information shared will be handled with complete confidentiality in accordance with GrandLuxe's privacy policy.
+                      </label>
+                    </div>
+                    <button type="submit" className="btn-gold w-full py-4 text-sm tracking-widest uppercase">
+                      Send Message
+                    </button>
+                  </form>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}

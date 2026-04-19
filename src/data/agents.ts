@@ -1,0 +1,125 @@
+import { Agent, Testimonial, MarketStat } from "@/types";
+
+export const agents: Agent[] = [
+  {
+    id: "1",
+    name: "Victoria Harrington",
+    title: "Principal Broker & Founding Partner",
+    phone: "+1 (310) 555-0192",
+    email: "victoria@grandluxe.com",
+    image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&q=80",
+    bio: "With over 22 years specializing in ultra-luxury residential properties across Florida and New York, Victoria has orchestrated some of the most significant real estate transactions in both markets. Her discretion, market intelligence, and global network of qualified buyers make her the advisor of choice for sellers and buyers at the highest tier of the market.",
+    specialties: ["Ultra-Luxury Residential", "New Development", "Off-Market Transactions", "International Buyers"],
+    listings: 24,
+    sold: 340,
+    volume: "$4.2B",
+    languages: ["English", "French", "Italian"],
+    social: {
+      instagram: "#",
+      linkedin: "#",
+    },
+  },
+  {
+    id: "2",
+    name: "James Whitmore",
+    title: "Senior Advisor, Coastal Properties",
+    phone: "+1 (310) 555-0847",
+    email: "james@grandluxe.com",
+    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80",
+    bio: "James brings 18 years of expertise in Southern California's most coveted coastal markets — from Malibu and Bel Air to La Jolla and Santa Barbara. Former architect turned broker, his understanding of design, construction, and value architecture give his clients a decisive analytical advantage in every negotiation.",
+    specialties: ["Coastal Estates", "Architectural Properties", "Development Sites", "Historic Homes"],
+    listings: 18,
+    sold: 285,
+    volume: "$3.1B",
+    languages: ["English", "Spanish"],
+    social: {
+      instagram: "#",
+      linkedin: "#",
+      twitter: "#",
+    },
+  },
+  {
+    id: "3",
+    name: "Sofia Marchetti",
+    title: "International Property Specialist",
+    phone: "+1 (310) 555-0374",
+    email: "sofia@grandluxe.com",
+    image: "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=400&q=80",
+    bio: "Born in Florence and educated in London, Sofia bridges the worlds of European and American luxury real estate with rare fluency. She specializes in serving international buyers seeking entry into the US market, and American buyers pursuing trophy properties across the Mediterranean and Caribbean.",
+    specialties: ["International Transactions", "Mountain Properties", "European Markets", "Vacation Estates"],
+    listings: 15,
+    sold: 210,
+    volume: "$2.4B",
+    languages: ["English", "Italian", "French", "Portuguese"],
+    social: {
+      instagram: "#",
+      linkedin: "#",
+    },
+  },
+];
+
+export const testimonials: Testimonial[] = [
+  {
+    id: "1",
+    name: "Alexander & Christine Meade",
+    location: "Miami Beach, FL",
+    text: "Victoria's understanding of what we needed — before we even knew ourselves — was extraordinary. She found our oceanfront penthouse off-market, negotiated beautifully, and managed the entire process with the kind of discretion we required. There is simply no one better.",
+    rating: 5,
+    image: "https://images.unsplash.com/photo-1522556189639-b150ed9c4330?w=200&q=80",
+    propertyType: "Oceanfront Penthouse",
+  },
+  {
+    id: "2",
+    name: "The Chen Family",
+    location: "Los Angeles, CA",
+    text: "James sold our Bel Air estate in under two weeks, above asking price, to a buyer he had cultivated specifically for our property. His pre-market strategy and discretion were exactly what we wanted. A generational asset deserved a generational broker — we found him.",
+    rating: 5,
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+    propertyType: "Bel Air Estate",
+  },
+  {
+    id: "3",
+    name: "Roberto Montecchio",
+    location: "Naples, FL",
+    text: "Having purchased properties in Monaco, Tuscany, and New York, I have dealt with brokers at the very top of every market. Sofia is genuinely exceptional — she guided us through the acquisition of our Gulf-front villa with a sophistication and warmth that made a complex transaction feel effortless.",
+    rating: 5,
+    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80",
+    propertyType: "Gulf-Front Villa",
+  },
+  {
+    id: "4",
+    name: "Isabelle & Marc Fontaine",
+    location: "Aspen, CO",
+    text: "From our first call to closing on our Aspen lodge, the team demonstrated a depth of market knowledge and personal service we hadn't experienced elsewhere. Sofia's bilingual negotiation with the seller's European attorney was particularly impressive. We felt in exceptionally capable hands throughout.",
+    rating: 5,
+    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80",
+    propertyType: "Mountain Estate",
+  },
+];
+
+export const marketStats: MarketStat[] = [
+  {
+    label: "Median Luxury Sale Price",
+    value: "$8.4M",
+    change: "+12.3%",
+    positive: true,
+  },
+  {
+    label: "Active Luxury Listings",
+    value: "2,847",
+    change: "-8.1%",
+    positive: false,
+  },
+  {
+    label: "Avg. Days on Market",
+    value: "38",
+    change: "-22%",
+    positive: true,
+  },
+  {
+    label: "Sales Volume (YTD)",
+    value: "$14.2B",
+    change: "+19.7%",
+    positive: true,
+  },
+];
