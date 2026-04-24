@@ -17,7 +17,7 @@ export const properties: Property[] = [
     featured: true,
     new: true,
     images: [
-      "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=1200&q=80",
+      "https://images.unsplash.com/photo-2KIDkMzmO-k?w=1200&q=80",
       "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1200&q=80",
       "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1200&q=80",
     ],
@@ -56,7 +56,7 @@ export const properties: Property[] = [
     featured: true,
     new: false,
     images: [
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1200&q=80",
       "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1200&q=80",
       "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80",
     ],
@@ -96,7 +96,7 @@ export const properties: Property[] = [
     new: true,
     images: [
       "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1200&q=80",
-      "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?w=1200&q=80",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&q=80",
       "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=80",
     ],
     description:
@@ -135,8 +135,8 @@ export const properties: Property[] = [
     new: false,
     images: [
       "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80",
       "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&q=80",
-      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=1200&q=80",
     ],
     description:
       "Magnificent Beverly Hills estate set behind private gates on a quiet tree-lined street. Expertly reimagined with transitional finishes, dramatic entertaining spaces, and resort-caliber grounds. An exceptional opportunity in one of the world's most prestigious ZIP codes.",
@@ -290,9 +290,9 @@ export const properties: Property[] = [
     featured: false,
     new: false,
     images: [
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1200&q=80",
       "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?w=1200&q=80",
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80",
-      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1200&q=80",
     ],
     description:
       "Spacious family home in the heart of Tustin with an oversized backyard, updated interiors, and top-rated Tustin Unified schools nearby. A rare find with a 3-car garage, RV access, and a quiet cul-de-sac location close to Old Town Tustin's dining and shopping.",

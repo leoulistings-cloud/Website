@@ -71,7 +71,7 @@ For buyers open to Orange County, both Tustin and Irvine offer exceptional value
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
     authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
-    coverImage: "https://images.unsplash.com/photo-1518684079-3c830dcef090?w=1200&q=80",
+    coverImage: "https://images.unsplash.com/photo-izShDKwE3_o?w=1200&q=80",
     category: "Buying Guide",
     tags: ["First-Time Buyers", "Los Angeles", "Neighborhoods", "2026"],
     publishedAt: "2026-03-10",
