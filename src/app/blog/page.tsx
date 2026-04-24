@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+
 import { Clock, ArrowRight, Search } from "lucide-react";
 import { blogPosts, blogCategories } from "@/data/blog-posts";
 
@@ -25,8 +26,18 @@ export default function BlogPage() {
   return (
     <>
       {/* Header */}
-      <section className="pt-32 pb-16 bg-navy-900">
-        <div className="max-w-7xl mx-auto px-6 lg:px-12">
+      <section className="relative pt-32 pb-16 overflow-hidden">
+        <div className="absolute inset-0">
+          <Image
+            src="https://i.imgur.com/UQmTUp8.jpg"
+            alt=""
+            fill
+            className="object-cover"
+            sizes="100vw"
+          />
+          <div className="absolute inset-0 bg-navy-950/85" />
+        </div>
+        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
           <div className="max-w-2xl">
             <p className="section-label mb-3">Guides & Stories</p>
             <h1 className="section-title mb-4">

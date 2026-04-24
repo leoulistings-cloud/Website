@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import Image from "next/image";
 import { Phone, Mail, MapPin, Clock, Check } from "lucide-react";
 
 const offices = [
@@ -32,18 +31,8 @@ export default function ContactPage() {
   return (
     <>
       {/* Header */}
-      <section className="relative pt-32 pb-20 overflow-hidden">
-        <div className="absolute inset-0">
-          <Image
-            src="https://i.imgur.com/UQmTUp8.jpg"
-            alt=""
-            fill
-            className="object-cover"
-            sizes="100vw"
-          />
-          <div className="absolute inset-0 bg-navy-950/88" />
-        </div>
-        <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
+      <section className="relative pt-32 pb-20 bg-navy-900">
+        <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <p className="section-label mb-3">Let's Connect</p>
           <h1 className="section-title mb-4">
             Get in <span className="text-gold-500 italic">Touch</span>

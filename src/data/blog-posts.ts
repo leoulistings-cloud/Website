@@ -309,6 +309,50 @@ Come for the sandwich. Stay for the story. Leave knowing you've experienced a pi
     publishedAt: "2026-04-24",
     readTime: 5,
   },
+  {
+    id: "8",
+    slug: "bengara-japanese-restaurant-arts-district-los-angeles",
+    title: "Bengara Is Opening in the Arts District — And I Can't Wait",
+    excerpt:
+      "A new Japanese restaurant from chefs Tyler Burges and Phil Mireles is coming to LA's Arts District. As someone who helped open Angler, I know what it takes to build something great — and these two have it.",
+    content: `
+The Arts District has become one of the most exciting dining corridors in all of Los Angeles, and it's about to get even better. Bengara — a new Japanese restaurant from chefs Tyler Burges and Phil Mireles — is opening its doors, and it has all the hallmarks of something truly special.
+
+## A Personal Connection to This World
+
+Before I found my calling in real estate, I spent over two decades in hospitality. I was part of the team that opened Angler, the acclaimed seafood restaurant that brought a new level of ambition and craft to the LA dining scene. That experience gave me a deep appreciation for what it takes to build a restaurant that earns its reputation — the late nights, the relentless attention to detail, the genuine commitment to the guest experience.
+
+So when I hear about a serious new restaurant opening in a neighborhood I care about, I pay attention differently than most people do.
+
+## What to Expect from Bengara
+
+Chefs Tyler Burges and Phil Mireles bring serious pedigrees to this project. The name Bengara — a traditional Japanese term for the deep red iron oxide pigment used in lacquerwork and architecture — hints at the depth of intention behind this concept. This isn't a trend-chasing Japanese fusion play. It feels rooted, considered, and executed by people who actually understand what they're doing.
+
+The Arts District location makes complete sense. The neighborhood's industrial bones and creative energy attract the kind of diner who appreciates craft and story — exactly the audience a restaurant like Bengara deserves.
+
+## Why This Matters Beyond the Food
+
+As a real estate agent focused on LA's Eastside neighborhoods, I watch restaurants like Bengara closely. Not because I'm a food critic — I'm not — but because great restaurants signal something real about a neighborhood.
+
+When serious culinary talent chooses to plant a flag in a specific block, they're making a bet on that neighborhood's future. Bengara choosing the Arts District is a vote of confidence in a corridor that's already home to some of LA's best creative energy.
+
+For buyers and investors considering the Arts District and surrounding neighborhoods, this is exactly the kind of development worth tracking.
+
+## Go Experience It
+
+If you're a food lover, put Bengara on your radar immediately. If you're someone thinking about where to buy in LA's Eastside, let it be one more data point in a neighborhood that keeps making compelling arguments for itself.
+
+I'll be there on opening night. Come say hello if you see me.
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=1200&q=80",
+    category: "Lifestyle",
+    tags: ["Bengara", "Japanese Food", "Arts District", "Los Angeles", "Restaurants"],
+    publishedAt: "2026-04-24",
+    readTime: 4,
+  },
 ];
 
 export const getBlogPostBySlug = (slug: string) =>
