@@ -91,6 +91,19 @@ export default function ContactPage() {
               </div>
 
               <div className="glass-card p-6">
+                <p className="text-gold-500 text-xs tracking-[0.2em] uppercase mb-4">Schedule a Showing</p>
+                <p className="text-white/50 text-xs mb-4">Book a time that works for you.</p>
+                <a
+                  href="https://calendly.com/leoulistings"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full bg-gold-500 hover:bg-gold-600 text-navy-950 text-xs font-semibold tracking-widest uppercase px-4 py-3 text-center transition-colors mb-4"
+                >
+                  Open Calendar
+                </a>
+              </div>
+
+              <div className="glass-card p-6">
                 <p className="text-gold-500 text-xs tracking-[0.2em] uppercase mb-4">Hours</p>
                 <div className="space-y-2 text-sm">
                   <div className="flex justify-between">

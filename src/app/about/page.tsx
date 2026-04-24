@@ -60,12 +60,15 @@ export default function AboutPage() {
               <p className="text-white/60 text-sm leading-relaxed mb-5">
                 {agent.bio}
               </p>
-              <div className="flex items-center gap-4 mt-8">
-                <a href={`tel:${agent.phone}`} className="btn-gold px-6 py-3 text-xs tracking-widest uppercase flex items-center gap-2">
-                  <Phone size={13} /> Call Johnny
+              <div className="flex flex-wrap items-center gap-3 mt-8">
+                <a href="https://calendly.com/leoulistings" target="_blank" rel="noopener noreferrer" className="btn-gold px-6 py-3 text-xs tracking-widest uppercase">
+                  Schedule Now
+                </a>
+                <a href={`tel:${agent.phone}`} className="btn-outline-gold px-6 py-3 text-xs tracking-widest uppercase flex items-center gap-2">
+                  <Phone size={13} /> Call
                 </a>
                 <Link href="/contact" className="btn-outline-gold px-6 py-3 text-xs tracking-widest uppercase flex items-center gap-2">
-                  Send Message <ArrowRight size={13} />
+                  Message
                 </Link>
               </div>
             </div>
