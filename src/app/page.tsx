@@ -11,9 +11,9 @@ import { blogPosts } from "@/data/blog-posts";
 import { agents, testimonials, marketStats } from "@/data/agents";
 
 const heroImages = [
+  "https://images.unsplash.com/photo-1534430480872-3498386e7856?w=1920&q=90",
   "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1920&q=90",
-  "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1920&q=90",
-  "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=1920&q=90",
+  "https://images.unsplash.com/photo-1444084316824-dc26d6657664?w=1920&q=90",
 ];
 
 function useScrollAnimation() {

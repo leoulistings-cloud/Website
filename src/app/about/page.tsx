@@ -1,7 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Phone, Mail, Globe, ArrowRight, Star } from "lucide-react";
+import { Phone, Mail, ArrowRight, Star, MapPin, Check } from "lucide-react";
 import { agents, testimonials } from "@/data/agents";
+
+const agent = agents[0];
 
 export default function AboutPage() {
   return (
@@ -10,8 +12,8 @@ export default function AboutPage() {
       <section className="relative pt-32 pb-24 overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=80"
-            alt=""
+            src="https://images.unsplash.com/photo-1534430480872-3498386e7856?w=1920&q=80"
+            alt="Los Angeles"
             fill
             className="object-cover"
             sizes="100vw"
@@ -19,172 +21,128 @@ export default function AboutPage() {
           <div className="absolute inset-0 bg-navy-950/85" />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
-          <p className="section-label mb-3">Who We Are</p>
+          <p className="section-label mb-3">Your Agent</p>
           <h1 className="section-title mb-4 max-w-2xl">
-            A Different Kind of<br />
-            <span className="text-gold-500 italic">Real Estate Firm</span>
+            Johnny Leou<br />
+            <span className="text-gold-500 italic">Real Estate Agent</span>
           </h1>
           <div className="gold-divider" />
           <p className="text-white/60 text-base leading-relaxed mt-6 max-w-2xl">
-            GrandLuxe was built on a conviction that the most significant real estate transactions deserve advisors who combine profound market expertise with the discretion and personal dedication typically associated with private banking.
+            DRE #02064780 · Los Angeles & Orange County
           </p>
         </div>
       </section>
 
-      {/* Story */}
+      {/* Bio */}
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div>
-              <p className="section-label mb-3">Our Story</p>
-              <h2 className="section-title mb-4">Founded on Principle</h2>
-              <div className="gold-divider" />
-              <div className="space-y-5 mt-6 text-white/60 text-sm leading-relaxed">
-                <p>
-                  In 2003, Victoria Harrington closed her first $10M transaction — and realized that the brokerage world had no firm truly dedicated to serving buyers and sellers at the highest tier. Most luxury brokers were general practitioners who handled the occasional significant listing. She wanted to build something different.
-                </p>
-                <p>
-                  GrandLuxe was founded with three advisors, two markets, and an unwavering conviction: that clients at the pinnacle of the market deserve representation that matches the magnitude of their decisions. Two decades and $14.2 billion in transactions later, that conviction has never changed.
-                </p>
-                <p>
-                  Today we operate in twelve markets across the United States, with affiliated partners in London, Monaco, Tuscany, and the Caribbean. Our roster of clients includes heads of state, Fortune 100 CEOs, cultural luminaries, and families managing multigenerational wealth. What unites them is an expectation of absolute excellence — and our commitment to delivering it.
-                </p>
-              </div>
-            </div>
             <div className="relative">
               <div className="relative aspect-[4/5] overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1496307653780-42ee777d4833?w=800&q=80"
-                  alt="GrandLuxe Office"
+                  src={agent.image}
+                  alt="Johnny Leou"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
               </div>
-              <div className="absolute -bottom-6 -left-6 bg-gold-500 p-6">
-                <p className="font-serif text-navy-950 text-4xl">22</p>
-                <p className="text-navy-950/70 text-xs tracking-widest uppercase">Years of Excellence</p>
+              <div className="absolute -bottom-6 -right-6 bg-gold-500 p-6">
+                <p className="font-serif text-navy-950 text-4xl">17+</p>
+                <p className="text-navy-950/70 text-xs tracking-widest uppercase">Years Experience</p>
+              </div>
+            </div>
+
+            <div>
+              <p className="section-label mb-3">About Johnny</p>
+              <h2 className="section-title mb-4">People-First.<br /><span className="text-gold-500 italic">Results-Driven.</span></h2>
+              <div className="gold-divider mb-6" />
+              <p className="text-white/60 text-sm leading-relaxed mb-5">
+                {agent.bio}
+              </p>
+              <div className="flex items-center gap-4 mt-8">
+                <a href={`tel:${agent.phone}`} className="btn-gold px-6 py-3 text-xs tracking-widest uppercase flex items-center gap-2">
+                  <Phone size={13} /> Call Johnny
+                </a>
+                <Link href="/contact" className="btn-outline-gold px-6 py-3 text-xs tracking-widest uppercase flex items-center gap-2">
+                  Send Message <ArrowRight size={13} />
+                </Link>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Values */}
+      {/* Specialties */}
       <section className="py-24 bg-navy-900">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="text-center mb-16">
-            <p className="section-label mb-3">What We Stand For</p>
-            <h2 className="section-title">Our Guiding Principles</h2>
-            <div className="gold-divider mx-auto" />
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              {
-                number: "01",
-                title: "Absolute Discretion",
-                body: "Every engagement is handled with the confidentiality of a private banking relationship. Our clients trust us with their most significant financial decisions — and their privacy.",
-              },
-              {
-                number: "02",
-                title: "Market Intelligence",
-                body: "We maintain deep expertise in every market we serve, with access to off-market inventory, transaction data, and local knowledge that gives our clients a decisive advantage.",
-              },
-              {
-                number: "03",
-                title: "Personal Dedication",
-                body: "We work with a limited number of clients at any time. This ensures that every person who trusts us with their transaction receives our full attention and energy.",
-              },
-            ].map((v) => (
-              <div key={v.number} className="glass-card p-8">
-                <p className="font-serif text-gold-500/40 text-6xl mb-4">{v.number}</p>
-                <h3 className="font-serif text-white text-xl mb-3">{v.title}</h3>
-                <p className="text-white/50 text-sm leading-relaxed">{v.body}</p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <p className="section-label mb-3">What I Do Best</p>
+              <h2 className="section-title mb-4">Specialties &<br /><span className="text-gold-500 italic">Who I Serve</span></h2>
+              <div className="gold-divider mb-8" />
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                {[
+                  "First-Time Home Buyers",
+                  "Home Sellers",
+                  "Real Estate Investors",
+                  "LGBTQ+ Clients",
+                  "Immigrant Families",
+                  "Luxury Homes",
+                  "Income Properties",
+                  "Residential Sales",
+                ].map((item) => (
+                  <div key={item} className="flex items-center gap-3">
+                    <Check size={14} className="text-gold-500 shrink-0" />
+                    <span className="text-white/70 text-sm">{item}</span>
+                  </div>
+                ))}
               </div>
-            ))}
+            </div>
+
+            <div className="grid grid-cols-1 gap-4">
+              {[
+                {
+                  title: "Los Angeles",
+                  areas: "Silver Lake, Los Feliz, Echo Park, Larchmont, Beverly Hills, Hollywood, Boyle Heights, DTLA",
+                },
+                {
+                  title: "Orange County",
+                  areas: "Irvine, Tustin, and surrounding communities",
+                },
+              ].map((region) => (
+                <div key={region.title} className="glass-card p-6">
+                  <div className="flex items-center gap-3 mb-3">
+                    <MapPin size={16} className="text-gold-500" />
+                    <p className="font-serif text-white text-lg">{region.title}</p>
+                  </div>
+                  <p className="text-white/50 text-sm leading-relaxed">{region.areas}</p>
+                </div>
+              ))}
+              <div className="glass-card p-6">
+                <p className="text-gold-500 text-xs tracking-widest uppercase mb-3">Background</p>
+                <p className="text-white/60 text-sm leading-relaxed">
+                  With 17+ years in hospitality before real estate, Johnny brings a service mindset that most agents simply don't have — clear communication, genuine care for every client, and a commitment to results.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Team */}
-      <section className="py-24">
+      {/* Stats */}
+      <section className="py-20 bg-gold-500">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="text-center mb-16">
-            <p className="section-label mb-3">The Team</p>
-            <h2 className="section-title">Your Advisors</h2>
-            <div className="gold-divider mx-auto" />
-          </div>
-
-          <div className="space-y-20">
-            {agents.map((agent, i) => (
-              <div
-                key={agent.id}
-                className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${
-                  i % 2 === 1 ? "lg:direction-rtl" : ""
-                }`}
-              >
-                <div className={`relative ${i % 2 === 1 ? "lg:order-2" : ""}`}>
-                  <div className="relative aspect-[4/5] overflow-hidden">
-                    <Image
-                      src={agent.image}
-                      alt={agent.name}
-                      fill
-                      className="object-cover"
-                      sizes="(max-width: 1024px) 100vw, 50vw"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-navy-950/60 to-transparent" />
-                  </div>
-                  <div className="absolute bottom-6 left-6 right-6">
-                    <div className="glass-card p-4 flex items-center justify-between">
-                      <div>
-                        <p className="text-white/50 text-xs tracking-wider uppercase">Total Volume</p>
-                        <p className="font-serif text-gold-500 text-2xl">{agent.volume}</p>
-                      </div>
-                      <div className="text-right">
-                        <p className="text-white/50 text-xs tracking-wider uppercase">Properties Sold</p>
-                        <p className="font-serif text-gold-500 text-2xl">{agent.sold}</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div className={i % 2 === 1 ? "lg:order-1" : ""}>
-                  <p className="section-label mb-2">{agent.title}</p>
-                  <h3 className="font-serif text-white text-4xl mb-2">{agent.name}</h3>
-                  <div className="gold-divider mb-6" />
-                  <p className="text-white/60 text-sm leading-relaxed mb-6">{agent.bio}</p>
-
-                  <div className="mb-6">
-                    <p className="text-white/40 text-xs tracking-widest uppercase mb-3">Specialties</p>
-                    <div className="flex flex-wrap gap-2">
-                      {agent.specialties.map((s) => (
-                        <span key={s} className="border border-gold-500/30 text-gold-500/70 text-xs px-3 py-1">
-                          {s}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-
-                  <div className="mb-6">
-                    <p className="text-white/40 text-xs tracking-widest uppercase mb-3">Languages</p>
-                    <p className="text-white/60 text-sm">{agent.languages.join(" · ")}</p>
-                  </div>
-
-                  <div className="flex items-center gap-4 pt-6 border-t border-white/10">
-                    <a
-                      href={`tel:${agent.phone}`}
-                      className="flex items-center gap-2 text-white/50 hover:text-white text-sm transition-colors"
-                    >
-                      <Phone size={14} className="text-gold-500" /> {agent.phone}
-                    </a>
-                    <a
-                      href={`mailto:${agent.email}`}
-                      className="flex items-center gap-2 text-white/50 hover:text-white text-sm transition-colors"
-                    >
-                      <Mail size={14} className="text-gold-500" /> {agent.email}
-                    </a>
-                  </div>
-                </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            {[
+              { value: "85+", label: "Homes Sold" },
+              { value: "$47.2M", label: "Total Volume" },
+              { value: "17+", label: "Years in Service" },
+              { value: "5★", label: "Client Reviews" },
+            ].map((stat) => (
+              <div key={stat.label}>
+                <p className="font-serif text-navy-950 text-4xl mb-1">{stat.value}</p>
+                <p className="text-navy-950/60 text-xs tracking-widest uppercase">{stat.label}</p>
               </div>
             ))}
           </div>
@@ -192,11 +150,11 @@ export default function AboutPage() {
       </section>
 
       {/* Testimonials */}
-      <section className="py-24 bg-navy-900">
+      <section className="py-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="text-center mb-16">
-            <p className="section-label mb-3">Client Voices</p>
-            <h2 className="section-title">What Our Clients Say</h2>
+            <p className="section-label mb-3">Client Reviews</p>
+            <h2 className="section-title">What Clients Say</h2>
             <div className="gold-divider mx-auto" />
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -224,13 +182,13 @@ export default function AboutPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-20">
+      <section className="py-20 bg-navy-900">
         <div className="max-w-2xl mx-auto px-6 text-center">
-          <p className="section-label mb-3">Begin</p>
-          <h2 className="font-serif text-white text-4xl mb-4">Ready to Work Together?</h2>
+          <p className="section-label mb-3">Let's Talk</p>
+          <h2 className="font-serif text-white text-4xl mb-4">Ready to Get Started?</h2>
           <div className="gold-divider mx-auto" />
           <p className="text-white/50 text-sm mt-4 mb-8 leading-relaxed">
-            Every exceptional real estate journey begins with a conversation. We'd be honored to hear about yours.
+            Whether you're buying, selling, or just exploring your options — Johnny is here to help. No pressure, just honest advice.
           </p>
           <Link href="/contact" className="btn-gold inline-flex items-center gap-3 px-10 py-4 text-sm tracking-widest uppercase">
             Get In Touch <ArrowRight size={14} />

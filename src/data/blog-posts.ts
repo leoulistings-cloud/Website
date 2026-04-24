@@ -3,217 +3,231 @@ import { BlogPost } from "@/types";
 export const blogPosts: BlogPost[] = [
   {
     id: "1",
-    slug: "luxury-real-estate-market-2025",
-    title: "The Ultra-Luxury Market in 2025: Trends Redefining Wealth",
+    slug: "best-neighborhoods-first-time-buyers-los-angeles",
+    title: "Best LA Neighborhoods for First-Time Buyers in 2025",
     excerpt:
-      "From wellness-forward estates to sky-high penthouses with private air rights, discover what's driving the $10M+ market to unprecedented heights.",
+      "From Silver Lake to Boyle Heights, discover which Los Angeles neighborhoods offer the best value, community, and upside for first-time homebuyers right now.",
     content: `
-The ultra-luxury real estate market has entered a new era. As global wealth continues to concentrate among a smaller, increasingly mobile class of buyers, the definition of what constitutes a truly exceptional property has evolved dramatically.
+Buying your first home in Los Angeles can feel overwhelming — prices are high, competition is fierce, and every neighborhood has its own personality. But with the right guidance, there are still excellent opportunities for first-time buyers who know where to look.
 
-## Wellness Architecture Takes Center Stage
+## Silver Lake & Echo Park
 
-The pandemic fundamentally altered what wealthy buyers prioritize. Where once the emphasis was on entertainment — theaters, bars, wine cellars — today's discerning buyers demand spaces dedicated to longevity and well-being. We're seeing cold plunge pools, infrared sauna suites, IV therapy rooms, and even circadian lighting systems that adjust throughout the day to optimize sleep and performance.
+These two neighboring communities have become some of the most sought-after in all of LA for good reason. Tree-lined streets, walkable coffee shops and restaurants, proximity to Griffith Park, and a genuine sense of community make both neighborhoods deeply liveable. For buyers with budgets in the $900K–$1.4M range, there are still opportunities — particularly for condos, townhomes, and smaller single-family homes.
 
-Properties at the $20M+ tier increasingly feature dedicated wellness wings with a footprint rivaling a boutique spa. One recent listing in Los Angeles included a fully equipped cryotherapy chamber alongside a recovery room stocked by a certified nutritionist.
+## Boyle Heights
 
-## Air Rights as the New Frontier
+One of LA's most underappreciated neighborhoods, Boyle Heights offers authentic community, incredible food, and genuine walkability — all at prices that still feel attainable by LA standards. Its proximity to Downtown LA and easy freeway access make it a strong long-term bet for buyers who want to be close to the city's core.
 
-In vertical cities like New York and Chicago, a new frontier of luxury is emerging: air rights. Buyers at the pinnacle of the market are now acquiring not just residences but the development rights above them, ensuring the city views they paid for remain unobstructed for generations.
+## El Sereno & Highland Park
 
-## The Privacy Premium
+Both communities have seen significant appreciation but still offer relative value compared to more established neighborhoods to the west. Highland Park in particular has developed a thriving arts and restaurant scene, attracting buyers who want Silver Lake's energy at somewhat lower prices.
 
-High-net-worth individuals increasingly place a premium on privacy that extends beyond gated entrances. Biometric access, AI-powered perimeter security, underground garages that keep arrivals invisible from the street — these features now command significant price premiums.
+## Larchmont Village
 
-## Branded Residences Dominate New Development
+For buyers who prioritize walkability and a village feel within central LA, Larchmont remains one of the best values in the city. The neighborhood's tight community, excellent schools, and proximity to everything make it consistently desirable — and its bungalows often hold value well even in softer markets.
 
-The most sought-after new construction carries a brand. Whether Four Seasons, Aman, or Baccarat, the imprimatur of a renowned hospitality brand provides buyers with both services and a confidence that the asset will hold its value. Branded residences have outperformed non-branded luxury condo in every major market tracked.
+## Orange County: Tustin & Irvine
 
-## Looking Ahead
-
-Supply constraints in the most desirable markets — combined with a durable appetite among global wealth for trophy properties — suggest the ultra-luxury segment will remain resilient even as broader market conditions fluctuate. For buyers who can acquire at the very top tier, the scarcity premium only grows with time.
+For buyers open to Orange County, both Tustin and Irvine offer exceptional value relative to comparable LA neighborhoods. Irvine's master-planned communities come with top-rated schools, low crime, and a quality of life that attracts families from around the world. Tustin offers a more historic, character-rich alternative with Old Town charm and strong OC connectivity.
     `,
-    author: "Victoria Harrington",
-    authorRole: "Principal Broker & Founding Partner",
-    authorImage: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=200&q=80",
-    coverImage: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&q=80",
-    category: "Market Insights",
-    tags: ["Market Trends", "Ultra-Luxury", "Investment", "2025"],
-    publishedAt: "2025-03-15",
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://drive.google.com/uc?export=view&id=1z1dmbsslynWn-0px7XqijBnC2ftLVcsw",
+    coverImage: "https://images.unsplash.com/photo-1534430480872-3498386e7856?w=1200&q=80",
+    category: "Buying Guide",
+    tags: ["First-Time Buyers", "Los Angeles", "Neighborhoods", "2025"],
+    publishedAt: "2025-03-10",
     readTime: 6,
   },
   {
     id: "2",
-    slug: "designing-the-perfect-primary-suite",
-    title: "Inside the Primary Suite: How the World's Best Hotels Are Inspiring Home Design",
+    slug: "silver-lake-vs-echo-park",
+    title: "Silver Lake vs Echo Park: Which Neighborhood Is Right for You?",
     excerpt:
-      "The boundary between a five-star hotel suite and a private residence has never been thinner. We explore the design philosophies reshaping the most intimate spaces in luxury homes.",
+      "Two of LA's most beloved neighborhoods sit side by side, but they have distinct personalities. Here's how to decide which is your better fit.",
     content: `
-The primary suite has evolved from a bedroom with an attached bath into a complete sanctuary within the home. Drawing inspiration from the world's finest hotels — from Aman to the Ritz Paris — today's ultra-luxury primary suite is a world unto itself.
+Silver Lake and Echo Park are often mentioned in the same breath — both are hip, walkable, artsy communities on the east side of central LA. But spend time in each and you'll notice real differences in vibe, price, and the kind of life they offer.
 
-## The Bath as Destination
+## The Basics
 
-The primary bathroom has arguably undergone the most radical transformation. Where a decade ago, a large soaking tub and double vanities sufficed, today's buyers expect an experience that rivals the best spa in their city.
+Silver Lake sits just north of Echo Park and tends to command slightly higher prices. Its streets wind up into hillside homes with views, and the neighborhood has a strong identity around the Reservoir, the Sunset Junction corridor, and a thriving restaurant and bar scene.
 
-Venetian plaster walls, book-matched marble spanning entire rooms, steam rooms with chromotherapy lighting, outdoor showers accessible from the bath — these are now baseline expectations in the $10M+ tier. We're also seeing a revival of the dressing room as a designed showpiece, with couturier-level millwork and climate-controlled storage for everything from handbags to sneakers.
+Echo Park is a bit grittier and more diverse. It wraps around Echo Park Lake and has a more mixed character — longtime Latino families, artists, musicians, and younger buyers priced out of Silver Lake all coexist here. Prices are generally 10–20% lower than comparable Silver Lake homes.
 
-## The Morning Ritual Space
+## Lifestyle Differences
 
-Inspired by Japanese hospitality philosophy, the concept of a dedicated morning ritual space — separate from the bedroom but adjacent — has gained significant traction. This might be a small butlers pantry for coffee preparation, a meditation alcove, or a private terrace accessible only from the primary suite where owners can greet the day in complete seclusion.
+Silver Lake skews slightly quieter and more family-oriented, particularly in its hillside areas. The Reservoir trail is a major community amenity, and there's a dog-friendly, outdoorsy energy throughout.
 
-## Biophilic Elements
+Echo Park has more of an arts and music scene. Its proximity to Dodger Stadium creates a lively game-day energy, and the lake park (recently renovated) has become a true community gathering space again.
 
-Floor-to-ceiling windows that dissolve into outdoor terraces, living walls, natural stone and timber — the desire to connect with nature extends most powerfully into the primary suite. Buyers increasingly request that their primary bedroom have direct access to a private garden, courtyard, or terrace visible from bed.
+## Investment Perspective
 
-## Sleep as a Science
+Both neighborhoods have appreciated significantly over the past decade. Silver Lake has somewhat more established value; Echo Park has more upside potential as it continues to develop. For buyers looking to build equity, Echo Park often offers more room for appreciation from a lower entry point.
 
-Sleep quality has become a serious design consideration. Motorized blackout shades calibrated to local sunrise times, acoustic isolation that achieves near-anechoic conditions, beds on anti-vibration plinths, HVAC systems tuned to medical-grade air quality — these elements are increasingly specified by buyers who view their primary suite as an investment in their health.
+## My Take
+
+If you're a family or want a slightly more settled feel, Silver Lake is worth the premium. If you're a first-time buyer trying to maximize space and upside for your dollar, Echo Park deserves a serious look. I've helped buyers find great homes in both — happy to walk you through current options.
     `,
-    author: "James Whitmore",
-    authorRole: "Senior Advisor, Coastal Properties",
-    authorImage: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&q=80",
-    coverImage: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&q=80",
-    category: "Design & Architecture",
-    tags: ["Interior Design", "Primary Suite", "Wellness", "Architecture"],
-    publishedAt: "2025-02-28",
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://drive.google.com/uc?export=view&id=1z1dmbsslynWn-0px7XqijBnC2ftLVcsw",
+    coverImage: "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=1200&q=80",
+    category: "Neighborhood Guides",
+    tags: ["Silver Lake", "Echo Park", "Neighborhoods", "Los Angeles"],
+    publishedAt: "2025-02-20",
     readTime: 5,
   },
   {
     id: "3",
-    slug: "buying-luxury-real-estate-internationally",
-    title: "The Global Buyer's Playbook: Navigating Luxury Real Estate Across Borders",
+    slug: "how-to-buy-first-home-los-angeles",
+    title: "How to Buy Your First Home in Los Angeles: A Step-by-Step Guide",
     excerpt:
-      "From Côte d'Azur villas to Amalfi cliff estates, our guide to acquiring trophy properties in the world's most coveted international markets.",
+      "The LA market is competitive, but first-time buyers can win. Here's the complete process, from getting pre-approved to closing — demystified.",
     content: `
-For ultra-high-net-worth individuals, real estate is increasingly a global portfolio asset. The question is no longer whether to own internationally, but how to do it intelligently, legally, and with appropriate privacy protections.
+Buying a home in Los Angeles for the first time is one of the biggest decisions of your life. The market is competitive and prices are high — but it's absolutely doable, especially if you go in prepared.
 
-## Due Diligence Starts Before Borders
+## Step 1: Get Pre-Approved (Not Just Pre-Qualified)
 
-Before engaging with any international market, buyers should establish an advisory team that includes a local real estate specialist, an international tax attorney, and a private banker familiar with cross-border transactions. The rules governing foreign ownership, capital movement, and property taxation vary enormously — and mistakes can be costly.
+In LA's competitive market, a pre-approval letter from a reputable lender is essential before you make any offers. Pre-approval means the lender has verified your income, assets, and credit — not just given you a ballpark estimate. Sellers take pre-approved buyers much more seriously.
 
-## The Mediterranean Markets
+## Step 2: Define Your Non-Negotiables
 
-The Côte d'Azur remains the world's most aspirational second-home market, with a supply constraint that has kept values remarkably stable across economic cycles. The Cannes Backcountry, Cap Ferrat, and the hills above Monaco offer the most compelling value propositions for buyers willing to look slightly off the prime waterfront.
+With LA's diverse neighborhoods, it's easy to get overwhelmed. Before you start touring, write down your three non-negotiables: things you absolutely can't compromise on (school district, commute time, minimum bedrooms, etc.). Everything else is flexible.
 
-In Italy, the Amalfi Coast and Lake Como continue to attract global buyers, though acquisition and renovation complexities require expert local counsel. We've seen increasing interest in Puglia among buyers seeking less well-trodden luxury at a significant discount to the northern Italian markets.
+## Step 3: Work with an Agent Who Knows Your Target Neighborhoods
 
-## Structuring Your Acquisition
+LA is a city of micro-markets. Prices, competition levels, and what to watch out for vary enormously between Silver Lake, Boyle Heights, Irvine, and Beverly Hills. You need an agent who knows these neighborhoods deeply — not just the general city.
 
-The vast majority of international buyers should consider holding property through a local holding company or trust structure rather than in their personal name. This offers privacy, estate planning flexibility, and in some jurisdictions, significant tax advantages. Your tax attorney and banker should align on the optimal structure before any offer is made.
+## Step 4: Make Competitive Offers
 
-## Currency Strategy
+In most LA neighborhoods, quality homes receive multiple offers. That doesn't mean you should overpay, but it does mean your initial offer needs to be strong. Your agent should run a thorough comparative market analysis and advise you on the right price and terms.
 
-For buyers acquiring in a foreign currency, hedging strategies through private banks can protect the all-in acquisition cost from adverse currency movements between contract signing and closing. On a $10M+ transaction, a 5% adverse move in currency can represent a material loss — one entirely preventable with proper planning.
+## Step 5: Conduct Thorough Inspections
+
+Always do a full inspection, even in competitive situations. Los Angeles homes — especially older ones in Silver Lake, Echo Park, and Los Feliz — can have significant deferred maintenance, foundation issues related to hillside construction, or outdated electrical and plumbing.
+
+## Step 6: Close with Confidence
+
+From accepted offer to close is typically 30–45 days in California. Your agent and escrow team will guide you through inspections, appraisal, final loan approval, and the closing walk-through.
     `,
-    author: "Sofia Marchetti",
-    authorRole: "International Property Specialist",
-    authorImage: "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=200&q=80",
-    coverImage: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1200&q=80",
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://drive.google.com/uc?export=view&id=1z1dmbsslynWn-0px7XqijBnC2ftLVcsw",
+    coverImage: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&q=80",
     category: "Buying Guide",
-    tags: ["International", "Investment", "Buying Guide", "Global"],
-    publishedAt: "2025-02-10",
-    readTime: 8,
+    tags: ["First-Time Buyers", "How To", "Los Angeles", "Home Buying"],
+    publishedAt: "2025-02-05",
+    readTime: 7,
   },
   {
     id: "4",
-    slug: "smart-home-technology-luxury",
-    title: "The Intelligent Estate: Smart Home Technology for the Ultra-Luxury Tier",
+    slug: "la-vs-orange-county-investment",
+    title: "LA vs Orange County: Which Market Is Better for Real Estate Investors?",
     excerpt:
-      "Beyond voice assistants and automated blinds, a new generation of home intelligence is transforming what it means to live at the top of the market.",
+      "Both markets offer strong fundamentals, but they attract different types of investors. Here's how to think about the LA vs OC decision for your portfolio.",
     content: `
-The smart home conversation has matured significantly. Today's discussion has moved well past Alexa commands and app-controlled thermostats into genuinely transformative technology that reshapes daily life.
+If you're building a Southern California real estate portfolio, at some point you'll face the LA vs Orange County question. Both markets have delivered strong long-term appreciation, but they come with different risk profiles, tenant pools, and investment strategies.
 
-## Whole-Home AI Systems
+## Los Angeles: Higher Upside, More Complexity
 
-Systems like Savant and Control4, once considered the gold standard, are now being superseded by custom-built AI orchestration layers that learn occupant behavior and optimize every system proactively. Temperature, lighting, music, security, and even kitchen appliance pre-warming can all be calibrated around individual family members' schedules and preferences — without any manual input.
+Los Angeles offers incredible diversity of investment options — from multi-unit buildings in Boyle Heights to small mixed-use properties in Silver Lake to single-family rentals in Los Feliz. Entry prices are high, but rental demand is enormous and vacancy rates in desirable neighborhoods remain extremely low.
 
-## Health & Environmental Monitoring
+The complexity is real, though. LA has some of the country's most tenant-protective rent control laws, and navigating them requires careful preparation and ideally an experienced property management partner.
 
-The $20M+ tier now routinely includes integrated health monitoring systems. Air quality sensors throughout the home that communicate with the HVAC system to maintain optimal conditions; water filtration systems with real-time contaminant monitoring; sleep tracking interfaces that adjust bedroom conditions automatically based on sleep stage — these systems blur the line between home and healthcare.
+## Orange County: Stability and Strong Tenant Profiles
 
-## Biometric Security
+Orange County tends to attract higher-income tenants, particularly in Irvine and Tustin, where proximity to the Irvine Company's employment ecosystem creates consistent rental demand from tech and finance professionals. Appreciation is steady if less dramatic than some LA micro-markets.
 
-The combination of facial recognition, vein-pattern scanners, and behavioral biometrics has replaced conventional access control in the most security-conscious estates. These systems create invisibly secure environments where the home knows its occupants but presents no friction whatsoever to authorized users.
+OC also has fewer regulatory complexities around rent control — most OC cities fall under the state's AB 1482 framework rather than stricter local ordinances.
 
-## Future-Proofing
+## My Recommendation
 
-Buyers at this tier should insist on infrastructure — not just installed systems. Conduit capacity for future wiring, server room with sufficient cooling, standardized control interfaces, and service contracts with local certified technicians. Technology evolves; the investment in future-proof infrastructure is what protects the home's value over time.
+For investors who want maximum long-term appreciation potential and have time to manage complexity, LA's east side neighborhoods still offer compelling opportunities. For investors who prioritize stability, cash flow predictability, and tenant quality, Irvine and Tustin are excellent choices.
+
+The best strategy often combines both: a small multi-unit in an appreciating LA neighborhood alongside a single-family rental in Irvine. I've helped investors build exactly this kind of portfolio — reach out if you want to talk strategy.
     `,
-    author: "Victoria Harrington",
-    authorRole: "Principal Broker & Founding Partner",
-    authorImage: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=200&q=80",
-    coverImage: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80",
-    category: "Lifestyle",
-    tags: ["Smart Home", "Technology", "Luxury Living", "Innovation"],
-    publishedAt: "2025-01-22",
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://drive.google.com/uc?export=view&id=1z1dmbsslynWn-0px7XqijBnC2ftLVcsw",
+    coverImage: "https://images.unsplash.com/photo-1444084316824-dc26d6657664?w=1200&q=80",
+    category: "Market Insights",
+    tags: ["Investment", "Los Angeles", "Orange County", "Real Estate"],
+    publishedAt: "2025-01-18",
     readTime: 7,
   },
   {
     id: "5",
-    slug: "outdoor-living-spaces-luxury",
-    title: "The Great Outdoors, Reimagined: Exterior Design in Today's Luxury Home",
+    slug: "lgbtq-friendly-neighborhoods-los-angeles",
+    title: "The Most LGBTQ+ Friendly Neighborhoods in Los Angeles",
     excerpt:
-      "Al fresco dining rooms, resort-caliber pool environments, and outdoor kitchens that rival professional restaurants — how luxury outdoor living has been redefined.",
+      "From Silver Lake's historic Boystown to WeHo to Long Beach, LA has some of the most welcoming communities for LGBTQ+ buyers and renters in the country.",
     content: `
-For decades, the outdoor spaces of luxury homes were afterthoughts to impressive interiors. That calculus has inverted. Today's ultra-luxury buyer views the outdoor environment as a primary living space worthy of equal — sometimes greater — investment and design attention.
+Los Angeles has long been one of the most welcoming cities in the world for LGBTQ+ residents. With a history of advocacy, a vibrant community presence in multiple neighborhoods, and strong legal protections, LA offers LGBTQ+ buyers a range of exceptional neighborhoods to call home.
 
-## The Outdoor Living Room
+## Silver Lake: The Historic Heart
 
-The concept of the outdoor living room has fully matured. Where once a covered patio with comfortable furniture constituted an "outdoor room," today we're designing spaces with fireplace walls, motorized screens that enclose the space entirely in inclement weather, gallery-quality lighting, and audiovisual systems that match anything found inside. The distinction between inside and outside has become a design choice rather than a physical constraint.
+Silver Lake has been a center of LGBTQ+ life in Los Angeles since the 1970s, and remains one of the most affirming neighborhoods in the city. The community is deeply established, the local businesses are welcoming, and the neighborhood's mix of longtime residents and newer arrivals creates a rich, layered culture. Home prices are competitive, but the investment in Silver Lake has historically been sound.
 
-## Pool as Sculpture
+## West Hollywood: The Gold Standard
 
-The pool has transformed from amenity to architectural statement. Zero-edge pools that appear to dissolve into the horizon, black-bottomed pools that look like still water at night, shallow reflection pools that run the full length of a façade — the most sophisticated estates treat the pool as a work of environmental art.
+WeHo is one of the most famous LGBTQ+ communities in the world, and for good reason. As its own incorporated city, West Hollywood has enacted some of the country's most progressive protections and boasts an unmatched concentration of LGBTQ+ owned and friendly businesses, nightlife, and services. Prices are among the highest in the LA market, but WeHo condos and townhomes hold their value exceptionally well.
 
-## The Outdoor Culinary Environment
+## Echo Park & Los Feliz
 
-The "outdoor kitchen" moniker no longer captures what's being built at the highest tier. These are fully equipped culinary environments with wood-fired ovens, Argentine-style grills, dedicated refrigeration for everything from cheese to fine wine, stone countertops that rival the interior kitchen in quality, and adjacent dining spaces that could seat a formal dinner for twenty.
+Both neighborhoods have strong LGBTQ+ presences and welcoming, progressive communities. Echo Park in particular offers more attainable entry prices while still delivering the inclusive, arts-forward energy that many LGBTQ+ buyers seek.
 
-## Landscaping as Architecture
+## Long Beach
 
-The most thoughtful luxury properties treat their landscaping as a continuation of the architecture. Landscape architects work in concert with the home's designer from the earliest stages, ensuring that the transition from built to natural environment feels intentional and seamless.
+Often overlooked, Long Beach has a thriving LGBTQ+ community centered around the Belmont Shore and East Village neighborhoods. Home prices are significantly more attainable than WeHo or Silver Lake, and the city's commitment to LGBTQ+ inclusion is deep and genuine.
+
+As an agent who proudly serves the LGBTQ+ community, I understand what you're looking for in a neighborhood — not just the property itself. Let's find the right fit together.
     `,
-    author: "James Whitmore",
-    authorRole: "Senior Advisor, Coastal Properties",
-    authorImage: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&q=80",
-    coverImage: "https://images.unsplash.com/photo-1574362848149-11496d93a7c7?w=1200&q=80",
-    category: "Design & Architecture",
-    tags: ["Outdoor Living", "Pool Design", "Landscape", "Architecture"],
-    publishedAt: "2025-01-08",
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://drive.google.com/uc?export=view&id=1z1dmbsslynWn-0px7XqijBnC2ftLVcsw",
+    coverImage: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=1200&q=80",
+    category: "Neighborhood Guides",
+    tags: ["LGBTQ+", "Silver Lake", "West Hollywood", "Community"],
+    publishedAt: "2025-01-05",
     readTime: 6,
   },
   {
     id: "6",
-    slug: "mountain-luxury-real-estate-guide",
-    title: "Peaks of Perfection: A Guide to Mountain Luxury Real Estate",
+    slug: "selling-your-home-fast-los-angeles",
+    title: "How to Sell Your LA Home Fast (and For Top Dollar)",
     excerpt:
-      "Aspen, Sun Valley, Jackson Hole — the mountain luxury market offers a distinct investment thesis and lifestyle proposition that urban properties simply cannot match.",
+      "In LA's competitive market, the right preparation and pricing strategy can mean the difference between multiple offers and months of stagnation. Here's what actually works.",
     content: `
-Mountain luxury real estate occupies a unique position in the high-net-worth portfolio. Unlike urban trophy properties that compete primarily on location prestige and architectural merit, mountain estates deliver something increasingly rare: genuine environmental escape, combined with a lifestyle ecosystem that keeps owners returning for decades.
+Selling a home in Los Angeles is both an art and a science. The market rewards well-prepared, correctly priced homes with multiple offers and premium prices. It punishes overpriced, under-prepared listings with extended days on market and eventual price cuts.
 
-## The Ski-In/Ski-Out Premium
+## Start with Preparation, Not Price
 
-In the top mountain markets — Aspen, Park City, Sun Valley, Jackson Hole — ski-in/ski-out access commands a premium that has proven remarkably durable across market cycles. Buyers consistently demonstrate willingness to pay 30-50% more for a property where skis can be put on steps from the door. Supply is permanently constrained by terrain and regulation.
+The most common mistake LA sellers make is thinking about the list price before thinking about preparation. Buyers in this market are sophisticated and have high expectations. Homes that show beautifully — decluttered, freshly painted, professionally staged — consistently outperform those that don't.
 
-## Summer as Equal Season
+A pre-sale inspection is also worth strong consideration. Knowing your home's condition upfront allows you to make strategic decisions about what to fix (and what to disclose), rather than being blindsided during buyer due diligence.
 
-The most sophisticated mountain buyers no longer treat their properties as winter-only assets. The summer experience in markets like Aspen now rivals the winter appeal, with world-class fly fishing, hiking trails, music festivals, and dining scenes that attract a different but equally affluent visitor. Properties that maximize both seasonal offerings command the strongest valuations.
+## Price to the Market
 
-## Construction Considerations
+The second biggest mistake is overpricing. In LA's social media-driven market, a listing that sits generates stigma. Buyers assume something is wrong. The right strategy — particularly for desirable LA neighborhoods — is often to price at or slightly below market, generate a large pool of showings in the first weekend, and let competition drive the price up.
 
-Mountain construction presents unique challenges that buyers should understand before acquisition. Short build seasons, extreme weather cycling, elevation-related HVAC complexity, and road access limitations for materials can all add significantly to renovation or build costs. Understanding these factors before purchase is essential.
+## The First Weekend Is Everything
 
-## Environmental Sustainability
+In Silver Lake, Echo Park, Los Feliz, Larchmont, and most competitive LA neighborhoods, the first weekend of showings determines the outcome of the sale. Your agent should have a clear plan to generate maximum foot traffic in those first 48–72 hours.
 
-Mountain communities are increasingly progressive on sustainability requirements, both regulatory and social. Buyers who proactively invest in geothermal heating, solar arrays, and water conservation systems find these investments are both economically sound and socially valued by the communities where they're choosing to spend time.
+## Timing Matters
+
+Spring (March–June) is historically the strongest selling season in Los Angeles. Interest from buyers is highest, and inventory is typically still constrained enough that sellers have meaningful leverage. Fall can also be strong, particularly September and October.
+
+Ready to talk about selling? I'll give you an honest assessment of what your home is worth in today's market and a clear plan to maximize your result.
     `,
-    author: "Sofia Marchetti",
-    authorRole: "International Property Specialist",
-    authorImage: "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=200&q=80",
-    coverImage: "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=1200&q=80",
-    category: "Market Insights",
-    tags: ["Mountain Properties", "Ski Homes", "Investment", "Aspen"],
-    publishedAt: "2024-12-20",
-    readTime: 7,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://drive.google.com/uc?export=view&id=1z1dmbsslynWn-0px7XqijBnC2ftLVcsw",
+    coverImage: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&q=80",
+    category: "Selling Guide",
+    tags: ["Selling", "Los Angeles", "Home Selling", "Tips"],
+    publishedAt: "2024-12-15",
+    readTime: 6,
   },
 ];
 
@@ -225,8 +239,8 @@ export const getBlogPostsByCategory = (category: string) =>
 
 export const blogCategories = [
   "All",
-  "Market Insights",
-  "Design & Architecture",
   "Buying Guide",
-  "Lifestyle",
+  "Selling Guide",
+  "Neighborhood Guides",
+  "Market Insights",
 ];

@@ -5,14 +5,16 @@ import { Search, ChevronDown } from "lucide-react";
 
 const locations = [
   "All Locations",
-  "Miami Beach, FL",
-  "Los Angeles, CA",
-  "New York, NY",
-  "Naples, FL",
-  "Aspen, CO",
-  "Malibu, CA",
-  "Palm Beach, FL",
-  "San Francisco, CA",
+  "Silver Lake, CA",
+  "Echo Park, CA",
+  "Los Feliz, CA",
+  "Larchmont, CA",
+  "Beverly Hills, CA",
+  "Downtown Los Angeles, CA",
+  "Boyle Heights, CA",
+  "Hollywood, CA",
+  "Irvine, CA",
+  "Tustin, CA",
 ];
 
 const propertyTypes = [
