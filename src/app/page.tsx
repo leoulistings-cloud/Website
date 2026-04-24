@@ -11,9 +11,9 @@ import { blogPosts } from "@/data/blog-posts";
 import { agents, testimonials, marketStats } from "@/data/agents";
 
 const heroImages = [
-  "https://images.unsplash.com/photo-UZVlSjrIJ3o?w=1920&q=90",
-  "https://images.unsplash.com/photo-cHRDevKFDBw?w=1920&q=90",
-  "https://images.unsplash.com/photo-Zvnf63bvOxk?w=1920&q=90",
+  "https://images.unsplash.com/photo-1580655653885-65763b2597d0?w=1920&q=90",
+  "https://images.unsplash.com/photo-1602941525421-8f8b81d3edbb?w=1920&q=90",
+  "https://images.unsplash.com/photo-1598928636135-d146006ff4be?w=1920&q=90",
 ];
 
 function useScrollAnimation() {
@@ -177,7 +177,7 @@ export default function HomePage() {
       <section className="relative py-24 lg:py-32 overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-9TUkYXQKXec?w=1920&q=80"
+            src="https://images.unsplash.com/photo-1580655653885-65763b2597d0?w=1920&q=80"
             alt=""
             fill
             className="object-cover"

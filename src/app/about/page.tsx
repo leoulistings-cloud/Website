@@ -12,7 +12,7 @@ export default function AboutPage() {
       <section className="relative pt-32 pb-24 overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-cHRDevKFDBw?w=1920&q=80"
+            src="https://images.unsplash.com/photo-1602941525421-8f8b81d3edbb?w=1920&q=80"
             alt="Los Angeles"
             fill
             className="object-cover"
