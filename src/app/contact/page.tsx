@@ -35,7 +35,7 @@ export default function ContactPage() {
       <section className="relative pt-32 pb-20 overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1920&q=80"
+            src="https://i.imgur.com/UQmTUp8.jpg"
             alt=""
             fill
             className="object-cover"

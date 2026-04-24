@@ -11,9 +11,9 @@ import { blogPosts } from "@/data/blog-posts";
 import { agents, testimonials, marketStats } from "@/data/agents";
 
 const heroImages = [
-  "https://images.unsplash.com/photo-1580655653885-65763b2597d0?w=1920&q=90",
-  "https://images.unsplash.com/photo-1602941525421-8f8b81d3edbb?w=1920&q=90",
-  "https://images.unsplash.com/photo-1598928636135-d146006ff4be?w=1920&q=90",
+  "https://i.imgur.com/BmBZafG.jpg",
+  "https://i.imgur.com/D56aUuf.jpg",
+  "https://i.imgur.com/GmMgVt8.jpg",
 ];
 
 function useScrollAnimation() {
