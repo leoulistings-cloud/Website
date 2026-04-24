@@ -38,10 +38,10 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex flex-col group">
             <span className="text-white font-serif text-xl tracking-[0.15em] uppercase leading-none">
-              Grand<span className="text-gold-500">Luxe</span>
+              Johnny <span className="text-gold-500">Leou</span>
             </span>
             <span className="text-gold-500/60 text-[10px] tracking-[0.3em] uppercase">
-              Estates & Residences
+              Real Estate | DRE #02064780
             </span>
           </Link>
 
@@ -70,11 +70,11 @@ export default function Navbar() {
           {/* CTA */}
           <div className="hidden md:flex items-center gap-4">
             <a
-              href="tel:+13105550100"
+              href="tel:+19493004485"
               className="flex items-center gap-2 text-white/70 hover:text-gold-500 transition-colors text-sm"
             >
               <Phone size={14} />
-              <span className="tracking-wider">(310) 555-0100</span>
+              <span className="tracking-wider">(949) 300-4485</span>
             </a>
             <Link
               href="/contact"

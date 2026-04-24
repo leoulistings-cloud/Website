@@ -90,15 +90,15 @@ export default function HomePage() {
         <div className="relative z-10 w-full max-w-7xl mx-auto px-6 lg:px-12 pb-24 pt-40">
           <div className="max-w-3xl">
             <p className="section-label mb-5 animate-fade-in">
-              Ultra-Luxury Real Estate
+              Los Angeles & Orange County Real Estate
             </p>
             <h1 className="font-serif text-white text-5xl sm:text-6xl lg:text-7xl xl:text-8xl leading-[1.05] mb-8 animate-fade-up">
-              Where Extraordinary
+              Your Perfect Home
               <br />
-              <span className="text-gold-500 italic">Lives Are Made</span>
+              <span className="text-gold-500 italic">Awaits</span>
             </h1>
             <p className="text-white/70 text-lg leading-relaxed mb-10 max-w-xl animate-fade-up" style={{ animationDelay: "0.2s" }}>
-              Representing the world's most remarkable properties with unmatched discretion, market intelligence, and a global network of qualified buyers and sellers.
+              Specializing in residential real estate, luxury homes, and investment properties across LA and Orange County. With 17+ years of experience, Johnny Leou delivers expert guidance and personalized service for every client.
             </p>
             <div className="flex flex-wrap items-center gap-4 animate-fade-up" style={{ animationDelay: "0.3s" }}>
               <Link href="/properties" className="btn-gold px-8 py-4 text-sm tracking-widest uppercase">
@@ -150,11 +150,11 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-6">
             <div className="animate-on-scroll">
-              <p className="section-label mb-3">Curated Collection</p>
-              <h2 className="section-title">Featured Properties</h2>
+              <p className="section-label mb-3">Available Now</p>
+              <h2 className="section-title">Featured Listings</h2>
               <div className="gold-divider" />
               <p className="text-white/50 text-sm max-w-md mt-4 leading-relaxed">
-                Hand-selected for exceptional location, architecture, and investment potential at the pinnacle of the market.
+                Carefully selected properties across Los Angeles and Orange County, from first-time buyer homes to luxury residences and investment opportunities.
               </p>
             </div>
             <Link
@@ -195,20 +195,20 @@ export default function HomePage() {
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="animate-on-scroll">
-              <p className="section-label mb-4">Our Philosophy</p>
+              <p className="section-label mb-4">Why Choose Johnny</p>
               <h2 className="section-title mb-6">
-                Property isn't just an asset.<br />
-                <span className="text-gold-500 italic">It's a legacy.</span>
+                Real Estate Expertise<br />
+                <span className="text-gold-500 italic">With Heart</span>
               </h2>
               <div className="gold-divider" />
               <p className="text-white/60 leading-relaxed mb-6 mt-4">
-                GrandLuxe was founded on a singular belief: that the most extraordinary properties deserve representation that matches their significance. We operate at the intersection of art, architecture, and investment — bringing a level of service, knowledge, and discretion that defines the very top of the market.
+                After 17+ years in hospitality, Johnny brings exceptional service, strong negotiation, and clear communication to every transaction. He specializes in helping first-time buyers, home sellers, real estate investors, LGBTQ+ clients, and immigrant families find their perfect property.
               </p>
               <p className="text-white/60 leading-relaxed mb-10">
-                With offices in Miami, Los Angeles, New York, and Aspen, and affiliates across Europe and Asia, our reach is global while our attention remains profoundly personal.
+                Based in Los Angeles and Orange County, Johnny combines deep local market knowledge with a people-first approach. Your goals are his goals, and he's committed to helping you succeed.
               </p>
               <Link href="/about" className="btn-gold px-8 py-4 text-xs tracking-widest uppercase">
-                Meet Our Team
+                Learn More
               </Link>
             </div>
 
@@ -233,8 +233,8 @@ export default function HomePage() {
       <section className="py-24 lg:py-32 bg-navy-900">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="text-center mb-16 animate-on-scroll">
-            <p className="section-label mb-3">The Advisors</p>
-            <h2 className="section-title">Expertise You Can Trust</h2>
+            <p className="section-label mb-3">Meet Your Agent</p>
+            <h2 className="section-title">Johnny Leou</h2>
             <div className="gold-divider mx-auto" />
           </div>
 
@@ -316,8 +316,8 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-6 animate-on-scroll">
             <div>
-              <p className="section-label mb-3">Intelligence & Insights</p>
-              <h2 className="section-title">From the Desk</h2>
+              <p className="section-label mb-3">Guides & Insights</p>
+              <h2 className="section-title">Real Estate Blog</h2>
               <div className="gold-divider" />
             </div>
             <Link

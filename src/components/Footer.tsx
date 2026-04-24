@@ -11,14 +11,14 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <div className="mb-6">
               <p className="text-white font-serif text-2xl tracking-[0.15em] uppercase leading-none">
-                Grand<span className="text-gold-500">Luxe</span>
+                Johnny <span className="text-gold-500">Leou</span>
               </p>
               <p className="text-gold-500/60 text-[10px] tracking-[0.3em] uppercase mt-1">
-                Estates & Residences
+                Real Estate | DRE #02064780
               </p>
             </div>
             <p className="text-white/50 text-sm leading-relaxed mb-6">
-              Representing the world's most extraordinary properties with unmatched discretion, expertise, and personal service.
+              Specializing in Los Angeles and Orange County residential real estate, luxury homes, and investment properties with personalized service and market expertise.
             </p>
             <div className="flex gap-3">
               {[Instagram, Linkedin, Twitter].map((Icon, i) => (

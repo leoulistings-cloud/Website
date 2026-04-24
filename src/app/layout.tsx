@@ -5,15 +5,15 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: {
-    default: "GrandLuxe Estates & Residences | Ultra-Luxury Real Estate",
-    template: "%s | GrandLuxe Estates",
+    default: "Johnny Leou Real Estate | Los Angeles & Orange County Homes",
+    template: "%s | Johnny Leou Real Estate",
   },
   description:
-    "Representing the world's most extraordinary properties. Ultra-luxury real estate in Miami, Los Angeles, New York, Aspen, and beyond.",
-  keywords: ["luxury real estate", "ultra-luxury homes", "estates", "penthouses", "villas"],
+    "Johnny Leou (DRE#02064780) specializes in buying, selling, and investing in residential real estate, luxury homes, and income properties across Los Angeles and Orange County.",
+  keywords: ["Los Angeles real estate", "Orange County homes", "luxury real estate", "investment properties", "first-time buyers"],
   openGraph: {
     type: "website",
-    siteName: "GrandLuxe Estates & Residences",
+    siteName: "Johnny Leou Real Estate",
   },
 };
 
