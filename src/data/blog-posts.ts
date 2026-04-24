@@ -33,7 +33,7 @@ Head to El Moro, grab some churros, and fall in love with your neighborhood all 
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
     authorImage: "https://drive.google.com/uc?export=view&id=1z1dmbsslynWn-0px7XqijBnC2ftLVcsw",
-    coverImage: "https://images.unsplash.com/photo-1585238341710-4abb7692202f?w=1200&q=80",
+    coverImage: "https://images.unsplash.com/photo-1599599810694-b5ac4dd64e1a?w=1200&q=80",
     category: "Lifestyle",
     tags: ["El Moro", "Food", "Los Angeles", "Neighborhoods"],
     publishedAt: "2025-04-24",
