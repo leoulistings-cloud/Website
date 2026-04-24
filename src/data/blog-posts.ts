@@ -267,6 +267,48 @@ Ready to talk about selling? I'll give you an honest assessment of what your hom
     publishedAt: "2024-12-15",
     readTime: 6,
   },
+  {
+    id: "7",
+    slug: "eastside-italian-deli-chinatown-los-feliz",
+    title: "Eastside Italian Deli: Nearly a Century of Authentic Los Angeles",
+    excerpt:
+      "Since 1929, Eastside Italian Deli has been the beating heart of Chinatown's food culture. This isn't just old-school Italian — it's a living piece of LA history that brings neighborhoods together.",
+    content: `
+If you haven't experienced Eastside Italian Deli yet, you're missing out on one of Los Angeles's best-kept neighborhood secrets. For nearly a century, this iconic deli has been serving the same legendary sandwiches, maintaining the same commitment to quality, and embodying the spirit of community that defines LA's East side.
+
+## A Century of Tradition
+
+Eastside Italian Deli opened its doors in 1929. Think about that for a moment — while neighborhoods around it have transformed completely, this deli has remained a constant. The Angiuli family bought the business in 1959 and has been running it ever since, preserving recipes, techniques, and a culture of care that you simply can't fake or replicate.
+
+This is generational Los Angeles. It's the kind of place where your parents brought you, and where you bring your own kids.
+
+## What Makes the Sandwiches Special
+
+Walk into Eastside Italian Deli and the first thing that hits you is authenticity. These aren't Instagram-friendly minimalist sandwiches — these are old-school Italian deli sandwiches made with the same recipes and respect for ingredients that have worked for nearly 100 years.
+
+The #7 — hot roast beef and pastrami — is legendary for good reason. But the real magic is in the philosophy: quality meat, quality bread, quality proportions. No shortcuts. No trends. Just a sandwich that tastes like it was made for you specifically, the way it was made for thousands of people before you.
+
+## Why This Matters for Your Neighborhood
+
+Chinatown and the surrounding East LA neighborhoods have changed dramatically over the decades. Development, gentrification, demographic shifts — all of it has reshaped these communities. Yet Eastside Italian Deli has remained, a living connection to the neighborhood's history and a gathering place that bridges generations.
+
+Places like this are anchors. They create continuity in communities that are constantly changing. They give people a reason to stay rooted in a neighborhood, to pass traditions down, to feel like they belong to something larger than themselves.
+
+## A Destination Worth the Trip
+
+Whether you're a longtime East LA resident or you're exploring Chinatown for the first time, Eastside Italian Deli is worth your time. It's a real place, run by real people, serving real food. In a city obsessed with the new and the next, sometimes what you need is something that's been perfected over ninety years.
+
+Come for the sandwich. Stay for the story. Leave knowing you've experienced a piece of authentic Los Angeles.
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://i.imgur.com/yPcYV09.jpg",
+    category: "Lifestyle",
+    tags: ["Eastside Deli", "Italian Food", "Chinatown", "Los Angeles", "Neighborhoods"],
+    publishedAt: "2026-04-24",
+    readTime: 5,
+  },
 ];
 
 export const getBlogPostBySlug = (slug: string) =>
