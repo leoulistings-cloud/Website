@@ -15,8 +15,8 @@ export const agents: Agent[] = [
     volume: "$47.2M",
     languages: ["English", "Mandarin"],
     social: {
-      instagram: "#",
-      linkedin: "#",
+      instagram: "https://www.instagram.com/johnnyeeeatsworld/",
+      linkedin: "https://www.linkedin.com/in/johnny-leou-124423248",
     },
   },
 ];

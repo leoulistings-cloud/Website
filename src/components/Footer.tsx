@@ -21,15 +21,22 @@ export default function Footer() {
               Specializing in Los Angeles and Orange County residential real estate, luxury homes, and investment properties with personalized service and market expertise.
             </p>
             <div className="flex gap-3">
-              {[Instagram, Linkedin, Twitter].map((Icon, i) => (
-                <a
-                  key={i}
-                  href="#"
-                  className="w-9 h-9 border border-gold-500/30 flex items-center justify-center text-gold-500/60 hover:border-gold-500 hover:text-gold-500 transition-colors"
-                >
-                  <Icon size={14} />
-                </a>
-              ))}
+              <a
+                href="https://www.instagram.com/johnnyeeeatsworld/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-9 h-9 border border-gold-500/30 flex items-center justify-center text-gold-500/60 hover:border-gold-500 hover:text-gold-500 transition-colors"
+              >
+                <Instagram size={14} />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/johnny-leou-124423248"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-9 h-9 border border-gold-500/30 flex items-center justify-center text-gold-500/60 hover:border-gold-500 hover:text-gold-500 transition-colors"
+              >
+                <Linkedin size={14} />
+              </a>
             </div>
           </div>
 

@@ -2,6 +2,44 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "0",
+    slug: "el-moro-los-angeles-best-new-churro-spot",
+    title: "El Moro: LA's New Must-Visit Churro Destination",
+    excerpt:
+      "There's a new player in LA's food scene, and it's already becoming a neighborhood favorite. Here's why you need to visit El Moro in your favorite LA neighborhood.",
+    content: `
+If you've been looking for an excuse to explore your favorite Los Angeles neighborhood more deeply, El Moro just gave you one. This isn't just another churro shop — it's a celebration of authentic Mexican street food culture, and it's quickly becoming one of LA's most talked-about food destinations.
+
+## What Makes El Moro Different
+
+Founded on the principle of bringing authentic Mexican churro traditions to Los Angeles, El Moro delivers exactly what their name promises: that famous, indulgent, cinnamon-sugar-coated goodness that's become iconic in Mexico City and beyond. But it's not just churros — their menu reflects a deep respect for Mexican culinary traditions.
+
+## The Full Experience
+
+Beyond the churros, El Moro offers a complete experience. Their hot chocolate is rich, their tamales are made fresh daily, and their attention to ingredient quality sets them apart from typical fast-casual spots. It's the kind of place where you can taste the care that goes into every item.
+
+## Perfect for Exploring Your Neighborhood
+
+One of the best reasons to visit El Moro is the opportunity it creates to spend more time in your neighborhood. Whether you're in Silver Lake, Echo Park, Los Feliz, or any of LA's diverse communities, a visit to El Moro is the perfect excuse for a neighborhood walk, a coffee stop, or a casual weeknight outing.
+
+## Why This Matters for LA Real Estate
+
+Food is one of the primary drivers of neighborhood character and appeal. When quality restaurants and food destinations open in a neighborhood, they signal investment, community confidence, and the kind of vitality that makes people want to buy homes there. El Moro represents exactly that kind of positive neighborhood indicator.
+
+If you're considering buying in Los Angeles, the availability and quality of local food options should definitely factor into your decision. Great neighborhoods attract great restaurants — and El Moro is proof that LA's neighborhoods continue to evolve and improve.
+
+Head to El Moro, grab some churros, and fall in love with your neighborhood all over again.
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://drive.google.com/uc?export=view&id=1z1dmbsslynWn-0px7XqijBnC2ftLVcsw",
+    coverImage: "https://images.unsplash.com/photo-1585238341710-4abb7692202f?w=1200&q=80",
+    category: "Lifestyle",
+    tags: ["El Moro", "Food", "Los Angeles", "Neighborhoods"],
+    publishedAt: "2025-04-24",
+    readTime: 4,
+  },
+  {
     id: "1",
     slug: "best-neighborhoods-first-time-buyers-los-angeles",
     title: "Best LA Neighborhoods for First-Time Buyers in 2025",
@@ -243,4 +281,5 @@ export const blogCategories = [
   "Selling Guide",
   "Neighborhood Guides",
   "Market Insights",
+  "Lifestyle",
 ];
