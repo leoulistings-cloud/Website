@@ -5,32 +5,18 @@ import { Phone, Mail, MapPin, Clock, Check } from "lucide-react";
 
 const offices = [
   {
-    city: "Miami",
-    address: "1200 Brickell Avenue, Suite 1850",
-    zip: "Miami, FL 33131",
-    phone: "(305) 555-0100",
-    email: "miami@grandluxe.com",
-  },
-  {
     city: "Los Angeles",
-    address: "9720 Wilshire Boulevard, Suite 400",
-    zip: "Beverly Hills, CA 90212",
-    phone: "(310) 555-0200",
-    email: "la@grandluxe.com",
+    address: "Available for virtual or in-person consultations",
+    zip: "Los Angeles, CA",
+    phone: "(949) 300-4485",
+    email: "leoulistings@gmail.com",
   },
   {
-    city: "New York",
-    address: "590 Madison Avenue, 21st Floor",
-    zip: "New York, NY 10022",
-    phone: "(212) 555-0300",
-    email: "ny@grandluxe.com",
-  },
-  {
-    city: "Aspen",
-    address: "415 East Hyman Avenue",
-    zip: "Aspen, CO 81611",
-    phone: "(970) 555-0400",
-    email: "aspen@grandluxe.com",
+    city: "Orange County",
+    address: "Available for virtual or in-person consultations",
+    zip: "Orange County, CA",
+    phone: "(949) 300-4485",
+    email: "leoulistings@gmail.com",
   },
 ];
 
@@ -65,13 +51,13 @@ export default function ContactPage() {
           <div className="absolute inset-0 bg-navy-950/88" />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12">
-          <p className="section-label mb-3">Begin a Conversation</p>
+          <p className="section-label mb-3">Let's Connect</p>
           <h1 className="section-title mb-4">
             Get in <span className="text-gold-500 italic">Touch</span>
           </h1>
           <div className="gold-divider" />
           <p className="text-white/50 text-sm mt-4 max-w-lg leading-relaxed">
-            Whether you're exploring the market or ready to make your move, we're here to help. All inquiries are acknowledged within 24 hours.
+            Ready to find your perfect home or sell your property? Reach out to Johnny Leou. All inquiries are answered promptly and handled with care.
           </p>
         </div>
       </section>
