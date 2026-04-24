@@ -1,5 +1,6 @@
 "use client";
-import { useState } from "react";
+import { useState, useRef } from "react";
+import ReCAPTCHA from "react-google-recaptcha";
 import { Phone, Mail, MapPin, Clock, Check } from "lucide-react";
 
 const offices = [
@@ -22,9 +23,15 @@ const inquiryTypes = [
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
+  const [recaptchaToken, setRecaptchaToken] = useState<string | null>(null);
+  const recaptchaRef = useRef<ReCAPTCHA>(null);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    if (!recaptchaToken) {
+      alert("Please complete the CAPTCHA verification");
+      return;
+    }
     setSubmitted(true);
   };
 
@@ -154,17 +161,17 @@ export default function ContactPage() {
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                       <div>
-                        <label className="text-white/40 text-xs tracking-widest uppercase block mb-2">Email *</label>
+                        <label className="text-white/40 text-xs tracking-widest uppercase block mb-2">Email</label>
                         <input
-                          required
                           type="email"
                           className="w-full bg-navy-950 border border-white/10 text-white text-sm px-4 py-3 outline-none focus:border-gold-500 transition-colors placeholder:text-white/20"
                           placeholder="your@email.com"
                         />
                       </div>
                       <div>
-                        <label className="text-white/40 text-xs tracking-widest uppercase block mb-2">Phone</label>
+                        <label className="text-white/40 text-xs tracking-widest uppercase block mb-2">Phone *</label>
                         <input
+                          required
                           type="tel"
                           className="w-full bg-navy-950 border border-white/10 text-white text-sm px-4 py-3 outline-none focus:border-gold-500 transition-colors placeholder:text-white/20"
                           placeholder="+1 (555) 000-0000"
@@ -194,6 +201,14 @@ export default function ContactPage() {
                         rows={5}
                         className="w-full bg-navy-950 border border-white/10 text-white text-sm px-4 py-3 outline-none focus:border-gold-500 transition-colors placeholder:text-white/20 resize-none"
                         placeholder="Tell us about your property goals, timeline, or any specific requirements..."
+                      />
+                    </div>
+                    <div className="bg-navy-950 border border-white/5 p-4 rounded">
+                      <ReCAPTCHA
+                        ref={recaptchaRef}
+                        sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ""}
+                        onChange={(token) => setRecaptchaToken(token)}
+                        theme="dark"
                       />
                     </div>
                     <div className="flex items-start gap-3">
