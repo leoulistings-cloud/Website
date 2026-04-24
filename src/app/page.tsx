@@ -98,7 +98,7 @@ export default function HomePage() {
               <span className="text-gold-500 italic">Awaits</span>
             </h1>
             <p className="text-white/70 text-lg leading-relaxed mb-10 max-w-xl animate-fade-up" style={{ animationDelay: "0.2s" }}>
-              Specializing in residential real estate, luxury homes, and investment properties across LA and Orange County. With 17+ years of experience, Johnny Leou delivers expert guidance and personalized service for every client.
+              Specializing in residential real estate, luxury homes, and investment properties across LA and Orange County. With 20+ years of experience, Johnny Leou delivers expert guidance and personalized service for every client.
             </p>
             <div className="flex flex-wrap items-center gap-4 animate-fade-up" style={{ animationDelay: "0.3s" }}>
               <Link href="/properties" className="btn-gold px-8 py-4 text-sm tracking-widest uppercase">
@@ -196,7 +196,7 @@ export default function HomePage() {
               </h2>
               <div className="gold-divider" />
               <p className="text-white/60 leading-relaxed mb-6 mt-4">
-                After 17+ years in hospitality, Johnny brings exceptional service, strong negotiation, and clear communication to every transaction. He specializes in helping first-time buyers, home sellers, real estate investors, LGBTQ+ clients, and immigrant families find their perfect property.
+                After 20+ years in hospitality, Johnny brings exceptional service, strong negotiation, and clear communication to every transaction. He specializes in helping first-time buyers, home sellers, real estate investors, LGBTQ+ clients, and immigrant families find their perfect property.
               </p>
               <p className="text-white/60 leading-relaxed mb-10">
                 Based in Los Angeles and Orange County, Johnny combines deep local market knowledge with a people-first approach. Your goals are his goals, and he's committed to helping you succeed.

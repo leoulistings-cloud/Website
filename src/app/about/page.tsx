@@ -48,7 +48,7 @@ export default function AboutPage() {
                 />
               </div>
               <div className="absolute -bottom-6 -right-6 bg-gold-500 p-6">
-                <p className="font-serif text-navy-950 text-4xl">17+</p>
+                <p className="font-serif text-navy-950 text-4xl">20+</p>
                 <p className="text-navy-950/70 text-xs tracking-widest uppercase">Years Experience</p>
               </div>
             </div>
@@ -125,7 +125,7 @@ export default function AboutPage() {
               <div className="glass-card p-6">
                 <p className="text-gold-500 text-xs tracking-widest uppercase mb-3">Background</p>
                 <p className="text-white/60 text-sm leading-relaxed">
-                  With 17+ years in hospitality before real estate, Johnny brings a service mindset that most agents simply don't have — clear communication, genuine care for every client, and a commitment to results.
+                  With 20+ years in hospitality before real estate, Johnny brings a service mindset that most agents simply don't have — clear communication, genuine care for every client, and a commitment to results.
                 </p>
               </div>
             </div>
@@ -140,7 +140,7 @@ export default function AboutPage() {
             {[
               { value: "12+", label: "Homes Sold" },
               { value: "$8.4M", label: "Total Volume" },
-              { value: "17+", label: "Years in Service" },
+              { value: "20+", label: "Years in Service" },
               { value: "5★", label: "Client Reviews" },
             ].map((stat) => (
               <div key={stat.label}>

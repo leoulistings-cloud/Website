@@ -51,7 +51,7 @@ export interface Agent {
   bio: string;
   specialties: string[];
   listings: number;
-  sold: number;
+  sold: string;
   volume: string;
   languages: string[];
   social: {

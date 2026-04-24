@@ -109,7 +109,7 @@ If you're a family or want a slightly more settled feel, Silver Lake is worth th
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
     authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
-    coverImage: "https://images.unsplash.com/photo-2KIDkMzmO-k?w=1200&q=80",
+    coverImage: "https://images.unsplash.com/photo-4AE1-J0btbw?w=1200&q=80",
     category: "Neighborhood Guides",
     tags: ["Silver Lake", "Echo Park", "Neighborhoods", "Los Angeles"],
     publishedAt: "2025-02-20",
