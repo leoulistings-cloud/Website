@@ -11,8 +11,8 @@ export const agents: Agent[] = [
     bio: "Johnny Leou (DRE#02064780) is a Los Angeles and Orange County real estate agent specializing in buying, selling, and investing in residential real estate, luxury homes, and income properties across Silver Lake, Los Feliz, Echo Park, Downtown Los Angeles, Beverly Hills, Hollywood, Larchmont, Boyle Heights, Irvine, and Tustin. With 17+ years in hospitality, he delivers exceptional service, strong negotiation, and clear communication. Johnny serves first-time buyers, home sellers, real estate investors, LGBTQ+ clients, and immigrant families with a people-first approach, local market expertise, and personalized, results-driven strategies.",
     specialties: ["Residential Sales", "Luxury Homes", "Income Properties", "First-Time Buyers", "Investment Properties"],
     listings: 12,
-    sold: 85,
-    volume: "$47.2M",
+    sold: 12,
+    volume: "$8.4M",
     languages: ["English", "Mandarin"],
     social: {
       instagram: "https://www.instagram.com/johnnyeeeatsworld/",

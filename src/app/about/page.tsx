@@ -138,8 +138,8 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             {[
-              { value: "85+", label: "Homes Sold" },
-              { value: "$47.2M", label: "Total Volume" },
+              { value: "12+", label: "Homes Sold" },
+              { value: "$8.4M", label: "Total Volume" },
               { value: "17+", label: "Years in Service" },
               { value: "5★", label: "Client Reviews" },
             ].map((stat) => (
