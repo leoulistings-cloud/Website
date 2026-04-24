@@ -7,11 +7,6 @@ export const blogPosts: BlogPost[] = [
     title: "El Moro: LA's New Must-Visit Churro Destination",
     excerpt:
       "There's a new player in LA's food scene, and it's already becoming a neighborhood favorite. Here's why you need to visit El Moro in your favorite LA neighborhood.",
-    images: [
-      "https://i.imgur.com/oJ6Y4Ve.jpg",
-      "https://i.imgur.com/SPD4SYh.jpg",
-      "https://i.imgur.com/27BuqEX.jpg",
-    ],
     content: `
 If you've been looking for an excuse to explore your favorite Los Angeles neighborhood more deeply, El Moro just gave you one. This isn't just another churro shop — it's a celebration of authentic Mexican street food culture, and it's quickly becoming one of LA's most talked-about food destinations.
 
