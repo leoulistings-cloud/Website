@@ -40,7 +40,7 @@ export default function AboutPage() {
             <div className="relative">
               <div className="relative aspect-[4/5] overflow-hidden">
                 <Image
-                  src="https://drive.google.com/uc?export=view&id=14FwcdF22P2u1eB7UlhBvQ2onsGjw45i1"
+                  src="https://imgur.com/mdjsazj.jpg"
                   alt="Johnny Leou"
                   fill
                   className="object-cover"
