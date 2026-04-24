@@ -248,10 +248,10 @@ export default function HomePage() {
               >
                 <div className="relative w-48 h-48 mx-auto mb-6 overflow-hidden">
                   <Image
-                    src="https://i.imgur.com/mdjsazj.jpg"
+                    src="https://i.imgur.com/hxM6WgE.jpg"
                     alt={agent.name}
                     fill
-                    className="object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="object-cover object-top transition-transform duration-700 group-hover:scale-110"
                     sizes="192px"
                   />
                   <div className="absolute inset-0 border-2 border-gold-500/0 group-hover:border-gold-500/60 transition-all duration-500" />
