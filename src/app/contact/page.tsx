@@ -1,6 +1,5 @@
 "use client";
-import { useState, useRef } from "react";
-import ReCAPTCHA from "react-google-recaptcha";
+import { useState } from "react";
 import { Phone, Mail, MapPin, Clock, Check } from "lucide-react";
 
 const offices = [
@@ -23,15 +22,9 @@ const inquiryTypes = [
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
-  const [recaptchaToken, setRecaptchaToken] = useState<string | null>(null);
-  const recaptchaRef = useRef<ReCAPTCHA>(null);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!recaptchaToken) {
-      alert("Please complete the CAPTCHA verification");
-      return;
-    }
     setSubmitted(true);
   };
 
@@ -201,14 +194,6 @@ export default function ContactPage() {
                         rows={5}
                         className="w-full bg-navy-950 border border-white/10 text-white text-sm px-4 py-3 outline-none focus:border-gold-500 transition-colors placeholder:text-white/20 resize-none"
                         placeholder="Tell us about your property goals, timeline, or any specific requirements..."
-                      />
-                    </div>
-                    <div className="bg-navy-950 border border-white/5 p-4 rounded">
-                      <ReCAPTCHA
-                        ref={recaptchaRef}
-                        sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ""}
-                        onChange={(token) => setRecaptchaToken(token)}
-                        theme="dark"
                       />
                     </div>
                     <div className="flex items-start gap-3">
