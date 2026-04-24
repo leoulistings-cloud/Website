@@ -297,14 +297,9 @@ export default function HomePage() {
                   ))}
                 </div>
                 <p className="text-white/70 text-sm leading-relaxed mb-6 italic">"{t.text}"</p>
-                <div className="flex items-center gap-4 pt-4 border-t border-white/10">
-                  <div className="relative w-12 h-12 rounded-full overflow-hidden shrink-0">
-                    <Image src={t.image} alt={t.name} fill className="object-cover" sizes="48px" />
-                  </div>
-                  <div>
-                    <p className="text-white font-medium text-sm">{t.name}</p>
-                    <p className="text-gold-500/70 text-xs tracking-wider mt-0.5">{t.propertyType} · {t.location}</p>
-                  </div>
+                <div className="pt-4 border-t border-white/10">
+                  <p className="text-white font-medium text-sm">{t.name}</p>
+                  <p className="text-gold-500/70 text-xs tracking-wider mt-0.5">{t.propertyType} · {t.location}</p>
                 </div>
               </div>
             ))}

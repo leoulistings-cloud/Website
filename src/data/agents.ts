@@ -37,7 +37,7 @@ export const testimonials: Testimonial[] = [
     location: "Buyer & Seller",
     text: "Johnny was a great guide through the complexities of California real estate. He handled the anxiety of both seller and buyer with patience and balance. Made me happy.",
     rating: 5,
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+    image: "",
     propertyType: "Sale & Purchase",
   },
   {
@@ -46,8 +46,17 @@ export const testimonials: Testimonial[] = [
     location: "Los Angeles",
     text: "Johnny has been the best for us. Very attentive, compassionate, respectful, and professional. We look forward to celebrating our first home with him!",
     rating: 5,
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80",
+    image: "",
     propertyType: "First Home Together",
+  },
+  {
+    id: "4",
+    name: "Rob E.",
+    location: "Downtown Los Angeles",
+    text: "Johnny took care of my clients' purchase of a condo in downtown LA. He stuck with them through a very long process of shopping. Thorough, responsive, knowledgeable. Highly recommend!",
+    rating: 5,
+    image: "",
+    propertyType: "Condo Purchase",
   },
 ];
 
