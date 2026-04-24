@@ -44,7 +44,7 @@ export default async function BlogPostPage({
             href="/blog"
             className="inline-flex items-center gap-2 text-white/50 hover:text-gold-500 text-xs tracking-widest uppercase transition-colors"
           >
-            <ArrowLeft size={12} /> Back to Journal
+            <ArrowLeft size={12} /> Back to The Leou Insider
           </Link>
         </div>
       </div>

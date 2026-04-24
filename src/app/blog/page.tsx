@@ -28,14 +28,14 @@ export default function BlogPage() {
       <section className="pt-32 pb-16 bg-navy-900">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="max-w-2xl">
-            <p className="section-label mb-3">Intelligence & Insights</p>
+            <p className="section-label mb-3">Guides & Stories</p>
             <h1 className="section-title mb-4">
-              The GrandLuxe<br />
-              <span className="text-gold-500 italic">Journal</span>
+              The Leou<br />
+              <span className="text-gold-500 italic">Insider</span>
             </h1>
             <div className="gold-divider" />
             <p className="text-white/50 text-sm mt-4 leading-relaxed">
-              Market analysis, design inspiration, buying guides, and lifestyle stories from the world of ultra-luxury real estate.
+              Neighborhood guides, market insights, buying & selling tips, and lifestyle stories from an LA real estate agent who actually lives here.
             </p>
           </div>
         </div>

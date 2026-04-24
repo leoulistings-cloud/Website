@@ -210,7 +210,7 @@ export default function ContactPage() {
                     <div className="flex items-start gap-3">
                       <input type="checkbox" id="privacy" className="mt-1 accent-gold-500" required />
                       <label htmlFor="privacy" className="text-white/40 text-xs leading-relaxed">
-                        I understand that all information shared will be handled with complete confidentiality in accordance with GrandLuxe's privacy policy.
+                        I understand that all information shared will be handled with complete confidentiality.
                       </label>
                     </div>
                     <button type="submit" className="btn-gold w-full py-4 text-sm tracking-widest uppercase">
