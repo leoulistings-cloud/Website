@@ -236,6 +236,7 @@ export default function HomePage() {
             <p className="section-label mb-3">Meet Your Agent</p>
             <h2 className="section-title">Johnny Leou</h2>
             <div className="gold-divider mx-auto" />
+            <p className="text-white/40 text-xs tracking-widest uppercase mt-4">DRE #02064780 | eXp Realty | Broker License #02188471</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

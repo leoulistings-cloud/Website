@@ -6,15 +6,8 @@ import { Phone, Mail, MapPin, Clock, Check } from "lucide-react";
 const offices = [
   {
     city: "Los Angeles",
-    address: "Available for virtual or in-person consultations",
-    zip: "Los Angeles, CA",
-    phone: "(949) 300-4485",
-    email: "leoulistings@gmail.com",
-  },
-  {
-    city: "Orange County",
-    address: "Available for virtual or in-person consultations",
-    zip: "Orange County, CA",
+    address: "eXp Realty of Greater Los Angeles, Inc.",
+    zip: "PO Box 847277, Los Angeles, CA 90084-7277",
     phone: "(949) 300-4485",
     email: "leoulistings@gmail.com",
   },
