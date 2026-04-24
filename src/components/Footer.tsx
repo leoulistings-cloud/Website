@@ -88,21 +88,22 @@ export default function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin size={14} className="text-gold-500 mt-0.5 shrink-0" />
                 <span className="text-white/50 text-sm leading-relaxed">
-                  1200 Brickell Avenue<br />
-                  Suite 1850<br />
-                  Miami, FL 33131
+                  eXp Realty of Greater<br />
+                  Los Angeles, Inc.<br />
+                  PO Box 847277<br />
+                  Los Angeles, CA 90084-7277
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={14} className="text-gold-500 shrink-0" />
-                <a href="tel:+13105550100" className="text-white/50 hover:text-white text-sm transition-colors">
-                  (310) 555-0100
+                <a href="tel:+19493004485" className="text-white/50 hover:text-white text-sm transition-colors">
+                  (949) 300-4485
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={14} className="text-gold-500 shrink-0" />
-                <a href="mailto:info@grandluxe.com" className="text-white/50 hover:text-white text-sm transition-colors">
-                  info@grandluxe.com
+                <a href="mailto:leoulistings@gmail.com" className="text-white/50 hover:text-white text-sm transition-colors">
+                  leoulistings@gmail.com
                 </a>
               </li>
             </ul>
@@ -114,7 +115,7 @@ export default function Footer() {
       <div className="border-t border-white/5 px-6 lg:px-12 py-6">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-white/30 text-xs">
-            © 2025 GrandLuxe Estates & Residences. All rights reserved.
+            © 2025 Johnny Leou Real Estate. All rights reserved.
           </p>
           <p className="text-white/30 text-xs">
             Licensed Real Estate Broker. Equal Housing Opportunity.
