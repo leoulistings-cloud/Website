@@ -17,7 +17,7 @@ export const properties: Property[] = [
     featured: true,
     new: true,
     images: [
-      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1200&q=80",
+      "https://images.unsplash.com/photo-1549740425-5eb4aa41bedc?w=1200&q=80",
       "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1200&q=80",
       "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1200&q=80",
     ],
@@ -56,7 +56,7 @@ export const properties: Property[] = [
     featured: true,
     new: false,
     images: [
-      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1200&q=80",
+      "https://images.unsplash.com/photo-1574909114235-db6639696c6d?w=1200&q=80",
       "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1200&q=80",
       "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80",
     ],
@@ -95,7 +95,7 @@ export const properties: Property[] = [
     featured: true,
     new: true,
     images: [
-      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1200&q=80",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&q=80",
       "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1200&q=80",
       "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1200&q=80",
     ],
@@ -134,7 +134,7 @@ export const properties: Property[] = [
     featured: true,
     new: false,
     images: [
-      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1200&q=80",
+      "https://images.unsplash.com/photo-1560448075-cbc16bb4af8e?w=1200&q=80",
       "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80",
       "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&q=80",
     ],

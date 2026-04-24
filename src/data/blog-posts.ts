@@ -223,7 +223,7 @@ As an agent who proudly serves the LGBTQ+ community, I understand what you're lo
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
     authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
-    coverImage: "https://images.unsplash.com/photo-1602941525421-8f8b81d3edbb?w=1200&q=80",
+    coverImage: "https://images.unsplash.com/photo-1516450360452-7472b28e22e8?w=1200&q=80",
     category: "Neighborhood Guides",
     tags: ["LGBTQ+", "Silver Lake", "West Hollywood", "Community"],
     publishedAt: "2025-01-05",
