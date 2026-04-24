@@ -212,9 +212,9 @@ export const properties: Property[] = [
     featured: false,
     new: false,
     images: [
-      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=1200&q=80",
-      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1200&q=80",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&q=80",
       "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1200&q=80",
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=1200&q=80",
     ],
     description:
       "Charming bungalow one block from the iconic Larchmont Village shopping district. Ideal for buyers who want a walkable, village-feel lifestyle within minutes of Hollywood, Koreatown, and the Miracle Mile. Tastefully updated while retaining its original character.",
@@ -290,9 +290,9 @@ export const properties: Property[] = [
     featured: false,
     new: false,
     images: [
+      "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80",
       "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1200&q=80",
-      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=1200&q=80",
-      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1200&q=80",
     ],
     description:
       "Spacious family home in the heart of Tustin with an oversized backyard, updated interiors, and top-rated Tustin Unified schools nearby. A rare find with a 3-car garage, RV access, and a quiet cul-de-sac location close to Old Town Tustin's dining and shopping.",

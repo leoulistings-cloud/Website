@@ -261,7 +261,7 @@ Ready to talk about selling? I'll give you an honest assessment of what your hom
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
     authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
-    coverImage: "https://images.unsplash.com/photo-1582407947304-fd86f28320be?w=1200&q=80",
+    coverImage: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&q=80",
     category: "Selling Guide",
     tags: ["Selling", "Los Angeles", "Home Selling", "Tips"],
     publishedAt: "2024-12-15",

@@ -28,7 +28,7 @@ const propertyTypes = [
 ];
 
 const priceRanges = [
-  { label: "Any Price", min: 0, max: Infinity },
+  { label: "Any Budget", min: 0, max: Infinity },
   { label: "Up to $500K", min: 0, max: 500000 },
   { label: "$500K – $600K", min: 500000, max: 600000 },
   { label: "$600K – $700K", min: 600000, max: 700000 },
@@ -78,7 +78,7 @@ function Select({
 export default function PropertySearch({ compact = false }: { compact?: boolean }) {
   const [location, setLocation] = useState("All Locations");
   const [type, setType] = useState("All Types");
-  const [price, setPrice] = useState("Any Price");
+  const [price, setPrice] = useState("Any Budget");
   const [query, setQuery] = useState("");
   const router = useRouter();
 
@@ -86,7 +86,7 @@ export default function PropertySearch({ compact = false }: { compact?: boolean 
     const params = new URLSearchParams();
     if (location !== "All Locations") params.set("location", location);
     if (type !== "All Types") params.set("type", type);
-    if (price !== "Any Price") params.set("price", price);
+    if (price !== "Any Budget") params.set("price", price);
     if (query) params.set("q", query);
     router.push(`/properties?${params.toString()}`);
   };
