@@ -11,9 +11,9 @@ import { blogPosts } from "@/data/blog-posts";
 import { agents, testimonials, marketStats } from "@/data/agents";
 
 const heroImages = [
+  "https://images.unsplash.com/photo-1444723121867-7a241cacace9?w=1920&q=90",
   "https://images.unsplash.com/photo-1534430480872-3498386e7856?w=1920&q=90",
-  "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1920&q=90",
-  "https://images.unsplash.com/photo-1444084316824-dc26d6657664?w=1920&q=90",
+  "https://images.unsplash.com/photo-1518684079-3c830dcef090?w=1920&q=90",
 ];
 
 function useScrollAnimation() {
@@ -104,15 +104,9 @@ export default function HomePage() {
               <Link href="/properties" className="btn-gold px-8 py-4 text-sm tracking-widest uppercase">
                 Explore Properties
               </Link>
-              <button
-                onClick={() => setVideoPlaying(true)}
-                className="flex items-center gap-3 text-white/80 hover:text-white transition-colors group"
-              >
-                <span className="w-12 h-12 rounded-full border border-white/30 flex items-center justify-center group-hover:border-gold-500 group-hover:bg-gold-500/10 transition-all">
-                  <Play size={16} className="ml-1" />
-                </span>
-                <span className="text-sm tracking-wider">Watch Our Story</span>
-              </button>
+              <a href="https://calendly.com/leoulistings" target="_blank" rel="noopener noreferrer" className="btn-outline-gold px-8 py-4 text-sm tracking-widest uppercase">
+                Schedule a Showing
+              </a>
             </div>
           </div>
 
@@ -183,7 +177,7 @@ export default function HomePage() {
       <section className="relative py-24 lg:py-32 overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1920&q=80"
+            src="https://images.unsplash.com/photo-1534430480872-3498386e7856?w=1920&q=80"
             alt=""
             fill
             className="object-cover"
@@ -214,9 +208,9 @@ export default function HomePage() {
 
             <div className="grid grid-cols-3 gap-6 animate-on-scroll">
               {[
-                { icon: Award, value: "$14.2B", label: "Total Volume Sold" },
-                { icon: Users, value: "840+", label: "Satisfied Clients" },
-                { icon: MapPin, value: "12", label: "Markets Served" },
+                { icon: Award, value: "$8.4M", label: "Total Volume Sold" },
+                { icon: Users, value: "12+", label: "Clients Served" },
+                { icon: MapPin, value: "2", label: "Markets Served" },
               ].map(({ icon: Icon, value, label }) => (
                 <div key={label} className="glass-card p-6 text-center">
                   <Icon size={24} className="text-gold-500 mx-auto mb-4" />
@@ -239,33 +233,32 @@ export default function HomePage() {
             <p className="text-white/40 text-xs tracking-widest uppercase mt-4">DRE #02064780 | eXp Realty | Broker License #02188471</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {agents.map((agent, i) => (
+          <div className="flex justify-center">
+            {agents.map((agent) => (
               <div
                 key={agent.id}
-                className="group text-center animate-on-scroll"
-                style={{ transitionDelay: `${i * 150}ms` }}
+                className="group text-center animate-on-scroll max-w-sm w-full"
               >
-                <div className="relative w-48 h-48 mx-auto mb-6 overflow-hidden">
+                <div className="relative w-56 h-56 mx-auto mb-6 overflow-hidden rounded-full">
                   <Image
                     src="https://i.imgur.com/hxM6WgE.jpg"
                     alt={agent.name}
                     fill
                     className="object-cover object-top transition-transform duration-700 group-hover:scale-110"
-                    sizes="192px"
+                    sizes="224px"
                   />
-                  <div className="absolute inset-0 border-2 border-gold-500/0 group-hover:border-gold-500/60 transition-all duration-500" />
+                  <div className="absolute inset-0 border-2 border-gold-500/0 group-hover:border-gold-500/60 transition-all duration-500 rounded-full" />
                 </div>
-                <h3 className="font-serif text-white text-xl mb-1">{agent.name}</h3>
+                <h3 className="font-serif text-white text-2xl mb-1">{agent.name}</h3>
                 <p className="text-gold-500 text-xs tracking-widest uppercase mb-4">{agent.title}</p>
-                <p className="text-white/50 text-sm leading-relaxed mb-4 px-4 line-clamp-3">{agent.bio}</p>
-                <div className="flex justify-center gap-6 text-center text-xs">
+                <p className="text-white/50 text-sm leading-relaxed mb-6 line-clamp-3">{agent.bio}</p>
+                <div className="flex justify-center gap-10 text-center text-xs">
                   <div>
-                    <p className="font-serif text-gold-500 text-lg">{agent.volume}</p>
+                    <p className="font-serif text-gold-500 text-xl">{agent.volume}</p>
                     <p className="text-white/40 tracking-wider uppercase">Volume</p>
                   </div>
                   <div>
-                    <p className="font-serif text-gold-500 text-lg">{agent.sold}</p>
+                    <p className="font-serif text-gold-500 text-xl">{agent.sold}</p>
                     <p className="text-white/40 tracking-wider uppercase">Sold</p>
                   </div>
                 </div>

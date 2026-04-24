@@ -42,7 +42,7 @@ Head to El Moro, grab some churros, and fall in love with your neighborhood all 
   {
     id: "1",
     slug: "best-neighborhoods-first-time-buyers-los-angeles",
-    title: "Best LA Neighborhoods for First-Time Buyers in 2025",
+    title: "Best LA Neighborhoods for First-Time Buyers in 2026",
     excerpt:
       "From Silver Lake to Boyle Heights, discover which Los Angeles neighborhoods offer the best value, community, and upside for first-time homebuyers right now.",
     content: `
@@ -71,10 +71,10 @@ For buyers open to Orange County, both Tustin and Irvine offer exceptional value
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
     authorImage: "https://i.imgur.com/hxM6WgE.jpg",
-    coverImage: "https://images.unsplash.com/photo-1534430480872-3498386e7856?w=1200&q=80",
+    coverImage: "https://images.unsplash.com/photo-1518684079-3c830dcef090?w=1200&q=80",
     category: "Buying Guide",
-    tags: ["First-Time Buyers", "Los Angeles", "Neighborhoods", "2025"],
-    publishedAt: "2025-03-10",
+    tags: ["First-Time Buyers", "Los Angeles", "Neighborhoods", "2026"],
+    publishedAt: "2026-03-10",
     readTime: 6,
   },
   {

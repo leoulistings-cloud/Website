@@ -17,7 +17,7 @@ export const properties: Property[] = [
     featured: true,
     new: true,
     images: [
-      "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1200&q=80",
+      "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=1200&q=80",
       "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1200&q=80",
       "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1200&q=80",
     ],
@@ -56,7 +56,7 @@ export const properties: Property[] = [
     featured: true,
     new: false,
     images: [
-      "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1200&q=80",
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80",
       "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1200&q=80",
       "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&q=80",
     ],
@@ -96,8 +96,8 @@ export const properties: Property[] = [
     new: true,
     images: [
       "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1200&q=80",
-      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&q=80",
       "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?w=1200&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=80",
     ],
     description:
       "Stunning mid-century modern home in sought-after Los Feliz, with walls of glass and sweeping views toward Griffith Park. Fully remodeled with designer finishes throughout, an open floor plan, and a resort-style backyard — all in one of LA's most beloved neighborhoods.",
