@@ -88,7 +88,7 @@ function PropertiesContent() {
           {/* Controls */}
           <div className="flex flex-wrap items-center justify-between gap-4 mb-8 pb-8 border-b border-white/10">
             <div className="flex items-center gap-3">
-              {["All", "For Sale", "Pending", "Sold", "For Lease"].map((s) => (
+              {["All", "For Sale", "Pending", "Sold"].map((s) => (
                 <button
                   key={s}
                   onClick={() => setStatusFilter(s)}
