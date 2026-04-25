@@ -182,7 +182,7 @@ export default function ContactPage() {
                     <div>
                       <label className="text-white/40 text-xs tracking-widest uppercase block mb-2">Budget / Price Range</label>
                       <select className="w-full bg-navy-950 border border-white/10 text-white/70 text-sm px-4 py-3 outline-none focus:border-gold-500 transition-colors">
-                        {["Under $5M", "$5M – $10M", "$10M – $25M", "$25M – $50M", "$50M+", "Prefer not to say"].map((r) => (
+                        {["$600K – $700K", "$700K – $800K", "$800K – $900K", "$900K – $1M", "$1M – $1.1M", "$1.1M – $1.2M", "$1.2M – $1.3M", "$1.3M – $1.4M", "$1.4M – $1.5M", "$1.5M – $2M", "$2M – $3M", "$3M – $4M", "$4M – $5M", "$5M+", "Prefer not to say"].map((r) => (
                           <option key={r} className="bg-navy-950">{r}</option>
                         ))}
                       </select>
