@@ -378,23 +378,23 @@ If you're a seller in Los Angeles, that's the standard I hold myself to.
 
 ---
 
-## Silver Lake: Multiple Offers, $30,000 Over Asking
+## Boyle Heights: Multiple Offers, $30,000 Over Asking
 
-Silver Lake is one of the most competitive markets in all of Los Angeles — buyers know it, sellers know it, and agents who don't know what they're doing get left behind.
+Boyle Heights is one of the most competitive markets in all of Los Angeles — buyers know it, sellers know it, and agents who don't know what they're doing get left behind.
 
-For another seller client in Silver Lake, **we generated multiple offers** and closed **$30,000 above asking price**. In a neighborhood where every dollar matters and buyers are savvy, that kind of outcome requires deep local knowledge, a compelling listing strategy, and the ability to run a clean, competitive offer process.
+For another seller client in Boyle Heights, **we generated multiple offers** and closed **$30,000 above asking price**. In a neighborhood where every dollar matters and buyers are savvy, that kind of outcome requires deep local knowledge, a compelling listing strategy, and the ability to run a clean, competitive offer process.
 
-Silver Lake is my backyard. I know what buyers want, what they're willing to pay, and how to present a home so it earns every dollar the market has to offer.
+Boyle Heights is a market I know intimately. I understand what buyers want, what they're willing to pay, and how to present a home so it earns every dollar the market has to offer.
 
 ---
 
-## Navigating the MIPA Program: $14,000 Under Asking + $5,000 Buyer Credit in North Hollywood
+## Navigating the MIPA Program: $115,000 Down Payment Assistance in North Hollywood
 
 Not every win shows up in a headline number. Some of the most meaningful results I've delivered are for buyers — and navigating complexity is where I separate myself from agents who only know how to write offers.
 
-For one buyer client in North Hollywood, I successfully guided them through the **MIPA (Mortgage Insurance Premium Assistance) program** — a down payment assistance resource with strict qualification requirements, documentation demands, and timeline constraints that most agents aren't equipped to handle.
+For one buyer client in North Hollywood, I successfully guided them through the **MIPA (Mortgage Insurance Premium Assistance) program** — securing **$115,000 in down payment assistance**. This is a resource with strict qualification requirements, extensive documentation demands, and timeline constraints that most agents aren't equipped to handle.
 
-We closed **$14,000 below asking price** with a **$5,000 credit to the buyer** — all within a **60-day escrow**. For a first-time buyer using assistance programs, that outcome can genuinely change the trajectory of their financial life.
+We closed **$14,000 below asking price** with a **$5,000 credit to the buyer** — all within a **60-day escrow**. For a first-time buyer unlocking $115K in assistance, that outcome can genuinely change the trajectory of their financial life.
 
 If you're a buyer navigating down payment assistance programs, income-restricted financing, or complex loan structures in the Los Angeles or Orange County market — this is exactly the kind of work I do.
 
@@ -425,9 +425,9 @@ Ready to talk about your goals? Let's connect.
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
     authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
-    coverImage: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&q=80",
+    coverImage: "https://i.imgur.com/iQDomwi.jpg",
     category: "Market Insights",
-    tags: ["Johnny Leou", "Los Angeles Real Estate", "Seller Results", "Silver Lake", "North Hollywood", "Downtown LA", "MIPA Program", "Over Asking", "DRE 02064780"],
+    tags: ["Johnny Leou", "Los Angeles Real Estate", "Seller Results", "Boyle Heights", "North Hollywood", "Downtown LA", "MIPA Program", "Over Asking", "DRE 02064780"],
     publishedAt: "2026-04-25",
     readTime: 6,
   },
