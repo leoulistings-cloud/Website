@@ -431,6 +431,86 @@ Ready to talk about your goals? Let's connect.
     publishedAt: "2026-04-25",
     readTime: 6,
   },
+  {
+    id: "10",
+    slug: "los-angeles-weekend-events-april-26-27-2026",
+    title: "What to Do in Los Angeles This Weekend: April 26–27, 2026",
+    excerpt:
+      "From a massive artisan market in Old Pasadena to Fiesta Broadway downtown and a packed Smorgasburg lineup — here's your Johnny Leou-approved guide to LA this weekend.",
+    content: `
+Los Angeles doesn't slow down on weekends — and this one is stacked. Whether you want art, food, live music, or just a reason to explore a new neighborhood, there's something worth getting off the couch for this Saturday and Sunday.
+
+Here's what I'm watching this weekend.
+
+---
+
+## Jackalope Artisan Marketplace — Old Pasadena
+
+**Saturday–Sunday | 10 AM – 5 PM | Central Park, Old Pasadena | Free**
+
+Jackalope is back for spring and it's one of the better free weekend events in the LA area. Over 200 independent vendors selling handmade goods, jewelry, clothing, art, home decor, and food. Live music throughout both days and genuinely family-friendly.
+
+Old Pasadena is a great excuse to walk the neighborhood before or after — Colorado Blvd has some excellent dining and the area's architecture is worth your time. For buyers who've never spent a weekend in Pasadena, this is a low-stakes way to feel out whether the neighborhood fits your lifestyle.
+
+---
+
+## Brewery Artwalk — Lincoln Heights / East Los Angeles
+
+**Saturday–Sunday | Open Studios | The Brewery Arts Complex**
+
+Twice a year, the Brewery opens its private artist studios to the public. Over 100 working artists across a 16-acre former brewery campus — you can walk right into their workspaces, see work in progress, and buy directly from the source.
+
+The Brewery Arts Complex is one of the largest artist live-work communities in the world, and it sits in a part of East LA that's increasingly on buyers' radars. If you're curious about Lincoln Heights and the surrounding neighborhoods, this weekend is a perfect excuse to explore.
+
+---
+
+## Fiesta Broadway — Downtown Los Angeles
+
+**Sunday | 11 AM | 1st St & Broadway, DTLA**
+
+Fiesta Broadway takes over Downtown LA on Sunday with live music, food, dancing, and a genuine celebration of Latin culture and community. It's one of the city's longest-running spring events and a reminder of why Downtown LA's cultural calendar is second to none.
+
+DTLA has been one of the most interesting markets to watch for buyers and investors — this is a neighborhood with real upside, and events like Fiesta Broadway are part of what makes it liveable.
+
+---
+
+## Crenshaw Night Market — Leimert Park
+
+**Saturday | 4–10 PM | Leimert Park | Free**
+
+The Crenshaw Night Market returns to Leimert Park on Saturday evening — local vendors, small businesses, food, music, and the kind of community energy that makes this neighborhood special. It's free to attend and runs until 10 PM, which makes it a perfect Saturday night option.
+
+Leimert Park and the broader Crenshaw corridor have been generating serious buyer interest. Walkability, community infrastructure, and relative value compared to Westside pricing make this a neighborhood worth understanding.
+
+---
+
+## Smorgasburg LA — ROW DTLA
+
+**Sunday | 10 AM – 4 PM | ROW DTLA, Downtown Los Angeles**
+
+Smorgasburg is a weekly institution at this point — dozens of food vendors, new concepts every season, and one of the best people-watching spots in the city. This Sunday's lineup includes Terrible Burger, Franzl's Franks (Viennese street food), Mamani Pizza (Neapolitan meets Persian), and Stick Talk plant-based corn dogs.
+
+ROW DTLA itself is worth exploring as a real estate data point — the adaptive reuse of industrial space into a mixed-use destination is exactly the kind of development that signals long-term neighborhood investment.
+
+---
+
+## How Neighborhoods and Weekends Connect
+
+I've spent 20+ years in hospitality and real estate in this city, and the neighborhoods that host the best weekend energy are almost always the ones where values hold strongest over time. Events like these aren't just fun — they're indicators of community investment, foot traffic, and the kind of local pride that makes neighborhoods worth buying into.
+
+If any of these neighborhoods are on your radar — Pasadena, Downtown LA, East LA, Leimert Park — let's talk. I'm Johnny Leou, DRE #02064780, and I know these markets well.
+
+Have a great weekend, LA.
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1200&q=80",
+    category: "Lifestyle",
+    tags: ["Los Angeles Events", "Weekend Guide", "Johnny Leou", "Jackalope", "Fiesta Broadway", "Smorgasburg", "Leimert Park", "Old Pasadena", "Downtown LA", "Things To Do LA"],
+    publishedAt: "2026-04-26",
+    readTime: 5,
+  },
 ];
 
 export const getBlogPostBySlug = (slug: string) =>
