@@ -8,11 +8,11 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "There's a new player in LA's food scene, and it's already becoming a neighborhood favorite. Here's why you need to visit El Moro in your favorite LA neighborhood.",
     content: `
-If you've been looking for an excuse to explore your favorite Los Angeles neighborhood more deeply, El Moro just gave you one. This isn't just another churro shop — it's a celebration of authentic Mexican street food culture, and it's quickly becoming one of LA's most talked-about food destinations.
+If you've been looking for an excuse to explore your favorite Los Angeles neighborhood more deeply, El Moro just gave you one. This isn't just another churro shop - it's a celebration of authentic Mexican street food culture, and it's quickly becoming one of LA's most talked-about food destinations.
 
 ## What Makes El Moro Different
 
-Founded on the principle of bringing authentic Mexican churro traditions to Los Angeles, El Moro delivers exactly what their name promises: that famous, indulgent, cinnamon-sugar-coated goodness that's become iconic in Mexico City and beyond. But it's not just churros — their menu reflects a deep respect for Mexican culinary traditions.
+Founded on the principle of bringing authentic Mexican churro traditions to Los Angeles, El Moro delivers exactly what their name promises: that famous, indulgent, cinnamon-sugar-coated goodness that's become iconic in Mexico City and beyond. But it's not just churros - their menu reflects a deep respect for Mexican culinary traditions.
 
 ## The Full Experience
 
@@ -26,7 +26,7 @@ One of the best reasons to visit El Moro is the opportunity it creates to spend 
 
 Food is one of the primary drivers of neighborhood character and appeal. When quality restaurants and food destinations open in a neighborhood, they signal investment, community confidence, and the kind of vitality that makes people want to buy homes there. El Moro represents exactly that kind of positive neighborhood indicator.
 
-If you're considering buying in Los Angeles, the availability and quality of local food options should definitely factor into your decision. Great neighborhoods attract great restaurants — and El Moro is proof that LA's neighborhoods continue to evolve and improve.
+If you're considering buying in Los Angeles, the availability and quality of local food options should definitely factor into your decision. Great neighborhoods attract great restaurants - and El Moro is proof that LA's neighborhoods continue to evolve and improve.
 
 Head to El Moro, grab some churros, and fall in love with your neighborhood all over again.
     `,
@@ -46,15 +46,15 @@ Head to El Moro, grab some churros, and fall in love with your neighborhood all 
     excerpt:
       "From Silver Lake to Boyle Heights, discover which Los Angeles neighborhoods offer the best value, community, and upside for first-time homebuyers right now.",
     content: `
-Buying your first home in Los Angeles can feel overwhelming — prices are high, competition is fierce, and every neighborhood has its own personality. But with the right guidance, there are still excellent opportunities for first-time buyers who know where to look.
+Buying your first home in Los Angeles can feel overwhelming - prices are high, competition is fierce, and every neighborhood has its own personality. But with the right guidance, there are still excellent opportunities for first-time buyers who know where to look.
 
 ## Silver Lake & Echo Park
 
-These two neighboring communities have become some of the most sought-after in all of LA for good reason. Tree-lined streets, walkable coffee shops and restaurants, proximity to Griffith Park, and a genuine sense of community make both neighborhoods deeply liveable. For buyers with budgets in the $900K–$1.4M range, there are still opportunities — particularly for condos, townhomes, and smaller single-family homes.
+These two neighboring communities have become some of the most sought-after in all of LA for good reason. Tree-lined streets, walkable coffee shops and restaurants, proximity to Griffith Park, and a genuine sense of community make both neighborhoods deeply liveable. For buyers with budgets in the $900K–$1.4M range, there are still opportunities - particularly for condos, townhomes, and smaller single-family homes.
 
 ## Boyle Heights
 
-One of LA's most underappreciated neighborhoods, Boyle Heights offers authentic community, incredible food, and genuine walkability — all at prices that still feel attainable by LA standards. Its proximity to Downtown LA and easy freeway access make it a strong long-term bet for buyers who want to be close to the city's core.
+One of LA's most underappreciated neighborhoods, Boyle Heights offers authentic community, incredible food, and genuine walkability - all at prices that still feel attainable by LA standards. Its proximity to Downtown LA and easy freeway access make it a strong long-term bet for buyers who want to be close to the city's core.
 
 ## El Sereno & Highland Park
 
@@ -62,7 +62,7 @@ Both communities have seen significant appreciation but still offer relative val
 
 ## Larchmont Village
 
-For buyers who prioritize walkability and a village feel within central LA, Larchmont remains one of the best values in the city. The neighborhood's tight community, excellent schools, and proximity to everything make it consistently desirable — and its bungalows often hold value well even in softer markets.
+For buyers who prioritize walkability and a village feel within central LA, Larchmont remains one of the best values in the city. The neighborhood's tight community, excellent schools, and proximity to everything make it consistently desirable - and its bungalows often hold value well even in softer markets.
 
 ## Orange County: Tustin & Irvine
 
@@ -84,13 +84,13 @@ For buyers open to Orange County, both Tustin and Irvine offer exceptional value
     excerpt:
       "Two of LA's most beloved neighborhoods sit side by side, but they have distinct personalities. Here's how to decide which is your better fit.",
     content: `
-Silver Lake and Echo Park are often mentioned in the same breath — both are hip, walkable, artsy communities on the east side of central LA. But spend time in each and you'll notice real differences in vibe, price, and the kind of life they offer.
+Silver Lake and Echo Park are often mentioned in the same breath - both are hip, walkable, artsy communities on the east side of central LA. But spend time in each and you'll notice real differences in vibe, price, and the kind of life they offer.
 
 ## The Basics
 
 Silver Lake sits just north of Echo Park and tends to command slightly higher prices. Its streets wind up into hillside homes with views, and the neighborhood has a strong identity around the Reservoir, the Sunset Junction corridor, and a thriving restaurant and bar scene.
 
-Echo Park is a bit grittier and more diverse. It wraps around Echo Park Lake and has a more mixed character — longtime Latino families, artists, musicians, and younger buyers priced out of Silver Lake all coexist here. Prices are generally 10–20% lower than comparable Silver Lake homes.
+Echo Park is a bit grittier and more diverse. It wraps around Echo Park Lake and has a more mixed character - longtime Latino families, artists, musicians, and younger buyers priced out of Silver Lake all coexist here. Prices are generally 10–20% lower than comparable Silver Lake homes.
 
 ## Lifestyle Differences
 
@@ -104,7 +104,7 @@ Both neighborhoods have appreciated significantly over the past decade. Silver L
 
 ## My Take
 
-If you're a family or want a slightly more settled feel, Silver Lake is worth the premium. If you're a first-time buyer trying to maximize space and upside for your dollar, Echo Park deserves a serious look. I've helped buyers find great homes in both — happy to walk you through current options.
+If you're a family or want a slightly more settled feel, Silver Lake is worth the premium. If you're a first-time buyer trying to maximize space and upside for your dollar, Echo Park deserves a serious look. I've helped buyers find great homes in both - happy to walk you through current options.
     `,
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
@@ -120,13 +120,13 @@ If you're a family or want a slightly more settled feel, Silver Lake is worth th
     slug: "how-to-buy-first-home-los-angeles",
     title: "How to Buy Your First Home in Los Angeles: A Step-by-Step Guide",
     excerpt:
-      "The LA market is competitive, but first-time buyers can win. Here's the complete process, from getting pre-approved to closing — demystified.",
+      "The LA market is competitive, but first-time buyers can win. Here's the complete process, from getting pre-approved to closing - demystified.",
     content: `
-Buying a home in Los Angeles for the first time is one of the biggest decisions of your life. The market is competitive and prices are high — but it's absolutely doable, especially if you go in prepared.
+Buying a home in Los Angeles for the first time is one of the biggest decisions of your life. The market is competitive and prices are high - but it's absolutely doable, especially if you go in prepared.
 
 ## Step 1: Get Pre-Approved (Not Just Pre-Qualified)
 
-In LA's competitive market, a pre-approval letter from a reputable lender is essential before you make any offers. Pre-approval means the lender has verified your income, assets, and credit — not just given you a ballpark estimate. Sellers take pre-approved buyers much more seriously.
+In LA's competitive market, a pre-approval letter from a reputable lender is essential before you make any offers. Pre-approval means the lender has verified your income, assets, and credit - not just given you a ballpark estimate. Sellers take pre-approved buyers much more seriously.
 
 ## Step 2: Define Your Non-Negotiables
 
@@ -134,7 +134,7 @@ With LA's diverse neighborhoods, it's easy to get overwhelmed. Before you start 
 
 ## Step 3: Work with an Agent Who Knows Your Target Neighborhoods
 
-LA is a city of micro-markets. Prices, competition levels, and what to watch out for vary enormously between Silver Lake, Boyle Heights, Irvine, and Beverly Hills. You need an agent who knows these neighborhoods deeply — not just the general city.
+LA is a city of micro-markets. Prices, competition levels, and what to watch out for vary enormously between Silver Lake, Boyle Heights, Irvine, and Beverly Hills. You need an agent who knows these neighborhoods deeply - not just the general city.
 
 ## Step 4: Make Competitive Offers
 
@@ -142,7 +142,7 @@ In most LA neighborhoods, quality homes receive multiple offers. That doesn't me
 
 ## Step 5: Conduct Thorough Inspections
 
-Always do a full inspection, even in competitive situations. Los Angeles homes — especially older ones in Silver Lake, Echo Park, and Los Feliz — can have significant deferred maintenance, foundation issues related to hillside construction, or outdated electrical and plumbing.
+Always do a full inspection, even in competitive situations. Los Angeles homes - especially older ones in Silver Lake, Echo Park, and Los Feliz - can have significant deferred maintenance, foundation issues related to hillside construction, or outdated electrical and plumbing.
 
 ## Step 6: Close with Confidence
 
@@ -168,7 +168,7 @@ If you're building a Southern California real estate portfolio, at some point yo
 
 ## Los Angeles: Higher Upside, More Complexity
 
-Los Angeles offers incredible diversity of investment options — from multi-unit buildings in Boyle Heights to small mixed-use properties in Silver Lake to single-family rentals in Los Feliz. Entry prices are high, but rental demand is enormous and vacancy rates in desirable neighborhoods remain extremely low.
+Los Angeles offers incredible diversity of investment options - from multi-unit buildings in Boyle Heights to small mixed-use properties in Silver Lake to single-family rentals in Los Feliz. Entry prices are high, but rental demand is enormous and vacancy rates in desirable neighborhoods remain extremely low.
 
 The complexity is real, though. LA has some of the country's most tenant-protective rent control laws, and navigating them requires careful preparation and ideally an experienced property management partner.
 
@@ -176,13 +176,13 @@ The complexity is real, though. LA has some of the country's most tenant-protect
 
 Orange County tends to attract higher-income tenants, particularly in Irvine and Tustin, where proximity to the Irvine Company's employment ecosystem creates consistent rental demand from tech and finance professionals. Appreciation is steady if less dramatic than some LA micro-markets.
 
-OC also has fewer regulatory complexities around rent control — most OC cities fall under the state's AB 1482 framework rather than stricter local ordinances.
+OC also has fewer regulatory complexities around rent control - most OC cities fall under the state's AB 1482 framework rather than stricter local ordinances.
 
 ## My Recommendation
 
 For investors who want maximum long-term appreciation potential and have time to manage complexity, LA's east side neighborhoods still offer compelling opportunities. For investors who prioritize stability, cash flow predictability, and tenant quality, Irvine and Tustin are excellent choices.
 
-The best strategy often combines both: a small multi-unit in an appreciating LA neighborhood alongside a single-family rental in Irvine. I've helped investors build exactly this kind of portfolio — reach out if you want to talk strategy.
+The best strategy often combines both: a small multi-unit in an appreciating LA neighborhood alongside a single-family rental in Irvine. I've helped investors build exactly this kind of portfolio - reach out if you want to talk strategy.
     `,
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
@@ -218,7 +218,7 @@ Both neighborhoods have strong LGBTQ+ presences and welcoming, progressive commu
 
 Often overlooked, Long Beach has a thriving LGBTQ+ community centered around the Belmont Shore and East Village neighborhoods. Home prices are significantly more attainable than WeHo or Silver Lake, and the city's commitment to LGBTQ+ inclusion is deep and genuine.
 
-As an agent who proudly serves the LGBTQ+ community, I understand what you're looking for in a neighborhood — not just the property itself. Let's find the right fit together.
+As an agent who proudly serves the LGBTQ+ community, I understand what you're looking for in a neighborhood - not just the property itself. Let's find the right fit together.
     `,
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
@@ -240,13 +240,13 @@ Selling a home in Los Angeles is both an art and a science. The market rewards w
 
 ## Start with Preparation, Not Price
 
-The most common mistake LA sellers make is thinking about the list price before thinking about preparation. Buyers in this market are sophisticated and have high expectations. Homes that show beautifully — decluttered, freshly painted, professionally staged — consistently outperform those that don't.
+The most common mistake LA sellers make is thinking about the list price before thinking about preparation. Buyers in this market are sophisticated and have high expectations. Homes that show beautifully - decluttered, freshly painted, professionally staged - consistently outperform those that don't.
 
 A pre-sale inspection is also worth strong consideration. Knowing your home's condition upfront allows you to make strategic decisions about what to fix (and what to disclose), rather than being blindsided during buyer due diligence.
 
 ## Price to the Market
 
-The second biggest mistake is overpricing. In LA's social media-driven market, a listing that sits generates stigma. Buyers assume something is wrong. The right strategy — particularly for desirable LA neighborhoods — is often to price at or slightly below market, generate a large pool of showings in the first weekend, and let competition drive the price up.
+The second biggest mistake is overpricing. In LA's social media-driven market, a listing that sits generates stigma. Buyers assume something is wrong. The right strategy - particularly for desirable LA neighborhoods - is often to price at or slightly below market, generate a large pool of showings in the first weekend, and let competition drive the price up.
 
 ## The First Weekend Is Everything
 
@@ -272,25 +272,25 @@ Ready to talk about selling? I'll give you an honest assessment of what your hom
     slug: "eastside-italian-deli-chinatown-los-feliz",
     title: "Eastside Italian Deli: Nearly a Century of Authentic Los Angeles",
     excerpt:
-      "Since 1929, Eastside Italian Deli has been the beating heart of Chinatown's food culture. This isn't just old-school Italian — it's a living piece of LA history that brings neighborhoods together.",
+      "Since 1929, Eastside Italian Deli has been the beating heart of Chinatown's food culture. This isn't just old-school Italian - it's a living piece of LA history that brings neighborhoods together.",
     content: `
 If you haven't experienced Eastside Italian Deli yet, you're missing out on one of Los Angeles's best-kept neighborhood secrets. For nearly a century, this iconic deli has been serving the same legendary sandwiches, maintaining the same commitment to quality, and embodying the spirit of community that defines LA's East side.
 
 ## A Century of Tradition
 
-Eastside Italian Deli opened its doors in 1929. Think about that for a moment — while neighborhoods around it have transformed completely, this deli has remained a constant. The Angiuli family bought the business in 1959 and has been running it ever since, preserving recipes, techniques, and a culture of care that you simply can't fake or replicate.
+Eastside Italian Deli opened its doors in 1929. Think about that for a moment - while neighborhoods around it have transformed completely, this deli has remained a constant. The Angiuli family bought the business in 1959 and has been running it ever since, preserving recipes, techniques, and a culture of care that you simply can't fake or replicate.
 
 This is generational Los Angeles. It's the kind of place where your parents brought you, and where you bring your own kids.
 
 ## What Makes the Sandwiches Special
 
-Walk into Eastside Italian Deli and the first thing that hits you is authenticity. These aren't Instagram-friendly minimalist sandwiches — these are old-school Italian deli sandwiches made with the same recipes and respect for ingredients that have worked for nearly 100 years.
+Walk into Eastside Italian Deli and the first thing that hits you is authenticity. These aren't Instagram-friendly minimalist sandwiches - these are old-school Italian deli sandwiches made with the same recipes and respect for ingredients that have worked for nearly 100 years.
 
-The #7 — hot roast beef and pastrami — is legendary for good reason. But the real magic is in the philosophy: quality meat, quality bread, quality proportions. No shortcuts. No trends. Just a sandwich that tastes like it was made for you specifically, the way it was made for thousands of people before you.
+The #7 - hot roast beef and pastrami - is legendary for good reason. But the real magic is in the philosophy: quality meat, quality bread, quality proportions. No shortcuts. No trends. Just a sandwich that tastes like it was made for you specifically, the way it was made for thousands of people before you.
 
 ## Why This Matters for Your Neighborhood
 
-Chinatown and the surrounding East LA neighborhoods have changed dramatically over the decades. Development, gentrification, demographic shifts — all of it has reshaped these communities. Yet Eastside Italian Deli has remained, a living connection to the neighborhood's history and a gathering place that bridges generations.
+Chinatown and the surrounding East LA neighborhoods have changed dramatically over the decades. Development, gentrification, demographic shifts - all of it has reshaped these communities. Yet Eastside Italian Deli has remained, a living connection to the neighborhood's history and a gathering place that bridges generations.
 
 Places like this are anchors. They create continuity in communities that are constantly changing. They give people a reason to stay rooted in a neighborhood, to pass traditions down, to feel like they belong to something larger than themselves.
 
@@ -312,27 +312,27 @@ Come for the sandwich. Stay for the story. Leave knowing you've experienced a pi
   {
     id: "8",
     slug: "bengara-japanese-restaurant-arts-district-los-angeles",
-    title: "Bengara Is Opening in the Arts District — And I Can't Wait",
+    title: "Bengara Is Opening in the Arts District - And I Can't Wait",
     excerpt:
-      "A new Japanese restaurant from chefs Tyler Burges and Phil Mireles is coming to LA's Arts District. As someone who helped open Angler, I know what it takes to build something great — and these two have it.",
+      "A new Japanese restaurant from chefs Tyler Burges and Phil Mireles is coming to LA's Arts District. As someone who helped open Angler, I know what it takes to build something great - and these two have it.",
     content: `
-The Arts District has become one of the most exciting dining corridors in all of Los Angeles, and it's about to get even better. Bengara — a new Japanese restaurant from chefs Tyler Burges and Phil Mireles — is opening its doors, and it has all the hallmarks of something truly special.
+The Arts District has become one of the most exciting dining corridors in all of Los Angeles, and it's about to get even better. Bengara - a new Japanese restaurant from chefs Tyler Burges and Phil Mireles - is opening its doors, and it has all the hallmarks of something truly special.
 
 ## A Personal Connection to This World
 
-Before I found my calling in real estate, I spent over two decades in hospitality. I was part of the team that opened Angler, the acclaimed seafood restaurant that brought a new level of ambition and craft to the LA dining scene. That experience gave me a deep appreciation for what it takes to build a restaurant that earns its reputation — the late nights, the relentless attention to detail, the genuine commitment to the guest experience.
+Before I found my calling in real estate, I spent over two decades in hospitality. I was part of the team that opened Angler, the acclaimed seafood restaurant that brought a new level of ambition and craft to the LA dining scene. That experience gave me a deep appreciation for what it takes to build a restaurant that earns its reputation - the late nights, the relentless attention to detail, the genuine commitment to the guest experience.
 
 So when I hear about a serious new restaurant opening in a neighborhood I care about, I pay attention differently than most people do.
 
 ## What to Expect from Bengara
 
-Chefs Tyler Burges and Phil Mireles bring serious pedigrees to this project. The name Bengara — a traditional Japanese term for the deep red iron oxide pigment used in lacquerwork and architecture — hints at the depth of intention behind this concept. This isn't a trend-chasing Japanese fusion play. It feels rooted, considered, and executed by people who actually understand what they're doing.
+Chefs Tyler Burges and Phil Mireles bring serious pedigrees to this project. The name Bengara - a traditional Japanese term for the deep red iron oxide pigment used in lacquerwork and architecture - hints at the depth of intention behind this concept. This isn't a trend-chasing Japanese fusion play. It feels rooted, considered, and executed by people who actually understand what they're doing.
 
-The Arts District location makes complete sense. The neighborhood's industrial bones and creative energy attract the kind of diner who appreciates craft and story — exactly the audience a restaurant like Bengara deserves.
+The Arts District location makes complete sense. The neighborhood's industrial bones and creative energy attract the kind of diner who appreciates craft and story - exactly the audience a restaurant like Bengara deserves.
 
 ## Why This Matters Beyond the Food
 
-As a real estate agent focused on LA's Eastside neighborhoods, I watch restaurants like Bengara closely. Not because I'm a food critic — I'm not — but because great restaurants signal something real about a neighborhood.
+As a real estate agent focused on LA's Eastside neighborhoods, I watch restaurants like Bengara closely. Not because I'm a food critic - I'm not - but because great restaurants signal something real about a neighborhood.
 
 When serious culinary talent chooses to plant a flag in a specific block, they're making a bet on that neighborhood's future. Bengara choosing the Arts District is a vote of confidence in a corridor that's already home to some of LA's best creative energy.
 
@@ -358,7 +358,7 @@ I'll be there on opening night. Come say hello if you see me.
     slug: "johnny-leou-proof-over-promise-los-angeles-real-estate-results",
     title: "Proof Over Promise: Real Results from a Los Angeles Real Estate Agent Who Delivers",
     excerpt:
-      "Johnny Leou doesn't just talk about getting top dollar — he proves it. 10 offers generated. $120K over asking. A condo sold in weeks after sitting on the market a year. Here's the receipts.",
+      "Johnny Leou doesn't just talk about getting top dollar - he proves it. 10 offers generated. $120K over asking. A condo sold in weeks after sitting on the market a year. Here's the receipts.",
     content: `
 There's a philosophy in business I deeply believe in: **proof over promise**. Anyone can tell you they're the best agent in Los Angeles. Very few can back it up with specific results, specific neighborhoods, and specific numbers. I can.
 
@@ -368,7 +368,7 @@ This isn't a pitch. It's a record.
 
 ## 10 Offers. $120,000 Over Asking Price.
 
-One of my seller clients came to me wanting to maximize what the market would give them. My job wasn't just to list the property — it was to engineer the kind of demand that forces buyers to compete.
+One of my seller clients came to me wanting to maximize what the market would give them. My job wasn't just to list the property - it was to engineer the kind of demand that forces buyers to compete.
 
 We did that. **10 offers came in.** After careful review and strategic negotiation, we closed **$120,000 over the asking price**.
 
@@ -380,7 +380,7 @@ If you're a seller in Los Angeles, that's the standard I hold myself to.
 
 ## Boyle Heights: Multiple Offers, $30,000 Over Asking
 
-Boyle Heights is one of the most competitive markets in all of Los Angeles — buyers know it, sellers know it, and agents who don't know what they're doing get left behind.
+Boyle Heights is one of the most competitive markets in all of Los Angeles - buyers know it, sellers know it, and agents who don't know what they're doing get left behind.
 
 For another seller client in Boyle Heights, **we generated multiple offers** and closed **$30,000 above asking price**. In a neighborhood where every dollar matters and buyers are savvy, that kind of outcome requires deep local knowledge, a compelling listing strategy, and the ability to run a clean, competitive offer process.
 
@@ -390,17 +390,17 @@ Boyle Heights is a market I know intimately. I understand what buyers want, what
 
 ## Navigating the MIPA Program: $115,000 Down Payment Assistance in North Hollywood
 
-Not every win shows up in a headline number. Some of the most meaningful results I've delivered are for buyers — and navigating complexity is where I separate myself from agents who only know how to write offers.
+Not every win shows up in a headline number. Some of the most meaningful results I've delivered are for buyers - and navigating complexity is where I separate myself from agents who only know how to write offers.
 
-For one buyer client in North Hollywood, I successfully guided them through the **MIPA (Mortgage Insurance Premium Assistance) program** — securing **$115,000 in down payment assistance**. This is a resource with strict qualification requirements, extensive documentation demands, and timeline constraints that most agents aren't equipped to handle.
+For one buyer client in North Hollywood, I successfully guided them through the **MIPA (Mortgage Insurance Premium Assistance) program** - securing **$115,000 in down payment assistance**. This is a resource with strict qualification requirements, extensive documentation demands, and timeline constraints that most agents aren't equipped to handle.
 
-We closed **$14,000 below asking price** with a **$5,000 credit to the buyer** — all within a **60-day escrow**. For a first-time buyer unlocking $115K in assistance, that outcome can genuinely change the trajectory of their financial life.
+We closed **$14,000 below asking price** with a **$5,000 credit to the buyer** - all within a **60-day escrow**. For a first-time buyer unlocking $115K in assistance, that outcome can genuinely change the trajectory of their financial life.
 
-If you're a buyer navigating down payment assistance programs, income-restricted financing, or complex loan structures in the Los Angeles or Orange County market — this is exactly the kind of work I do.
+If you're a buyer navigating down payment assistance programs, income-restricted financing, or complex loan structures in the Los Angeles or Orange County market - this is exactly the kind of work I do.
 
 ---
 
-## The Condo That Sat for Over a Year — Sold in Weeks
+## The Condo That Sat for Over a Year - Sold in Weeks
 
 This one is personal to me. A seller in Downtown Los Angeles had been trying to sell their condo for **over a year**. Months of showings, price cuts, frustration, and uncertainty. By the time they came to me, they were ready to give up.
 
@@ -408,17 +408,17 @@ We didn't give up.
 
 We reassessed the positioning, refreshed the presentation, and relaunched with a clear strategy. **The condo sold in a matter of weeks.**
 
-Sometimes the issue isn't the property — it's the approach. Fresh eyes, honest assessment, and a willingness to do the work differently can turn a stale listing into a closed sale. That's what happened here, and it's what I'm committed to doing for every client who puts their trust in me.
+Sometimes the issue isn't the property - it's the approach. Fresh eyes, honest assessment, and a willingness to do the work differently can turn a stale listing into a closed sale. That's what happened here, and it's what I'm committed to doing for every client who puts their trust in me.
 
 ---
 
 ## What Proof Over Promise Means for You
 
-Whether you're buying or selling in Los Angeles — Silver Lake, North Hollywood, Downtown, the Eastside, Orange County, or anywhere in between — you deserve an agent who can back up their claims with real outcomes.
+Whether you're buying or selling in Los Angeles - Silver Lake, North Hollywood, Downtown, the Eastside, Orange County, or anywhere in between - you deserve an agent who can back up their claims with real outcomes.
 
 **Johnny Leou | DRE #02064780 | eXp Realty of Greater Los Angeles**
 
-Los Angeles real estate is competitive, nuanced, and constantly evolving. The right agent makes a measurable difference. These results aren't cherry-picked — they're representative of how I approach every transaction: with preparation, strategy, and an unwavering commitment to my clients' outcomes.
+Los Angeles real estate is competitive, nuanced, and constantly evolving. The right agent makes a measurable difference. These results aren't cherry-picked - they're representative of how I approach every transaction: with preparation, strategy, and an unwavering commitment to my clients' outcomes.
 
 Ready to talk about your goals? Let's connect.
     `,
@@ -436,69 +436,69 @@ Ready to talk about your goals? Let's connect.
     slug: "los-angeles-weekend-events-april-26-27-2026",
     title: "What to Do in Los Angeles This Weekend: April 26–27, 2026",
     excerpt:
-      "From a massive artisan market in Old Pasadena to Fiesta Broadway downtown and a packed Smorgasburg lineup — here's your Johnny Leou-approved guide to LA this weekend.",
+      "From a massive artisan market in Old Pasadena to Fiesta Broadway downtown and a packed Smorgasburg lineup - here's your Johnny Leou-approved guide to LA this weekend.",
     content: `
-Los Angeles doesn't slow down on weekends — and this one is stacked. Whether you want art, food, live music, or just a reason to explore a new neighborhood, there's something worth getting off the couch for this Saturday and Sunday.
+Los Angeles doesn't slow down on weekends - and this one is stacked. Whether you want art, food, live music, or just a reason to explore a new neighborhood, there's something worth getting off the couch for this Saturday and Sunday.
 
 Here's what I'm watching this weekend.
 
 ---
 
-## Jackalope Artisan Marketplace — Old Pasadena
+## Jackalope Artisan Marketplace - Old Pasadena
 
 **Saturday–Sunday | 10 AM – 5 PM | Central Park, Old Pasadena | Free**
 
 Jackalope is back for spring and it's one of the better free weekend events in the LA area. Over 200 independent vendors selling handmade goods, jewelry, clothing, art, home decor, and food. Live music throughout both days and genuinely family-friendly.
 
-Old Pasadena is a great excuse to walk the neighborhood before or after — Colorado Blvd has some excellent dining and the area's architecture is worth your time. For buyers who've never spent a weekend in Pasadena, this is a low-stakes way to feel out whether the neighborhood fits your lifestyle.
+Old Pasadena is a great excuse to walk the neighborhood before or after - Colorado Blvd has some excellent dining and the area's architecture is worth your time. For buyers who've never spent a weekend in Pasadena, this is a low-stakes way to feel out whether the neighborhood fits your lifestyle.
 
 ---
 
-## Brewery Artwalk — Lincoln Heights / East Los Angeles
+## Brewery Artwalk - Lincoln Heights / East Los Angeles
 
 **Saturday–Sunday | Open Studios | The Brewery Arts Complex**
 
-Twice a year, the Brewery opens its private artist studios to the public. Over 100 working artists across a 16-acre former brewery campus — you can walk right into their workspaces, see work in progress, and buy directly from the source.
+Twice a year, the Brewery opens its private artist studios to the public. Over 100 working artists across a 16-acre former brewery campus - you can walk right into their workspaces, see work in progress, and buy directly from the source.
 
 The Brewery Arts Complex is one of the largest artist live-work communities in the world, and it sits in a part of East LA that's increasingly on buyers' radars. If you're curious about Lincoln Heights and the surrounding neighborhoods, this weekend is a perfect excuse to explore.
 
 ---
 
-## Fiesta Broadway — Downtown Los Angeles
+## Fiesta Broadway - Downtown Los Angeles
 
 **Sunday | 11 AM | 1st St & Broadway, DTLA**
 
 Fiesta Broadway takes over Downtown LA on Sunday with live music, food, dancing, and a genuine celebration of Latin culture and community. It's one of the city's longest-running spring events and a reminder of why Downtown LA's cultural calendar is second to none.
 
-DTLA has been one of the most interesting markets to watch for buyers and investors — this is a neighborhood with real upside, and events like Fiesta Broadway are part of what makes it liveable.
+DTLA has been one of the most interesting markets to watch for buyers and investors - this is a neighborhood with real upside, and events like Fiesta Broadway are part of what makes it liveable.
 
 ---
 
-## Crenshaw Night Market — Leimert Park
+## Crenshaw Night Market - Leimert Park
 
 **Saturday | 4–10 PM | Leimert Park | Free**
 
-The Crenshaw Night Market returns to Leimert Park on Saturday evening — local vendors, small businesses, food, music, and the kind of community energy that makes this neighborhood special. It's free to attend and runs until 10 PM, which makes it a perfect Saturday night option.
+The Crenshaw Night Market returns to Leimert Park on Saturday evening - local vendors, small businesses, food, music, and the kind of community energy that makes this neighborhood special. It's free to attend and runs until 10 PM, which makes it a perfect Saturday night option.
 
 Leimert Park and the broader Crenshaw corridor have been generating serious buyer interest. Walkability, community infrastructure, and relative value compared to Westside pricing make this a neighborhood worth understanding.
 
 ---
 
-## Smorgasburg LA — ROW DTLA
+## Smorgasburg LA - ROW DTLA
 
 **Sunday | 10 AM – 4 PM | ROW DTLA, Downtown Los Angeles**
 
-Smorgasburg is a weekly institution at this point — dozens of food vendors, new concepts every season, and one of the best people-watching spots in the city. This Sunday's lineup includes Terrible Burger, Franzl's Franks (Viennese street food), Mamani Pizza (Neapolitan meets Persian), and Stick Talk plant-based corn dogs.
+Smorgasburg is a weekly institution at this point - dozens of food vendors, new concepts every season, and one of the best people-watching spots in the city. This Sunday's lineup includes Terrible Burger, Franzl's Franks (Viennese street food), Mamani Pizza (Neapolitan meets Persian), and Stick Talk plant-based corn dogs.
 
-ROW DTLA itself is worth exploring as a real estate data point — the adaptive reuse of industrial space into a mixed-use destination is exactly the kind of development that signals long-term neighborhood investment.
+ROW DTLA itself is worth exploring as a real estate data point - the adaptive reuse of industrial space into a mixed-use destination is exactly the kind of development that signals long-term neighborhood investment.
 
 ---
 
 ## How Neighborhoods and Weekends Connect
 
-I've spent 20+ years in hospitality and real estate in this city, and the neighborhoods that host the best weekend energy are almost always the ones where values hold strongest over time. Events like these aren't just fun — they're indicators of community investment, foot traffic, and the kind of local pride that makes neighborhoods worth buying into.
+I've spent 20+ years in hospitality and real estate in this city, and the neighborhoods that host the best weekend energy are almost always the ones where values hold strongest over time. Events like these aren't just fun - they're indicators of community investment, foot traffic, and the kind of local pride that makes neighborhoods worth buying into.
 
-If any of these neighborhoods are on your radar — Pasadena, Downtown LA, East LA, Leimert Park — let's talk. I'm Johnny Leou, DRE #02064780, and I know these markets well.
+If any of these neighborhoods are on your radar - Pasadena, Downtown LA, East LA, Leimert Park - let's talk. I'm Johnny Leou, DRE #02064780, and I know these markets well.
 
 Have a great weekend, LA.
     `,
@@ -514,13 +514,13 @@ Have a great weekend, LA.
   {
     id: "11",
     slug: "square-enix-cafe-little-tokyo-los-angeles-2026",
-    title: "A Square Enix Café Is Coming to Little Tokyo — And I've Been Waiting For This Since Final Fantasy",
+    title: "A Square Enix Café Is Coming to Little Tokyo - And I've Been Waiting For This Since Final Fantasy",
     excerpt:
       "The first permanent Square Enix Café in the U.S. is opening at 316 E 1st Street in Little Tokyo this spring. As someone who grew up on Chrono Cross and Final Fantasy, this one hits different.",
     content: `
-I'll be honest — this news stopped me mid-scroll.
+I'll be honest - this news stopped me mid-scroll.
 
-Square Enix just announced it's opening its **first permanent, full-menu café in the United States**, and it's coming to **316 E 1st Street in Little Tokyo, Los Angeles**. Spring 2026. The same company behind Final Fantasy, Chrono Trigger, Chrono Cross, Kingdom Hearts, Dragon Quest — they're planting their first real American flag right here in our city.
+Square Enix just announced it's opening its **first permanent, full-menu café in the United States**, and it's coming to **316 E 1st Street in Little Tokyo, Los Angeles**. Spring 2026. The same company behind Final Fantasy, Chrono Trigger, Chrono Cross, Kingdom Hearts, Dragon Quest - they're planting their first real American flag right here in our city.
 
 For a lifelong fan, this is a big deal.
 
@@ -528,17 +528,17 @@ For a lifelong fan, this is a big deal.
 
 ## A Little Personal History
 
-I've been a Square Enix fan since the days when you had to blow into the cartridge to get it to load. **Chrono Cross** was one of those games that genuinely rewired how I thought about storytelling — the alternate timelines, the music, the way it made you feel the weight of every decision. **Final Fantasy** was a whole world you could disappear into. These weren't just games. They were cultural moments.
+I've been a Square Enix fan since the days when you had to blow into the cartridge to get it to load. **Chrono Cross** was one of those games that genuinely rewired how I thought about storytelling - the alternate timelines, the music, the way it made you feel the weight of every decision. **Final Fantasy** was a whole world you could disappear into. These weren't just games. They were cultural moments.
 
-So when I see that Square Enix is choosing Los Angeles — specifically **Little Tokyo** — as the home for its first permanent U.S. café, it means something beyond just a cool restaurant opening.
+So when I see that Square Enix is choosing Los Angeles - specifically **Little Tokyo** - as the home for its first permanent U.S. café, it means something beyond just a cool restaurant opening.
 
 ---
 
 ## What We Know About the Café
 
-The café and shop will be located at **316 E 1st Street in Little Tokyo**, operated by J-Pop Culture Café Inc. It will be the first Square Enix location in the U.S. to offer a **full, authentic themed menu** — food and drinks inspired by Square Enix's game franchises. An adjoining shop will carry official merchandise.
+The café and shop will be located at **316 E 1st Street in Little Tokyo**, operated by J-Pop Culture Café Inc. It will be the first Square Enix location in the U.S. to offer a **full, authentic themed menu** - food and drinks inspired by Square Enix's game franchises. An adjoining shop will carry official merchandise.
 
-A second location is opening simultaneously in **Shinjuku, Tokyo**. The fact that LA was chosen as the U.S. debut — not New York, not Chicago — says something real about how the world sees our city's cultural identity.
+A second location is opening simultaneously in **Shinjuku, Tokyo**. The fact that LA was chosen as the U.S. debut - not New York, not Chicago - says something real about how the world sees our city's cultural identity.
 
 Specific opening dates and the full menu are still being announced. Follow Square Enix's official channels for updates.
 
@@ -548,7 +548,7 @@ Specific opening dates and the full menu are still being announced. Follow Squar
 
 Little Tokyo has been one of the most culturally significant neighborhoods in all of Los Angeles for over a century. As Japanese American culture, anime, gaming, and Japanese cuisine have gone from niche to mainstream in American life, Little Tokyo has evolved from a historic enclave into a genuine destination.
 
-Placing the Square Enix Café here isn't just practical — it's intentional. The neighborhood already draws fans of Japanese culture from across Southern California. Adding a permanent, full-service Square Enix experience will make it an even bigger pilgrimage destination.
+Placing the Square Enix Café here isn't just practical - it's intentional. The neighborhood already draws fans of Japanese culture from across Southern California. Adding a permanent, full-service Square Enix experience will make it an even bigger pilgrimage destination.
 
 From a real estate perspective, Little Tokyo and the surrounding Downtown LA corridor continue to attract buyers and investors who understand that cultural anchors drive long-term neighborhood value. This announcement is one more data point in that direction.
 
@@ -556,13 +556,13 @@ From a real estate perspective, Little Tokyo and the surrounding Downtown LA cor
 
 ## Go When It Opens
 
-Whether you're a lifelong Final Fantasy devotee, a newcomer who got hooked on the recent remakes, or just someone who appreciates when a city gets something truly special — put this on your radar.
+Whether you're a lifelong Final Fantasy devotee, a newcomer who got hooked on the recent remakes, or just someone who appreciates when a city gets something truly special - put this on your radar.
 
 I'll be in line. Probably wearing a vintage FF7 shirt and pretending I'm not as excited as I am.
 
-Little Tokyo just got even better. And if you've been sleeping on that neighborhood as a place to live, invest, or explore — now might be the time to pay attention.
+Little Tokyo just got even better. And if you've been sleeping on that neighborhood as a place to live, invest, or explore - now might be the time to pay attention.
 
-— Johnny Leou | DRE #02064780 | Los Angeles Real Estate
+- Johnny Leou | DRE #02064780 | Los Angeles Real Estate
     `,
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
