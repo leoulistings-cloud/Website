@@ -4,70 +4,64 @@ export const blogPosts: BlogPost[] = [
   {
     id: "12",
     slug: "real-remax-compass-anywhere-merger-it-is-the-agent-not-the-brokerage",
-    title: "Real Acquires RE/MAX. Compass Already Swallowed Anywhere. Here's What It Actually Means for You.",
+    title: "Real Acquires RE/MAX. Compass Already Swallowed Anywhere. It's Not the Brokerage - It's the Agent.",
     excerpt:
-      "Two $800M+ deals in one year. The brokerage world is consolidating fast. But when it comes to buying or selling your home in Los Angeles, none of that changes what actually matters: the agent sitting across from you.",
+      "Two billion-dollar mergers in one year are reshuffling 500,000+ agents under new flags. But if you're buying or selling a home in Los Angeles, the only thing that actually moves the needle is who you choose to represent you. Here's why Johnny Leou, DRE #02064780, delivers results no merger can manufacture.",
     content: `
 The real estate industry just had another earthquake.
 
-This morning, The Real Brokerage announced it is acquiring RE/MAX in an $880 million deal - combining Real's cloud-based, agent-centric platform with RE/MAX's franchised network spanning more than 120 countries and 180,000+ agents worldwide.
+This morning, The Real Brokerage announced it is acquiring RE/MAX in an $880 million deal - combining Real's cloud-based platform with RE/MAX's franchised network spanning more than 120 countries and 180,000+ agents worldwide.
 
-That's on top of Compass completing its $1.6 billion acquisition of Anywhere Real Estate - the parent company of Coldwell Banker, Century 21, and ERA - back in January. That deal created a network of roughly 340,000 real estate professionals, claiming more combined deal volume than the next five largest brokerages combined.
+That's on top of Compass completing its $1.6 billion acquisition of Anywhere Real Estate - parent company of Coldwell Banker, Century 21, and ERA - back in January 2026. That merger alone created a network of roughly 340,000 real estate professionals with more combined deal volume than the next five largest brokerages combined.
 
-Two mega-mergers. Billions of dollars. Hundreds of thousands of agents reshuffled under new flags.
+Two mega-mergers. Over $2 billion in combined deal value. Hundreds of thousands of agents reshuffled under new corporate flags.
 
-And for you - the person trying to buy or sell a home in Los Angeles - almost none of it matters.
+And for you - the buyer or seller trying to navigate the Los Angeles or Orange County real estate market - almost none of it changes what actually matters.
 
-## Why Brokerage Consolidation Doesn't Change Your Transaction
+## Why Brokerage Consolidation Doesn't Determine Your Outcome
 
-Here's the truth the industry doesn't like to say out loud: **the brokerage name on the sign has never been the thing that got your home sold or found you the right house.**
+Here's what the industry doesn't advertise: **the logo on the sign has never been the thing that got your home sold or found you the right house in Los Angeles.**
 
-Brands don't answer your calls at 9pm. Brands don't know that the house three blocks away sold for $40K over asking because the sellers priced it right and held offers until Sunday. Brands don't sit across from you and translate a 47-page disclosure packet into plain English.
+Corporate brands don't answer calls at 9pm when you have questions about a disclosure. Brands don't know that a home in Silver Lake went $120,000 over asking because someone engineered demand the right way. Brands don't sit across from a seller in Boyle Heights and build the kind of trust that generates 10 offers on one property.
 
-Agents do that.
+Agents do that. Specifically, the right agent does that.
 
-When Compass absorbed Anywhere, the Coldwell Banker agent in your neighborhood didn't suddenly become better or worse. They're the same person they were before the acquisition closed. The same goes for every RE/MAX agent who will now operate under a combined Real-REMAX umbrella - their skill, their market knowledge, their work ethic, their integrity didn't change because the corporate structure above them did.
+When Compass absorbed Anywhere Real Estate, the individual Coldwell Banker agent in your neighborhood didn't suddenly become better at their job. When RE/MAX agents wake up under the Real banner, their knowledge of the North Hollywood market, their negotiating instincts, their communication style - none of that changed because the org chart above them did.
 
-Consolidation is a business story. Your transaction is a human story.
+Consolidation is a capital markets story. Your real estate transaction is a personal one.
 
-## What the Consolidation Wave Is Really About
+## What These Deals Are Actually About
 
-These deals are about technology infrastructure, cost savings, and market share - not about improving the client experience. Real is projecting $30 million in annual cost savings from the RE/MAX acquisition by 2027. Compass absorbed Anywhere's brand portfolio and agent network to reach institutional scale.
+Real is projecting $30 million in annual cost savings from the RE/MAX acquisition by 2027. Compass absorbed Anywhere's brand portfolio to achieve institutional scale. These are moves designed to generate shareholder value and operational efficiency - not to improve the experience of the buyer sitting at an escrow table wondering if they made the right decision.
 
-That's shareholder value. That's not you getting a better agent.
+The agents who were excellent before these mergers are still excellent. The ones who weren't won't be rescued by a rebrand.
 
-The agents who were excellent before these deals are still excellent. The ones who weren't won't be saved by a rebrand.
+## What Should Actually Drive Your Decision in Los Angeles
 
-## What Should Actually Drive Your Decision
+Choosing a real estate agent in Los Angeles is one of the most consequential decisions you'll make in this market. Here's what I'd look at - and what I hold myself to:
 
-When you're choosing who to work with on one of the largest financial transactions of your life, here's what I'd actually look at:
+**Verifiable results.** Not a brokerage's sales volume - the individual agent's. I've generated 10 offers on a single listing and closed $120,000 over asking. I've helped a buyer in Boyle Heights close $30,000 over asking in a multiple-offer situation. I navigated the MIPA program to secure $115,000 in down payment assistance for a first-time buyer in North Hollywood, closing $14,000 below asking with a $5,000 credit. I took on a Downtown LA condo that had been sitting on the market for over a year and sold it in weeks. Those aren't brand statistics - they're my results.
 
-**Track record.** Not the brokerage's - the individual agent's. How many transactions have they closed? In which neighborhoods? What were the outcomes?
+**Neighborhood-level knowledge.** Silver Lake, Echo Park, Los Feliz, Boyle Heights, Larchmont, Beverly Hills, Downtown LA, Irvine, Tustin - I don't treat these as interchangeable ZIP codes. Each neighborhood has its own pricing dynamics, buyer pool, timing patterns, and negotiation culture. I know the difference.
 
-**Local knowledge.** Does this person understand Silver Lake vs. Echo Park vs. Boyle Heights as distinct markets, not just as pins on a map?
+**A hospitality background that changes how I work.** I spent 20+ years in hospitality before real estate - including opening Angler, one of LA's most acclaimed restaurants. That background built communication instincts, service standards, and a people-first approach that most agents never develop. Every client deserves to feel like they're the only client.
 
-**Communication.** Will they tell you hard truths? Will they explain things clearly without condescending? Will they be reachable when it matters?
+**Commitment to complexity.** Down payment assistance programs, 60-day escrows, LGBTQ+ clients navigating sensitive situations, immigrant families buying for the first time - I've done this work. I understand that real estate isn't just a transaction, it's a life milestone, and I treat it accordingly.
 
-**Alignment.** Do they get paid more to push you toward certain decisions, or are their incentives actually aligned with yours?
+## The Logos Will Keep Changing
 
-The brokerage behind an agent provides tools, compliance support, and brand recognition. The agent provides everything else - and everything else is what determines your outcome.
+Compass grew. RE/MAX is being absorbed. Whatever comes next in this consolidation wave, the fundamental truth stays the same: **you're not hiring a brand. You're hiring a person.**
 
-## My Position on All of This
+I'm Johnny Leou, DRE #02064780, Los Angeles and Orange County real estate agent at eXp Realty of Greater Los Angeles. I serve buyers, sellers, investors, first-time homeowners, and families across Silver Lake, Los Feliz, Echo Park, Boyle Heights, Larchmont, Beverly Hills, Hollywood, Downtown Los Angeles, Irvine, and Tustin.
 
-I work at eXp Realty - a cloud-based, agent-centric brokerage that operates on a model where agents are treated as the business, not as units of production. It's a model I believe in because it attracts agents who are serious about their craft.
-
-But I'd tell you the same thing if I were at any brokerage: **what you're hiring is me.** My knowledge of this market. My negotiation track record. My commitment to your outcome.
-
-The logos will keep changing. The fundamentals of good representation won't.
-
-If you're buying or selling in Los Angeles or Orange County and want to talk to someone whose results you can actually verify - I'm Johnny Leou, DRE #02064780, and I'd be glad to earn your trust.
+My results are real. My track record is verifiable. And I'd be glad to earn your business.
     `,
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
     authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
-    coverImage: "https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=1200&q=80",
+    coverImage: "https://i.imgur.com/oSLCp8e.jpg",
     category: "Market Insights",
-    tags: ["Real Brokerage", "RE/MAX", "Compass", "Anywhere Real Estate", "Johnny Leou", "Los Angeles Real Estate", "Real Estate Mergers", "eXp Realty", "Choosing an Agent", "DRE 02064780"],
+    tags: ["Real Brokerage", "RE/MAX", "Compass", "Anywhere Real Estate", "Johnny Leou", "Los Angeles Real Estate Agent", "Real Estate Mergers 2026", "eXp Realty", "Silver Lake", "Boyle Heights", "Los Angeles", "Orange County", "DRE 02064780"],
     publishedAt: "2026-04-27",
     readTime: 6,
   },
