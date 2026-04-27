@@ -511,6 +511,68 @@ Have a great weekend, LA.
     publishedAt: "2026-04-26",
     readTime: 5,
   },
+  {
+    id: "11",
+    slug: "square-enix-cafe-little-tokyo-los-angeles-2026",
+    title: "A Square Enix Café Is Coming to Little Tokyo — And I've Been Waiting For This Since Final Fantasy",
+    excerpt:
+      "The first permanent Square Enix Café in the U.S. is opening at 316 E 1st Street in Little Tokyo this spring. As someone who grew up on Chrono Cross and Final Fantasy, this one hits different.",
+    content: `
+I'll be honest — this news stopped me mid-scroll.
+
+Square Enix just announced it's opening its **first permanent, full-menu café in the United States**, and it's coming to **316 E 1st Street in Little Tokyo, Los Angeles**. Spring 2026. The same company behind Final Fantasy, Chrono Trigger, Chrono Cross, Kingdom Hearts, Dragon Quest — they're planting their first real American flag right here in our city.
+
+For a lifelong fan, this is a big deal.
+
+---
+
+## A Little Personal History
+
+I've been a Square Enix fan since the days when you had to blow into the cartridge to get it to load. **Chrono Cross** was one of those games that genuinely rewired how I thought about storytelling — the alternate timelines, the music, the way it made you feel the weight of every decision. **Final Fantasy** was a whole world you could disappear into. These weren't just games. They were cultural moments.
+
+So when I see that Square Enix is choosing Los Angeles — specifically **Little Tokyo** — as the home for its first permanent U.S. café, it means something beyond just a cool restaurant opening.
+
+---
+
+## What We Know About the Café
+
+The café and shop will be located at **316 E 1st Street in Little Tokyo**, operated by J-Pop Culture Café Inc. It will be the first Square Enix location in the U.S. to offer a **full, authentic themed menu** — food and drinks inspired by Square Enix's game franchises. An adjoining shop will carry official merchandise.
+
+A second location is opening simultaneously in **Shinjuku, Tokyo**. The fact that LA was chosen as the U.S. debut — not New York, not Chicago — says something real about how the world sees our city's cultural identity.
+
+Specific opening dates and the full menu are still being announced. Follow Square Enix's official channels for updates.
+
+---
+
+## Why Little Tokyo Is the Perfect Location
+
+Little Tokyo has been one of the most culturally significant neighborhoods in all of Los Angeles for over a century. As Japanese American culture, anime, gaming, and Japanese cuisine have gone from niche to mainstream in American life, Little Tokyo has evolved from a historic enclave into a genuine destination.
+
+Placing the Square Enix Café here isn't just practical — it's intentional. The neighborhood already draws fans of Japanese culture from across Southern California. Adding a permanent, full-service Square Enix experience will make it an even bigger pilgrimage destination.
+
+From a real estate perspective, Little Tokyo and the surrounding Downtown LA corridor continue to attract buyers and investors who understand that cultural anchors drive long-term neighborhood value. This announcement is one more data point in that direction.
+
+---
+
+## Go When It Opens
+
+Whether you're a lifelong Final Fantasy devotee, a newcomer who got hooked on the recent remakes, or just someone who appreciates when a city gets something truly special — put this on your radar.
+
+I'll be in line. Probably wearing a vintage FF7 shirt and pretending I'm not as excited as I am.
+
+Little Tokyo just got even better. And if you've been sleeping on that neighborhood as a place to live, invest, or explore — now might be the time to pay attention.
+
+— Johnny Leou | DRE #02064780 | Los Angeles Real Estate
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://images.unsplash.com/photo-1604916851289-390266e08a43?w=1200&q=80",
+    category: "Lifestyle",
+    tags: ["Square Enix Cafe", "Little Tokyo", "Los Angeles", "Final Fantasy", "Chrono Cross", "Johnny Leou", "Downtown LA", "Japanese Culture", "New Openings 2026"],
+    publishedAt: "2026-04-26",
+    readTime: 5,
+  },
 ];
 
 export const getBlogPostBySlug = (slug: string) =>
