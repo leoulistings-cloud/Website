@@ -210,7 +210,7 @@ export default function HomePage() {
               {[
                 { icon: Award, value: "$8.4M", label: "Total Volume Sold" },
                 { icon: Users, value: "12+", label: "Clients Served" },
-                { icon: MapPin, value: "2", label: "Markets Served" },
+                { icon: MapPin, value: "6", label: "Markets Served" },
               ].map(({ icon: Icon, value, label }) => (
                 <div key={label} className="glass-card p-6 text-center">
                   <Icon size={24} className="text-gold-500 mx-auto mb-4" />
