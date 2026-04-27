@@ -2,6 +2,76 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "12",
+    slug: "real-remax-compass-anywhere-merger-it-is-the-agent-not-the-brokerage",
+    title: "Real Acquires RE/MAX. Compass Already Swallowed Anywhere. Here's What It Actually Means for You.",
+    excerpt:
+      "Two $800M+ deals in one year. The brokerage world is consolidating fast. But when it comes to buying or selling your home in Los Angeles, none of that changes what actually matters: the agent sitting across from you.",
+    content: `
+The real estate industry just had another earthquake.
+
+This morning, The Real Brokerage announced it is acquiring RE/MAX in an $880 million deal - combining Real's cloud-based, agent-centric platform with RE/MAX's franchised network spanning more than 120 countries and 180,000+ agents worldwide.
+
+That's on top of Compass completing its $1.6 billion acquisition of Anywhere Real Estate - the parent company of Coldwell Banker, Century 21, and ERA - back in January. That deal created a network of roughly 340,000 real estate professionals, claiming more combined deal volume than the next five largest brokerages combined.
+
+Two mega-mergers. Billions of dollars. Hundreds of thousands of agents reshuffled under new flags.
+
+And for you - the person trying to buy or sell a home in Los Angeles - almost none of it matters.
+
+## Why Brokerage Consolidation Doesn't Change Your Transaction
+
+Here's the truth the industry doesn't like to say out loud: **the brokerage name on the sign has never been the thing that got your home sold or found you the right house.**
+
+Brands don't answer your calls at 9pm. Brands don't know that the house three blocks away sold for $40K over asking because the sellers priced it right and held offers until Sunday. Brands don't sit across from you and translate a 47-page disclosure packet into plain English.
+
+Agents do that.
+
+When Compass absorbed Anywhere, the Coldwell Banker agent in your neighborhood didn't suddenly become better or worse. They're the same person they were before the acquisition closed. The same goes for every RE/MAX agent who will now operate under a combined Real-REMAX umbrella - their skill, their market knowledge, their work ethic, their integrity didn't change because the corporate structure above them did.
+
+Consolidation is a business story. Your transaction is a human story.
+
+## What the Consolidation Wave Is Really About
+
+These deals are about technology infrastructure, cost savings, and market share - not about improving the client experience. Real is projecting $30 million in annual cost savings from the RE/MAX acquisition by 2027. Compass absorbed Anywhere's brand portfolio and agent network to reach institutional scale.
+
+That's shareholder value. That's not you getting a better agent.
+
+The agents who were excellent before these deals are still excellent. The ones who weren't won't be saved by a rebrand.
+
+## What Should Actually Drive Your Decision
+
+When you're choosing who to work with on one of the largest financial transactions of your life, here's what I'd actually look at:
+
+**Track record.** Not the brokerage's - the individual agent's. How many transactions have they closed? In which neighborhoods? What were the outcomes?
+
+**Local knowledge.** Does this person understand Silver Lake vs. Echo Park vs. Boyle Heights as distinct markets, not just as pins on a map?
+
+**Communication.** Will they tell you hard truths? Will they explain things clearly without condescending? Will they be reachable when it matters?
+
+**Alignment.** Do they get paid more to push you toward certain decisions, or are their incentives actually aligned with yours?
+
+The brokerage behind an agent provides tools, compliance support, and brand recognition. The agent provides everything else - and everything else is what determines your outcome.
+
+## My Position on All of This
+
+I work at eXp Realty - a cloud-based, agent-centric brokerage that operates on a model where agents are treated as the business, not as units of production. It's a model I believe in because it attracts agents who are serious about their craft.
+
+But I'd tell you the same thing if I were at any brokerage: **what you're hiring is me.** My knowledge of this market. My negotiation track record. My commitment to your outcome.
+
+The logos will keep changing. The fundamentals of good representation won't.
+
+If you're buying or selling in Los Angeles or Orange County and want to talk to someone whose results you can actually verify - I'm Johnny Leou, DRE #02064780, and I'd be glad to earn your trust.
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=1200&q=80",
+    category: "Market Insights",
+    tags: ["Real Brokerage", "RE/MAX", "Compass", "Anywhere Real Estate", "Johnny Leou", "Los Angeles Real Estate", "Real Estate Mergers", "eXp Realty", "Choosing an Agent", "DRE 02064780"],
+    publishedAt: "2026-04-27",
+    readTime: 6,
+  },
+  {
     id: "11",
     slug: "square-enix-cafe-little-tokyo-los-angeles-2026",
     title: "A Square Enix Café Is Coming to Little Tokyo - And I've Been Waiting For This Since Final Fantasy",
