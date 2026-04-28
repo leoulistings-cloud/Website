@@ -6,7 +6,7 @@ export const blogPosts: BlogPost[] = [
     slug: "los-angeles-housing-market-april-2026-best-time-to-buy",
     title: "LA Home Prices Have Dropped 4 Months in a Row. Here's Why Smart Buyers Are Moving Now.",
     excerpt:
-      "Four consecutive months of year-over-year price declines. Inventory up 17%. Closed sales surging 31%. The Los Angeles housing market is handing buyers a window they haven't seen in years - and Johnny Leou, DRE #02064780, breaks down exactly what to do with it.",
+      "Four consecutive months of year-over-year price declines. Inventory up 17%. Closed sales surging 31%. The Los Angeles housing market is handing buyers a window they haven't seen in years - and Johnny Leou (DRE#02064780), breaks down exactly what to do with it.",
     content: `
 If you've been waiting for the right moment to buy a home in Los Angeles, the data is telling you something important right now.
 
@@ -64,7 +64,7 @@ If you're a first-time buyer who has been priced out or priced out of confidence
 
 The right agent in a softening market isn't just someone who shows you houses. It's someone who knows how to use market conditions to negotiate meaningfully on your behalf - and who has the track record to prove it.
 
-I'm **Johnny Leou, DRE #02064780**, Los Angeles and Orange County real estate agent at eXp Realty of Greater Los Angeles. I've generated 10 offers on single listings, closed deals $120,000 over asking, navigated the MIPA program to secure $115,000 in down payment assistance, and sold properties that had been sitting on the market for over a year - in weeks.
+I'm **Johnny Leou (DRE#02064780)**, Los Angeles and Orange County real estate agent at eXp Realty of Greater Los Angeles. I've generated 10 offers on single listings, closed deals $120,000 over asking, navigated the MIPA program to secure $115,000 in down payment assistance, and sold properties that had been sitting on the market for over a year - in weeks.
 
 I know this market. I know when to push, when to hold, and when to move fast.
 
@@ -84,7 +84,7 @@ If you're a buyer ready to take advantage of what the April 2026 LA market is of
     slug: "real-remax-compass-anywhere-merger-it-is-the-agent-not-the-brokerage",
     title: "Real Acquires RE/MAX. Compass Already Swallowed Anywhere. It's Not the Brokerage - It's the Agent.",
     excerpt:
-      "Two billion-dollar mergers in one year are reshuffling 500,000+ agents under new flags. But if you're buying or selling a home in Los Angeles, the only thing that actually moves the needle is who you choose to represent you. Here's why Johnny Leou, DRE #02064780, delivers results no merger can manufacture.",
+      "Two billion-dollar mergers in one year are reshuffling 500,000+ agents under new flags. But if you're buying or selling a home in Los Angeles, the only thing that actually moves the needle is who you choose to represent you. Here's why Johnny Leou (DRE#02064780), delivers results no merger can manufacture.",
     content: `
 The real estate industry just had another earthquake.
 
@@ -130,7 +130,7 @@ Choosing a real estate agent in Los Angeles is one of the most consequential dec
 
 Compass grew. RE/MAX is being absorbed. Whatever comes next in this consolidation wave, the fundamental truth stays the same: **you're not hiring a brand. You're hiring a person.**
 
-I'm Johnny Leou, DRE #02064780, Los Angeles and Orange County real estate agent at eXp Realty of Greater Los Angeles. I serve buyers, sellers, investors, first-time homeowners, and families across Silver Lake, Los Feliz, Echo Park, Boyle Heights, Larchmont, Beverly Hills, Hollywood, Downtown Los Angeles, Irvine, and Tustin.
+I'm Johnny Leou (DRE#02064780), Los Angeles and Orange County real estate agent at eXp Realty of Greater Los Angeles. I serve buyers, sellers, investors, first-time homeowners, and families across Silver Lake, Los Feliz, Echo Park, Boyle Heights, Larchmont, Beverly Hills, Hollywood, Downtown Los Angeles, Irvine, and Tustin.
 
 My results are real. My track record is verifiable. And I'd be glad to earn your business.
     `,
@@ -194,7 +194,7 @@ I'll be in line. Probably wearing a vintage FF7 shirt and pretending I'm not as 
 
 Little Tokyo just got even better. And if you've been sleeping on that neighborhood as a place to live, invest, or explore - now might be the time to pay attention.
 
-- Johnny Leou | DRE #02064780 | Los Angeles Real Estate
+- Johnny Leou (DRE#02064780) | Los Angeles Real Estate
     `,
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
@@ -272,7 +272,7 @@ ROW DTLA itself is worth exploring as a real estate data point - the adaptive re
 
 I've spent 20+ years in hospitality and real estate in this city, and the neighborhoods that host the best weekend energy are almost always the ones where values hold strongest over time. Events like these aren't just fun - they're indicators of community investment, foot traffic, and the kind of local pride that makes neighborhoods worth buying into.
 
-If any of these neighborhoods are on your radar - Pasadena, Downtown LA, East LA, Leimert Park - let's talk. I'm Johnny Leou, DRE #02064780, and I know these markets well.
+If any of these neighborhoods are on your radar - Pasadena, Downtown LA, East LA, Leimert Park - let's talk. I'm Johnny Leou (DRE#02064780), and I know these markets well.
 
 Have a great weekend, LA.
     `,
@@ -348,7 +348,7 @@ Sometimes the issue isn't the property - it's the approach. Fresh eyes, honest a
 
 Whether you're buying or selling in Los Angeles - Silver Lake, North Hollywood, Downtown, the Eastside, Orange County, or anywhere in between - you deserve an agent who can back up their claims with real outcomes.
 
-**Johnny Leou | DRE #02064780 | eXp Realty of Greater Los Angeles**
+**Johnny Leou (DRE#02064780) | eXp Realty of Greater Los Angeles**
 
 Los Angeles real estate is competitive, nuanced, and constantly evolving. The right agent makes a measurable difference. These results aren't cherry-picked - they're representative of how I approach every transaction: with preparation, strategy, and an unwavering commitment to my clients' outcomes.
 
