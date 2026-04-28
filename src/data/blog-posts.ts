@@ -2,6 +2,84 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "13",
+    slug: "los-angeles-housing-market-april-2026-best-time-to-buy",
+    title: "LA Home Prices Have Dropped 4 Months in a Row. Here's Why Smart Buyers Are Moving Now.",
+    excerpt:
+      "Four consecutive months of year-over-year price declines. Inventory up 17%. Closed sales surging 31%. The Los Angeles housing market is handing buyers a window they haven't seen in years - and Johnny Leou, DRE #02064780, breaks down exactly what to do with it.",
+    content: `
+If you've been waiting for the right moment to buy a home in Los Angeles, the data is telling you something important right now.
+
+April 2026 marks the **fourth consecutive month** of year-over-year home price declines in Los Angeles. Inventory is up 17% month-over-month. Closed sales jumped 31% compared to the previous month - a clear signal that motivated buyers who understand the moment are already moving.
+
+This is the window.
+
+## What the April 2026 LA Market Data Actually Shows
+
+Let's be specific, because the LA market is not one market - it's dozens of micro-markets all moving at slightly different speeds.
+
+What the data shows across the board:
+
+- **Home prices** have declined year-over-year for four straight months, with Zillow projecting a modest dip of approximately 1.3% from mid-2025 to mid-2026
+- **New listings** are up 17% month-over-month - more homes to choose from than we've seen in recent spring seasons
+- **Closed sales** surged 31% compared to the prior month - the spring momentum is real, and competition is beginning to build again
+- Several perimeter neighborhoods have already shifted into full buyer's market conditions, with longer days on market and price reductions becoming more common
+
+The window that exists right now - where prices are softer but buyer activity is accelerating - is historically brief. Once the seasonal spring surge fully kicks in, the leverage shifts back toward sellers.
+
+## Why This Moment Is Different From Recent Years
+
+For most of 2022, 2023, and 2024, the LA housing market was defined by low inventory, aggressive competition, and buyers feeling like they had no leverage. Multiple offers were standard. Waiving contingencies was expected.
+
+That dynamic has shifted. Buyers in Los Angeles right now have something they haven't had in years: **options and negotiating room.**
+
+In neighborhoods like Silver Lake, Echo Park, Boyle Heights, Larchmont, and parts of Downtown LA, homes that would have gone $50,000-$100,000 over asking two years ago are now being negotiated with credits, price reductions, and seller concessions. For buyers who are pre-approved and ready to move, this is genuinely one of the better entry points the LA market has offered in recent memory.
+
+## What This Means If You're Sitting on the Fence
+
+The most common mistake buyers make in a softening market is waiting too long and watching the opportunity close.
+
+Here's what I tell my clients: you don't need to time the absolute bottom. No one does that consistently. What you need to do is recognize when conditions are clearly more favorable than they were - and act before the rest of the market does the same.
+
+Right now in Los Angeles:
+- More inventory means more choices and less panic-buying
+- Declining prices mean more room to negotiate and better long-term entry points
+- Rising closed sales means the market is beginning to move again - the floor is being tested
+
+If you're a first-time buyer who has been priced out or priced out of confidence, this spring deserves a serious second look. If you've been pre-approved and waiting, the data is telling you the wait may cost you more than the action.
+
+## Where I'm Watching Right Now in Los Angeles
+
+**Silver Lake and Echo Park** - Still competitive, but longer days on market are creating real negotiating opportunities on homes that aren't priced aggressively.
+
+**Boyle Heights and East LA** - Some of the best value relative to location in the entire city. Buyer's market conditions have taken hold in pockets here.
+
+**Larchmont Village and Mid-City** - Quality inventory is up. Buyers who move with confidence and strong representation are finding deals that wouldn't have been possible 18 months ago.
+
+**Downtown LA** - Inventory remains elevated. Condo buyers in particular have leverage right now that is worth using.
+
+**Orange County - Irvine and Tustin** - The OC market is slightly more resilient, but the same broader softening trend applies. New construction in Irvine is creating competitive pressure on resale pricing.
+
+## Work With Someone Who Knows How to Use This Market
+
+The right agent in a softening market isn't just someone who shows you houses. It's someone who knows how to use market conditions to negotiate meaningfully on your behalf - and who has the track record to prove it.
+
+I'm **Johnny Leou, DRE #02064780**, Los Angeles and Orange County real estate agent at eXp Realty of Greater Los Angeles. I've generated 10 offers on single listings, closed deals $120,000 over asking, navigated the MIPA program to secure $115,000 in down payment assistance, and sold properties that had been sitting on the market for over a year - in weeks.
+
+I know this market. I know when to push, when to hold, and when to move fast.
+
+If you're a buyer ready to take advantage of what the April 2026 LA market is offering - let's talk.
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://i.imgur.com/HsYXpBE.jpg",
+    category: "Market Insights",
+    tags: ["Los Angeles Housing Market 2026", "LA Home Prices", "Best Time to Buy Los Angeles", "Johnny Leou", "Silver Lake Real Estate", "Echo Park Homes", "Boyle Heights", "Downtown LA", "Orange County Real Estate", "First-Time Buyers Los Angeles", "DRE 02064780", "Buyer's Market LA"],
+    publishedAt: "2026-04-28",
+    readTime: 6,
+  },
+  {
     id: "12",
     slug: "real-remax-compass-anywhere-merger-it-is-the-agent-not-the-brokerage",
     title: "Real Acquires RE/MAX. Compass Already Swallowed Anywhere. It's Not the Brokerage - It's the Agent.",
