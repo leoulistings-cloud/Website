@@ -2,6 +2,142 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "14",
+    slug: "la-rents-dropping-rent-vs-buy-los-angeles-2026",
+    title: "LA Rents Are Falling. That's Actually a Reason to Buy - Not Wait.",
+    excerpt:
+      "For the first time ever, Los Angeles is no longer a top-10 most expensive rental city. Rents are down 3.5% with 12,000 new units hitting the market. Johnny Leou (DRE#02064780) breaks down why falling rents make the case for buying stronger, not weaker.",
+    content: `
+A new report from rental platform Zumper just dropped a headline that would have seemed impossible two years ago: **Los Angeles is no longer one of the 10 most expensive cities in the country for renters.**
+
+One-bedroom rents in LA are down 3.5% this month to $2,210. Two-bedroom rents fell 2.6% to $3,030. The cause is a flood of new supply - more than 12,000 new apartment units are scheduled to hit the LA market this year alone.
+
+For buyers who have been waiting on the sidelines, this changes the math in a way most people aren't thinking about clearly.
+
+## The Instinct Is Wrong
+
+When rents drop, the gut reaction for many potential buyers is: "great, I'll keep renting and wait for rates to fall." That's the wrong read.
+
+Here's why.
+
+Falling rents don't signal a weak real estate market - they signal increased housing supply, which is actually a long-term positive for neighborhood stability and livability. And lower rents create a temporary window where buyers feel less financial pressure to act. That feeling of reduced urgency is exactly what causes people to miss the best entry points.
+
+Meanwhile, home prices in Los Angeles are down for the fourth consecutive month year-over-year. Inventory is up 17%. Sellers are offering credits and concessions that were unthinkable 18 months ago.
+
+You now have both a buyer's real estate market AND softening rental pressure creating a false sense of comfort. That combination is historically short-lived.
+
+## The Rent-vs-Buy Math in LA Right Now
+
+Let's run the actual numbers at the current moment:
+
+**Renting a 2-bedroom in LA:** $3,030/month = $36,360/year. You own nothing at the end of it.
+
+**Buying a $985,000 home** (Echo Park, for example) with 10% down at today's 6.58% rate: monthly mortgage payment of approximately $6,300. Higher, yes - but you're building equity in an asset that has appreciated significantly over every 10-year window in LA's history.
+
+The rent-vs-buy decision isn't just a monthly payment comparison. It's a question of whether you want your housing costs to build wealth or not.
+
+For buyers who can qualify - and especially for first-time buyers who may have access to down payment assistance programs like MIPA - the current combination of softer prices, more inventory, and reduced rental urgency is one of the better-aligned buying environments Los Angeles has offered in years.
+
+## What Falling Rents Actually Signal for Investors
+
+For real estate investors, the Zumper data tells a more nuanced story.
+
+12,000 new apartment units coming to market this year creates short-term rental softness - but it also signals that LA's housing demand is strong enough to justify that level of construction investment. Cities don't build 12,000 units in a year without institutional confidence in long-term population growth and demand.
+
+For investors looking at small multi-unit properties in Boyle Heights, Echo Park, or Highland Park - the entry prices are more favorable than they've been in years, and the long-term demand fundamentals haven't changed. Softening rents are a short-term headwind, not a structural shift.
+
+## The Neighborhoods Where This Creates Opportunity Right Now
+
+**Echo Park and Silver Lake** - Rental softness means tenants have more options, which creates better tenant quality for small landlords. Entry prices for 2-4 unit buildings are more negotiable than they've been recently.
+
+**Boyle Heights and East LA** - Some of the strongest rent-to-price ratios in central LA, with genuine upside as the neighborhood continues to evolve.
+
+**Downtown LA** - Condo inventory is high and rents are soft. Buyers who want to live downtown have leverage on both the purchase price and the cost of holding.
+
+**Irvine and Tustin (OC)** - The rental softness is less pronounced in OC, but the same broad trend applies. For buyers who want stability and strong schools, the entry point is better than it was a year ago.
+
+## My Take
+
+Don't let falling rents lull you into waiting. The window where prices are softer, inventory is higher, and you're not competing against 10 other buyers is not permanent. It never is in Los Angeles.
+
+If you're in a position to buy - pre-approved, clear on your neighborhoods, ready to move with confidence - this spring deserves your full attention.
+
+I'm Johnny Leou (DRE#02064780), Los Angeles and Orange County real estate agent at eXp Realty of Greater Los Angeles. I work with first-time buyers, move-up buyers, and investors across Silver Lake, Echo Park, Boyle Heights, Los Feliz, Larchmont, Beverly Hills, Downtown LA, Irvine, and Tustin.
+
+Let's talk about what the market looks like for your specific situation.
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&q=80",
+    category: "Market Insights",
+    tags: ["LA Rents 2026", "Rent vs Buy Los Angeles", "Los Angeles Real Estate", "Johnny Leou", "Echo Park", "Boyle Heights", "First-Time Buyers LA", "LA Housing Market", "Real Estate Investment LA", "DRE 02064780"],
+    publishedAt: "2026-04-29",
+    readTime: 6,
+  },
+  {
+    id: "15",
+    slug: "hh-bagels-echo-park-la-eastside-food-moment-2026",
+    title: "H&H Bagels Just Opened in Echo Park. The Eastside Food Moment Is Real.",
+    excerpt:
+      "NYC institution H&H Bagels has landed in Echo Park. Jinya opened a flagship on La Cienega. An Austrian group made its first US move on West Third. When this many serious operators choose LA's neighborhoods, it means something for where you should be buying.",
+    content: `
+New York City's H&H Bagels - the institution that has been hand-rolling and kettle-boiling bagels since 1972 - just opened a new Los Angeles outpost in Echo Park.
+
+If you know H&H, you know this isn't a trend-chasing pop-up. This is a 50-year-old institution making a deliberate decision about where it wants to plant a permanent flag in Los Angeles. They already came to Santa Monica. They chose Echo Park for their next move.
+
+That tells you something.
+
+## Why Restaurant Openings Are Real Estate Data
+
+I spent over two decades in hospitality before I became a real estate agent - including helping open Angler, one of LA's most acclaimed restaurants. So when I see operators like H&H choosing a neighborhood, I pay attention differently than most people do.
+
+Serious restaurant groups don't open in neighborhoods on a whim. They do market research. They study foot traffic, demographics, income trends, and lease rates. When a 50-year-old New York institution decides that Echo Park is worth a permanent location, they are making a bet on that neighborhood's trajectory.
+
+And H&H isn't alone right now.
+
+**Jinya** just unveiled a flagship on La Cienega, bringing live-fire grilling, sushi, and a refined cocktail program to Restaurant Row. **Austrian hospitality group Viva Group** marked its first-ever U.S. expansion on West Third Street with handmade pastas and Neapolitan pizzas. **Chef Debbie Lee's modern Korean gastropub** in Highland Park just launched Sunday brunch, pulling more weekend foot traffic to an already-thriving corridor.
+
+Each of these openings is a vote of confidence. Stack enough of them together and you have a neighborhood signal that's worth paying attention to.
+
+## Echo Park Right Now
+
+Echo Park is one of the most interesting markets in Los Angeles right now from a buyer's perspective.
+
+Home prices have softened. Days on market are longer than they've been in recent years. Sellers are more negotiable. And yet the fundamental character of the neighborhood - the lake, the arts community, the proximity to Silver Lake and DTLA, the food and bar scene - hasn't changed. If anything, it's getting stronger.
+
+H&H Bagels opening here is one more piece of evidence that the people who study neighborhoods for a living see Echo Park the way I do: an area with genuine long-term upside that is currently trading at a discount to its potential.
+
+For buyers who have been priced out of Silver Lake or who want more space for their dollar in a neighborhood with real soul - Echo Park deserves a serious look right now.
+
+## The Highland Park and East Hollywood Thread
+
+The same story is playing out up the 110 corridor. Highland Park's restaurant and bar scene has matured from scrappy to genuinely excellent. Chef Debbie Lee's Sunday brunch is the kind of addition that signals a neighborhood has hit a stable, sustainable quality of life - not just a flash of gentrification.
+
+East Hollywood and Virgil Village continue to attract creative operators who are making deliberate neighborhood bets. These are areas where buyers who pay attention to cultural and culinary signals have historically found the best early entry points.
+
+## EEEEEATSCON Is Coming to Santa Monica in May
+
+One more note for food lovers and neighborhood explorers: The Infatuation's EEEEEATSCON festival is back at Barker Hangar in Santa Monica on May 16-17. It's one of the best single events to experience LA's current food moment in one place - hard-to-book favorites, buzzy newcomers, and festival-only dishes. Worth putting on the calendar.
+
+## The Bigger Point
+
+When serious operators - H&H Bagels, Jinya, international hospitality groups - choose LA's neighborhoods over every other city in the country, they are making a statement about long-term confidence in this market.
+
+Los Angeles is not a city in decline. It's a city in evolution. And the neighborhoods that attract the best food and hospitality talent are almost always the ones that reward buyers who pay attention.
+
+I'm Johnny Leou (DRE#02064780), Los Angeles and Orange County real estate agent at eXp Realty of Greater Los Angeles. If you're curious about Echo Park, Highland Park, Silver Lake, or any of LA's Eastside neighborhoods - let's talk.
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=80",
+    category: "Lifestyle",
+    tags: ["Echo Park", "H&H Bagels", "Highland Park", "Los Angeles Food Scene", "Johnny Leou", "Echo Park Real Estate", "Eastside LA", "Los Angeles Neighborhoods", "Restaurant Openings LA 2026", "DRE 02064780"],
+    publishedAt: "2026-04-30",
+    readTime: 5,
+  },
+  {
     id: "13",
     slug: "los-angeles-housing-market-april-2026-best-time-to-buy",
     title: "LA Home Prices Have Dropped 4 Months in a Row. Here's Why Smart Buyers Are Moving Now.",
