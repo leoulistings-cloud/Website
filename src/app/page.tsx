@@ -3,10 +3,8 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, Play, TrendingUp, TrendingDown, MapPin, Award, Users, Star } from "lucide-react";
-import PropertyCard from "@/components/PropertyCard";
 import PropertySearch from "@/components/PropertySearch";
 import BlogCard from "@/components/BlogCard";
-import { getFeaturedProperties } from "@/data/properties";
 import { blogPosts } from "@/data/blog-posts";
 import { agents, testimonials, marketStats } from "@/data/agents";
 
@@ -36,7 +34,6 @@ function useScrollAnimation() {
 export default function HomePage() {
   const [heroIdx, setHeroIdx] = useState(0);
   const [videoPlaying, setVideoPlaying] = useState(false);
-  const featuredProperties = getFeaturedProperties();
   const recentPosts = blogPosts.slice(0, 3);
 
   useScrollAnimation();
@@ -139,39 +136,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ─── FEATURED PROPERTIES ──────────────────────────────────── */}
-      <section className="py-24 lg:py-32">
-        <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <div className="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-6">
-            <div className="animate-on-scroll">
-              <p className="section-label mb-3">Available Now</p>
-              <h2 className="section-title">Featured Listings</h2>
-              <div className="gold-divider" />
-              <p className="text-white/50 text-sm max-w-md mt-4 leading-relaxed">
-                Carefully selected properties across Los Angeles and Orange County, from first-time buyer homes to luxury residences and investment opportunities.
-              </p>
-            </div>
-            <Link
-              href="/properties"
-              className="btn-outline-gold px-6 py-3 text-xs tracking-widest uppercase shrink-0 animate-on-scroll flex items-center gap-2"
-            >
-              View All Listings <ArrowRight size={14} />
-            </Link>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {featuredProperties.map((property, i) => (
-              <div
-                key={property.id}
-                className="animate-on-scroll"
-                style={{ transitionDelay: `${i * 100}ms` }}
-              >
-                <PropertyCard property={property} />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* ─── BRAND STORY ──────────────────────────────────────────── */}
       <section className="relative py-24 lg:py-32 overflow-hidden">
