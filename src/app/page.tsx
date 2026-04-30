@@ -264,7 +264,7 @@ export default function HomePage() {
 
           <div className="text-center mt-12 animate-on-scroll">
             <a
-              href="https://www.google.com/search?q=Johnny+Leou+Realtor+Los+Angeles+eXp+Realty+reviews"
+              href="https://www.google.com/maps/place/Keller+Williams+DTLA-+Johnny+Leou/@34.0478003,-118.2586649,17z/data=!4m8!3m7!1s0x80c2c79b2aaf9687:0xab3e141027356ef3!8m2!3d34.0478003!4d-118.2586649!9m1!1b1!16s%2Fg%2F11krqdct4_?entry=ttu"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-outline-gold inline-flex items-center gap-3 px-8 py-3.5 text-xs tracking-widest uppercase"
