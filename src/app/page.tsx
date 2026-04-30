@@ -261,6 +261,18 @@ export default function HomePage() {
               </div>
             ))}
           </div>
+
+          <div className="text-center mt-12 animate-on-scroll">
+            <a
+              href="https://www.google.com/search?q=Johnny+Leou+Realtor+Los+Angeles+eXp+Realty+reviews"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-outline-gold inline-flex items-center gap-3 px-8 py-3.5 text-xs tracking-widest uppercase"
+            >
+              <Star size={13} className="fill-gold-500 text-gold-500" />
+              Read More Reviews on Google
+            </a>
+          </div>
         </div>
       </section>
 
