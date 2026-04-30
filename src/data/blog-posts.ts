@@ -2,6 +2,71 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "16",
+    slug: "cinespia-los-angeles-outdoor-movies-vidiots-eagle-rock-2026",
+    title: "Cinespia Is Back. Why LA's Outdoor Movie Culture Is Unlike Anything Else in the Country.",
+    excerpt:
+      "Tonight's screening of Planes, Trains and Automobiles at Vidiots in Eagle Rock is just the latest chapter in Cinespia's 20-year run as LA's most beloved cultural institution. Here's what that says about the city - and the neighborhoods worth paying attention to.",
+    content: `
+There is no cultural experience more distinctly Los Angeles than a Cinespia night.
+
+Tonight, they're screening *Planes, Trains and Automobiles* at Vidiots in Eagle Rock - doors at 7:00 PM, film at 7:30. If you've never been to a Cinespia screening, the short version is this: it's an outdoor movie experience done at a level that makes you realize every other city is doing it wrong.
+
+The long version is worth knowing.
+
+## What Cinespia Actually Is
+
+Cinespia started in 2002 at Hollywood Forever Cemetery - which, yes, is exactly what it sounds like. Founder John Wyatt started screening films in the cemetery for a small crowd. Twenty years later, it's one of the most sought-after event tickets in Los Angeles, regularly selling out venues that seat thousands.
+
+The cemetery setting isn't gimmick - it's atmosphere. People show up with picnics, blankets, and full spreads. The crowd is multigenerational, neighborhood-mixed, and genuinely LA in a way that few events manage to pull off. It's become the kind of thing that people who leave LA miss most.
+
+Over the years, Cinespia has expanded to venues across the city - the Hollywood Forever main stage, the Hollywood Palladium, the Greek Theatre, and now Vidiots in Eagle Rock for more intimate screenings.
+
+## Why Vidiots at Eagle Rock Matters
+
+Vidiots is its own LA institution. The beloved video rental store that defined a generation of film culture in Santa Monica reopened in 2022 inside the historic Eagle Theatre in Eagle Rock - a full rebirth as a nonprofit cinema and community space.
+
+The fact that Cinespia is now using Vidiots as a venue for regular screenings isn't a coincidence. It's two of LA's most authentic cultural institutions finding each other in a neighborhood that's been quietly becoming one of the most interesting on the Eastside.
+
+Eagle Rock sits between Los Feliz and Pasadena on the 134 corridor. It has the bones of a neighborhood that works - walkable commercial streets, a mix of craftsman homes and Spanish colonials, a genuine local food and art scene, and proximity to everything without being in the middle of everything. Median prices are still significantly below Los Feliz and Highland Park while sharing much of their cultural energy.
+
+When serious cultural operators like Cinespia and Vidiots plant flags in a neighborhood, it's worth paying attention.
+
+## The Outdoor Life Factor in LA Real Estate
+
+People buy in Los Angeles neighborhoods for a lot of reasons - schools, commute, walkability, weather. But the quality of cultural life matters more than most buyers admit when they're looking at spreadsheets.
+
+The neighborhoods that hold value long-term in LA are almost always the ones where people *want* to spend their time - not just where they sleep. Silver Lake, Echo Park, Los Feliz, Highland Park, Eagle Rock - the pattern holds. Walkable streets, independent businesses, events that bring people outside and into community with each other.
+
+Cinespia at Hollywood Forever is one reason Los Feliz and Silverlake command the premium they do. The lifestyle is priced in.
+
+If you're evaluating Eastside neighborhoods and trying to understand what the next five years look like, watch where the cultural investment is going. Eagle Rock is getting serious attention right now.
+
+## Tonight's Details
+
+Screening: *Planes, Trains and Automobiles*
+Venue: Vidiots at the Eagle Theatre - 4547 Eagle Rock Blvd, Eagle Rock
+Doors: 7:00 PM | Film: 7:30 PM
+Tickets: cinespia.org
+
+Bring a blanket. Arrive early.
+
+---
+
+I'm Johnny Leou (DRE#02064780), Los Angeles and Orange County real estate agent at eXp Realty of Greater Los Angeles. I work with buyers, sellers, and investors across Eagle Rock, Los Feliz, Silver Lake, Echo Park, Highland Park, and the broader LA Eastside.
+
+If you're curious what it looks like to actually live in one of these neighborhoods - not just visit it on a Friday night - let's talk.
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=1200&q=80",
+    category: "Local Life",
+    tags: ["Cinespia Los Angeles", "Outdoor Movies LA", "Vidiots Eagle Rock", "Eagle Rock Real Estate", "LA Eastside Neighborhoods", "Los Feliz", "Silver Lake", "Johnny Leou", "DRE 02064780", "Los Angeles Lifestyle"],
+    publishedAt: "2026-04-30",
+    readTime: 5,
+  },
+  {
     id: "14",
     slug: "la-rents-dropping-rent-vs-buy-los-angeles-2026",
     title: "LA Rents Are Falling. That's Actually a Reason to Buy - Not Wait.",
