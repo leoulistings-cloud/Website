@@ -3,7 +3,6 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, Play, TrendingUp, TrendingDown, MapPin, Award, Users, Star } from "lucide-react";
-import PropertySearch from "@/components/PropertySearch";
 import BlogCard from "@/components/BlogCard";
 import { blogPosts } from "@/data/blog-posts";
 import { agents, testimonials, marketStats } from "@/data/agents";
@@ -98,18 +97,10 @@ export default function HomePage() {
               Specializing in residential real estate, luxury homes, and investment properties across LA and Orange County. With 20+ years of experience, Johnny Leou delivers expert guidance and personalized service for every client.
             </p>
             <div className="flex flex-wrap items-center gap-4 animate-fade-up" style={{ animationDelay: "0.3s" }}>
-              <Link href="/properties" className="btn-gold px-8 py-4 text-sm tracking-widest uppercase">
-                Explore Properties
-              </Link>
-              <a href="https://calendly.com/leoulistings" target="_blank" rel="noopener noreferrer" className="btn-outline-gold px-8 py-4 text-sm tracking-widest uppercase">
+              <a href="https://calendly.com/leoulistings" target="_blank" rel="noopener noreferrer" className="btn-gold px-8 py-4 text-sm tracking-widest uppercase">
                 Schedule a Showing
               </a>
             </div>
-          </div>
-
-          {/* Search bar */}
-          <div className="mt-16 animate-fade-up" style={{ animationDelay: "0.4s" }}>
-            <PropertySearch />
           </div>
         </div>
       </section>
