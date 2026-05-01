@@ -2,6 +2,76 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "17",
+    slug: "la-world-trade-center-512-apartments-dtla-adaptive-reuse-2026",
+    title: "The LA World Trade Center Is Becoming 512 Apartments. Here's What That Means for Downtown.",
+    excerpt:
+      "Jamison Services is converting the 400,000-square-foot World Trade Center at 350 S. Figueroa into 512 deed-restricted affordable units. Mayor Bass was just there. The adaptive reuse ordinance is now citywide. DTLA is changing faster than most buyers realize.",
+    content: `
+One of Downtown Los Angeles's most recognizable office towers is about to become housing.
+
+The LA World Trade Center at 350 S. Figueroa Street - a 10-story, roughly 400,000-square-foot building that has anchored the corner of Figueroa and Third since 1975 - is being converted by Jamison Services into 512 deed-restricted affordable apartments.
+
+Mayor Karen Bass was on-site last week to tour the project and highlight it as a flagship example of what LA's expanded adaptive reuse ordinance can do.
+
+## What's Actually Happening
+
+Jamison Services is converting the entire building interior into 512 apartments, all of which will be deed-restricted affordable housing. This is not a partial conversion or a mixed-use project - this is a full office-to-residential transformation of one of DTLA's most prominent addresses.
+
+Jamison is not a newcomer to this. They've been the most prolific adaptive reuse developer in Los Angeles over the last decade, having already converted more than 10 buildings between Koreatown and Downtown. They know this process - the permitting, the structural challenges, the financing, and the city relationships - better than almost anyone.
+
+The World Trade Center project is arguably their most visible conversion yet.
+
+## The Adaptive Reuse Ordinance - Why It Matters Now
+
+Mayor Bass recently expanded LA's adaptive reuse ordinance citywide. The original ordinance - credited with helping to revive Downtown LA in the early 2000s by making it easier to convert old commercial buildings into loft housing - had previously been limited in geographic scope. The expanded version now applies to existing buildings citywide that are at least 15 years old, and it creates a faster by-right approval process that significantly cuts the timeline and cost of conversion projects.
+
+Planning officials project that the expanded ordinance could unlock more than 43,000 new homes across Los Angeles.
+
+That's a significant number in a city that has been chronically undersupplied for decades.
+
+## What This Means for Downtown LA Real Estate
+
+DTLA's condo and apartment market has been navigating a challenging period. High office vacancy rates, slow foot traffic recovery post-pandemic, and a perception problem that has lingered longer than it should have - these are real headwinds that have kept prices soft and inventory elevated relative to other LA neighborhoods.
+
+The World Trade Center conversion changes the narrative in a concrete way.
+
+512 new residents at the Figueroa/Third intersection means foot traffic, spending, and density returning to one of DTLA's most central addresses. It means a formerly dark office building becomes a lit, active residential presence. And it signals that institutional-grade developers believe in the long-term thesis for Downtown - enough to put serious capital to work there.
+
+For buyers looking at Downtown condos right now, the calculus is worth understanding:
+
+Prices are still soft. Days on market in DTLA are among the highest in LA - averaging 45 days as of April 2026. Sellers are offering credits and negotiating. And conversions like the World Trade Center project are the leading indicators that the underlying neighborhood fundamentals are getting stronger, not weaker.
+
+That combination - soft current pricing, improving fundamentals, major development vote-of-confidence - is historically a good entry signal.
+
+## For Investors
+
+If you're evaluating DTLA for small residential investment properties, the World Trade Center project is worth paying attention to as a demand signal. 512 new residents who need goods, services, and community infrastructure nearby is a real number. It compounds with other conversion projects underway in the district.
+
+Jamison's track record in Koreatown is instructive. Their early adaptive reuse work there preceded significant appreciation in the surrounding residential market. DTLA is a larger, more complex story - but the pattern of institutional developer commitment preceding neighborhood pricing recovery is well-established.
+
+## My Take
+
+Downtown LA has been the most misread neighborhood in Los Angeles for the last three years. The infrastructure is there. The bones are exceptional. The price point offers genuine value relative to what you get.
+
+The World Trade Center conversion won't fix DTLA overnight. But it is exactly the kind of visible, high-volume, well-capitalized project that changes how buyers, renters, and investors perceive a neighborhood over the next 18-24 months.
+
+If you're considering Downtown - whether to live, to invest, or to sell - now is the time to get clear on your strategy before that perception shift fully prices in.
+
+I'm Johnny Leou (DRE#02064780), Los Angeles and Orange County real estate agent at eXp Realty of Greater Los Angeles. I work with buyers and investors across Downtown LA, South Park, the Arts District, Koreatown, and the broader DTLA corridor.
+
+Let's talk about what the current window looks like for your situation.
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1200&q=80",
+    category: "Market Insights",
+    tags: ["Downtown LA Real Estate", "DTLA Apartments", "LA World Trade Center", "Adaptive Reuse Los Angeles", "Jamison Services", "Office to Residential LA", "Johnny Leou", "DRE 02064780", "DTLA Investment", "Los Angeles Housing 2026"],
+    publishedAt: "2026-05-01",
+    readTime: 6,
+  },
+  {
     id: "16",
     slug: "cinespia-los-angeles-outdoor-movies-vidiots-eagle-rock-2026",
     title: "Cinespia Is Back. Why LA's Outdoor Movie Culture Is Unlike Anything Else in the Country.",
