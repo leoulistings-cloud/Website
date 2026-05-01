@@ -24,14 +24,14 @@ Not all mortgages are assumable. Conventional loans typically are not. But FHA l
 
 Let's look at a concrete example.
 
-**Scenario A - New loan at 6.58%:**
+Scenario A - New loan at 6.58%:
 Purchase price: $750,000
 Down payment: 10% ($75,000)
 Loan amount: $675,000
 Monthly payment (P&I): ~$4,320
 Total interest over 30 years: ~$880,000
 
-**Scenario B - Assumed FHA loan at 3.0%:**
+Scenario B - Assumed FHA loan at 3.0%:
 Assumed loan balance: $500,000 (remaining on seller's original loan)
 Down payment + gap financing to seller: $250,000
 Monthly payment on assumed loan (P&I): ~$2,108
@@ -45,8 +45,8 @@ That's not a small edge. That's a fundamentally different financial picture.
 
 For an assumable mortgage to be available, the seller's existing loan must be:
 
-- An **FHA loan** (Federal Housing Administration) - assumable by any qualified buyer
-- A **VA loan** (Department of Veterans Affairs) - assumable by any qualified buyer, not just veterans, though the seller's VA entitlement may remain tied up until the loan is paid off
+- An FHA loan (Federal Housing Administration) - assumable by any qualified buyer
+- A VA loan (Department of Veterans Affairs) - assumable by any qualified buyer, not just veterans, though the seller's VA entitlement may remain tied up until the loan is paid off
 
 The loan also needs to still have a meaningful balance and a rate that's worth assuming. A seller with a 2021 FHA purchase at 3.1% and $450,000 remaining is a strong candidate. A seller who refinanced at a higher rate in 2023 is not.
 
@@ -54,13 +54,13 @@ The loan also needs to still have a meaningful balance and a rate that's worth a
 
 Assumable mortgages are real - but they're not simple. Here's what makes them complicated:
 
-**The gap.** The seller's remaining loan balance is rarely equal to the purchase price. If a home is listed at $800,000 and the assumable loan balance is $480,000, you need to cover the $320,000 gap. That can be cash, a second loan (some lenders offer "gap" or bridge financing for this purpose), or a combination.
+The gap. The seller's remaining loan balance is rarely equal to the purchase price. If a home is listed at $800,000 and the assumable loan balance is $480,000, you need to cover the $320,000 gap. That can be cash, a second loan (some lenders offer "gap" or bridge financing for this purpose), or a combination.
 
-**Lender approval.** You still need to qualify with the original lender - credit, income, debt-to-income ratios all apply. The assumption isn't automatic just because the loan type allows it.
+Lender approval. You still need to qualify with the original lender - credit, income, debt-to-income ratios all apply. The assumption isn't automatic just because the loan type allows it.
 
-**Timeline.** Assumption approvals can take 60-90 days, longer than a standard escrow. Both parties need to know this going in.
+Timeline. Assumption approvals can take 60-90 days, longer than a standard escrow. Both parties need to know this going in.
 
-**VA entitlement.** If you're assuming a VA loan and you're not a veteran, the seller's VA entitlement stays tied to the property until the loan is paid off, which limits their ability to use VA benefits again. This requires clear negotiation upfront.
+VA entitlement. If you're assuming a VA loan and you're not a veteran, the seller's VA entitlement stays tied to the property until the loan is paid off, which limits their ability to use VA benefits again. This requires clear negotiation upfront.
 
 ## Where to Find Assumable Listings in LA and OC
 
