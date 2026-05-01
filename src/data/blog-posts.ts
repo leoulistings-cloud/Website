@@ -2,6 +2,109 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "18",
+    slug: "assumable-mortgage-los-angeles-how-to-take-over-low-rate-loan-2026",
+    title: "The Assumable Mortgage Strategy Most LA Buyers Don't Know About",
+    excerpt:
+      "If the seller has an FHA or VA loan at 2-4%, you may be able to take it over instead of getting a new one at 6.5%. Assumable mortgages are one of the most underused tools in the current LA market - and the savings can be six figures over the life of the loan.",
+    content: `
+Most buyers in Los Angeles right now are accepting 6.5% to 7% mortgage rates as a fixed reality. For many, it's the single biggest obstacle to making a purchase work financially.
+
+What most of them don't know is that some sellers are sitting on loans at 2.5%, 3%, even 3.5% - and in certain cases, a buyer can take over that loan instead of getting a new one.
+
+That's called an assumable mortgage, and it's one of the most underused tools in today's market.
+
+## What an Assumable Mortgage Actually Is
+
+When you assume a mortgage, you take over the seller's existing loan - including its original interest rate, remaining balance, and remaining term. You don't originate a new loan at today's rates. You step into theirs.
+
+Not all mortgages are assumable. Conventional loans typically are not. But FHA loans and VA loans are assumable by law. Given the volume of FHA and VA financing that occurred during the 2020-2022 low-rate window, there are a meaningful number of properties in LA and Orange County where this is a real option.
+
+## The Math - Why This Actually Matters
+
+Let's look at a concrete example.
+
+**Scenario A - New loan at 6.58%:**
+Purchase price: $750,000
+Down payment: 10% ($75,000)
+Loan amount: $675,000
+Monthly payment (P&I): ~$4,320
+Total interest over 30 years: ~$880,000
+
+**Scenario B - Assumed FHA loan at 3.0%:**
+Assumed loan balance: $500,000 (remaining on seller's original loan)
+Down payment + gap financing to seller: $250,000
+Monthly payment on assumed loan (P&I): ~$2,108
+Total interest over 30 years on that balance: ~$258,000
+
+The savings on the assumed portion alone - just in interest - can exceed $300,000 over the life of the loan. The monthly payment difference is over $2,000.
+
+That's not a small edge. That's a fundamentally different financial picture.
+
+## What Properties Qualify
+
+For an assumable mortgage to be available, the seller's existing loan must be:
+
+- An **FHA loan** (Federal Housing Administration) - assumable by any qualified buyer
+- A **VA loan** (Department of Veterans Affairs) - assumable by any qualified buyer, not just veterans, though the seller's VA entitlement may remain tied up until the loan is paid off
+
+The loan also needs to still have a meaningful balance and a rate that's worth assuming. A seller with a 2021 FHA purchase at 3.1% and $450,000 remaining is a strong candidate. A seller who refinanced at a higher rate in 2023 is not.
+
+## The Challenges - What to Know Going In
+
+Assumable mortgages are real - but they're not simple. Here's what makes them complicated:
+
+**The gap.** The seller's remaining loan balance is rarely equal to the purchase price. If a home is listed at $800,000 and the assumable loan balance is $480,000, you need to cover the $320,000 gap. That can be cash, a second loan (some lenders offer "gap" or bridge financing for this purpose), or a combination.
+
+**Lender approval.** You still need to qualify with the original lender - credit, income, debt-to-income ratios all apply. The assumption isn't automatic just because the loan type allows it.
+
+**Timeline.** Assumption approvals can take 60-90 days, longer than a standard escrow. Both parties need to know this going in.
+
+**VA entitlement.** If you're assuming a VA loan and you're not a veteran, the seller's VA entitlement stays tied to the property until the loan is paid off, which limits their ability to use VA benefits again. This requires clear negotiation upfront.
+
+## Where to Find Assumable Listings in LA and OC
+
+There's no MLS filter for assumable mortgages - which is part of why most buyers miss them. You find them by:
+
+- Identifying listings that had FHA or VA financing at origination (public records, loan documents in disclosure packages)
+- Asking directly - many sellers and their agents don't even know their loan is assumable
+- Working with an agent who knows to look for this and how to structure the offer correctly
+
+In the LA market right now, the neighborhoods with the highest concentration of FHA and VA originations from the 2019-2022 window include the San Fernando Valley, Long Beach, Compton, Inglewood, Carson, Norwalk, and portions of the Eastside. In Orange County - Anaheim, Santa Ana, Garden Grove, Fullerton, and Tustin.
+
+## How to Approach It as a Buyer
+
+If you're pre-approved, here's how to start thinking about this:
+
+1. Tell your agent you want to specifically identify FHA and VA listings in your target neighborhoods and price range
+2. Pull the preliminary title and loan documents on any property you're serious about to confirm the loan type and balance
+3. Contact the servicer (not just the lender) early to understand their assumption process and timeline
+4. Structure your offer with an extended escrow to accommodate the assumption approval window
+
+The buyers who execute assumable mortgage deals successfully are the ones who go in prepared. The deals fall apart when buyers discover the complexity mid-escrow and panic - or when agents on either side don't know how to navigate the process.
+
+## My Take
+
+Assumable mortgages aren't a trick or a loophole. They're a legal, federally-backed feature of FHA and VA loans that the market has largely forgotten about because rates were near zero for so long and the benefit wasn't meaningful.
+
+Now that rates are at 6.5%+, the math has changed dramatically. A 3% assumption on even a $400,000 loan balance saves a buyer over $1,200 per month compared to a new loan at current rates.
+
+If you're actively looking in LA or OC, this deserves to be part of your strategy conversation - not an afterthought.
+
+I'm Johnny Leou (DRE#02064780), Los Angeles and Orange County real estate agent at eXp Realty of Greater Los Angeles. I've helped buyers navigate FHA and VA transactions across Silver Lake, Echo Park, the San Fernando Valley, Long Beach, and Orange County.
+
+If you want to explore whether an assumable mortgage makes sense for your search, let's talk through it.
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://i.imgur.com/7XVFs2E.jpg",
+    category: "Buyer Guides",
+    tags: ["Assumable Mortgage Los Angeles", "FHA Loan Assumption", "VA Loan Assumption", "Low Rate Mortgage LA", "Los Angeles Home Buying 2026", "Orange County Real Estate", "Mortgage Strategy LA", "Johnny Leou", "DRE 02064780", "First-Time Buyers LA"],
+    publishedAt: "2026-05-01",
+    readTime: 7,
+  },
+  {
     id: "17",
     slug: "la-world-trade-center-512-apartments-dtla-adaptive-reuse-2026",
     title: "The LA World Trade Center Is Becoming 512 Apartments. Here's What That Means for Downtown.",
