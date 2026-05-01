@@ -65,7 +65,7 @@ Let's talk about what the current window looks like for your situation.
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
     authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
-    coverImage: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1200&q=80",
+    coverImage: "https://i.imgur.com/PNnfXP6.jpg",
     category: "Market Insights",
     tags: ["Downtown LA Real Estate", "DTLA Apartments", "LA World Trade Center", "Adaptive Reuse Los Angeles", "Jamison Services", "Office to Residential LA", "Johnny Leou", "DRE 02064780", "DTLA Investment", "Los Angeles Housing 2026"],
     publishedAt: "2026-05-01",
