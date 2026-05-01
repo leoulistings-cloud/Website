@@ -204,7 +204,7 @@ Let's talk about what the market looks like for your specific situation.
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
     authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
-    coverImage: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&q=80",
+    coverImage: "https://i.imgur.com/VYqKKWp.jpg",
     category: "Market Insights",
     tags: ["LA Rents 2026", "Rent vs Buy Los Angeles", "Los Angeles Real Estate", "Johnny Leou", "Echo Park", "Boyle Heights", "First-Time Buyers LA", "LA Housing Market", "Real Estate Investment LA", "DRE 02064780"],
     publishedAt: "2026-04-29",
