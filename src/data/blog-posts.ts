@@ -2,6 +2,308 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "21",
+    slug: "homeowners-insurance-crisis-california-2026-what-buyers-need-to-know",
+    title: "The California Homeowners Insurance Crisis - What Every LA Buyer Needs to Know Before Closing",
+    excerpt:
+      "Major insurers are pulling out of California entirely. Post-Palisades fire, getting homeowners insurance has become a nightmare. Buyers are discovering at closing they can't get insured. Here's what's actually happening and how to protect yourself.",
+    content: `
+You're in escrow. You're 10 days from closing. Your lender just told you they need proof of homeowners insurance to fund the loan.
+
+You call your agent's insurance referral. No availability. You call another broker. No availability. You call a third. Finally, after 4-5 calls, you find someone willing to quote you - at $8,000 a year for a policy that would have cost $2,400 two years ago.
+
+This is no longer an edge case. This is the norm in California in 2026.
+
+## What's Actually Happening
+
+California's homeowners insurance market is in structural crisis. The cause is straightforward: claim payouts from the Palisades fire, combined with decade-plus inflation in building costs and labor, have made it mathematically impossible for insurers to profit on new policies at old prices.
+
+The response from major carriers: exit the state entirely.
+
+- State Farm, the largest home insurer in California, stopped accepting new homeowners policies in 2022
+- AIG and Allstate have severely restricted new business
+- Smaller regional insurers are following suit
+- The state's insurer of last resort - California FAIR Plan - is overwhelmed with demand and charges 2-3x market rates for inferior coverage
+
+For buyers closing in 2026, this is a closing-table crisis. For sellers, it's becoming a marketability issue. Homes in high-fire-risk areas are increasingly difficult to sell because buyers can't get insured at any reasonable price.
+
+## Why This Matters for Your Purchase
+
+If you're buying in Los Angeles, Orange County, or any fire-prone area of California, homeowners insurance is no longer an assumption. It's a contingency.
+
+Here's what's happening in practice:
+
+**The cost shock.** A $1.2M home in the Hollywood Hills that would have insured for $2,500/year is now $7,000-$9,000/year. That's $400-$600 per month added to your effective housing cost. Your lender includes this in debt-to-income calculations, which can affect your loan approval.
+
+**The availability crisis.** Some areas (especially high fire-risk zones) have no private market insurance available at all. Your only option is FAIR Plan coverage, which is expensive and covers only the basics - no water damage coverage, no theft coverage, no loss of use. It's a safety net, not real insurance.
+
+**The timing problem.** Lenders require proof of insurance before funding. But many insurers are taking 6-8 weeks to issue policies due to overwhelming demand. This can delay closing or force you into last-minute FAIR Plan backup policies.
+
+**The appraisal impact.** In some high-risk areas, the inability to get insurance at market rates is starting to affect property values. Why pay $1.5M for a house if the insurance alone is $8,000/year and the risk profile is deteriorating?
+
+## What You Can Actually Do
+
+If you're buying in California - and especially in LA or OC - you need to be proactive about insurance before you go into escrow:
+
+**Get insurance quotes early.** Don't wait until you're in contract. Reach out to 3-5 insurance brokers NOW and get actual quotes on the specific property you're interested in. This tells you the real cost and availability upfront.
+
+**Understand your coverage options.** Know the difference between private market policies, FAIR Plan, and specialized high-risk carriers. Not all are equal.
+
+**Price it into your offer.** If you're looking at a property in a higher fire-risk area and insurance is going to be $6,000+/year, that affects the property's true cost of ownership. Factor it into your maximum offer price.
+
+**Use it as a negotiation point.** If insurance is unavailable or prohibitively expensive, that's a legitimate closing contingency. Some sellers will concede to price reductions if insurance is a real problem.
+
+**Consider the neighborhood carefully.** Fire-risk maps are public. Know where you're buying and what the insurance implications are before you fall in love with a property.
+
+**Ask about mitigation.** Defensible space improvements (clearing brush, removing dead trees, upgrading gutters) can reduce insurance costs. Get a quote, do the work, and potentially lower your premiums.
+
+## The Neighborhoods Most Affected
+
+In LA and OC, the areas facing the most severe insurance availability and pricing issues:
+
+- **Hollywood Hills, Laurel Canyon, Mulholland** - High fire risk, very high premiums or FAIR Plan only
+- **Malibu, Pacific Palisades, Brentwood** - Coastal fire risk, extremely limited availability
+- **Topanga, Encino Hills** - High-risk zones, FAIR Plan prevalence
+- **Orange County foothills** - Tustin, Irvine periphery, areas near wildland interface
+
+Conversely, neighborhoods with better insurance availability and lower costs:
+- **Boyle Heights, Echo Park, Silver Lake** - Lower fire risk, more competitive market
+- **West Hollywood, Mid-City** - Good availability
+- **Long Beach, Downtown LA** - Relatively unaffected
+
+## My Take
+
+The insurance crisis is real and it's here. It's not a problem that's going to solve itself in the next 12 months - it's structural and it's worsening.
+
+If you're buying in Los Angeles or Orange County, you cannot ignore this. It affects your true cost of ownership, your financing, your closing timeline, and the long-term viability of properties in higher-risk zones.
+
+The buyers who are handling this well are the ones who talk to insurance brokers *before* they see a home they love, understand the true cost landscape, and factor it into their search geography and offer strategy.
+
+The buyers who are getting blindsided are the ones who assume insurance will be like it was in 2019 - readily available, reasonable, and not a deal-breaker.
+
+Don't be the second group.
+
+I'm Johnny Leou (DRE#02064780), Los Angeles and Orange County real estate agent at eXp Realty of Greater Los Angeles. I work with buyers across LA and OC, and I've navigated the insurance crisis with multiple clients. If you're buying in California and want to talk through the insurance implications of specific neighborhoods, let's have that conversation before you go into escrow.
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80",
+    category: "Buyer Guides",
+    tags: ["Homeowners Insurance California", "Los Angeles Real Estate 2026", "Insurance Crisis", "Closing Contingencies", "Fire Risk LA", "California Housing Market", "Johnny Leou", "DRE 02064780", "Buyer Education", "Los Angeles Insurance"],
+    publishedAt: "2026-05-01",
+    scheduledAt: "2026-05-07",
+    readTime: 7,
+  },
+  {
+    id: "20",
+    slug: "1031-exchange-los-angeles-investors-defer-capital-gains-2026",
+    title: "The 1031 Exchange Strategy Every LA Investor Should Understand",
+    excerpt:
+      "You bought in Echo Park at $650K in 2018. It's worth $1.1M now. If you sell, you owe capital gains tax on $450K. A 1031 exchange lets you defer that entirely - and reinvest into another property without the tax hit. Here's how it actually works.",
+    content: `
+It's 2026. You bought your investment property in Boyle Heights, Echo Park, or the Arts District in 2018-2020. The price has appreciated significantly. You're thinking about selling.
+
+Then your accountant mentions capital gains tax and you realize: you're going to owe federal and state taxes on potentially $300K-$500K of gain, depending on your situation.
+
+There's a legal strategy that almost no non-professional investors know about: the 1031 exchange. It lets you defer those gains entirely - and reinvest into another property with no immediate tax bill.
+
+## What a 1031 Exchange Actually Is
+
+A 1031 exchange (named after Section 1031 of the tax code) is a mechanism that lets you sell one investment property and buy another without triggering immediate capital gains taxes on the profit.
+
+The basic premise: instead of pocketing the proceeds and paying taxes, you "exchange" your property for another like-kind property. The IRS treats this as a non-taxable exchange of assets, not a sale.
+
+The gain isn't forgiven - it's deferred. If you eventually sell the new property without doing another 1031 exchange, you'll owe the taxes then. But if you keep doing 1031 exchanges, you can defer indefinitely.
+
+## The Math - Why This Is Powerful
+
+Let's say you bought a 4-unit building in Boyle Heights in 2019 for $850,000. It's now worth $1,200,000. You want to sell and upgrade to a larger property in a better-appreciating area.
+
+**Without a 1031 exchange:**
+Sale price: $1,200,000
+Original basis: $850,000
+Capital gain: $350,000
+Federal capital gains tax (15-20%): ~$60,000
+California state tax (~13.3%): ~$47,000
+Total taxes owed: ~$107,000
+
+Money available to reinvest: $1,200,000 - $107,000 = $1,093,000
+
+**With a 1031 exchange:**
+Sale price: $1,200,000
+Capital gain: $350,000 (same as above)
+Taxes owed: $0 (deferred)
+
+Money available to reinvest: $1,200,000
+
+That's $107,000 in extra buying power. If you're upgrading to a $1.5M property, that $107K changes the calculation on financing and your ability to close.
+
+## The Rules - What You Need to Know
+
+The IRS doesn't just let you defer taxes with zero restrictions. There are specific rules:
+
+**Like-kind property.** The property you buy must be "like-kind" to the property you sold. For real estate, this is very broad - residential property can exchange for commercial, land for buildings, single-unit for multi-unit. The main restriction: you can't exchange US real estate for foreign real estate. That's it.
+
+**The 45-day rule.** You have 45 days from closing on your sale to identify replacement properties. You don't need to have found the perfect property yet, but you need to formally identify which property (or properties) you want to acquire.
+
+**The 180-day rule.** You have 180 days total from the date of sale to close on the replacement property. This timer starts on day 1 of your sale closing and runs concurrently with the 45-day identification period. So you actually have 135 days after your identification period ends to close.
+
+**Equal or greater value.** The replacement property must be of equal or greater value than the property you sold. If you sold a property for $1.2M, you need to buy a property for at least $1.2M. You can buy for more (and reinvest the difference tax-deferred), but not less.
+
+**You can't touch the proceeds.** This is critical. You cannot take possession of the sale proceeds. The title company or a qualified intermediary (a neutral third party) must hold the money. If you touch it, the IRS disqualifies the exchange and you owe full capital gains tax plus penalties.
+
+## How It Works in Practice
+
+The actual mechanics are more operationally complex than a standard sale:
+
+1. **Before you list, you hire a qualified intermediary (QI).** This is a company that specializes in 1031 exchanges. They charge $500-$1,500 for the exchange but it's worth every dollar.
+
+2. **You sell your property normally.** The sale proceeds go directly to your QI, not to you. The QI holds the money in escrow.
+
+3. **Within 45 days, you identify replacement properties.** You can identify up to 3 properties (or more under specific rules), and you need to formally notify your QI in writing.
+
+4. **Within 180 days, you close on a replacement property.** The QI takes the proceeds from your sale and purchases the replacement property on your behalf. The property is titled in your name.
+
+5. **Any excess funds.** If the replacement property costs less than your sale proceeds, the difference is taxable as gain. But if you identify additional properties and close on multiple replacements, the excess can be deployed across them.
+
+## The LA Market - Where to Deploy a 1031
+
+If you're selling an investment property in the LA market and doing a 1031, common strategies include:
+
+**Trading up in the same neighborhood.** Sold a 4-unit in Boyle Heights for $1.2M? Buy a 6-unit in the same area. The neighborhood fundamentals are proven.
+
+**Moving to higher-growth areas.** Sold in established East Side? Deploy into Koreatown, Inglewood, or Long Beach - areas with higher growth potential and still reasonable entry pricing.
+
+**Moving to Orange County.** Sold in DTLA or LA? Deploy into Irvine, Santa Ana, Anaheim, Fullerton - OC's rental and appreciation fundamentals are outpacing LA in 2026.
+
+**Diversifying with multiple 1031s.** Sold one $1M property? You can identify and close on multiple replacement properties - a duplex in one area, a triplex in another. The exchanges don't need to be single-for-single.
+
+**Syndicating or passthrough investments.** You can do a 1031 into a syndication or real estate partnership, though the rules are stricter. This is where a tax professional becomes essential.
+
+## The Gotchas - What Can Go Wrong
+
+**The identification timing.** 45 days sounds long until you realize it's only 6.5 weeks. If you're still looking for properties on day 40, you're cutting it close. You need to have already found candidates.
+
+**The closing timeline.** 180 days sounds long but it compresses fast when you factor in inspection periods, appraisals, financing, and title work. If your identified property needs inspection repairs or the lender takes time on underwriting, you can miss the deadline.
+
+**Price appreciation during the exchange.** You identify a property for $1.2M, but by the time you close 120 days later, the seller won't accept your original offer and the market has moved. You might need to increase your bid to stay on timeline - and the excess goes out of the 1031 and becomes taxable.
+
+**Financing challenges.** Most lenders understand 1031 exchanges, but some (especially portfolio lenders and non-traditional sources) don't. You need a lender that can document the exchange properly.
+
+**The tax complexity.** 1031 exchanges are legal, but they're also scrutinized by the IRS. You need a tax professional who understands them, not just a standard CPA. Mistakes can be expensive.
+
+## My Take
+
+If you're an investor in LA or OC and you've built equity in a property, a 1031 exchange is a legitimate, legal tool that can save you six figures in taxes while allowing you to reinvest aggressively into new properties.
+
+The investors who execute these well are the ones who plan early, hire a qualified intermediary before they list, work with a tax professional to understand their specific situation, and identify replacement properties before their sale actually closes.
+
+The investors who run into problems are the ones who wait until after they've sold to start thinking about 1031 implications - at that point, the 45-day clock is already running and you're in reactive mode.
+
+If you're sitting on appreciated property in Boyle Heights, Echo Park, Koreatown, or the Arts District, and you're thinking about selling, let's have a conversation about whether a 1031 makes sense for your situation.
+
+I'm Johnny Leou (DRE#02064780), Los Angeles and Orange County real estate agent at eXp Realty of Greater Los Angeles. I've worked with investors on multiple 1031 exchanges and I know the landscape. Let's talk about your options.
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80",
+    category: "Investor Guides",
+    tags: ["1031 Exchange Los Angeles", "Real Estate Investment Strategy", "Capital Gains Tax Deferral", "Los Angeles Investor Guide", "Boyle Heights Real Estate", "Johnny Leou", "DRE 02064780", "Real Estate Taxes", "Investment Property LA", "Tax Strategy"],
+    publishedAt: "2026-05-01",
+    scheduledAt: "2026-05-02",
+    readTime: 8,
+  },
+  {
+    id: "19",
+    slug: "eeeeeatscon-2026-santa-monica-barker-hangar-real-estate-lifestyle",
+    title: "EEEEEATSCON Is Coming to Santa Monica - And Why Food Festivals Matter for Where You Live",
+    excerpt:
+      "LA's biggest food festival is May 16-17 at Barker Hangar in Santa Monica. 100+ vendors, celebrity chefs, live music. But more importantly: this is a signal about the neighborhood's future - and what it means if you're buying near there.",
+    content: `
+Mark your calendar: EEEEEATSCON 2026 is May 16-17 at the Barker Hangar in Santa Monica.
+
+If you haven't heard of it: EEEEEATSCON is LA's biggest, most serious food festival. 100+ vendors, celebrity chefs, music, multiple stages, and the kind of production value that makes it feel less like a festival and more like a full cultural event.
+
+The last one drew 20,000+ people. This year will probably exceed that.
+
+But here's why this actually matters for real estate.
+
+## What's Happening at EEEEEATSCON 2026
+
+The festival spans two days at the Barker Hangar, which is essentially on the Airport property in Santa Monica - close to the 405, accessible, easy parking for a festival of this scale.
+
+Headliners this year include established LA chef names alongside national figures. The vendor list reads like a map of where LA's serious food culture is concentrating right now - established restaurants launching pop-ups, new concepts testing the market, national brands making their LA move.
+
+The programming is curated to feel high-level without being pretentious. Live music, DJ sets, seminars with chefs on technique and sourcing, multiple food courts organized by cuisine type.
+
+It's the kind of event that draws people from across LA - not just Santa Monica locals, but Westsiders, Eastsiders, tourists, serious food people, families, date-night couples.
+
+In 2026, a 20,000+ person food festival is a statement about a neighborhood's infrastructure, cultural energy, and walkability appeal.
+
+## Why Food Festivals Are Real Estate Signals
+
+This matters for where you buy because neighborhood culture is pricing in.
+
+The neighborhoods with the highest concentration of serious food investment - independent restaurants, chef-driven concepts, dedicated food scenes - are the neighborhoods that hold long-term value and attract the kind of resident demographic that supports continued appreciation.
+
+Santa Monica has always been a destination market, but the fact that a 100+ vendor food festival happens there in 2026 says something specific: the neighborhood's infrastructure and cultural reputation justify that level of activation.
+
+For buyers looking at Santa Monica, the Airport District, or surrounding Westside areas, EEEEEATSCON is worth understanding as a signal of what the neighborhood is positioning itself as.
+
+It's not just "a place to live." It's a place where people choose to spend their free time, where they travel to from other parts of the city, where serious cultural operators believe they can build a brand.
+
+Properties near the Barker Hangar and in the immediate Santa Monica area are pricing in that cultural infrastructure. That's not a coincidence.
+
+## The Santa Monica Market - What It Looks Like for Buyers
+
+Santa Monica's real estate market is expensive, competitive, and increasingly selective. Median prices in the core are $2.2M-$2.8M depending on specific neighborhood.
+
+But unlike some overheated markets, Santa Monica's pricing is grounded in genuine scarcity + genuine cultural demand. The beach, the walkability, the school system, and the restaurant/food scene are all real fundamentals.
+
+For buyers looking at Santa Monica, the calculus is: are you buying for the neighborhood experience (beachside living, walkable to restaurants, tourist-adjacent but genuine), or are you buying purely for financial appreciation?
+
+If it's the first - beachside walkable living with world-class food and culture - Santa Monica is the right market and EEEEEATSCON is a signal that the infrastructure is real.
+
+If it's the second - pure real estate appreciation - you might get better returns in emerging neighborhoods like Koreatown, Long Beach, or the Arts District, where you're buying before the cultural infrastructure is fully built out.
+
+## The Broader Signal - Where LA's Food Culture Is Concentrating
+
+Looking at where major food festivals, chef activations, and serious restaurant investment is happening in 2026:
+
+- **Santa Monica / Westside** - Tourist-adjacent, established, EEEEEATSCON
+- **Downtown LA** - Emerging, lower cost, strong chef interest (Grand Central Market activation, Arts District restaurant density)
+- **Echo Park / Silver Lake** - Established neighborhood scene, indie restaurants, walkable
+- **Koreatown** - Undergoing serious chef interest, new restaurant openings, still mispriced relative to fundamentals
+- **Long Beach** - Emerging scene, increasing chef interest, better value than Santa Monica
+
+These are the neighborhoods where cultural energy is concentrating. They're also neighborhoods where long-term real estate performance tends to be strongest.
+
+## My Take
+
+EEEEEATSCON isn't just a fun food weekend. It's a real estate signal.
+
+If you're buying in Los Angeles, pay attention to where serious cultural operators are investing - where festivals happen, where restaurants are opening, where people choose to spend their time. Those neighborhoods have pricing-in that cultural infrastructure for a reason.
+
+Santa Monica has always been culturally premium. EEEEEATSCON is confirmation that the investment continues. If you're buying beachside, you're buying into an active, curated, proven neighborhood experience.
+
+If you're buying elsewhere - Eastside, Arts District, Koreatown - look at where the cultural energy is building and ask yourself whether you're early to that trend or late. That's where the real appreciation happens.
+
+I'm Johnny Leou (DRE#02064780), Los Angeles and Orange County real estate agent at eXp Realty of Greater Los Angeles. I work with buyers across Santa Monica, the Westside, and the broader LA food/culture scene. If you're thinking about buying somewhere because of the neighborhood culture and community, let's talk through what that actually means for price, appreciation, and long-term satisfaction.
+
+May 16-17, Barker Hangar, Santa Monica. I'll probably be there.
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://images.unsplash.com/photo-1555939594-58d7cb561141?w=1200&q=80",
+    category: "Local Life",
+    tags: ["EEEEEATSCON Santa Monica", "Los Angeles Food Festival 2026", "Santa Monica Real Estate", "Westside LA Neighborhoods", "Barker Hangar", "Los Angeles Lifestyle", "Johnny Leou", "DRE 02064780", "Neighborhood Culture", "Food Scene LA"],
+    publishedAt: "2026-05-01",
+    readTime: 5,
+  },
+  {
     id: "18",
     slug: "assumable-mortgage-los-angeles-how-to-take-over-low-rate-loan-2026",
     title: "The Assumable Mortgage Strategy Most LA Buyers Don't Know About",
