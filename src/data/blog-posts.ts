@@ -297,7 +297,7 @@ May 16-17, Barker Hangar, Santa Monica. I'll probably be there.
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
     authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
-    coverImage: "https://images.unsplash.com/photo-1555939594-58d7cb561141?w=1200&q=80",
+    coverImage: "https://i.imgur.com/FPcetrv.jpg",
     category: "Local Life",
     tags: ["EEEEEATSCON Santa Monica", "Los Angeles Food Festival 2026", "Santa Monica Real Estate", "Westside LA Neighborhoods", "Barker Hangar", "Los Angeles Lifestyle", "Johnny Leou", "DRE 02064780", "Neighborhood Culture", "Food Scene LA"],
     publishedAt: "2026-05-01",
