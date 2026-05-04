@@ -38,6 +38,7 @@ export interface BlogPost {
   category: string;
   tags: string[];
   publishedAt: string;
+  scheduledAt?: string;
   readTime: number;
 }
 

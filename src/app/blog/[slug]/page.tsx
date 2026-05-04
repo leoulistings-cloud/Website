@@ -4,6 +4,11 @@ import Link from "next/link";
 import { ArrowLeft, Clock, Tag, ArrowRight } from "lucide-react";
 import { getBlogPostBySlug, blogPosts } from "@/data/blog-posts";
 
+const isPublished = (post: typeof blogPosts[0]): boolean => {
+  const scheduledDate = post.scheduledAt ? new Date(post.scheduledAt) : new Date(post.publishedAt);
+  return scheduledDate <= new Date();
+};
+
 export default async function BlogPostPage({
   params,
 }: {
@@ -11,10 +16,10 @@ export default async function BlogPostPage({
 }) {
   const { slug } = await params;
   const post = getBlogPostBySlug(slug);
-  if (!post) notFound();
+  if (!post || !isPublished(post)) notFound();
 
   const related = blogPosts
-    .filter((p) => p.id !== post.id && p.category === post.category)
+    .filter((p) => p.id !== post.id && p.category === post.category && isPublished(p))
     .slice(0, 2);
 
   const htmlContent = post.content

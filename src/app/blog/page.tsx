@@ -6,19 +6,26 @@ import Link from "next/link";
 import { Clock, ArrowRight, Search } from "lucide-react";
 import { blogPosts, blogCategories } from "@/data/blog-posts";
 
+const isPublished = (post: typeof blogPosts[0]): boolean => {
+  const scheduledDate = post.scheduledAt ? new Date(post.scheduledAt) : new Date(post.publishedAt);
+  return scheduledDate <= new Date();
+};
+
 export default function BlogPage() {
   const [activeCategory, setActiveCategory] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
 
-  const filtered = blogPosts.filter((post) => {
-    const matchesCategory = activeCategory === "All" || post.category === activeCategory;
-    const matchesSearch =
-      !searchQuery ||
-      post.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      post.excerpt.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      post.tags.some((t) => t.toLowerCase().includes(searchQuery.toLowerCase()));
-    return matchesCategory && matchesSearch;
-  });
+  const filtered = blogPosts
+    .filter(isPublished)
+    .filter((post) => {
+      const matchesCategory = activeCategory === "All" || post.category === activeCategory;
+      const matchesSearch =
+        !searchQuery ||
+        post.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        post.excerpt.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        post.tags.some((t) => t.toLowerCase().includes(searchQuery.toLowerCase()));
+      return matchesCategory && matchesSearch;
+    });
 
   const featured = filtered[0];
   const rest = filtered.slice(1);
