@@ -2,6 +2,112 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "22",
+    slug: "zillow-realtor-homes-premarket-listings-what-it-means-buyers-sellers-agents-2026",
+    title: "Zillow, Realtor.com, and Homes.com Are Reshaping How Homes Get Sold. Here's What Actually Changed.",
+    excerpt:
+      "Zillow Preview launched in March. Zillow and Realtor.com announced a cross-platform partnership on May 5. eXp Realty - the brokerage I work with - went a different direction entirely, partnering with Homes.com instead. The pre-market listing war is on. Here's what it means for buyers, sellers, and agents in LA.",
+    content: `
+The real estate portal industry just had its most consequential week in years.
+
+On May 5, 2026, Zillow and Realtor.com announced they would share pre-market listings across both platforms beginning this summer. The same day, it became clear that the industry has split into two camps - and where your listing lands depends on which side your brokerage chose.
+
+Here's the full picture - what happened, what it means, and what you need to know if you're buying or selling in Los Angeles right now.
+
+## What Is Zillow Preview?
+
+Zillow Preview launched on March 17, 2026. It's Zillow's new pre-market listing system - a way for sellers to get their homes in front of buyers before going live on the MLS.
+
+The founding brokerage partners were Keller Williams, RE/MAX, HomeServices of America, Side, and United Real Estate. By late March, the program had grown to 29 brokerages. Today it's at 60+.
+
+The idea: sellers can list on Zillow Preview for a window before the property hits the full MLS. Buyers can see the home, save it, contact the agent, and even pre-book tours. It creates an early-access window that - according to Zillow - benefits both parties.
+
+The program costs nothing for sellers or agents enrolled through a participating brokerage.
+
+## The Zillow + Realtor.com Deal - What Just Happened
+
+On May 5, 2026 - less than 48 hours ago - Zillow and Realtor.com announced a cross-platform collaboration. Starting this summer, Zillow Preview listings will also appear on Realtor.com as "Realtor.com Preview" listings.
+
+The combined reach is significant. Zillow and Realtor.com together account for approximately 75% of major real estate portal traffic in the US according to March 2026 Comscore data.
+
+For sellers enrolled through participating brokerages, this means a single pre-market listing gets exposure across both platforms simultaneously - no additional cost, no additional work.
+
+For buyers, it means the same pre-market inventory appears regardless of which portal you prefer to use.
+
+## The Other Side - Homes.com and eXp Realty
+
+Here's where it gets interesting for my clients specifically.
+
+A day after Zillow launched Preview in March, eXp Realty - the brokerage I work with - announced its own pre-market deal on the other side of the industry divide. eXp partnered with Homes.com, Realtor.com, and ComeHome.com for pre-market listing syndication, positioning itself as the alternative to the Zillow ecosystem.
+
+So there are now two pre-market infrastructure tracks:
+
+Track 1 - The Zillow ecosystem: Zillow Preview + Realtor.com Preview. 60+ brokerages. Massive reach. The dominant platform play.
+
+Track 2 - The Homes.com ecosystem: Homes.com + Realtor.com + eXp Realty. A competing network betting on portal diversification.
+
+Realtor.com, interestingly, appears on both tracks - which gives it unique positioning as the Switzerland of the pre-market listing wars.
+
+## What This Means for Sellers
+
+If you're selling in Los Angeles or Orange County, this shift matters for one central reason: where your listing appears before it hits the MLS now depends on your agent's brokerage affiliation.
+
+Under the old model, your listing went to the MLS and then syndicated everywhere simultaneously. Under the new model, pre-market exposure is brokerage-specific.
+
+The honest question every seller should ask their agent: "Where does my listing appear before it hits the full MLS, and how does your brokerage's platform partnerships affect my exposure?"
+
+The pre-market window is valuable in a competitive market - early buyers are motivated buyers, and motivated buyers make strong offers. If your listing sits in a portal ecosystem that only reaches a fraction of the buyer pool during that window, you may be leaving offers on the table.
+
+As an eXp agent, my sellers get pre-market exposure through the Homes.com and Realtor.com networks. That's real buyer reach before the property goes live.
+
+## What This Means for Buyers
+
+The pre-market listing shift creates genuine opportunity for prepared buyers.
+
+The Zillow Preview and Realtor.com Preview programs allow buyers to see homes before they officially hit the market - before the weekend open house crowd, before the offer deadline panic, before the multiple-offer situation develops.
+
+If you're a serious buyer in LA, you should be:
+
+Enrolled with your agent on whatever pre-market notification system your brokerage has access to. Ask specifically: "How do I see Zillow Preview listings? How do I see Homes.com pre-market listings?"
+
+Pre-approved, so that when you see a pre-market home you want, you can move before the full market opens.
+
+Clear on your criteria, because pre-market buyers who haven't done the work of knowing exactly what they want don't have the decision speed to act in the early window.
+
+The buyers who benefit most from pre-market access are the ones who've done their homework. The ones who are still "figuring out what they want" will watch pre-market listings go live and then compete with everyone else anyway.
+
+## What This Means for Agents
+
+The pre-market listing shift is the most significant change to listing marketing infrastructure since the rise of Zillow itself.
+
+The industry is now fragmented by brokerage affiliation in a way it hasn't been before. An agent at a Zillow Preview brokerage has access to that ecosystem. An agent at a Homes.com / eXp-partnered brokerage has access to a different ecosystem.
+
+For sellers evaluating agents, brokerage platform partnerships should now be part of the conversation - not just marketing materials, track record, and commission structure, but where exactly does this agent's brokerage put my listing and when.
+
+The CMLS (Council of Multiple Listing Services) has been vocal in opposing pre-market listing systems, arguing they create a "two-tier" market that disadvantages buyers and sellers not connected to the right brokerage ecosystems. That criticism has merit - the data on pre-market listings and equity of access is still developing.
+
+But whether you agree with the direction or not, the shift is happening. The question is whether your agent is positioned to work within it for your benefit.
+
+## My Take
+
+The pre-market listing wars are a signal that the portals are fighting to control the transaction earlier in the process. Zillow's move into pre-market listings is about owning the buyer relationship before they ever see a listing go live.
+
+For sellers, this means more choices and more complexity about where and how to list. For buyers, it means more intelligence and speed are required to compete. For agents, it means your brokerage relationships now directly affect your clients' exposure.
+
+As an eXp Realty agent in Los Angeles, I'm plugged into the Homes.com and Realtor.com pre-market ecosystem. If you're selling and want to understand what that means for your listing strategy, or if you're buying and want to get into the pre-market notification flow for LA and OC - let's talk.
+
+I'm Johnny Leou (DRE#02064780), Los Angeles and Orange County real estate agent at eXp Realty of Greater Los Angeles. The industry is changing faster than most clients realize right now. I'd rather you hear it from me first.
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=1200&q=80",
+    category: "Industry News",
+    tags: ["Zillow Preview 2026", "Realtor.com Partnership", "Homes.com Real Estate", "Pre-Market Listings LA", "eXp Realty", "Los Angeles Real Estate News", "Johnny Leou", "DRE 02064780", "Listing Strategy", "Real Estate Portals 2026"],
+    publishedAt: "2026-05-06",
+    readTime: 7,
+  },
+  {
     id: "21",
     slug: "homeowners-insurance-crisis-california-2026-what-buyers-need-to-know",
     title: "The California Homeowners Insurance Crisis - What Every LA Buyer Needs to Know Before Closing",
