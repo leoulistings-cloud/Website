@@ -58,6 +58,24 @@ export const testimonials: Testimonial[] = [
     image: "",
     propertyType: "Condo Purchase",
   },
+  {
+    id: "5",
+    name: "Raul C.",
+    location: "Los Angeles",
+    text: "I can confidently say that Johnny's trustworthiness, honesty and attention to detail make him a truly reliable individual.",
+    rating: 5,
+    image: "",
+    propertyType: "Real Estate Transaction",
+  },
+  {
+    id: "6",
+    name: "Sally T.",
+    location: "Mortgage Industry Professional",
+    text: "As a mortgage advisor in the industry, I've worked with many different kinds of realtors - and I can confidently say that Johnny is top tier. He is not only knowledgeable and professional, but he also truly cares about his clients. He will go the extra mile to make sure that the deal closes and that everyone in the transaction is happy. I wouldn't hesitate to refer Johnny to any of my clients looking for a realtor.",
+    rating: 5,
+    image: "",
+    propertyType: "Professional Referral",
+  },
 ];
 
 export const marketStats: MarketStat[] = [
