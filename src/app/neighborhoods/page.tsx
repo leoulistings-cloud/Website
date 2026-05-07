@@ -4,7 +4,7 @@ import { ArrowRight, MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "LA Neighborhood Guides | Real Estate by Area | Johnny Leou",
-  description: "Hyperlocal real estate guides for Los Angeles neighborhoods. Johnny Leou (DRE#02064780) covers Silver Lake, Los Feliz, Echo Park, Koreatown, and West Hollywood with current market data.",
+  description: "Hyperlocal real estate guides for Los Angeles neighborhoods. Johnny Leou (DRE#02064780) covers Silver Lake, Los Feliz, Echo Park, Koreatown, West Hollywood, and Boyle Heights with current market data.",
 };
 
 const neighborhoods = [
@@ -52,6 +52,15 @@ const neighborhoods = [
     dom: "25–35 days",
     trend: "Active",
     description: "1.9 square miles, Walk Score 92, LGBTQ+ community heart of LA. The most walkable urban neighborhood in the city with a strong independent condo market.",
+  },
+  {
+    name: "Boyle Heights",
+    slug: "boyle-heights",
+    tagline: "Historic Eastside neighborhood with emerging market",
+    price: "$650K–$950K median",
+    dom: "30–40 days on market",
+    trend: "Buyer-Favorable",
+    description: "Rich cultural heritage, street art scene, and emerging investment fundamentals. More affordable than neighboring Silver Lake with strong community roots and walkability.",
   },
 ];
 
