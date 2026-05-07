@@ -194,7 +194,7 @@ I'm Johnny Leou (DRE#02064780), Los Angeles and Orange County real estate agent 
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
     authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
-    coverImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80",
+    coverImage: "https://i.imgur.com/zlTKK38.jpg",
     category: "Buyer Guides",
     tags: ["Homeowners Insurance California", "Los Angeles Real Estate 2026", "Insurance Crisis", "Closing Contingencies", "Fire Risk LA", "California Housing Market", "Johnny Leou", "DRE 02064780", "Buyer Education", "Los Angeles Insurance"],
     publishedAt: "2026-05-01",
