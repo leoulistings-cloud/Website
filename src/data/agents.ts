@@ -26,7 +26,7 @@ export const testimonials: Testimonial[] = [
     id: "1",
     name: "Jon S.",
     location: "First-Time Homebuyer",
-    text: "Working with Johnny didn't feel like I hired a realtor — it felt like I called on a friend who does realty. He made the entire process painless, never talked over my head, and was always pleasant and attentive.",
+    text: "Working with Johnny didn't feel like I hired a realtor - it felt like I called on a friend who does realty. He made the entire process painless, never talked over my head, and was always pleasant and attentive.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1522556189639-b150ed9c4330?w=200&q=80",
     propertyType: "First Home Purchase",

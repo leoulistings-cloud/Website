@@ -100,7 +100,7 @@ export const properties: Property[] = [
       "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1200&q=80",
     ],
     description:
-      "Stunning mid-century modern home in sought-after Los Feliz, with walls of glass and sweeping views toward Griffith Park. Fully remodeled with designer finishes throughout, an open floor plan, and a resort-style backyard — all in one of LA's most beloved neighborhoods.",
+      "Stunning mid-century modern home in sought-after Los Feliz, with walls of glass and sweeping views toward Griffith Park. Fully remodeled with designer finishes throughout, an open floor plan, and a resort-style backyard - all in one of LA's most beloved neighborhoods.",
     features: [
       "Floor-to-ceiling glass walls",
       "Griffith Park views",

@@ -5,13 +5,13 @@ import { MapPin, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Los Feliz Real Estate | Homes for Sale | Johnny Leou",
-  description: "Los Feliz homes for sale in 2026. Johnny Leou (DRE#02064780) covers Los Feliz real estate — market data, neighborhood guide, and expert representation.",
+  description: "Los Feliz homes for sale in 2026. Johnny Leou (DRE#02064780) covers Los Feliz real estate - market data, neighborhood guide, and expert representation.",
 };
 
 const faq = [
   {
     q: "What is the average home price in Los Feliz?",
-    a: "As of April 2026, the median home price in Los Feliz is approximately $1.85M. The neighborhood commands a premium due to its architectural heritage, Griffith Park proximity, and extremely limited inventory. Entry-level condos can be found closer to $850K–$1.1M, while hillside single-family homes regularly trade at $2M–$4M+.",
+    a: "As of April 2026, the median home price in Los Feliz is approximately $1.85M. The neighborhood commands a premium due to its architectural heritage, Griffith Park proximity, and extremely limited inventory. Entry-level condos can be found closer to $850K-$1.1M, while hillside single-family homes regularly trade at $2M-$4M+.",
   },
   {
     q: "Is Los Feliz a good place to buy in 2026?",
@@ -19,11 +19,11 @@ const faq = [
   },
   {
     q: "What is Los Feliz like as a neighborhood?",
-    a: "Los Feliz sits at the base of Griffith Park — the largest urban park in the US — giving residents immediate access to hiking, the Observatory, the Greek Theatre, and the LA Zoo. The commercial corridors along Hillhurst and Vermont are walkable, independent, and well-curated. Housing stock is dominated by 1920s–1940s Spanish colonials, Tudors, and craftsmen, with mid-century modern homes in the hills. It's one of LA's most architecturally rich neighborhoods.",
+    a: "Los Feliz sits at the base of Griffith Park - the largest urban park in the US - giving residents immediate access to hiking, the Observatory, the Greek Theatre, and the LA Zoo. The commercial corridors along Hillhurst and Vermont are walkable, independent, and well-curated. Housing stock is dominated by 1920s-1940s Spanish colonials, Tudors, and craftsmen, with mid-century modern homes in the hills. It's one of LA's most architecturally rich neighborhoods.",
   },
   {
     q: "How competitive is the Los Feliz real estate market?",
-    a: "Los Feliz is consistently competitive. Well-priced homes move in under 3 weeks with multiple offers a regular occurrence. Buyer leverage is limited — the premium demand the neighborhood commands is structural, not cyclical. Working with an agent who knows the specific blocks, can identify value, and can present an offer competitively is essential in this market.",
+    a: "Los Feliz is consistently competitive. Well-priced homes move in under 3 weeks with multiple offers a regular occurrence. Buyer leverage is limited - the premium demand the neighborhood commands is structural, not cyclical. Working with an agent who knows the specific blocks, can identify value, and can present an offer competitively is essential in this market.",
   },
 ];
 
@@ -61,7 +61,7 @@ export default function LosFelizPage() {
           <h1 className="section-title mb-4">Los Feliz<br /><span className="text-gold-500 italic">Real Estate</span></h1>
           <div className="gold-divider" />
           <p className="text-white/50 text-sm mt-6 max-w-2xl leading-relaxed">
-            Los Feliz is one of LA's most architecturally significant and consistently premium neighborhoods — at the base of Griffith Park, walkable, and with some of the city's strongest long-term ownership fundamentals. Johnny Leou (DRE#02064780) represents buyers and sellers across Los Feliz.
+            Los Feliz is one of LA's most architecturally significant and consistently premium neighborhoods - at the base of Griffith Park, walkable, and with some of the city's strongest long-term ownership fundamentals. Johnny Leou (DRE#02064780) represents buyers and sellers across Los Feliz.
           </p>
         </div>
       </section>
@@ -87,15 +87,15 @@ export default function LosFelizPage() {
               <h2 className="font-serif text-white text-3xl mb-4">Why Los Feliz Commands a Premium</h2>
               <div className="gold-divider mb-6" />
               <div className="space-y-4 text-white/60 text-sm leading-relaxed">
-                <p>Los Feliz is one of those rare LA neighborhoods where the fundamentals justify the price. The immediate adjacency to Griffith Park — 4,310 acres of trails, the Griffith Observatory, the Greek Theatre, and the LA Zoo — is irreplaceable. No developer can build more of it. That scarcity is structural.</p>
-                <p>The housing stock reflects the neighborhood's age and its historical significance. 1920s–1940s Spanish colonials and English Tudor revivals define the flatlands. The hills above Franklin Avenue hold mid-century modern homes with views. The architecture is part of what people pay for — restoration-quality original details, mature landscaping, and a sense of permanence that newer construction can't replicate.</p>
-                <p>Vermont Avenue and Hillhurst Avenue form the commercial core — an unusually strong stretch of independent restaurants, bookstores, vintage shops, and neighborhood fixtures. Los Feliz has resisted the chain-ification that has changed other corridors. The community is active and protective of that character.</p>
-                <p>For buyers: Los Feliz is not a negotiating market. Homes priced correctly move quickly. The play here is identifying value before it's visible to everyone — a home that needs updating but sits on a premium block, or an off-market opportunity through agent relationships. That's where working with someone who knows the neighborhood block-by-block pays off.</p>
+                <p>Los Feliz is one of those rare LA neighborhoods where the fundamentals justify the price. The immediate adjacency to Griffith Park - 4,310 acres of trails, the Griffith Observatory, the Greek Theatre, and the LA Zoo - is irreplaceable. No developer can build more of it. That scarcity is structural.</p>
+                <p>The housing stock reflects the neighborhood's age and its historical significance. 1920s-1940s Spanish colonials and English Tudor revivals define the flatlands. The hills above Franklin Avenue hold mid-century modern homes with views. The architecture is part of what people pay for - restoration-quality original details, mature landscaping, and a sense of permanence that newer construction can't replicate.</p>
+                <p>Vermont Avenue and Hillhurst Avenue form the commercial core - an unusually strong stretch of independent restaurants, bookstores, vintage shops, and neighborhood fixtures. Los Feliz has resisted the chain-ification that has changed other corridors. The community is active and protective of that character.</p>
+                <p>For buyers: Los Feliz is not a negotiating market. Homes priced correctly move quickly. The play here is identifying value before it's visible to everyone - a home that needs updating but sits on a premium block, or an off-market opportunity through agent relationships. That's where working with someone who knows the neighborhood block-by-block pays off.</p>
               </div>
               <div className="mt-8 space-y-3">
                 <h3 className="font-serif text-white text-xl">Who Lives Here</h3>
                 <ul className="space-y-2 text-white/60 text-sm">
-                  {["Entertainment industry executives and established creatives", "Long-term homeowners — turnover is low", "Families drawn by Griffith Park access and nearby private schools", "Move-up buyers from Silver Lake and Echo Park", "Out-of-state transplants seeking LA's most architecturally significant neighborhood"].map((item) => (
+                  {["Entertainment industry executives and established creatives", "Long-term homeowners - turnover is low", "Families drawn by Griffith Park access and nearby private schools", "Move-up buyers from Silver Lake and Echo Park", "Out-of-state transplants seeking LA's most architecturally significant neighborhood"].map((item) => (
                     <li key={item} className="flex items-start gap-2"><span className="text-gold-500 shrink-0">-</span>{item}</li>
                   ))}
                 </ul>
@@ -127,7 +127,7 @@ export default function LosFelizPage() {
 
       <section className="py-16 bg-navy-900">
         <div className="max-w-4xl mx-auto px-6 lg:px-12">
-          <h2 className="font-serif text-white text-3xl mb-8 text-center">Los Feliz Real Estate — FAQ</h2>
+          <h2 className="font-serif text-white text-3xl mb-8 text-center">Los Feliz Real Estate - FAQ</h2>
           <div className="space-y-4">
             {faq.map(({ q, a }, i) => (
               <details key={i} className="group glass-card overflow-hidden">

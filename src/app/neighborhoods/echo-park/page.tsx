@@ -5,25 +5,25 @@ import { MapPin, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Echo Park Real Estate | Homes for Sale | Johnny Leou",
-  description: "Echo Park homes for sale in 2026. Johnny Leou (DRE#02064780) covers Echo Park real estate — current market data, neighborhood guide, and buyer representation.",
+  description: "Echo Park homes for sale in 2026. Johnny Leou (DRE#02064780) covers Echo Park real estate - current market data, neighborhood guide, and buyer representation.",
 };
 
 const faq = [
   {
     q: "What is the average home price in Echo Park?",
-    a: "As of April 2026, the median home price in Echo Park is approximately $985K. The range is wide — smaller bungalows and condos start around $700K–$800K, while larger single-family homes and multi-units in premium locations trade at $1.2M–$1.8M. Echo Park offers more attainable entry points than adjacent Silver Lake and Los Feliz while sharing significant cultural overlap.",
+    a: "As of April 2026, the median home price in Echo Park is approximately $985K. The range is wide - smaller bungalows and condos start around $700K-$800K, while larger single-family homes and multi-units in premium locations trade at $1.2M-$1.8M. Echo Park offers more attainable entry points than adjacent Silver Lake and Los Feliz while sharing significant cultural overlap.",
   },
   {
     q: "Is Echo Park a buyer's market right now?",
-    a: "Yes — Echo Park is showing buyer-favorable conditions in April 2026. Days on market average around 28 days, and motivated sellers are present throughout the neighborhood. Price reductions on stale listings are becoming more common. For well-prepared buyers, Echo Park represents one of the better entry points on the LA Eastside right now.",
+    a: "Yes - Echo Park is showing buyer-favorable conditions in April 2026. Days on market average around 28 days, and motivated sellers are present throughout the neighborhood. Price reductions on stale listings are becoming more common. For well-prepared buyers, Echo Park represents one of the better entry points on the LA Eastside right now.",
   },
   {
     q: "Is Echo Park safe to live in?",
-    a: "Echo Park has seen significant changes over the past several years. The neighborhood went through a high-profile period of public safety challenges around the park encampment that was cleared in 2021. In 2026, the neighborhood is in an active period of stabilization. Street conditions vary significantly by block — buyers should walk specific blocks and talk to residents before committing. Working with an agent who knows the neighborhood granularly is essential.",
+    a: "Echo Park has seen significant changes over the past several years. The neighborhood went through a high-profile period of public safety challenges around the park encampment that was cleared in 2021. In 2026, the neighborhood is in an active period of stabilization. Street conditions vary significantly by block - buyers should walk specific blocks and talk to residents before committing. Working with an agent who knows the neighborhood granularly is essential.",
   },
   {
     q: "What types of homes are available in Echo Park?",
-    a: "Echo Park has diverse housing stock — 1910s–1940s craftsmen and California bungalows, Spanish colonials, mid-century apartment buildings, and a growing number of contemporary additions and renovations. The hillside areas above Echo Park Lake offer older homes with views, while the flatlands offer more inventory at accessible price points. Multi-unit investment properties (duplexes, triplexes) are also common.",
+    a: "Echo Park has diverse housing stock - 1910s-1940s craftsmen and California bungalows, Spanish colonials, mid-century apartment buildings, and a growing number of contemporary additions and renovations. The hillside areas above Echo Park Lake offer older homes with views, while the flatlands offer more inventory at accessible price points. Multi-unit investment properties (duplexes, triplexes) are also common.",
   },
 ];
 
@@ -84,13 +84,13 @@ export default function EchoParkPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <div>
               <p className="section-label mb-3">Neighborhood Guide</p>
-              <h2 className="font-serif text-white text-3xl mb-4">Echo Park — The Honest Picture</h2>
+              <h2 className="font-serif text-white text-3xl mb-4">Echo Park - The Honest Picture</h2>
               <div className="gold-divider mb-6" />
               <div className="space-y-4 text-white/60 text-sm leading-relaxed">
-                <p>Echo Park is a neighborhood that requires an honest assessment rather than a marketing pitch. It has genuine assets — the lake itself, extraordinary cultural density, walkability, proximity to DTLA and Silver Lake, and some of the most charming residential architecture on the Eastside. It also has real challenges that vary significantly by block and have affected its relative pricing.</p>
+                <p>Echo Park is a neighborhood that requires an honest assessment rather than a marketing pitch. It has genuine assets - the lake itself, extraordinary cultural density, walkability, proximity to DTLA and Silver Lake, and some of the most charming residential architecture on the Eastside. It also has real challenges that vary significantly by block and have affected its relative pricing.</p>
                 <p>The lake, restored and reopened after the 2021 clearing, has become an active neighborhood anchor again. Restaurants, bars, and independent businesses have remained despite the turbulence of recent years. Sunset Boulevard through Echo Park continues to be one of the more interesting commercial corridors in LA.</p>
                 <p>For buyers, the current conditions are genuinely favorable. Days on market around 28 days, motivated sellers, and entry-level pricing significantly below Silver Lake for comparable architecture. The question every Echo Park buyer needs to answer honestly: which blocks specifically, and what is my tolerance for a neighborhood in active stabilization versus one that's already stabilized?</p>
-                <p>For investors: Echo Park's rent-to-price ratios are strong. Multi-unit properties — duplexes and triplexes — are more available here than in pricier Eastside neighborhoods. The long-term appreciation thesis is real if you can hold through the neighborhood's current transitional phase.</p>
+                <p>For investors: Echo Park's rent-to-price ratios are strong. Multi-unit properties - duplexes and triplexes - are more available here than in pricier Eastside neighborhoods. The long-term appreciation thesis is real if you can hold through the neighborhood's current transitional phase.</p>
               </div>
               <div className="mt-8 space-y-3">
                 <h3 className="font-serif text-white text-xl">Who Lives Here</h3>
@@ -112,7 +112,7 @@ export default function EchoParkPage() {
                   ["Best for", "Price point, location, cultural character, investment upside"],
                   ["Schools", "LAUSD; several magnet programs accessible"],
                   ["Transit", "Metro bus; close to DTLA Metro connections"],
-                  ["Price range", "$700K–$1.8M depending on type and location"],
+                  ["Price range", "$700K-$1.8M depending on type and location"],
                 ].map(([label, value]) => (
                   <div key={label} className="flex gap-4 text-sm border-t border-white/5 pt-3">
                     <span className="text-white/40 w-24 shrink-0">{label}</span>
@@ -127,7 +127,7 @@ export default function EchoParkPage() {
 
       <section className="py-16 bg-navy-900">
         <div className="max-w-4xl mx-auto px-6 lg:px-12">
-          <h2 className="font-serif text-white text-3xl mb-8 text-center">Echo Park Real Estate — FAQ</h2>
+          <h2 className="font-serif text-white text-3xl mb-8 text-center">Echo Park Real Estate - FAQ</h2>
           <div className="space-y-4">
             {faq.map(({ q, a }, i) => (
               <details key={i} className="group glass-card overflow-hidden">

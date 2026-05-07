@@ -9,7 +9,7 @@ const caseStudies = [
     neighborhood: "Los Angeles",
     type: "Seller",
     description:
-      "Engineered maximum demand through strategic pricing, professional staging, and a tightly managed offer process. Ten competing buyers drove the final sale price $120,000 above asking — a result built on preparation, not luck.",
+      "Engineered maximum demand through strategic pricing, professional staging, and a tightly managed offer process. Ten competing buyers drove the final sale price $120,000 above asking - a result built on preparation, not luck.",
     stats: [
       { label: "Offers Received", value: "10" },
       { label: "Over Asking", value: "$120K" },
@@ -23,7 +23,7 @@ const caseStudies = [
     neighborhood: "Boyle Heights",
     type: "Seller",
     description:
-      "In one of LA's most price-sensitive and competitive markets, a targeted launch strategy and deep neighborhood knowledge produced multiple offers and a final price $30,000 above asking — with clean terms.",
+      "In one of LA's most price-sensitive and competitive markets, a targeted launch strategy and deep neighborhood knowledge produced multiple offers and a final price $30,000 above asking - with clean terms.",
     stats: [
       { label: "Result", value: "+$30K" },
       { label: "Market", value: "Boyle Heights" },
@@ -37,7 +37,7 @@ const caseStudies = [
     neighborhood: "North Hollywood",
     type: "Buyer",
     description:
-      "Successfully navigated the MIPA program — one of California's most complex down payment assistance programs — securing $115,000 in assistance for a first-time buyer. Closed $14,000 below asking with a $5,000 credit to the buyer within a strict 60-day escrow.",
+      "Successfully navigated the MIPA program - one of California's most complex down payment assistance programs - securing $115,000 in assistance for a first-time buyer. Closed $14,000 below asking with a $5,000 credit to the buyer within a strict 60-day escrow.",
     stats: [
       { label: "Assistance Secured", value: "$115K" },
       { label: "Below Asking", value: "$14K" },

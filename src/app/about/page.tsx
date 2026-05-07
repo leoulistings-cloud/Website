@@ -125,7 +125,7 @@ export default function AboutPage() {
               <div className="glass-card p-6">
                 <p className="text-gold-500 text-xs tracking-widest uppercase mb-3">Background</p>
                 <p className="text-white/60 text-sm leading-relaxed">
-                  With 20+ years in hospitality before real estate, Johnny brings a service mindset that most agents simply don't have — clear communication, genuine care for every client, and a commitment to results.
+                  With 20+ years in hospitality before real estate, Johnny brings a service mindset that most agents simply don't have - clear communication, genuine care for every client, and a commitment to results.
                 </p>
               </div>
             </div>
@@ -186,7 +186,7 @@ export default function AboutPage() {
           <h2 className="font-serif text-white text-4xl mb-4">Ready to Get Started?</h2>
           <div className="gold-divider mx-auto" />
           <p className="text-white/50 text-sm mt-4 mb-8 leading-relaxed">
-            Whether you're buying, selling, or just exploring your options — Johnny is here to help. No pressure, just honest advice.
+            Whether you're buying, selling, or just exploring your options - Johnny is here to help. No pressure, just honest advice.
           </p>
           <Link href="/contact" className="btn-gold inline-flex items-center gap-3 px-10 py-4 text-sm tracking-widest uppercase">
             Get In Touch <ArrowRight size={14} />

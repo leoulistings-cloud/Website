@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const faq = [
   {
     q: "What is the average home price in Boyle Heights?",
-    a: "As of 2026, Boyle Heights median home prices range from approximately $650K–$950K depending on proximity to Cesar Chavez Avenue and condition. Single-family homes and smaller multi-units dominate the market. The neighborhood is significantly more affordable than nearby Silver Lake, which median at $1.29M, making Boyle Heights attractive to buyers seeking Eastside location at a lower price point.",
+    a: "As of 2026, Boyle Heights median home prices range from approximately $650K-$950K depending on proximity to Cesar Chavez Avenue and condition. Single-family homes and smaller multi-units dominate the market. The neighborhood is significantly more affordable than nearby Silver Lake, which median at $1.29M, making Boyle Heights attractive to buyers seeking Eastside location at a lower price point.",
   },
   {
     q: "What is Boyle Heights known for?",
@@ -19,17 +19,17 @@ const faq = [
   },
   {
     q: "Is Boyle Heights a good investment neighborhood?",
-    a: "Boyle Heights presents emerging investment opportunity in 2026. The neighborhood has several tailwinds: central location between DTLA and Echo Park, improving transit access, cultural momentum, and pricing that hasn't kept pace with adjacent neighborhoods like Silver Lake. For buyers seeking long-term appreciation and cultural authenticity, Boyle Heights offers defensible fundamentals. The challenge is that neighborhood change is gradual and gentrification is contentious—community roots matter here.",
+    a: "Boyle Heights presents emerging investment opportunity in 2026. The neighborhood has several tailwinds: central location between DTLA and Echo Park, improving transit access, cultural momentum, and pricing that hasn't kept pace with adjacent neighborhoods like Silver Lake. For buyers seeking long-term appreciation and cultural authenticity, Boyle Heights offers defensible fundamentals. The challenge is that neighborhood change is gradual and gentrification is contentious-community roots matter here.",
   },
   {
     q: "What is the market like in Boyle Heights right now?",
-    a: "The Boyle Heights market in 2026 is buyer-favorable with 30–40 days on market and motivated sellers. Inventory has increased slightly, providing buyers with more optionality. The neighborhood attracts first-time homebuyers, investors, and longtime residents. Prices remain anchored below nearby Eastside neighborhoods, making it a strategic entry point for buyers who believe in the long-term trajectory of central LA.",
+    a: "The Boyle Heights market in 2026 is buyer-favorable with 30-40 days on market and motivated sellers. Inventory has increased slightly, providing buyers with more optionality. The neighborhood attracts first-time homebuyers, investors, and longtime residents. Prices remain anchored below nearby Eastside neighborhoods, making it a strategic entry point for buyers who believe in the long-term trajectory of central LA.",
   },
 ];
 
 const stats = [
-  { label: "Median Price", value: "$650K–$950K" },
-  { label: "Days on Market", value: "30–40 days" },
+  { label: "Median Price", value: "$650K-$950K" },
+  { label: "Days on Market", value: "30-40 days" },
   { label: "Market Trend", value: "Buyer-Favorable" },
   { label: "Community", value: "Historic Chicano" },
 ];
@@ -84,10 +84,10 @@ export default function BoylesHeightsPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <div>
               <p className="section-label mb-3">Neighborhood Guide</p>
-              <h2 className="font-serif text-white text-3xl mb-4">Boyle Heights — Historic Heart of Eastside LA</h2>
+              <h2 className="font-serif text-white text-3xl mb-4">Boyle Heights - Historic Heart of Eastside LA</h2>
               <div className="gold-divider mb-6" />
               <div className="space-y-4 text-white/60 text-sm leading-relaxed">
-                <p>Boyle Heights is the historic center of LA's Chicano community—a neighborhood with over a century of cultural depth, political significance, and community organizing. The streets are marked by world-class muralism, independent businesses, authentic food, and a strong sense of place that's authentic to Los Angeles.</p>
+                <p>Boyle Heights is the historic center of LA's Chicano community-a neighborhood with over a century of cultural depth, political significance, and community organizing. The streets are marked by world-class muralism, independent businesses, authentic food, and a strong sense of place that's authentic to Los Angeles.</p>
                 <p>The neighborhood sits directly east of downtown LA, making it geographically central despite its eastside identity. Cesar Chavez Avenue runs through the heart of Boyle Heights and serves as the commercial and cultural spine. East LA Street, Brooklyn Avenue, and the side streets contain single-family homes, small multi-units, and corner stores that have served the community for decades.</p>
                 <p>For real estate purposes, Boyle Heights represents emerging opportunity. Prices have not appreciated at the pace of neighboring Silver Lake and Los Feliz, making it attractive to buyers seeking Eastside location at a meaningful discount. The neighborhood offers walkability, cultural authenticity, improving transit connections, and positioning between downtown LA and the higher-priced Eastside neighborhoods.</p>
                 <p>The real estate market is primarily single-family homes and small multi-unit buildings. New construction is limited. Renovation and adaptive reuse are common. The strongest demand comes from first-time buyers, investors, and longtime residents seeking to stay in their community. Boyle Heights attracts buyers who value cultural roots and long-term appreciation over immediate gentrification.</p>
@@ -112,7 +112,7 @@ export default function BoylesHeightsPage() {
                   ["Best for", "Cultural authenticity, walkability, emerging investment, first-time buyers"],
                   ["Schools", "LAUSD schools throughout; several good public options"],
                   ["Transit", "Metro Gold Line (future extension), bus lines, car-friendly street grid"],
-                  ["Price range", "$650K–$950K single-family homes; small multi-units $800K–$1.2M"],
+                  ["Price range", "$650K-$950K single-family homes; small multi-units $800K-$1.2M"],
                 ].map(([label, value]) => (
                   <div key={label} className="flex gap-4 text-sm border-t border-white/5 pt-3">
                     <span className="text-white/40 w-24 shrink-0">{label}</span>
@@ -127,7 +127,7 @@ export default function BoylesHeightsPage() {
 
       <section className="py-16 bg-navy-900">
         <div className="max-w-4xl mx-auto px-6 lg:px-12">
-          <h2 className="font-serif text-white text-3xl mb-8 text-center">Boyle Heights Real Estate — FAQ</h2>
+          <h2 className="font-serif text-white text-3xl mb-8 text-center">Boyle Heights Real Estate - FAQ</h2>
           <div className="space-y-4">
             {faq.map(({ q, a }, i) => (
               <details key={i} className="group glass-card overflow-hidden">

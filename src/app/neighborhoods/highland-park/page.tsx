@@ -11,11 +11,11 @@ export const metadata: Metadata = {
 const faq = [
   {
     q: "What is the median home price in Highland Park?",
-    a: "As of 2026, Highland Park median home prices range from approximately $850K–$1.2M depending on location and condition. Single-family homes dominate the market. Highland Park has appreciated meaningfully over the past decade but remains more affordable than neighboring Silver Lake ($1.29M median) while offering comparable cultural energy and walkability.",
+    a: "As of 2026, Highland Park median home prices range from approximately $850K-$1.2M depending on location and condition. Single-family homes dominate the market. Highland Park has appreciated meaningfully over the past decade but remains more affordable than neighboring Silver Lake ($1.29M median) while offering comparable cultural energy and walkability.",
   },
   {
     q: "What makes Highland Park different from Silver Lake?",
-    a: "Highland Park and Silver Lake share the same cultural DNA—walkable streets, independent businesses, galleries, and a genuine local food scene. The key difference is price: Highland Park trades at a 20-30% discount to Silver Lake while offering the same long-term appreciation fundamentals. For buyers seeking Eastside authenticity without peak pricing, Highland Park is the play.",
+    a: "Highland Park and Silver Lake share the same cultural DNA-walkable streets, independent businesses, galleries, and a genuine local food scene. The key difference is price: Highland Park trades at a 20-30% discount to Silver Lake while offering the same long-term appreciation fundamentals. For buyers seeking Eastside authenticity without peak pricing, Highland Park is the play.",
   },
   {
     q: "Is Highland Park a good investment neighborhood?",
@@ -23,13 +23,13 @@ const faq = [
   },
   {
     q: "What is the food and arts scene like?",
-    a: "Highland Park's restaurant and bar scene has matured substantially. Chef Debbie Lee's modern Korean gastropub added Sunday brunch service, signaling the neighborhood has hit stable, sustainable quality of life—not a flash of gentrification. The neighborhood has a thriving independent gallery scene, strong street art, and cultural events that bring people outside and into community.",
+    a: "Highland Park's restaurant and bar scene has matured substantially. Chef Debbie Lee's modern Korean gastropub added Sunday brunch service, signaling the neighborhood has hit stable, sustainable quality of life-not a flash of gentrification. The neighborhood has a thriving independent gallery scene, strong street art, and cultural events that bring people outside and into community.",
   },
 ];
 
 const stats = [
-  { label: "Median Price", value: "$850K–$1.2M" },
-  { label: "Days on Market", value: "25–35 days" },
+  { label: "Median Price", value: "$850K-$1.2M" },
+  { label: "Days on Market", value: "25-35 days" },
   { label: "Market Trend", value: "Strong Appreciation" },
   { label: "Community", value: "Arts & Food" },
 ];
@@ -84,12 +84,12 @@ export default function HighlandParkPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <div>
               <p className="section-label mb-3">Neighborhood Guide</p>
-              <h2 className="font-serif text-white text-3xl mb-4">Highland Park — Eastside Value With Established Culture</h2>
+              <h2 className="font-serif text-white text-3xl mb-4">Highland Park - Eastside Value With Established Culture</h2>
               <div className="gold-divider mb-6" />
               <div className="space-y-4 text-white/60 text-sm leading-relaxed">
-                <p>Highland Park is the Eastside neighborhood that delivers Silver Lake's cultural energy at a more accessible price point. The neighborhood has matured from scrappy to genuinely established—independent galleries, a thriving restaurant scene, and street-level culture that's authentic rather than manufactured.</p>
+                <p>Highland Park is the Eastside neighborhood that delivers Silver Lake's cultural energy at a more accessible price point. The neighborhood has matured from scrappy to genuinely established-independent galleries, a thriving restaurant scene, and street-level culture that's authentic rather than manufactured.</p>
                 <p>The food and bar scene is what signals Highland Park has hit critical mass. Chef Debbie Lee's modern Korean gastropub adding Sunday brunch service, the proliferation of independent restaurants and cocktail bars, and the density of cultural institutions all point to a neighborhood that's sustainable long-term, not just a flash of speculative gentrification.</p>
-                <p>For real estate purposes, Highland Park represents value. Median prices at $850K–$1.2M are 20-30% below Silver Lake while the neighborhood shares the same walkability, cultural density, and long-term appreciation fundamentals. The investment thesis is straightforward: the neighborhoods that hold value long-term in LA are almost always the ones where people want to spend their time—not just where they sleep.</p>
+                <p>For real estate purposes, Highland Park represents value. Median prices at $850K-$1.2M are 20-30% below Silver Lake while the neighborhood shares the same walkability, cultural density, and long-term appreciation fundamentals. The investment thesis is straightforward: the neighborhoods that hold value long-term in LA are almost always the ones where people want to spend their time-not just where they sleep.</p>
                 <p>Single-family homes dominate the market. Smaller multi-unit buildings (duplexes, triplexes) are available. The strongest demand comes from owner-occupants seeking Eastside lifestyle without peak pricing, and from small investors looking for entry-level multi-units at favorable prices.</p>
               </div>
               <div className="mt-8 space-y-3">
@@ -112,7 +112,7 @@ export default function HighlandParkPage() {
                   ["Best for", "Food scene, arts culture, walkability, investment value"],
                   ["Schools", "LAUSD schools throughout; several strong options"],
                   ["Transit", "Bus lines, 110 Freeway access, future transit expansion"],
-                  ["Price range", "$850K–$1.2M single-family homes; small multi-units $950K–$1.5M"],
+                  ["Price range", "$850K-$1.2M single-family homes; small multi-units $950K-$1.5M"],
                 ].map(([label, value]) => (
                   <div key={label} className="flex gap-4 text-sm border-t border-white/5 pt-3">
                     <span className="text-white/40 w-24 shrink-0">{label}</span>
@@ -127,7 +127,7 @@ export default function HighlandParkPage() {
 
       <section className="py-16 bg-navy-900">
         <div className="max-w-4xl mx-auto px-6 lg:px-12">
-          <h2 className="font-serif text-white text-3xl mb-8 text-center">Highland Park Real Estate — FAQ</h2>
+          <h2 className="font-serif text-white text-3xl mb-8 text-center">Highland Park Real Estate - FAQ</h2>
           <div className="space-y-4">
             {faq.map(({ q, a }, i) => (
               <details key={i} className="group glass-card overflow-hidden">

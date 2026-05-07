@@ -232,7 +232,7 @@ export default function BlogPage() {
           </h2>
           <div className="gold-divider mx-auto" />
           <p className="text-white/50 text-sm mt-4 mb-8 leading-relaxed">
-            Market analysis, new listings, and exclusive insights — delivered discreetly to your inbox every week.
+            Market analysis, new listings, and exclusive insights - delivered discreetly to your inbox every week.
           </p>
           <form
             className="flex gap-0 max-w-md mx-auto"

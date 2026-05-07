@@ -39,7 +39,7 @@ const neighborhoods = [
     name: "Koreatown",
     slug: "koreatown",
     tagline: "LA's most transit-connected central neighborhood",
-    price: "$450K–$850K condos",
+    price: "$450K-$850K condos",
     dom: "Stable",
     trend: "Strong for Investors",
     description: "Highest density in LA, two Metro stations, exceptional food scene, and investment fundamentals that remain underpriced relative to the infrastructure.",
@@ -48,8 +48,8 @@ const neighborhoods = [
     name: "Highland Park",
     slug: "highland-park",
     tagline: "Thriving arts, food, and investment scene",
-    price: "$850K–$1.2M median",
-    dom: "25–35 days on market",
+    price: "$850K-$1.2M median",
+    dom: "25-35 days on market",
     trend: "Strong Appreciation",
     description: "Mature restaurant and bar scene, independent galleries, and cultural energy at prices below Silver Lake. Strong long-term value and investment fundamentals for Eastside buyers.",
   },
@@ -57,8 +57,8 @@ const neighborhoods = [
     name: "Boyle Heights",
     slug: "boyle-heights",
     tagline: "Historic Eastside neighborhood with emerging market",
-    price: "$650K–$950K median",
-    dom: "30–40 days on market",
+    price: "$650K-$950K median",
+    dom: "30-40 days on market",
     trend: "Buyer-Favorable",
     description: "Rich cultural heritage, street art scene, and emerging investment fundamentals. More affordable than neighboring Silver Lake with strong community roots and walkability.",
   },
@@ -80,7 +80,7 @@ export default function NeighborhoodsPage() {
           </h1>
           <div className="gold-divider" />
           <p className="text-white/50 text-sm mt-6 max-w-2xl leading-relaxed">
-            Hyperlocal real estate guides for LA's most sought-after neighborhoods — current market data, honest assessments, and buyer strategy from Johnny Leou (DRE#02064780).
+            Hyperlocal real estate guides for LA's most sought-after neighborhoods - current market data, honest assessments, and buyer strategy from Johnny Leou (DRE#02064780).
           </p>
         </div>
       </section>
@@ -119,7 +119,7 @@ export default function NeighborhoodsPage() {
           <p className="section-label mb-3">Don't See Your Neighborhood?</p>
           <h2 className="font-serif text-white text-4xl mb-4">I Cover All of LA and OC</h2>
           <div className="gold-divider mx-auto mb-6" />
-          <p className="text-white/50 text-sm leading-relaxed mb-8">These guides cover my most-requested neighborhoods. I work across all of Los Angeles and Orange County — Boyle Heights, Highland Park, DTLA, Long Beach, Irvine, Tustin, and beyond. Get a market read on any neighborhood you're considering.</p>
+          <p className="text-white/50 text-sm leading-relaxed mb-8">These guides cover my most-requested neighborhoods. I work across all of Los Angeles and Orange County - Boyle Heights, Highland Park, DTLA, Long Beach, Irvine, Tustin, and beyond. Get a market read on any neighborhood you're considering.</p>
           <Link href="/contact" className="btn-gold inline-flex items-center gap-3 px-10 py-4 text-sm tracking-widest uppercase">
             Ask About Any Neighborhood <ArrowRight size={14} />
           </Link>

@@ -1219,7 +1219,7 @@ Little Tokyo just got even better. And if you've been sleeping on that neighborh
   {
     id: "10",
     slug: "los-angeles-weekend-events-april-26-27-2026",
-    title: "What to Do in Los Angeles This Weekend: April 26–27, 2026",
+    title: "What to Do in Los Angeles This Weekend: April 26-27, 2026",
     excerpt:
       "From a massive artisan market in Old Pasadena to Fiesta Broadway downtown and a packed Smorgasburg lineup - here's your Johnny Leou-approved guide to LA this weekend.",
     content: `
@@ -1231,7 +1231,7 @@ Here's what I'm watching this weekend.
 
 ## Jackalope Artisan Marketplace - Old Pasadena
 
-**Saturday–Sunday | 10 AM – 5 PM | Central Park, Old Pasadena | Free**
+**Saturday-Sunday | 10 AM - 5 PM | Central Park, Old Pasadena | Free**
 
 Jackalope is back for spring and it's one of the better free weekend events in the LA area. Over 200 independent vendors selling handmade goods, jewelry, clothing, art, home decor, and food. Live music throughout both days and genuinely family-friendly.
 
@@ -1241,7 +1241,7 @@ Old Pasadena is a great excuse to walk the neighborhood before or after - Colora
 
 ## Brewery Artwalk - Lincoln Heights / East Los Angeles
 
-**Saturday–Sunday | Open Studios | The Brewery Arts Complex**
+**Saturday-Sunday | Open Studios | The Brewery Arts Complex**
 
 Twice a year, the Brewery opens its private artist studios to the public. Over 100 working artists across a 16-acre former brewery campus - you can walk right into their workspaces, see work in progress, and buy directly from the source.
 
@@ -1261,7 +1261,7 @@ DTLA has been one of the most interesting markets to watch for buyers and invest
 
 ## Crenshaw Night Market - Leimert Park
 
-**Saturday | 4–10 PM | Leimert Park | Free**
+**Saturday | 4-10 PM | Leimert Park | Free**
 
 The Crenshaw Night Market returns to Leimert Park on Saturday evening - local vendors, small businesses, food, music, and the kind of community energy that makes this neighborhood special. It's free to attend and runs until 10 PM, which makes it a perfect Saturday night option.
 
@@ -1271,7 +1271,7 @@ Leimert Park and the broader Crenshaw corridor have been generating serious buye
 
 ## Smorgasburg LA - ROW DTLA
 
-**Sunday | 10 AM – 4 PM | ROW DTLA, Downtown Los Angeles**
+**Sunday | 10 AM - 4 PM | ROW DTLA, Downtown Los Angeles**
 
 Smorgasburg is a weekly institution at this point - dozens of food vendors, new concepts every season, and one of the best people-watching spots in the city. This Sunday's lineup includes Terrible Burger, Franzl's Franks (Viennese street food), Mamani Pizza (Neapolitan meets Persian), and Stick Talk plant-based corn dogs.
 
@@ -1481,11 +1481,11 @@ The second biggest mistake is overpricing. In LA's social media-driven market, a
 
 ## The First Weekend Is Everything
 
-In Silver Lake, Echo Park, Los Feliz, Larchmont, and most competitive LA neighborhoods, the first weekend of showings determines the outcome of the sale. Your agent should have a clear plan to generate maximum foot traffic in those first 48–72 hours.
+In Silver Lake, Echo Park, Los Feliz, Larchmont, and most competitive LA neighborhoods, the first weekend of showings determines the outcome of the sale. Your agent should have a clear plan to generate maximum foot traffic in those first 48-72 hours.
 
 ## Timing Matters
 
-Spring (March–June) is historically the strongest selling season in Los Angeles. Interest from buyers is highest, and inventory is typically still constrained enough that sellers have meaningful leverage. Fall can also be strong, particularly September and October.
+Spring (March-June) is historically the strongest selling season in Los Angeles. Interest from buyers is highest, and inventory is typically still constrained enough that sellers have meaningful leverage. Fall can also be strong, particularly September and October.
 
 Ready to talk about selling? I'll give you an honest assessment of what your home is worth in today's market and a clear plan to maximize your result.
     `,
@@ -1601,7 +1601,7 @@ Always do a full inspection, even in competitive situations. Los Angeles homes -
 
 ## Step 6: Close with Confidence
 
-From accepted offer to close is typically 30–45 days in California. Your agent and escrow team will guide you through inspections, appraisal, final loan approval, and the closing walk-through.
+From accepted offer to close is typically 30-45 days in California. Your agent and escrow team will guide you through inspections, appraisal, final loan approval, and the closing walk-through.
     `,
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
@@ -1625,7 +1625,7 @@ Silver Lake and Echo Park are often mentioned in the same breath - both are hip,
 
 Silver Lake sits just north of Echo Park and tends to command slightly higher prices. Its streets wind up into hillside homes with views, and the neighborhood has a strong identity around the Reservoir, the Sunset Junction corridor, and a thriving restaurant and bar scene.
 
-Echo Park is a bit grittier and more diverse. It wraps around Echo Park Lake and has a more mixed character - longtime Latino families, artists, musicians, and younger buyers priced out of Silver Lake all coexist here. Prices are generally 10–20% lower than comparable Silver Lake homes.
+Echo Park is a bit grittier and more diverse. It wraps around Echo Park Lake and has a more mixed character - longtime Latino families, artists, musicians, and younger buyers priced out of Silver Lake all coexist here. Prices are generally 10-20% lower than comparable Silver Lake homes.
 
 ## Lifestyle Differences
 
@@ -1661,7 +1661,7 @@ Buying your first home in Los Angeles can feel overwhelming - prices are high, c
 
 ## Silver Lake & Echo Park
 
-These two neighboring communities have become some of the most sought-after in all of LA for good reason. Tree-lined streets, walkable coffee shops and restaurants, proximity to Griffith Park, and a genuine sense of community make both neighborhoods deeply liveable. For buyers with budgets in the $900K–$1.4M range, there are still opportunities - particularly for condos, townhomes, and smaller single-family homes.
+These two neighboring communities have become some of the most sought-after in all of LA for good reason. Tree-lined streets, walkable coffee shops and restaurants, proximity to Griffith Park, and a genuine sense of community make both neighborhoods deeply liveable. For buyers with budgets in the $900K-$1.4M range, there are still opportunities - particularly for condos, townhomes, and smaller single-family homes.
 
 ## Boyle Heights
 

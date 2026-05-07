@@ -5,13 +5,13 @@ import { MapPin, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Silver Lake Real Estate | Homes for Sale | Johnny Leou",
-  description: "Silver Lake homes for sale in 2026. Johnny Leou (DRE#02064780) specializes in Silver Lake real estate — median prices, neighborhood guide, and expert buyer representation.",
+  description: "Silver Lake homes for sale in 2026. Johnny Leou (DRE#02064780) specializes in Silver Lake real estate - median prices, neighborhood guide, and expert buyer representation.",
 };
 
 const faq = [
   {
     q: "What is the average home price in Silver Lake?",
-    a: "As of April 2026, the median home price in Silver Lake is approximately $1.29M. Single-family homes in the hills run higher — often $1.5M–$2.5M — while entry-level condos and smaller bungalows can be found in the $900K–$1.1M range.",
+    a: "As of April 2026, the median home price in Silver Lake is approximately $1.29M. Single-family homes in the hills run higher - often $1.5M-$2.5M - while entry-level condos and smaller bungalows can be found in the $900K-$1.1M range.",
   },
   {
     q: "Is Silver Lake a good investment in 2026?",
@@ -19,11 +19,11 @@ const faq = [
   },
   {
     q: "What is Silver Lake like to live in?",
-    a: "Silver Lake is one of LA's most walkable and culturally active neighborhoods — dense with independent restaurants, coffee shops, boutiques, and live music venues. The reservoir and surrounding hills provide outdoor access. It attracts a mix of young professionals, families, and creative industry residents. It borders Echo Park, Los Feliz, and Atwater Village.",
+    a: "Silver Lake is one of LA's most walkable and culturally active neighborhoods - dense with independent restaurants, coffee shops, boutiques, and live music venues. The reservoir and surrounding hills provide outdoor access. It attracts a mix of young professionals, families, and creative industry residents. It borders Echo Park, Los Feliz, and Atwater Village.",
   },
   {
     q: "How do I buy a home in Silver Lake?",
-    a: "Start with pre-approval — Silver Lake is competitive and sellers expect pre-approved buyers. Work with an agent who knows the specific micro-markets within Silver Lake (hillside vs. flatlands, reservoir-adjacent vs. Sunset corridor). Properties in the hills move quickly when priced right. Contact Johnny Leou (DRE#02064780) for a current market read and buyer strategy.",
+    a: "Start with pre-approval - Silver Lake is competitive and sellers expect pre-approved buyers. Work with an agent who knows the specific micro-markets within Silver Lake (hillside vs. flatlands, reservoir-adjacent vs. Sunset corridor). Properties in the hills move quickly when priced right. Contact Johnny Leou (DRE#02064780) for a current market read and buyer strategy.",
   },
 ];
 
@@ -61,7 +61,7 @@ export default function SilverLakePage() {
           <h1 className="section-title mb-4">Silver Lake<br /><span className="text-gold-500 italic">Real Estate</span></h1>
           <div className="gold-divider" />
           <p className="text-white/50 text-sm mt-6 max-w-2xl leading-relaxed">
-            Silver Lake is one of LA's most sought-after Eastside neighborhoods — walkable, culturally rich, and consistently one of the city's strongest long-term appreciation markets. Johnny Leou (DRE#02064780) specializes in Silver Lake buyer and seller representation.
+            Silver Lake is one of LA's most sought-after Eastside neighborhoods - walkable, culturally rich, and consistently one of the city's strongest long-term appreciation markets. Johnny Leou (DRE#02064780) specializes in Silver Lake buyer and seller representation.
           </p>
         </div>
       </section>
@@ -87,15 +87,15 @@ export default function SilverLakePage() {
               <h2 className="font-serif text-white text-3xl mb-4">What Makes Silver Lake Different</h2>
               <div className="gold-divider mb-6" />
               <div className="space-y-4 text-white/60 text-sm leading-relaxed">
-                <p>Silver Lake occupies a uniquely positioned part of the LA Eastside — close enough to Hollywood and DTLA for easy access, far enough removed to maintain its own distinct identity. The neighborhood is organized around the Silver Lake Reservoir, which serves as its geographic and social anchor, surrounded by hiking paths, dogs, weekend crowds, and some of the best restaurant real estate in the city.</p>
-                <p>Housing stock runs from 1920s-era craftsmen and Spanish colonials in the flatlands to mid-century modern and contemporary builds on the hillsides. The hills command a premium — both for the architecture and the views — and homes in the reservoir-adjacent blocks sell quickly and at tight pricing. The flatlands along Sunset, Rowena, and Hyperion offer more diverse options at slightly lower price points.</p>
-                <p>Silver Lake's commercial corridors — Sunset Junction, Rowena, Micheltorena — are among the most walkable stretches of retail and dining in LA. The neighborhood has a strong independent business culture that has held up against the chain-and-development pressure that has changed other LA corridors.</p>
+                <p>Silver Lake occupies a uniquely positioned part of the LA Eastside - close enough to Hollywood and DTLA for easy access, far enough removed to maintain its own distinct identity. The neighborhood is organized around the Silver Lake Reservoir, which serves as its geographic and social anchor, surrounded by hiking paths, dogs, weekend crowds, and some of the best restaurant real estate in the city.</p>
+                <p>Housing stock runs from 1920s-era craftsmen and Spanish colonials in the flatlands to mid-century modern and contemporary builds on the hillsides. The hills command a premium - both for the architecture and the views - and homes in the reservoir-adjacent blocks sell quickly and at tight pricing. The flatlands along Sunset, Rowena, and Hyperion offer more diverse options at slightly lower price points.</p>
+                <p>Silver Lake's commercial corridors - Sunset Junction, Rowena, Micheltorena - are among the most walkable stretches of retail and dining in LA. The neighborhood has a strong independent business culture that has held up against the chain-and-development pressure that has changed other LA corridors.</p>
                 <p>For buyers, the competition is real but currently more measured than the frenzied 2021-2022 era. Days on market have increased to around 22 days, and stale listings are showing some negotiating room. For well-prepared buyers working with an agent who knows specific block-level values, there is opportunity in the current market.</p>
               </div>
               <div className="mt-8 space-y-3">
                 <h3 className="font-serif text-white text-xl">Who Lives Here</h3>
                 <ul className="space-y-2 text-white/60 text-sm">
-                  {["Creative industry professionals — film, music, design", "Young families priced out of Los Feliz who want the same energy at a slight discount", "LGBTQ+ residents — Silver Lake has a strong historic LGBTQ+ community", "Move-up buyers from Echo Park and Highland Park", "Investors holding long-term rental properties"].map((item) => (
+                  {["Creative industry professionals - film, music, design", "Young families priced out of Los Feliz who want the same energy at a slight discount", "LGBTQ+ residents - Silver Lake has a strong historic LGBTQ+ community", "Move-up buyers from Echo Park and Highland Park", "Investors holding long-term rental properties"].map((item) => (
                     <li key={item} className="flex items-start gap-2"><span className="text-gold-500 shrink-0">-</span>{item}</li>
                   ))}
                 </ul>
@@ -110,9 +110,9 @@ export default function SilverLakePage() {
                 {[
                   ["Borders", "Echo Park, Los Feliz, Atwater Village, Hollywood"],
                   ["Best for", "Walkability, dining, independent culture, outdoor access"],
-                  ["Schools", "LAUSD — several magnet options, private schools nearby"],
+                  ["Schools", "LAUSD - several magnet options, private schools nearby"],
                   ["Transit", "Metro bus lines; not Metro Rail but close to DTLA corridors"],
-                  ["Price range", "$900K–$2.5M+ depending on location and type"],
+                  ["Price range", "$900K-$2.5M+ depending on location and type"],
                 ].map(([label, value]) => (
                   <div key={label} className="flex gap-4 text-sm border-t border-white/5 pt-3">
                     <span className="text-white/40 w-24 shrink-0">{label}</span>
@@ -127,7 +127,7 @@ export default function SilverLakePage() {
 
       <section className="py-16 bg-navy-900">
         <div className="max-w-4xl mx-auto px-6 lg:px-12">
-          <h2 className="font-serif text-white text-3xl mb-8 text-center">Silver Lake Real Estate — FAQ</h2>
+          <h2 className="font-serif text-white text-3xl mb-8 text-center">Silver Lake Real Estate - FAQ</h2>
           <div className="space-y-4">
             {faq.map(({ q, a }, i) => (
               <details key={i} className="group glass-card overflow-hidden">
