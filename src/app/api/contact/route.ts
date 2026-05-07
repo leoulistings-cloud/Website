@@ -1,11 +1,19 @@
 import { NextRequest, NextResponse } from "next/server";
 
-const FUB_API_KEY = process.env.FUB_API_KEY || "fka_0aiYKj6ZMMoKmrNIeo0v9p62aCij92NOsN";
-
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
     const { firstName, lastName, email, phone, inquiryType, budget, message } = body;
+
+    const FUB_API_KEY = process.env.FUB_API_KEY;
+
+    if (!FUB_API_KEY) {
+      console.error("FUB_API_KEY environment variable is not set");
+      return NextResponse.json(
+        { error: "API key not configured" },
+        { status: 500 }
+      );
+    }
 
     // Build the person object
     const personData: any = {
@@ -25,6 +33,8 @@ export async function POST(request: NextRequest) {
       personData.email = email;
     }
 
+    console.log("Submitting to FUB:", JSON.stringify(personData));
+
     // Create the person in Follow Up Boss
     const fubResponse = await fetch("https://api.followupboss.com/v1/people", {
       method: "POST",
@@ -35,11 +45,15 @@ export async function POST(request: NextRequest) {
       body: JSON.stringify(personData),
     });
 
+    const fubResponseText = await fubResponse.text();
+    console.log("FUB Response Status:", fubResponse.status);
+    console.log("FUB Response Body:", fubResponseText);
+
     if (!fubResponse.ok) {
-      console.error("Follow Up Boss API error:", await fubResponse.text());
+      console.error("Follow Up Boss API error:", fubResponseText);
       return NextResponse.json(
-        { error: "Failed to submit contact form" },
-        { status: 500 }
+        { error: "Failed to submit contact form", details: fubResponseText },
+        { status: fubResponse.status }
       );
     }
 
@@ -47,7 +61,7 @@ export async function POST(request: NextRequest) {
   } catch (error) {
     console.error("Contact form error:", error);
     return NextResponse.json(
-      { error: "Internal server error" },
+      { error: "Internal server error", details: String(error) },
       { status: 500 }
     );
   }
