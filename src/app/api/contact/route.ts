@@ -9,12 +9,18 @@ export async function POST(request: NextRequest) {
     console.log("SMTP_EMAIL:", process.env.SMTP_EMAIL);
     console.log("SMTP_PASSWORD exists:", !!process.env.SMTP_PASSWORD);
 
+    if (!process.env.SMTP_EMAIL || !process.env.SMTP_PASSWORD) {
+      throw new Error("SMTP credentials not configured");
+    }
+
     // Send email to Johnny
     const transporter = nodemailer.createTransport({
-      service: "gmail",
+      host: "smtp.gmail.com",
+      port: 587,
+      secure: false,
       auth: {
         user: process.env.SMTP_EMAIL,
-        pass: process.env.SMTP_PASSWORD,
+        pass: process.env.SMTP_PASSWORD.trim(),
       },
     });
 
