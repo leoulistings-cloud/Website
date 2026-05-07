@@ -23,6 +23,7 @@ const inquiryTypes = [
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -41,6 +42,7 @@ export default function ContactPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsLoading(true);
+    setError(null);
 
     try {
       const response = await fetch("/api/contact", {
@@ -48,6 +50,8 @@ export default function ContactPage() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
       });
+
+      const data = await response.json();
 
       if (response.ok) {
         setSubmitted(true);
@@ -60,8 +64,13 @@ export default function ContactPage() {
           budget: "Prefer not to say",
           message: "",
         });
+      } else {
+        setError(data.error || "Failed to submit form. Please try again.");
+        console.error("Form submission error:", data);
       }
     } catch (error) {
+      const errorMsg = error instanceof Error ? error.message : "Network error";
+      setError(errorMsg);
       console.error("Error submitting form:", error);
     } finally {
       setIsLoading(false);
@@ -167,6 +176,11 @@ export default function ContactPage() {
               ) : (
                 <div className="bg-navy-900 border border-white/5 p-8 lg:p-12">
                   <h2 className="font-serif text-white text-2xl mb-6">Send Us a Message</h2>
+                  {error && (
+                    <div className="mb-6 p-4 bg-red-900/20 border border-red-500/30 text-red-200 text-sm">
+                      {error}
+                    </div>
+                  )}
                   <form onSubmit={handleSubmit} className="space-y-5">
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                       <div>
