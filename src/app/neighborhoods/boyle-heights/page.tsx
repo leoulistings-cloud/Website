@@ -103,7 +103,7 @@ export default function BoylesHeightsPage() {
             </div>
             <div className="space-y-6">
               <div className="relative aspect-[4/3] overflow-hidden">
-                <Image src="https://images.unsplash.com/photo-1449844908441-8829872d2607?w=800&q=80" alt="Boyle Heights Los Angeles street art" fill className="object-cover" sizes="(max-width: 1024px) 100vw, 50vw" />
+                <Image src="https://i.imgur.com/QdOJXhC.jpg" alt="Boyle Heights Los Angeles street art" fill className="object-cover" sizes="(max-width: 1024px) 100vw, 50vw" />
               </div>
               <div className="glass-card p-6 space-y-4">
                 <h3 className="font-serif text-white text-lg">At a Glance</h3>

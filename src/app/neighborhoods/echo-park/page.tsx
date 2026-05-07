@@ -103,7 +103,7 @@ export default function EchoParkPage() {
             </div>
             <div className="space-y-6">
               <div className="relative aspect-[4/3] overflow-hidden">
-                <Image src="https://images.unsplash.com/photo-1580655653885-65763b2597d0?w=800&q=80" alt="Echo Park Los Angeles" fill className="object-cover" sizes="(max-width: 1024px) 100vw, 50vw" />
+                <Image src="https://i.imgur.com/LG4YUZt.jpg" alt="Echo Park Los Angeles" fill className="object-cover" sizes="(max-width: 1024px) 100vw, 50vw" />
               </div>
               <div className="glass-card p-6 space-y-4">
                 <h3 className="font-serif text-white text-lg">At a Glance</h3>
