@@ -59,7 +59,7 @@ I'm Johnny Leou (DRE#02064780), Los Angeles and Orange County real estate agent 
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
     authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
-    coverImage: "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80",
+    coverImage: "https://i.imgur.com/wNq1VXu.jpg",
     category: "Market Insights",
     tags: ["MacArthur Park Los Angeles", "Westlake LA Real Estate", "Koreatown Investment", "Echo Park Homes", "Los Angeles Neighborhood Guide", "Johnny Leou", "DRE 02064780", "LA Real Estate 2026", "Central LA Investment", "Emerging Neighborhoods LA"],
     publishedAt: "2026-05-07",
