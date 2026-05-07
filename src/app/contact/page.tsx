@@ -193,6 +193,15 @@ export default function ContactPage() {
               ) : (
                 <div className="bg-navy-900 border border-white/5 p-8 lg:p-12">
                   <h2 className="font-serif text-white text-2xl mb-6">Send Us a Message</h2>
+                  <div className="mb-6 p-4 bg-gold-500/10 border border-gold-500/30 text-gold-200 text-sm">
+                    <p className="font-semibold mb-2">Form temporarily unavailable</p>
+                    <p className="mb-3">We're updating our contact system. Please reach out directly:</p>
+                    <ul className="space-y-1 text-xs">
+                      <li>📞 <a href="tel:+19493004485" className="hover:text-gold-100 underline">(949) 300-4485</a></li>
+                      <li>📧 <a href="mailto:leoulistings@gmail.com" className="hover:text-gold-100 underline">leoulistings@gmail.com</a></li>
+                      <li>📅 <a href="https://calendly.com/leoulistings" target="_blank" rel="noopener noreferrer" className="hover:text-gold-100 underline">Book a time on Calendly</a></li>
+                    </ul>
+                  </div>
                   {error && (
                     <div className="mb-6 p-4 bg-red-900/20 border border-red-500/30 text-red-200 text-sm">
                       {error}
@@ -284,8 +293,8 @@ export default function ContactPage() {
                         I understand that all information shared will be handled with complete confidentiality.
                       </label>
                     </div>
-                    <button type="submit" disabled={isLoading} className="btn-gold w-full py-4 text-sm tracking-widest uppercase disabled:opacity-50 disabled:cursor-not-allowed">
-                      {isLoading ? "Sending..." : "Send Message"}
+                    <button type="submit" disabled={true} className="w-full py-4 text-sm tracking-widest uppercase bg-gray-500 text-gray-300 cursor-not-allowed opacity-60">
+                      Send Message (Temporarily Unavailable)
                     </button>
                   </form>
                 </div>
