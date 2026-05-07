@@ -8,9 +8,9 @@ import { blogPosts } from "@/data/blog-posts";
 import { agents, testimonials, marketStats } from "@/data/agents";
 
 const heroImages = [
+  "https://i.imgur.com/GmMgVt8.jpg",
   "https://i.imgur.com/BmBZafG.jpg",
   "https://i.imgur.com/D56aUuf.jpg",
-  "https://i.imgur.com/GmMgVt8.jpg",
 ];
 
 function useScrollAnimation() {
@@ -38,7 +38,7 @@ export default function HomePage() {
   useScrollAnimation();
 
   useEffect(() => {
-    const t = setInterval(() => setHeroIdx((i) => (i + 1) % heroImages.length), 6000);
+    const t = setInterval(() => setHeroIdx((i) => (i + 1) % heroImages.length), 8000);
     return () => clearInterval(t);
   }, []);
 
