@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { Phone, Mail, MapPin, Clock, Check } from "lucide-react";
+import { Phone, Mail, MapPin, Check } from "lucide-react";
 
 const offices = [
   {
@@ -22,15 +22,54 @@ const inquiryTypes = [
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    inquiryType: "Buying a Property",
+    budget: "Prefer not to say",
+    message: "",
+  });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
+    setIsLoading(true);
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setSubmitted(true);
+        setFormData({
+          firstName: "",
+          lastName: "",
+          email: "",
+          phone: "",
+          inquiryType: "Buying a Property",
+          budget: "Prefer not to say",
+          message: "",
+        });
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (
     <>
-      {/* Header */}
       <section className="relative pt-32 pb-20 bg-navy-900">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <p className="section-label mb-3">Let's Connect</p>
@@ -44,11 +83,9 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Main content */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-            {/* Contact Info */}
             <div className="lg:col-span-1 space-y-8">
               <div>
                 <p className="text-gold-500 text-xs tracking-[0.2em] uppercase mb-4">Our Offices</p>
@@ -114,7 +151,6 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {/* Form */}
             <div className="lg:col-span-2">
               {submitted ? (
                 <div className="h-full flex items-center justify-center py-20">
@@ -138,6 +174,9 @@ export default function ContactPage() {
                         <input
                           required
                           type="text"
+                          name="firstName"
+                          value={formData.firstName}
+                          onChange={handleChange}
                           className="w-full bg-navy-950 border border-white/10 text-white text-sm px-4 py-3 outline-none focus:border-gold-500 transition-colors placeholder:text-white/20"
                           placeholder="Alexandra"
                         />
@@ -147,6 +186,9 @@ export default function ContactPage() {
                         <input
                           required
                           type="text"
+                          name="lastName"
+                          value={formData.lastName}
+                          onChange={handleChange}
                           className="w-full bg-navy-950 border border-white/10 text-white text-sm px-4 py-3 outline-none focus:border-gold-500 transition-colors placeholder:text-white/20"
                           placeholder="Worthington"
                         />
@@ -157,6 +199,9 @@ export default function ContactPage() {
                         <label className="text-white/40 text-xs tracking-widest uppercase block mb-2">Email</label>
                         <input
                           type="email"
+                          name="email"
+                          value={formData.email}
+                          onChange={handleChange}
                           className="w-full bg-navy-950 border border-white/10 text-white text-sm px-4 py-3 outline-none focus:border-gold-500 transition-colors placeholder:text-white/20"
                           placeholder="your@email.com"
                         />
@@ -166,6 +211,9 @@ export default function ContactPage() {
                         <input
                           required
                           type="tel"
+                          name="phone"
+                          value={formData.phone}
+                          onChange={handleChange}
                           className="w-full bg-navy-950 border border-white/10 text-white text-sm px-4 py-3 outline-none focus:border-gold-500 transition-colors placeholder:text-white/20"
                           placeholder="+1 (555) 000-0000"
                         />
@@ -173,7 +221,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <label className="text-white/40 text-xs tracking-widest uppercase block mb-2">Inquiry Type</label>
-                      <select className="w-full bg-navy-950 border border-white/10 text-white/70 text-sm px-4 py-3 outline-none focus:border-gold-500 transition-colors">
+                      <select name="inquiryType" value={formData.inquiryType} onChange={handleChange} className="w-full bg-navy-950 border border-white/10 text-white/70 text-sm px-4 py-3 outline-none focus:border-gold-500 transition-colors">
                         {inquiryTypes.map((t) => (
                           <option key={t} value={t} className="bg-navy-950">{t}</option>
                         ))}
@@ -181,7 +229,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <label className="text-white/40 text-xs tracking-widest uppercase block mb-2">Budget / Price Range</label>
-                      <select className="w-full bg-navy-950 border border-white/10 text-white/70 text-sm px-4 py-3 outline-none focus:border-gold-500 transition-colors">
+                      <select name="budget" value={formData.budget} onChange={handleChange} className="w-full bg-navy-950 border border-white/10 text-white/70 text-sm px-4 py-3 outline-none focus:border-gold-500 transition-colors">
                         {["$600K – $700K", "$700K – $800K", "$800K – $900K", "$900K – $1M", "$1M – $1.1M", "$1.1M – $1.2M", "$1.2M – $1.3M", "$1.3M – $1.4M", "$1.4M – $1.5M", "$1.5M – $2M", "$2M – $3M", "$3M – $4M", "$4M – $5M", "$5M+", "Prefer not to say"].map((r) => (
                           <option key={r} className="bg-navy-950">{r}</option>
                         ))}
@@ -192,6 +240,9 @@ export default function ContactPage() {
                       <textarea
                         required
                         rows={5}
+                        name="message"
+                        value={formData.message}
+                        onChange={handleChange}
                         className="w-full bg-navy-950 border border-white/10 text-white text-sm px-4 py-3 outline-none focus:border-gold-500 transition-colors placeholder:text-white/20 resize-none"
                         placeholder="Tell us about your property goals, timeline, or any specific requirements..."
                       />
@@ -202,8 +253,8 @@ export default function ContactPage() {
                         I understand that all information shared will be handled with complete confidentiality.
                       </label>
                     </div>
-                    <button type="submit" className="btn-gold w-full py-4 text-sm tracking-widest uppercase">
-                      Send Message
+                    <button type="submit" disabled={isLoading} className="btn-gold w-full py-4 text-sm tracking-widest uppercase disabled:opacity-50 disabled:cursor-not-allowed">
+                      {isLoading ? "Sending..." : "Send Message"}
                     </button>
                   </form>
                 </div>
