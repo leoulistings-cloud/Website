@@ -45,15 +45,31 @@ export default function ContactPage() {
     setError(null);
 
     try {
+      console.log("Submitting form with data:", formData);
       const response = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
       });
 
-      const data = await response.json();
+      console.log("Response status:", response.status);
+      console.log("Response ok:", response.ok);
+
+      let data;
+      try {
+        data = await response.json();
+        console.log("Response data:", data);
+      } catch (parseError) {
+        console.error("Failed to parse response as JSON:", parseError);
+        const text = await response.text();
+        console.log("Raw response:", text);
+        setError("Server returned an invalid response");
+        setIsLoading(false);
+        return;
+      }
 
       if (response.ok) {
+        console.log("Form submitted successfully");
         setSubmitted(true);
         setFormData({
           firstName: "",
@@ -65,11 +81,12 @@ export default function ContactPage() {
           message: "",
         });
       } else {
-        setError(data.error || "Failed to submit form. Please try again.");
+        const errorMsg = data.error || `Server error: ${response.status}`;
+        setError(errorMsg);
         console.error("Form submission error:", data);
       }
     } catch (error) {
-      const errorMsg = error instanceof Error ? error.message : "Network error";
+      const errorMsg = error instanceof Error ? error.message : "Unknown error";
       setError(errorMsg);
       console.error("Error submitting form:", error);
     } finally {
