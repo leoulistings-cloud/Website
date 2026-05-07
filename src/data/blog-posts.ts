@@ -2,6 +2,235 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "25",
+    slug: "macarthur-park-federal-crackdown-westlake-koreatown-echo-park-real-estate-2026",
+    title: "Federal Agents Swept MacArthur Park Yesterday. Here's What That Means for Buyers Watching the Westlake Corridor.",
+    excerpt:
+      "A major federal fentanyl and meth operation at MacArthur Park on May 6 resulted in the capture of the area's alleged top drug trafficker. For buyers who have been tracking Westlake, Koreatown, and Echo Park - this is worth understanding before you write it off or write it in.",
+    content: `
+On May 6, 2026, federal agents conducted a sweeping drug crackdown at MacArthur Park in the Westlake neighborhood of Los Angeles. The operation targeted fentanyl and methamphetamine trafficking, and resulted in the capture of the individual described by authorities as the alleged number one drug trafficker operating in the park - a Calabasas resident now in federal custody.
+
+This is significant news for anyone tracking the Westlake, Koreatown, and western Echo Park corridor for real estate.
+
+## What Actually Happened
+
+Federal law enforcement - not LAPD, federal agents - conducted the sweep. The distinction matters. Federal operations are typically longer-planned, higher-resource, and more targeted than local enforcement actions. The capture of an alleged top-level trafficker rather than street-level arrests suggests this was an intelligence-driven operation, not a routine sweep.
+
+The 110 Freeway's northbound lanes in the area remained shut for over a day following a separate infrastructure incident in the same timeframe - a reminder that the Westlake area is navigating multiple simultaneous challenges.
+
+## What MacArthur Park Has Been
+
+MacArthur Park sits at the intersection of several things that make Los Angeles complicated: a historically significant public space, a dense immigrant community, severe housing unaffordability, and a persistent open-air drug market that has driven away investment and residents alike for years.
+
+It is also directly adjacent to Koreatown - one of the most densely populated and culturally rich neighborhoods in LA - and within walking distance of the western edge of Echo Park.
+
+For years, the park has functioned as a ceiling on how far west Koreatown's investment momentum could travel, and how far south Echo Park's energy could push. Buyers who found the pricing compelling in Westlake often ran straight into the park's reputation and stopped.
+
+## What This Could Signal
+
+A federal-level enforcement operation with the capture of a high-level trafficking figure is a different category of event than what the neighborhood has seen in prior years. It suggests coordinated pressure at a scale that local enforcement alone doesn't produce.
+
+Does this mean Westlake is about to transform overnight? No. The structural challenges - housing density, infrastructure, street conditions - don't change because of a single federal operation. But persistent federal attention to an area's criminal infrastructure is historically a precursor to the kind of stability that allows neighborhood investment to follow.
+
+Koreatown's trajectory is instructive here. The neighborhood experienced its own period of significant crime and disinvestment before becoming one of LA's most compelling investment markets. The fundamentals were always there - density, transit access, cultural anchors, central location. What changed was the conditions around safety and stability that allowed those fundamentals to be recognized.
+
+Westlake has many of the same fundamentals: central location, MetroRail access at MacArthur Park station, extraordinary cultural density, proximity to DTLA and Koreatown, and pricing that still reflects the historical challenges rather than the emerging trajectory.
+
+## For Buyers - What to Do With This Information
+
+If you've been tracking Westlake and Koreatown fringe properties, this isn't a reason to rush in. One federal operation doesn't change a neighborhood.
+
+But it is a reason to stay informed and to understand that the areas immediately adjacent to MacArthur Park - particularly the blocks between the park and Koreatown proper - are worth watching. If federal enforcement pressure sustains, the investment case for these blocks gets meaningfully stronger over a 2-5 year horizon.
+
+For investors specifically: Westlake has some of the most compelling rent-to-price ratios in central LA precisely because of the perception discount. If that discount compresses over the next 18-24 months, the entry point available today looks very different in hindsight.
+
+For owner-occupants: the calculus is different. Lifestyle and day-to-day experience matter more than investment upside. Be honest with yourself about what you want from a neighborhood before letting the price point drive the decision.
+
+## My Take
+
+I'm not going to tell you MacArthur Park is a sure bet. The challenges are real and the timeline for change is uncertain.
+
+What I will tell you is that federal law enforcement involvement at the level seen yesterday is not nothing. It's the kind of intervention that precedes change in neighborhoods that have the bones to improve. Westlake has the bones.
+
+If you're a buyer or investor who has been watching this corridor and waiting for a signal that serious attention is being paid - this is a data point worth tracking.
+
+I'm Johnny Leou (DRE#02064780), Los Angeles and Orange County real estate agent at eXp Realty of Greater Los Angeles. I work with buyers and investors across Koreatown, Echo Park, Westlake, and the broader central LA market. If you want an honest read on what this neighborhood looks like right now and what the realistic upside looks like, let's talk.
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200&q=80",
+    category: "Market Insights",
+    tags: ["MacArthur Park Los Angeles", "Westlake LA Real Estate", "Koreatown Investment", "Echo Park Homes", "Los Angeles Neighborhood Guide", "Johnny Leou", "DRE 02064780", "LA Real Estate 2026", "Central LA Investment", "Emerging Neighborhoods LA"],
+    publishedAt: "2026-05-07",
+    readTime: 6,
+  },
+  {
+    id: "24",
+    slug: "300-million-dtla-condo-tower-613-s-grand-avenue-tm-group-2026",
+    title: "A $300M+ Condo Tower Just Got Announced for 613 S Grand Ave. DTLA's Development Moment Is Real.",
+    excerpt:
+      "TM Group announced a 55+ story, 300+ unit condominium tower at 613 S Grand Ave in Downtown Los Angeles yesterday. The investment exceeds $300 million. Combined with the World Trade Center conversion and the graffiti towers sale, DTLA is seeing a level of institutional conviction it hasn't had in years.",
+    content: `
+Yesterday, TM Group - led by founder Temirlan Tokobekov - announced plans for a $300 million-plus condominium tower at 613 S Grand Avenue in Downtown Los Angeles.
+
+The project: 55+ stories. 300+ condominium residences. Ground-floor commercial space. A curated amenity package. One of DTLA's most prominent addresses.
+
+The project is currently in pre-development - architectural planning, feasibility analysis, financial structuring, city coordination. No construction timeline yet. But the announcement itself is significant.
+
+## Why This Matters
+
+Downtown Los Angeles has been getting a reputation as a neighborhood with great bones and a troubled narrative. High office vacancy. Slow post-pandemic foot traffic recovery. The infamous graffiti towers sitting half-built for years as a symbol of stalled ambition.
+
+But look at what has happened in the last 60 days:
+
+In March, a buyer emerged for the Oceanwide Plaza graffiti towers in a $470 million deal. Those towers - which had become shorthand for everything wrong with DTLA - now have a path to completion.
+
+Last week, the LA World Trade Center at 350 S. Figueroa broke ground on its conversion to 512 deed-restricted affordable apartments under Jamison Services - the most prolific adaptive reuse developer in the city.
+
+And now a $300 million-plus condominium tower from an international developer making its US debut in Downtown Los Angeles.
+
+Three major capital commitments to DTLA in 60 days. That is not coincidence. That is institutional conviction.
+
+## Who Is TM Group
+
+TM Group is an international real estate development and investment company with over 60 landmark projects delivered across Central Asia. The US market - and specifically Downtown Los Angeles - is their first American move.
+
+International developers don't make their US debut in neighborhoods they think are declining. They enter markets where they see undervalued land, improving infrastructure, and long-duration upside. The fact that TM Group chose 613 S Grand as their entry point says something about how sophisticated outside capital is reading DTLA right now.
+
+## What 613 S Grand Ave Means Specifically
+
+Grand Avenue is DTLA's cultural spine. The Broad Museum. MOCA. Disney Concert Hall. The Grand LA mixed-use development (already open). The Grand Avenue corridor is where the city has consistently concentrated its highest-profile institutional investment.
+
+A 55+ story condo tower at 613 S Grand puts new residents directly in the center of that cultural infrastructure - walkable to world-class museums, concert venues, restaurants, and the growing park space around Grand Park.
+
+For context: Grand Avenue condo inventory has been limited relative to the quality of the street's cultural assets. A 300+ unit tower adds meaningful supply while also validating the corridor's premium residential positioning.
+
+## What It Means for DTLA Buyers Right Now
+
+The pre-development announcement is exactly that - pre-development. A 55+ story tower takes years from announcement to delivery. But the effect on buyer psychology and neighborhood perception begins at announcement.
+
+Here's the pattern: institutional capital commits publicly to a neighborhood, which signals to smaller buyers that the neighborhood has a credible future, which brings more buyers into the market, which tightens inventory, which compresses the discount that made the original institutional bet attractive.
+
+If you're a buyer who has been considering a DTLA condo and waiting for a clearer signal that the neighborhood has institutional backing - three $300M+ capital commitments in 60 days is about as clear as it gets.
+
+Prices in DTLA are still soft relative to comparable LA neighborhoods. Days on market are still elevated. Sellers are still negotiating. Those conditions don't last indefinitely when conviction at this level shows up.
+
+## For Investors
+
+The 613 S Grand announcement, layered on top of the graffiti towers resolution and the World Trade Center conversion, creates a forward demand signal for the DTLA rental market. 300+ new condo residences plus 512 new affordable apartment residents plus the graffiti towers units - that's potentially 1,000+ new residents coming to DTLA's core over the next several years.
+
+New residents need retail, restaurants, services, parking, and the day-to-day infrastructure of a neighborhood. Investors who position ahead of that demand - whether in small residential units, mixed-use properties, or commercial space - are buying the leading edge of what institutional capital is already betting on.
+
+## My Take
+
+DTLA has been one of the most misread neighborhoods in Los Angeles for three years. The perception lagged the fundamentals significantly.
+
+The narrative is catching up now. Three major capital commitments in 60 days don't happen in a neighborhood without a credible future. The window where buyers can enter at soft pricing with significant institutional tailwind is real - and it's compressing.
+
+If Downtown LA is on your radar, the time to understand it deeply is now, not after the TM Group tower breaks ground and the coverage cycle has run its full lap.
+
+I'm Johnny Leou (DRE#02064780), Los Angeles and Orange County real estate agent at eXp Realty of Greater Los Angeles. I work with buyers and investors across the DTLA corridor - South Park, the Arts District, the Financial District, Grand Avenue. Let's talk about what the current entry point looks like and whether it makes sense for your situation.
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://images.unsplash.com/photo-1542621334-a254cf47733d?w=1200&q=80",
+    category: "Market Insights",
+    tags: ["DTLA Real Estate 2026", "Downtown LA Condos", "613 S Grand Avenue", "TM Group Los Angeles", "DTLA Development", "Los Angeles Investment Property", "Johnny Leou", "DRE 02064780", "Grand Avenue LA", "Downtown LA Market"],
+    publishedAt: "2026-05-07",
+    readTime: 6,
+  },
+  {
+    id: "23",
+    slug: "federal-reserve-holds-rates-mortgage-outlook-june-2026-la-buyers",
+    title: "The Fed Held Rates Again. Here's What LA Buyers Should Actually Do About It.",
+    excerpt:
+      "The Fed held at 3.50-3.75% on April 29. Mortgage rates are 6.38% today. The next decision isn't until June 16. Buyers waiting for rates to fall before they buy are making a calculation that deserves a harder look.",
+    content: `
+The Federal Reserve held interest rates steady at its April 29 meeting, keeping the federal funds rate at 3.50% to 3.75%.
+
+As of today, May 7, 2026, the average 30-year mortgage rate is 6.38%. The next FOMC meeting is June 16-17. Rate cuts are not expected at that meeting either.
+
+If you're a buyer who has been waiting for rates to drop before entering the market, here is the honest version of what that strategy looks like right now.
+
+## What the Fed Actually Said
+
+At the April 29 meeting, nearly every voting member supported holding rates where they are. One member favored a 0.25% cut. The rest said no.
+
+The reasons: inflation is still above target. Job growth has slowed but hasn't broken. Energy prices added a new layer of uncertainty. The Fed is not in a hurry.
+
+Rate markets currently imply a high probability that the Fed keeps rates at current levels through the end of 2026. Not a certainty - economic conditions change - but that's where the institutional consensus sits today.
+
+## The "Waiting for Rates" Math
+
+Here is the problem with the waiting strategy in the current LA market.
+
+Buyers who wait for rates to fall from 6.38% to, say, 5.5% are making two bets simultaneously: that rates will actually fall to that level, and that home prices won't rise in the meantime.
+
+In Los Angeles, the second bet is the dangerous one.
+
+Home prices in LA are down slightly year-over-year. But inventory - while up from the lows - is still only 2.7 months of supply statewide. Only 18% of California listings are taking price reductions, compared to 33% nationally. The market is softer than a year ago, but it is not broken.
+
+If rates fall to 5.5% next year, more buyers enter the market simultaneously. That's not a coincidence - lower rates bring sidelined buyers off the bench all at once. Increased demand against constrained supply pushes prices higher. Your lower rate gets partially or fully offset by a higher purchase price.
+
+This is not hypothetical. It's what happened in 2021 when rates were at 3% and prices surged because everyone tried to buy at the same time.
+
+## The Real Question
+
+The right question isn't "will rates go down?" It's "what do I give up by waiting, and what do I gain?"
+
+What you give up by waiting in the current LA market:
+
+- The negotiating leverage that comes with elevated days on market and motivated sellers offering credits
+- Pricing that reflects historical challenges rather than emerging institutional investment (see: DTLA, Koreatown, Westlake)
+- The ability to refinance later when rates do drop - you can always refinance, you cannot un-pay a higher price
+
+What you gain by waiting:
+
+- Potentially lower monthly payments if rates fall
+- More time to save, get pre-approved, and get clear on your criteria
+
+For buyers who are not yet pre-approved or not yet clear on what they want, waiting is the right call. You're not ready.
+
+For buyers who are pre-approved, clear on their criteria, and sitting on the sidelines purely because of rate anxiety - the math of waiting deserves a harder look than most people are giving it.
+
+## The Refinance Play
+
+One of the most underused frames for this market: "date the rate, marry the house."
+
+If you buy today at 6.38% and rates fall to 5.5% in 2027, you refinance. Your monthly payment drops. You didn't overpay for the house because you bought at a moment of softer demand. You captured the price, and you captured the rate improvement later.
+
+This isn't a guarantee - it requires rates to actually fall and it requires transaction costs for the refinance. But it's a legitimate strategy that many buyers in the 2022-2023 rate spike era are already executing as rates gradually ease.
+
+## What This Means for LA Buyers Specifically
+
+The neighborhoods where the waiting strategy costs the most are the ones with the sharpest emerging fundamentals: DTLA, Koreatown, Echo Park, the Arts District, the Eastside broadly.
+
+These are neighborhoods where institutional capital is actively committing - the $300M tower at 613 S Grand announced yesterday, the World Trade Center conversion, the graffiti towers sale. When institutional conviction is this visible, the window where individual buyers can enter at soft pricing is finite.
+
+The neighborhoods where waiting matters less are the already-established premium markets: Los Feliz, Silver Lake, Beverly Hills, Santa Monica. These are priced for their fundamentals. Rate moves matter more than emerging-neighborhood momentum.
+
+## My Take
+
+The Fed is not going to rescue buyers who are waiting. The June meeting will almost certainly result in another hold. If cuts come later this year, they'll be modest - 25 basis points at a time.
+
+The buyers who are going to look back on 2026 as a missed opportunity are the ones who waited for perfect conditions. Perfect conditions don't exist. What exists right now is: softer prices, negotiable sellers, motivated entry points in high-upside neighborhoods, and the most visible institutional commitment to DTLA in a decade.
+
+If you're ready to buy - pre-approved, clear on criteria, honest about your budget - let's talk about what that actually looks like in the market today.
+
+I'm Johnny Leou (DRE#02064780), Los Angeles and Orange County real estate agent at eXp Realty of Greater Los Angeles. I work with buyers across the full LA and OC market. The honest conversation about timing is one I'm happy to have.
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    category: "Market Insights",
+    tags: ["Federal Reserve 2026", "Mortgage Rates LA", "Los Angeles Real Estate 2026", "When to Buy a Home", "LA Housing Market", "Interest Rates California", "Johnny Leou", "DRE 02064780", "Home Buying Strategy", "Orange County Real Estate"],
+    publishedAt: "2026-05-07",
+    readTime: 6,
+  },
+  {
     id: "22",
     slug: "zillow-realtor-homes-premarket-listings-what-it-means-buyers-sellers-agents-2026",
     title: "Zillow, Realtor.com, and Homes.com Are Reshaping How Homes Get Sold. Here's What Actually Changed.",
