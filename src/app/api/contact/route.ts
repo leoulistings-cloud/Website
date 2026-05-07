@@ -39,7 +39,7 @@ export async function POST(request: NextRequest) {
     const fubResponse = await fetch("https://api.followupboss.com/v1/people", {
       method: "POST",
       headers: {
-        "Authorization": `Bearer ${FUB_API_KEY}`,
+        "Authorization": `Basic ${Buffer.from(`${FUB_API_KEY}:`).toString("base64")}`,
         "Content-Type": "application/json",
       },
       body: JSON.stringify(personData),
