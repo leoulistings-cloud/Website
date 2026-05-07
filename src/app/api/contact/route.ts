@@ -6,6 +6,9 @@ export async function POST(request: NextRequest) {
     const body = await request.json();
     const { firstName, lastName, email, phone, inquiryType, budget, message } = body;
 
+    console.log("SMTP_EMAIL:", process.env.SMTP_EMAIL);
+    console.log("SMTP_PASSWORD exists:", !!process.env.SMTP_PASSWORD);
+
     // Send email to Johnny
     const transporter = nodemailer.createTransport({
       service: "gmail",
@@ -14,6 +17,8 @@ export async function POST(request: NextRequest) {
         pass: process.env.SMTP_PASSWORD,
       },
     });
+
+    console.log("Transporter created");
 
     const emailContent = `
 New Contact Form Submission
@@ -28,6 +33,7 @@ Message:
 ${message}
     `.trim();
 
+    console.log("Sending email...");
     await transporter.sendMail({
       from: process.env.SMTP_EMAIL,
       to: process.env.SMTP_EMAIL,
