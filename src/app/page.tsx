@@ -1,8 +1,8 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, Play, TrendingUp, TrendingDown, MapPin, Award, Users, Star } from "lucide-react";
+import { ArrowRight, TrendingUp, TrendingDown, MapPin, Award, Users, Star } from "lucide-react";
 import BlogCard from "@/components/BlogCard";
 import { blogPosts } from "@/data/blog-posts";
 import { agents, testimonials, marketStats } from "@/data/agents";
@@ -298,6 +298,55 @@ export default function HomePage() {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── FAQ ──────────────────────────────────────────────────── */}
+      <section className="py-24 lg:py-32">
+        <div className="max-w-4xl mx-auto px-6 lg:px-12">
+          <div className="text-center mb-14 animate-on-scroll">
+            <p className="section-label mb-3">Common Questions</p>
+            <h2 className="section-title">LA Real Estate — Answered</h2>
+            <div className="gold-divider mx-auto" />
+          </div>
+          <div className="space-y-4 animate-on-scroll">
+            {[
+              {
+                q: "How much do I need to buy a home in Los Angeles?",
+                a: "Most buyers put down 3–10% depending on loan type. FHA loans require as little as 3.5% down with a 580+ credit score. On a $850,000 home, that's roughly $29,750–$85,000 down, plus 2–3% in closing costs ($17,000–$25,500). Down payment assistance programs like LIPA, CalHFA, and MIPA can cover part or all of your down payment if you qualify.",
+              },
+              {
+                q: "What is the average home price in Los Angeles right now?",
+                a: "As of April 2026, the LA metro median home price is approximately $825,000 — down slightly year-over-year for the fourth consecutive month. Orange County is running higher at around $920,000. Prices vary significantly by neighborhood: Echo Park medians sit near $985K, Los Feliz near $1.85M, and Boyle Heights closer to $750K.",
+              },
+              {
+                q: "Do I need a buyer's agent in California?",
+                a: "You are not legally required to use a buyer's agent in California, but it's strongly recommended — especially in LA's competitive market. Following the 2024 NAR settlement, buyer's agent compensation is now negotiated separately from the listing side. As your buyer's agent, I represent your interests only, negotiate on your behalf, and guide you through disclosures, inspections, and escrow at no upfront cost to you.",
+              },
+              {
+                q: "How long does it take to buy a home in Los Angeles?",
+                a: "From the day you go into contract to closing, the standard escrow period in LA is 30–45 days. The timeline from starting your search to getting an accepted offer varies widely — in a competitive market, prepared buyers with pre-approval and clear criteria typically find a home within 30–90 days. The full process including pre-approval, search, offer, and escrow typically runs 60–120 days.",
+              },
+              {
+                q: "What are the best neighborhoods in LA for first-time buyers?",
+                a: "First-time buyers in LA should focus on neighborhoods with strong fundamentals at more accessible price points. Echo Park ($900K–$1.1M range), Boyle Heights ($700K–$850K), Highland Park ($850K–$1.1M), and areas of the San Fernando Valley offer the best combination of location, lifestyle, and attainable pricing. Silver Lake and Los Feliz have higher entry points but strong long-term appreciation. Down payment assistance programs are available city-wide.",
+              },
+              {
+                q: "Is it better to buy or rent in LA right now?",
+                a: "LA rents have softened in 2026 — one-bedroom apartments average $2,210/month, down 3.5% year-over-year. But renting builds no equity. For buyers who are pre-approved and clear on their neighborhoods, the current moment — with home prices down slightly, inventory up, and sellers offering credits — is one of the stronger buyer environments since 2020. The decision comes down to how long you plan to stay: buying typically makes financial sense if you're committed to 5+ years in the property.",
+              },
+            ].map(({ q, a }, i) => (
+              <details key={i} className="group glass-card overflow-hidden">
+                <summary className="flex items-center justify-between gap-4 p-6 cursor-pointer list-none">
+                  <span className="font-serif text-white text-lg leading-snug">{q}</span>
+                  <span className="text-gold-500 shrink-0 text-xl font-light transition-transform duration-300 group-open:rotate-45">+</span>
+                </summary>
+                <div className="px-6 pb-6">
+                  <p className="text-white/60 text-sm leading-relaxed border-t border-white/10 pt-4">{a}</p>
+                </div>
+              </details>
+            ))}
           </div>
         </div>
       </section>
