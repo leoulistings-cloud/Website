@@ -103,7 +103,7 @@ export default function HighlandParkPage() {
             </div>
             <div className="space-y-6">
               <div className="relative aspect-[4/3] overflow-hidden">
-                <Image src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&q=80" alt="Highland Park Los Angeles" fill className="object-cover" sizes="(max-width: 1024px) 100vw, 50vw" />
+                <Image src="https://static.wixstatic.com/media/07cd1e_28e7e71ab26e4a2a98c0b208cacc8df2~mv2.jpg/v1/fill/w_1200,h_800,al_c/07cd1e_28e7e71ab26e4a2a98c0b208cacc8df2~mv2.jpg" alt="Highland Park Los Angeles" fill className="object-cover" sizes="(max-width: 1024px) 100vw, 50vw" />
               </div>
               <div className="glass-card p-6 space-y-4">
                 <h3 className="font-serif text-white text-lg">At a Glance</h3>
