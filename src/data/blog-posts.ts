@@ -2,6 +2,86 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "26",
+    slug: "mortgage-rates-6-37-percent-what-it-means-la-buyers-may-2026",
+    title: "Mortgage Rates Just Hit 6.37% - What $1M Homes Actually Cost Right Now",
+    excerpt:
+      "The 30-year mortgage rate climbed to 6.37% this week. For LA buyers watching neighborhoods like Highland Park, Boyle Heights, and El Sereno, this means one thing: the math just got harder. Here's what you're actually paying.",
+    content: `
+The 30-year fixed mortgage rate just hit 6.37% - up from 6.30% last week. In California, rates are even higher: 6.75% for a 30-year fixed.
+
+If you're shopping for a home in LA right now, you need to understand what this means in real dollars.
+
+## The Math: What a $1M Home Actually Costs
+
+Let's be concrete. The median home price in Los Angeles sits around $1.0-$1.06M as of May 2026.
+
+For a buyer putting 20% down on a $1M home:
+- Down payment: $200,000
+- Loan amount: $800,000
+- Interest rate: 6.37%
+- Monthly payment (principal + interest): approximately $5,000
+
+That's before property taxes (roughly $1,000-$1,200/month in LA), insurance ($150-$200/month), and HOA fees if applicable.
+
+Total monthly housing cost: $6,150-$6,400.
+
+To qualify for a $800,000 mortgage, lenders typically require that your total housing payment doesn't exceed 28% of your gross monthly income. That means you need a gross monthly income of approximately $22,000 - or $264,000 annually - just to qualify.
+
+## How This Reshapes the LA Market
+
+At 6.37%, buyer purchasing power shrinks. A buyer who could afford a $1.1M home at 5.5% can now only afford around $950K at 6.37%. That's a $150,000 difference in purchasing power.
+
+This compression is pushing qualified buyers down the price curve and into neighborhoods that were previously out of reach - or simply out of the market altogether.
+
+## Where the Pressure Shows Up
+
+**Highland Park, Boyle Heights, and El Sereno** are seeing the impact directly. These neighborhoods trade at $850K-$1.2M (Highland Park), $650K-$950K (Boyle Heights), and $600K-$850K (El Sereno) - meaningfully below the $1.0-$1.06M citywide median.
+
+As Westside and mid-Eastside buyers get priced out, they're flowing into these neighborhoods. Competition is intensifying. Properties that would have sat 45-60 days on market two years ago are now moving in 25-35 days.
+
+For sellers in these corridors: if you're thinking about selling, this is still a buyer's market by the numbers (4.6-month supply citywide), but don't mistake inventory volume for softness in your price range. Qualified buyers are scarce at higher price points and concentrated at lower ones.
+
+## Why Rates Keep Rising
+
+The Federal Reserve has held rates steady, but mortgage rates are driven by the bond market, not the Fed funds rate directly. Inflation expectations, Treasury yields, and investor appetite for mortgage-backed securities all factor in.
+
+The consensus from mortgage market analysts: expect 6.25%-6.75% to be the range for the rest of 2026. A significant drop below 6.0% would require a major economic slowdown or Fed rate cuts - neither of which are on the near-term horizon.
+
+## What Buyers Should Do
+
+1. **Get pre-approved today, not next month.** Pre-approval letters are valid 30-90 days. If rates are still at 6.37% when you find a property, you want proof of financing ready.
+
+2. **Expand your search geography.** If your target budget is $1.2M, you're looking at a very specific slice of Silver Lake and Los Feliz right now. At the same budget, Highland Park, Echo Park, and Boyle Heights offer significantly more optionality.
+
+3. **Don't wait for rates to drop.** It's tempting to pause and hope for lower rates. But rate cycles are long and unpredictable. If you're ready to buy and qualified now, waiting for a 0.25%-0.50% rate drop is gambling with opportunity cost.
+
+4. **Understand your true monthly cost.** Property taxes, insurance, and HOA fees add $2,000-$3,000/month to your principal-and-interest calculation. Know the full number before you make an offer.
+
+## The Broader Context
+
+High mortgage rates and expensive homes are pushing buyers into emerging neighborhoods - Highland Park, Boyle Heights, El Sereno - that have fundamentals (walkability, cultural density, transit access, central location) but still reflect historical undervaluation.
+
+This is how neighborhoods appreciate long-term. Buyers get priced out of established markets, discover the adjacent emerging markets, and move into them. Ten years later, those emerging neighborhoods become the benchmark for pricing the next tier.
+
+The conversation in 2016 was about Silver Lake and Echo Park. In 2026, it's about Highland Park, Boyle Heights, and El Sereno. In 2036, it will be about neighborhoods further east and south.
+
+If you're a buyer stuck between "can't quite afford Silver Lake" and "is Highland Park going to appreciate," the answer is embedded in the current rate environment: Highland Park will appreciate because there is nowhere else for qualified buyers to go.
+
+---
+
+**Johnny Leou (DRE#02064780)** helps LA buyers navigate rate environments and neighborhood transitions. If you're trying to understand what 6.37% mortgages mean for your buying strategy in Highland Park, Boyle Heights, Echo Park, or surrounding neighborhoods, let's talk about your specific situation.
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://images.squarespace-cdn.com/content/v1/5b927c78aa49a17bb535bc3d/1588137267409-B5T67R3P9UFU89NK8L03/Photo+of+floral+mural%2C+Highland+Park+Florist%2C+Los+Angeles.jpg",
+    category: "Market Insights",
+    tags: ["Mortgage Rates", "LA Housing Market", "Affordability", "Highland Park", "Boyle Heights", "El Sereno", "Echo Park", "Real Estate 2026", "Buyer Strategy", "DRE 02064780"],
+    publishedAt: "2026-05-08",
+    readTime: 8,
+  },
+  {
     id: "25",
     slug: "macarthur-park-federal-crackdown-westlake-koreatown-echo-park-real-estate-2026",
     title: "Federal Agents Swept MacArthur Park Yesterday. Here's What That Means for Buyers Watching the Westlake Corridor.",
