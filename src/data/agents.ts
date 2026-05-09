@@ -99,7 +99,7 @@ export const marketStats: MarketStat[] = [
   },
   {
     label: "Properties Sold (YTD)",
-    value: "85+",
+    value: "35+",
     change: "+12.3%",
     positive: true,
   },
