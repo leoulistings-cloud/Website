@@ -8,7 +8,7 @@ export default function PaleBlueEgg() {
   return (
     <Link href="/pale-blue-dot" onClick={() => setClicked(true)}>
       <button
-        className="fixed bottom-8 right-8 w-3 h-3 rounded-full bg-blue-400 cursor-pointer transition-all duration-300 hover:scale-150 hover:shadow-lg hover:shadow-blue-400/50 z-40 group"
+        className="fixed bottom-6 right-6 sm:bottom-8 sm:right-8 w-5 h-5 sm:w-6 sm:h-6 rounded-full bg-blue-400 cursor-pointer transition-all duration-300 hover:scale-150 hover:shadow-lg hover:shadow-blue-400/50 z-40 group"
         title="🔵"
         aria-label="Secret content"
       >
