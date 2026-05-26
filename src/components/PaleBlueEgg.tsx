@@ -8,11 +8,11 @@ export default function PaleBlueEgg() {
   return (
     <Link href="/pale-blue-dot" onClick={() => setClicked(true)}>
       <button
-        className="fixed bottom-6 right-6 sm:bottom-8 sm:right-8 w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-blue-300 cursor-pointer transition-all duration-300 hover:scale-150 hover:shadow-lg hover:shadow-blue-300/70 z-40 group shadow-md shadow-blue-300/60 animate-pulse"
-        title="🔵"
+        className="fixed top-8 right-8 w-16 h-16 rounded-full bg-cyan-400 cursor-pointer transition-all duration-300 hover:scale-125 hover:shadow-xl hover:shadow-cyan-400 z-50 group shadow-lg shadow-cyan-400/80 animate-bounce flex items-center justify-center"
+        title="🔵 Easter Egg"
         aria-label="Secret content"
       >
-        <div className="absolute inset-0 rounded-full bg-blue-300 opacity-50 group-hover:opacity-60 transition-opacity duration-300 animate-pulse" />
+        <span className="text-xl">🔵</span>
       </button>
     </Link>
   );
