@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import VisitorCounter from "@/components/VisitorCounter";
 
 export default function PaleBlueDotPage() {
   return (
@@ -68,6 +69,7 @@ export default function PaleBlueDotPage() {
               "Look again at that dot. That's here. That's home. That's us."
             </p>
             <p className="text-blue-400/60 text-xs mt-3">— Carl Sagan, Pale Blue Dot</p>
+            <VisitorCounter />
           </div>
         </div>
       </div>

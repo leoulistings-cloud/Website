@@ -2,6 +2,641 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "31",
+    slug: "pre-approval-vs-pre-qualification-home-buying",
+    title: "Pre-Approval vs. Pre-Qualification: Why First-Time Buyers Get This Wrong",
+    excerpt:
+      "Most first-time homebuyers think pre-approval and pre-qualification are the same thing. They're not. And that mistake can cost you opportunities, negotiating power, and money.",
+    content: `
+You get excited. You find a neighborhood you love. You decide to start house hunting.
+
+So you call a lender and ask for a \"pre-approval.\" Three days later, you have a letter that says you can borrow $500,000.
+
+You're ready to make offers, right?
+
+Not necessarily.
+
+The difference between pre-qualification and pre-approval is the difference between \"we think you might be able to afford this\" and \"we've actually verified your finances and you can.\"
+
+And in a competitive market, that difference matters.
+
+## Pre-Qualification: The Handshake
+
+Pre-qualification is informal. It's basically a conversation.
+
+You tell a lender:
+- Your income (you estimate)
+- Your debts (you estimate)
+- Your credit score (they might not even check)
+- Your down payment savings (you estimate)
+
+The lender plugs these numbers into a calculator and says: \"Based on what you've told us, you could probably borrow $X.\"
+
+**That's it.** No verification. No documentation. No digging.
+
+Pre-qualification takes 15 minutes. It costs nothing. And it's worth exactly what you paid for it.
+
+### When Pre-Qualification Matters
+
+Pre-qualification is useful for one thing: **self-assessment.** Before you start spending time looking at homes, you want to know roughly what price range makes sense for your finances.
+
+Pre-qualification answers that question: \"If I make $100K per year, roughly how much house can I afford?\" Answer: $400K-$450K, depending on debts.
+
+That's the extent of its usefulness.
+
+## Pre-Approval: The Verification
+
+Pre-approval is formal. It's a real commitment from the lender.
+
+To get pre-approved, you provide:
+- **Tax returns** (last 2 years)
+- **W-2s** (last 2 years)
+- **Pay stubs** (last 30 days)
+- **Bank statements** (last 2 months showing down payment funds)
+- **Credit report** (pulled by lender, not estimated)
+- **Written explanation** of any negative items (late payments, high debt, job changes)
+
+The lender actually verifies everything. They contact your employer. They confirm your bank balances. They review your credit in detail.
+
+**Then** they issue a pre-approval letter that says: \"We've verified everything. This person can borrow $X.\"
+
+Pre-approval takes 3-7 business days. It might cost $300-$500 (sometimes waived). But it's a real commitment.
+
+### Why Pre-Approval Changes Everything
+
+Here's the crucial part: **sellers take pre-approval seriously.**
+
+When you make an offer with a pre-approval letter attached, the seller sees proof that:
+1. Your income is real (verified with employer)
+2. Your down payment funds exist (verified with bank)
+3. Your credit is solid (actually reviewed)
+4. The lender has done due diligence
+
+A pre-approval letter is basically the lender saying: \"We've done our homework. This buyer is real. This deal will close.\"
+
+A pre-qualification letter is basically you saying: \"I told the lender some numbers on the phone. Trust me.\"
+
+Sellers don't trust pre-qualification letters in competitive markets.
+
+## The Real-World Impact
+
+Let's say two buyers make offers on the same house:
+
+**Buyer A:** Has a pre-qualification letter. Price: $650,000. Down payment: 10%.
+
+**Buyer B:** Has a pre-approval letter. Price: $640,000. Down payment: 10%.
+
+Which offer do you think the seller takes?
+
+Most sellers take Buyer B's offer because they know it will close. Buyer B's pre-approval means less risk, fewer surprises, fewer deal killers.
+
+Buyer A might lose the house despite offering $10,000 more, because the seller doesn't trust that Buyer A's financing is solid.
+
+This happens constantly in LA and OC real estate.
+
+## The Timeline Matters Too
+
+Another crucial difference: **how fast you can close.**
+
+With pre-qualification only, here's the timeline after offer acceptance:
+1. Your offer is accepted (Day 1)
+2. Lender pulls your actual documents (Day 2-3)
+3. Lender discovers issues (Day 4-5) — maybe your debt-to-income is too high, maybe your bank balances are lower than you said, maybe you have a late payment you didn't mention
+4. Deal renegotiates or falls apart (Day 6-10)
+
+With pre-approval, you're already verified. The lender already knows everything. Timeline after offer acceptance:
+1. Your offer is accepted (Day 1)
+2. Appraisal ordered (Day 2)
+3. Final walk-through and closing (Day 10-15)
+
+Pre-approval deals close faster because there are fewer surprises.
+
+## Common Pre-Approval Mistakes
+
+**Mistake 1: Getting pre-approved, then buying a car**
+You get pre-approved for $500,000. Then you buy a new car and finance $30,000 of it.
+
+Your debt-to-income ratio just changed. You might not be approved anymore.
+
+**Don't make ANY major purchases between pre-approval and closing.**
+
+**Mistake 2: Changing jobs**
+You get pre-approved based on your current income. Then you change jobs.
+
+Even if the new job pays the same, the lender might require a verification from the new employer, which takes time and creates uncertainty.
+
+**Don't change jobs between pre-approval and closing** unless absolutely necessary.
+
+**Mistake 3: Not updating your pre-approval**
+Pre-approval letters are usually good for 60-90 days. If you're still house hunting after 90 days, get a new pre-approval.
+
+An expired pre-approval letter is almost as useless as a pre-qualification letter.
+
+**Mistake 4: Assuming pre-approval = approval**
+Pre-approval is not approval. It's conditional approval. The conditions are:
+- Appraisal comes in at the price
+- No new debt appears
+- Employment stays the same
+- No major credit issues appear
+
+If the appraisal comes in low, or the inspection reveals major issues, or you lose your job, the pre-approval can evaporate.
+
+## The 2026 Pre-Approval Strategy
+
+In today's market with balanced inventory, pre-approval is more important than ever.
+
+Sellers have options. They're going to choose the offer with the most certainty. A pre-approval letter signals certainty.
+
+Here's the buyer's playbook:
+1. **Get pre-approved before you start looking** — seriously, do this first
+2. **Include the pre-approval letter with every offer** — always
+3. **Don't make any changes between pre-approval and closing** — no new debt, no job changes, no large purchases
+4. **Refresh your pre-approval if house hunting takes more than 90 days** — keep it current
+5. **Work with a lender who's responsive** — you want answers fast, not in 10 days
+
+## The Bottom Line
+
+Pre-qualification is a starting point. Pre-approval is a competitive advantage.
+
+If you're serious about buying in LA or OC in 2026, don't even look at houses until you're pre-approved. It will save you time, increase your offer power, and help you close faster.
+
+And when you're competing with other offers, that pre-approval letter might be the difference between getting the house and losing it to someone who did their homework first.
+`,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://images.unsplash.com/photo-1554224311-beee415c15cb?w=1200&h=630&fit=crop",
+    category: "Buyer Guide",
+    tags: ["Pre-Approval", "Mortgage", "First-Time Homebuyer", "Financing", "Home Buying Process", "Los Angeles Real Estate", "Buyer Education", "Loan Process", "DRE 02064780"],
+    publishedAt: "2026-05-29",
+    readTime: 10,
+  },
+  {
+    id: "30",
+    slug: "is-irvine-worth-buying-2026-orange-county-real-estate",
+    title: "Is Irvine Worth Buying in 2026? The Honest Orange County Real Estate Analysis",
+    excerpt:
+      "Irvine's master-planned neighborhoods, top-rated schools, and family-friendly reputation make it attractive. But in 2026, is it the right move? Here's what the data actually shows.",
+    content: `
+Irvine is one of Southern California's most desirable communities. Master-planned neighborhoods, excellent schools, low crime, and strong family amenities make it a natural choice for buyers looking for stability and community.
+
+But after a multi-year appreciation cycle and recent market shifts, Irvine in 2026 presents a different buying equation than it did three years ago.
+
+Here's the honest analysis.
+
+## Irvine's Market Position in 2026
+
+**Median Home Prices**: $1.1M - $1.4M (depending on neighborhood and property type)
+**Days on Market**: 28-35 days (up from 15-20 in 2021)
+**YoY Price Change**: -3% to +2% (relatively flat)
+**Inventory**: Balanced to buyer-favorable (up 40-50% from 2024)
+
+The headline: Irvine's red-hot appreciation run ended in 2023-2024. The market has normalized.
+
+## The Case FOR Buying in Irvine in 2026
+
+**1. Schools Remain Top-Tier**
+Irvine Unified School District consistently ranks in the top 2% nationally. If schools are non-negotiable for your family, this alone justifies the premium. This advantage is durable and won't evaporate in a down market.
+
+**2. Planned Community Infrastructure**
+Every Irvine neighborhood is master-planned with parks, trails, community centers, and retail. You're not just buying a house—you're buying a complete ecosystem. This results in strong community cohesion and consistent property maintenance standards.
+
+**3. Low Crime, High Safety**
+Irvine regularly ranks as one of the safest cities in California. For families prioritizing safety and community policing, this is real value that translates to quality of life.
+
+**4. Buyer-Favorable Conditions Now**
+With inventory up and days on market increasing, 2026 offers the best buyer's position in Irvine in over 4 years. Sellers are more motivated, and you have negotiating power.
+
+**5. Proximity to Employment**
+For tech workers, Orange County corporate headquarters, and UCI adjacent jobs, Irvine's central OC location is valuable. A 15-minute commute to multiple employment centers beats most LA neighborhoods.
+
+## The Case AGAINST Buying in Irvine in 2026
+
+**1. Price-to-Rent Ratio is Stretched**
+Monthly rents in Irvine: $2,500-$3,500 for comparable homes
+Implied monthly mortgage + taxes + insurance: $4,500-$6,000+
+**You're paying 60-90% premium to own vs. rent.** That math only works if you believe in strong future appreciation—which is uncertain in 2026.
+
+**2. Appreciation Window Has Likely Closed**
+Irvine appreciated 35-40% from 2019-2023. That cycle is over. Don't buy expecting 7-10% annual appreciation. Plan for 2-4% annually, if you're optimistic.
+
+**3. School Premium Fades After Elementary**
+Here's the uncomfortable truth: Irvine's schools are excellent at elementary and middle. But Irvine High School and other district high schools have struggled with overcrowding and competition from private schools. The "top-tier schools" justification weakens as kids move up.
+
+**4. You're Buying a Master-Planned Bubble**
+Irvine's uniformity is its strength and weakness. Almost all homes follow similar designs, building year, and demographics. This creates a monoculture where everyone has similar financial stakes. In a downturn, these neighborhoods feel it faster.
+
+**5. The Commute Math is Changing**
+Remote work adoption means fewer people value Irvine's commute proximity. As remote flexibility becomes standard, Irvine's location advantage diminishes relative to neighborhoods with more character and uniqueness.
+
+**6. You Could Buy the Same Quality 10-15 Miles Away for 15-20% Less**
+Neighborhoods like Tustin, Ladera Ranch, and Mission Viejo offer similar school quality, safety, and family amenities at 10-20% discounts to Irvine comparable homes. You're paying for the "Irvine" brand name.
+
+## The Right Buyer for Irvine in 2026
+
+**You should buy in Irvine if:**
+- Your timeline is 10+ years (long enough for modest appreciation)
+- Schools are genuinely non-negotiable and your kids are in elementary/middle school
+- You value community cohesion and planned infrastructure
+- You're relocating from a higher-cost area and $1.2M feels like a good value comparatively
+- You have stable employment in central OC and value the commute savings
+
+**You should NOT buy in Irvine if:**
+- You're buying primarily for appreciation/investment returns
+- You're flexible on schools or have no school-age kids
+- You work in LA/West LA and are willing to commute
+- You want neighborhood character and walkability
+- You're buying at the top of your budget based on appreciation assumptions
+
+## The Verdict: Irvine in 2026 is a Hold Market
+
+Irvine in 2026 is neither a strong buy nor a sell. It's a hold market—stable, safe, but not appreciating. The conditions that made Irvine an obvious upgrade (falling interest rates, bidding wars, rapid appreciation) no longer exist.
+
+**If you buy now:** Plan to stay 10+ years. View it as a lifestyle purchase, not an investment. The schools and safety are real. The appreciation upside is modest.
+
+**If you're on the fence:** Wait for more inventory to come online in 2026-2027. Supply is still increasing, which could push prices down another 3-5%. There's no rush to buy in Irvine in 2026. The deals will get better before they get worse.
+
+**If you're looking to maximize value:** Look 10-15 miles away to Tustin, Aliso Viejo, or Ladera Ranch. You'll get 85% of Irvine's quality at 80% of the price. That math is much harder to argue with.
+
+The honest truth: Irvine is a great place to live. But 2026 is a better time to buy there as a resident, not an investor.
+`,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://images.unsplash.com/photo-1605276374104-dee2a0bb1e1f?w=1200&h=630&fit=crop",
+    category: "Market Update",
+    tags: ["Orange County Real Estate", "Irvine", "Home Buying", "Market Analysis", "2026 Real Estate", "California", "School Districts", "Investment Decision", "First-Time Homebuyer"],
+    publishedAt: "2026-05-29",
+    readTime: 11,
+  },
+  {
+    id: "29",
+    slug: "how-much-house-can-i-afford-la-2026",
+    title: "How Much House Can I Afford? The Real Numbers for LA Buyers in 2026",
+    excerpt:
+      "You think you can afford $800K. But can you really? Here's exactly how lenders calculate your maximum home price - and what numbers actually matter.",
+    content: `
+Every buyer asks the same question: how much house can I afford?
+
+The problem is that "afford" means different things to different people - and lenders use calculations that don't match what you think you can handle.
+
+Let me walk you through the actual math that determines your maximum home price in Los Angeles right now.
+
+## How Lenders Actually Calculate What You Can Afford
+
+Lenders use two main ratios to determine your maximum loan amount:
+
+**The 28% Rule (Front-End Ratio)**
+Your total monthly housing payment (mortgage principal, interest, property taxes, insurance, and HOA fees) cannot exceed 28% of your gross monthly income.
+
+**The 36% Rule (Back-End Ratio)**
+Your total monthly debt payments (housing + car loans, credit cards, student loans, child support, and any other debt) cannot exceed 36% of your gross monthly income.
+
+Lenders use whichever ratio is more restrictive. Usually, it's the 36% rule that becomes your ceiling.
+
+## Let's Do the Math: A Real Example
+
+**Scenario: You earn $120,000 gross per year**
+- Gross monthly income: $10,000
+
+**Using the 28% Rule:**
+- Maximum housing payment: $10,000 × 0.28 = $2,800/month
+
+**Using the 36% Rule (assuming $500/month in other debts):**
+- Maximum total debt: $10,000 × 0.36 = $3,600/month
+- Maximum housing payment: $3,600 - $500 = $3,100/month
+
+In this case, the 28% rule is more restrictive. Your maximum housing payment is $2,800/month.
+
+## Now Here's Where It Gets Tricky: What's Included in "Housing Payment"?
+
+Most people think "housing payment" is just mortgage payment. It's not.
+
+Your housing payment includes:
+- **Principal and interest** on your mortgage
+- **Property taxes** (in Los Angeles, roughly 1.25% of home value annually)
+- **Homeowners insurance** ($100-$300/month depending on home value and coverage)
+- **HOA fees** (if applicable; can range from $0-$800/month)
+- **Mortgage insurance** (PMI, required if you put down less than 20%)
+
+On a $600,000 home in LA, here's what these add up to:
+
+**With 20% Down ($120,000), 6.37% Interest Rate, 30-Year Mortgage:**
+- Loan amount: $480,000
+- Monthly P&I: $3,076
+- Annual property tax (1.25%): ~$7,500 = $625/month
+- Homeowners insurance: ~$180/month
+- No HOA fees (single family home)
+- **Total monthly housing cost: $3,881**
+
+To qualify, you need gross monthly income of: $3,881 ÷ 0.28 = **$13,861/month ($166,332 annually)**
+
+This is very different from what most people think.
+
+## What If You Only Have 10% Down?
+
+This is where first-time buyers get stuck.
+
+If you put down only 10% ($60,000) on that same $600,000 home:
+- Loan amount: $540,000
+- Monthly P&I: $3,460
+- Property tax: $625/month
+- Insurance: $180/month
+- **PMI (mortgage insurance): ~$230/month** (required because you have less than 20% down)
+- **Total: $4,495/month**
+
+To qualify, you need: $4,495 ÷ 0.28 = **$16,054/month ($192,648 annually)**
+
+That's $26,316 more per year just to come up with 10% less down payment. This is why the down payment gap is such a big deal in expensive markets like LA.
+
+## Real-World Affordability for Different Income Levels in 2026
+
+Here's what LA buyers at different income levels can actually afford (assuming 20% down, 6.37% interest rate):
+
+**$100,000/year gross income:**
+- Maximum housing payment: $2,333/month
+- Affordable home price: ~$380,000
+- Reality: This is extremely tight in LA. You'd need to look at South LA, Long Beach, or inland areas.
+
+**$150,000/year gross income:**
+- Maximum housing payment: $3,500/month
+- Affordable home price: ~$570,000
+- Reality: East LA neighborhoods (Boyle Heights, El Sereno, Echo Park fringe). Limited options in Silver Lake.
+
+**$200,000/year gross income:**
+- Maximum housing payment: $4,667/month
+- Affordable home price: ~$750,000
+- Reality: Highland Park, Echo Park, Boyle Heights, Eastside neighborhoods. Entry into Los Feliz.
+
+**$300,000/year gross income:**
+- Maximum housing payment: $7,000/month
+- Affordable home price: ~$1,120,000
+- Reality: Silver Lake, Los Feliz, mid-Echo Park, entry West Hollywood.
+
+**$400,000/year gross income:**
+- Maximum housing payment: $9,333/month
+- Affordable home price: ~$1,500,000
+- Reality: Mid-to-upper Silver Lake, Los Feliz, West Hollywood, entry into Hancock Park.
+
+## What About Credit Score, Down Payment, and Other Factors?
+
+Lenders also look at:
+
+**Credit Score**
+- 740+: Best rates (currently 6.37% and lower)
+- 700-739: Slightly higher rates (6.50-6.75%)
+- 660-699: Significantly higher rates (7.0-7.5%)
+- Below 660: Very difficult to qualify; rates often above 8%
+
+**Down Payment**
+- 20%+: No PMI, best rates, maximum buying power
+- 10-19%: PMI required, slightly higher rates, reduces buying power by 10-15%
+- 3-9%: PMI required, higher rates, reduces buying power by 15-25%
+- FHA loans (3.5% down): PMI required, different rules, often higher rates
+
+**Debt-to-Income Ratio**
+- Under 36%: Standard approval
+- 36-43%: May require higher credit score or larger down payment
+- Over 43%: Very difficult; some lenders won't approve, others require compensating factors
+
+## The Income Requirement Nobody Talks About
+
+Here's something that surprises a lot of my clients: the income requirement for a $1M home in Los Angeles today is approximately $240,000-$260,000 gross annual income (assuming 20% down and reasonable existing debt).
+
+That's not because lenders are being greedy. It's because:
+- Property taxes on a $1M home run $12,500/year ($1,042/month)
+- Insurance is $2,000-$2,400/year ($166-$200/month)
+- Mortgage payment on $800K at 6.37% is $5,100/month
+- Total: $6,308/month
+- Divided by 0.28 = $22,528/month income needed = **$270,336/year**
+
+The median household income in Los Angeles is approximately $76,000. The income required to afford the median home price is approximately 3.5x that.
+
+This is why affordability is a genuine crisis in LA, and why neighborhoods like Highland Park, Boyle Heights, and El Sereno are seeing so much buyer attention - they're some of the last places in central LA where the math works without six-figure household incomes.
+
+## The Questions You Should Ask Yourself Before House Hunting
+
+1. **What's my gross annual income?** (Not net, not take-home. Gross.)
+2. **What's my credit score?** (This determines your rate and whether you even qualify.)
+3. **How much can I put down?** (This has enormous impact on your maximum purchase price.)
+4. **What other debts do I have?** (Student loans, car payments, credit cards all reduce your housing budget.)
+5. **Am I looking at a home with an HOA?** (This adds $200-$800/month to your housing payment.)
+6. **Do I understand property taxes, insurance, and PMI?** (Most buyers don't, and these can easily add $1,500+ to your monthly cost.)
+
+## Next Steps
+
+Get pre-approved with a lender before you start house hunting. Pre-approval doesn't cost money, and it gives you a clear number for what you can actually afford - not what you wish you could afford.
+
+And be honest with yourself about whether the number a lender gives you is actually comfortable. Just because you *can* afford a $750K home doesn't mean you should spend 45% of your take-home income on housing. It's a maximum, not a target.
+
+---
+
+**Johnny Leou (DRE#02064780)** helps first-time homebuyers and immigrant families understand LA affordability and navigate the income/down payment/rate calculations. If you're trying to figure out what you can actually afford in LA neighborhoods like Highland Park, Boyle Heights, Echo Park, or Silver Lake, let's run the actual numbers for your situation.
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&h=630&fit=crop",
+    category: "Buyer Guide",
+    tags: ["Home Affordability", "Mortgage Rates", "First-Time Homebuyer", "Los Angeles Real Estate", "Debt-to-Income Ratio", "Down Payment", "LA Housing Market", "Buyer Education", "DRE 02064780"],
+    publishedAt: "2026-05-26",
+    readTime: 12,
+  },
+  {
+    id: "28",
+    slug: "what-are-closing-costs-la-real-estate",
+    title: "What Are Closing Costs? The Complete Breakdown for LA Home Buyers",
+    excerpt:
+      "You budgeted for down payment and mortgage. But closing costs blindside most buyers. Here's exactly what they are, why they cost so much, and how to budget for them.",
+    content: `
+Your offer just got accepted on a $750,000 home in Highland Park. You're excited.
+
+Then your lender sends you a Closing Disclosure that lists $18,000-$24,000 in closing costs.
+
+You think: Wait, what? I already have down payment ready. What am I paying for?
+
+This is the moment closing costs stop being theoretical and become real. And they're almost always higher than buyers expect.
+
+## What Actually Are Closing Costs?
+
+Closing costs are all the fees and charges associated with finalizing your home purchase - getting the property transferred to your name, securing your loan, and handling the paperwork and inspections.
+
+They're paid at "closing" - the day you sign final documents and get your keys.
+
+## The Complete Breakdown: Where Your Closing Cost Money Goes
+
+Let's break down a realistic closing cost estimate for a $750,000 purchase in Los Angeles:
+
+### Lender Fees (~$3,500-$5,000)
+
+**Loan Origination Fee**: 0.5-1% of loan amount
+- $750,000 home, 20% down = $600,000 loan
+- Fee: $3,000-$6,000
+- What it is: The lender's charge for processing your loan application, running credit checks, and underwriting your file.
+- Is it negotiable? Somewhat. Shop around with multiple lenders. Some charge 0.5%, others charge 1%. That's a $3,000 difference.
+
+**Processing Fee**: $300-$500
+- What it is: Administrative fee for processing paperwork.
+
+**Appraisal Fee**: $400-$600
+- What it is: Cost to have a professional appraiser determine the home's market value. This protects the lender and validates that the home is worth what you're borrowing.
+- Is it negotiable? No. You need an appraisal, and appraisers set their own fees. Waiving appraisal is not an option for conventional mortgages.
+
+**Credit Report**: $25-$50
+- What it is: The lender pulls your credit report (multiple times).
+
+**Title Insurance Lender's Policy**: $500-$750
+- What it is: Insurance protecting the lender against title defects (liens, claims, ownership disputes on the property).
+- Is it negotiable? No. It's required by your lender.
+
+### Title and Escrow Costs (~$2,000-$3,500)
+
+**Title Search and Examination**: $150-$300
+- What it is: A professional title company searches public records to confirm the seller actually owns the home and no liens or claims are attached.
+
+**Escrow Fee** (paid by buyer or split with seller, varies by county): $1,200-$2,000
+- What it is: The neutral third party (escrow agent) that holds your down payment and earnest money during the transaction, verifies documents, coordinates with lender and title company, and distributes funds at closing.
+- Why is it so much? Escrow companies handle significant liability. They're managing hundreds of thousands of dollars and making sure every legal requirement is met.
+- Is it negotiable? Sometimes, but escrow costs are fairly standardized in LA County.
+
+**Homeowners Insurance (first year)**: $1,200-$2,400
+- What it is: You're required to pay your first year of homeowners insurance upfront at closing.
+- Is it negotiable? You can shop insurance rates, which is the only leverage you have. But you must have insurance.
+
+**Recording Fees**: $100-$150
+- What it is: County recording fee to officially register the deed in your name.
+
+### Property Taxes and Other Government Fees (~$4,000-$6,000)
+
+**Property Tax Proration**: $2,500-$4,000
+- What it is: The seller has typically paid property taxes for the full year. At closing, you reimburse them for the portion of the year you own the home.
+- Example: If you close on June 1 and annual property tax is $9,375, you'd owe the seller roughly $4,688 for June-December.
+- Is it negotiable? No. This is split based on actual closing date.
+
+**Transfer Tax (Specific to City/County)**: $0-$3,000
+- Los Angeles County: 0.11% of sale price = ~$825 on a $750K sale
+- City of Los Angeles: Additional 0.01% = ~$75 on a $750K sale
+- Some cities don't charge; some charge more. This depends where the property is.
+
+### Inspections and Appraisals (In Escrow, Usually Paid Separately)
+
+**Home Inspection**: $400-$600
+- What it is: Professional inspector examines the home's structural integrity, systems (plumbing, electrical, HVAC), and identifies any defects.
+- Timing: Typically done during the inspection period (7-10 days after offer accepted) - paid directly to inspector, not at closing.
+
+**Pest Inspection**: $150-$300
+- What it is: Identifies termites, dry rot, and other wood-destroying insects.
+- Timing: Usually done during inspection period.
+
+**Septic/Well Inspection** (if applicable): $300-$500
+- Only required for homes on septic or well. Most LA homes are on municipal systems.
+
+### Loan Costs
+
+**Loan Discount Points** (optional): 0-1% of loan amount
+- What it is: You can "buy down" your interest rate by paying points at closing. Each point = 1% of the loan amount. Each point typically reduces your rate by 0.25%.
+- Is it optional? Yes. But if rates are high (like they are now at 6.37%), buying down your rate can make sense.
+- Example: On a $600K loan, 1 point = $6,000 at closing, but it could reduce your rate from 6.37% to 6.12% - saving $100+/month for 30 years.
+
+**Mortgage Insurance (if putting down less than 20%)**: $0-$2,000 upfront
+- What it is: First year of PMI (mortgage insurance), paid at closing.
+- This only applies if you're putting down less than 20%.
+- Example: On a $750K home with 10% down, PMI might be $200-$300/month, with $2,000-$3,000 paid upfront at closing.
+
+## The Real Closing Cost Number: A Complete Example
+
+**Buyer: Purchasing $750,000 home in Los Angeles**
+- Down payment: 20% ($150,000)
+- Loan amount: $600,000
+- Interest rate: 6.37%
+- No points, no PMI (because 20% down)
+
+**Closing Costs Breakdown:**
+
+Lender Origination Fee: $4,500
+Appraisal: $550
+Title Insurance (lender's): $625
+Escrow Fee (buyer's portion): $1,500
+Home Inspection: $500
+Pest Inspection: $250
+Homeowners Insurance (1 year): $1,500
+Property Tax Proration (4 months): $3,750
+Transfer Tax: $825
+Recording Fees: $100
+**Total Closing Costs: $14,100**
+
+## Who Pays What?
+
+This is where it gets confusing. Some closing costs are typically paid by the seller, some by the buyer, and some can be negotiated.
+
+**Buyer typically pays:**
+- Appraisal fee
+- Title insurance (lender's policy)
+- Homeowners insurance
+- Recording fees
+- Loan origination fees
+- Any inspections they order
+
+**Seller typically pays:**
+- Real estate agent commission (5-6% of sale price)
+- Title insurance (owner's policy)
+- Transfer taxes (in many CA jurisdictions)
+- Home warranty (optional, but common)
+
+**Can be negotiated:**
+- Escrow fee (can be split 50/50 or shifted entirely to buyer/seller)
+- Home inspection (buyer orders it, but seller can agree to pay as part of negotiation)
+- Homeowners insurance (not negotiable - you must have it)
+
+## How to Reduce Closing Costs
+
+1. **Shop lenders.** Get quotes from 3-5 lenders. Origination fees vary significantly (0.5%-1% is the range). A 0.5% difference on a $600K loan is $3,000.
+
+2. **Shop insurance.** Get 3 homeowners insurance quotes. Rates vary, and this cost is locked in at closing.
+
+3. **Negotiate with the seller.** If you're writing an aggressive offer, make closing costs part of the negotiation. Seller might concede on closing cost credit in exchange for waiving other contingencies.
+
+4. **Skip points if rates are going down.** Don't buy down your rate now if rates are expected to drop. (Currently, rates are stable/high, so this is less relevant.)
+
+5. **Avoid PMI if possible.** If you can scrape together 20% down, do it. PMI costs thousands and doesn't build equity.
+
+## The One Thing Most Buyers Get Wrong
+
+Closing costs are typically 2-3% of the purchase price. You should budget 3% to be safe.
+
+On a $750,000 purchase, that's $22,500 in closing costs ON TOP OF your down payment.
+
+If you're putting 20% down ($150,000) and budgeting only for the down payment, you're $22,500 short.
+
+Most buyers don't realize this until their lender sends the Closing Disclosure a few days before signing.
+
+## Next Steps
+
+When you're getting pre-approved, ask the lender for a **Loan Estimate** (required by law, sent within 3 days of application). This shows you estimated closing costs before you even make an offer.
+
+This is your reality check. Use it to confirm you have enough liquid cash for down payment + closing costs.
+
+For a $750K purchase with 20% down, budget:
+- Down payment: $150,000
+- Closing costs: $22,500
+- Total cash needed: $172,500
+
+Add another 1-2% for any last-minute surprises.
+
+---
+
+**Johnny Leou (DRE#02064780)** helps first-time homebuyers and immigrant families navigate closing costs and understand the complete price of homeownership in LA. If you're buying in neighborhoods like Highland Park, Boyle Heights, Echo Park, or Silver Lake and want to understand the real total cost, let's walk through your specific situation.
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&h=630&fit=crop",
+    category: "Buyer Guide",
+    tags: ["Closing Costs", "First-Time Homebuyer", "Los Angeles Real Estate", "Home Buying Costs", "Escrow", "Down Payment", "Buyer Education", "LA Housing", "DRE 02064780"],
+    publishedAt: "2026-05-26",
+    readTime: 14,
+  },
+  {
     id: "27",
     slug: "lincoln-heights-real-estate-undervalued-neighborhood-appraisal",
     title: "Lincoln Heights Real Estate: The East LA Neighborhood Agents Overlook (And Why That Matters for Your Appraisal)",
