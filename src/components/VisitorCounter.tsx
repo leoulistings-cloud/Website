@@ -45,7 +45,7 @@ export default function VisitorCounter() {
   if (count === null) return null;
 
   return (
-    <div className="text-center text-blue-400/60 text-xs mt-8 pt-6 border-t border-blue-400/20">
+    <div className="text-center text-blue-300 text-sm mt-8 pt-6 border-t border-blue-400/40">
       found by {count.toLocaleString()} wanderers
     </div>
   );
