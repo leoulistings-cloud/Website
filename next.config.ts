@@ -35,6 +35,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "bluprinthomeloans.com",
       },
+      {
+        protocol: "https",
+        hostname: "s.yimg.com",
+      },
     ],
   },
 };

@@ -630,7 +630,7 @@ Add another 1-2% for any last-minute surprises.
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
     authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
-    coverImage: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&h=630&fit=crop",
+    coverImage: "https://s.yimg.com/ny/api/res/1.2/mndGO9CLAlIOpLEnv48JqQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD05MDA-/https://s.yimg.com/os/creatr-uploaded-images/2024-08/1abddaf0-55bb-11ef-add3-f113b214b6f6",
     category: "Buyer Guide",
     tags: ["Closing Costs", "First-Time Homebuyer", "Los Angeles Real Estate", "Home Buying Costs", "Escrow", "Down Payment", "Buyer Education", "LA Housing", "DRE 02064780"],
     publishedAt: "2026-05-26",
