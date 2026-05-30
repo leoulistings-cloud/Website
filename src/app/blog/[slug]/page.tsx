@@ -72,17 +72,24 @@ export default async function BlogPostPage({
   const htmlContent = post.content
     .split("\n\n")
     .map((block) => {
+      // Handle H2 headings
       if (block.startsWith("## ")) {
         return `<h2 class="font-serif text-white text-2xl mt-10 mb-4">${processInlineMarkdown(block.slice(3))}</h2>`;
       }
+      // Handle H3 headings
       if (block.startsWith("### ")) {
         return `<h3 class="font-serif text-white text-xl mt-6 mb-3">${processInlineMarkdown(block.slice(4))}</h3>`;
       }
+      // Handle horizontal rules
+      if (block.trim() === "---") {
+        return `<hr class="my-8 border-white/10" />`;
+      }
 
       const lines = block.split("\n");
-      const hasListItems = lines.some((l) => l.trim().startsWith("-"));
 
-      if (hasListItems) {
+      // Check for bullet lists
+      const hasBulletItems = lines.some((l) => l.trim().startsWith("-"));
+      if (hasBulletItems) {
         const items = lines
           .filter((l) => l.trim().startsWith("-"))
           .map((l) => {
@@ -94,6 +101,21 @@ export default async function BlogPostPage({
         return `<ul class="list-disc list-inside text-white/60 space-y-1.5 mb-4">${items}</ul>`;
       }
 
+      // Check for numbered lists
+      const hasNumberedItems = lines.some((l) => /^\s*\d+\./.test(l));
+      if (hasNumberedItems) {
+        const items = lines
+          .filter((l) => /^\s*\d+\./.test(l))
+          .map((l) => {
+            let text = l.replace(/^\s*\d+\.\s*/, "").trim();
+            text = processInlineMarkdown(text);
+            return `<li>${text}</li>`;
+          })
+          .join("");
+        return `<ol class="list-decimal list-inside text-white/60 space-y-1.5 mb-4">${items}</ol>`;
+      }
+
+      // Regular paragraphs
       let text = block.trim();
       text = processInlineMarkdown(text);
       return `<p class="text-white/60 leading-relaxed mb-4">${text}</p>`;
