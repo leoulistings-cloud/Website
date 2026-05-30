@@ -28,15 +28,24 @@ export default async function BlogPostPage({
       if (block.startsWith("## ")) {
         return `<h2 class="font-serif text-white text-2xl mt-10 mb-4">${block.slice(3)}</h2>`;
       }
+      if (block.startsWith("### ")) {
+        return `<h3 class="font-serif text-white text-xl mt-6 mb-3">${block.slice(4)}</h3>`;
+      }
       if (block.trim().startsWith("-")) {
         const items = block
           .split("\n")
           .filter((l) => l.trim().startsWith("-"))
-          .map((l) => `<li>${l.slice(1).trim()}</li>`)
+          .map((l) => {
+            let text = l.slice(1).trim();
+            text = text.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+            return `<li>${text}</li>`;
+          })
           .join("");
         return `<ul class="list-disc list-inside text-white/60 space-y-1.5 mb-4">${items}</ul>`;
       }
-      return `<p class="text-white/60 leading-relaxed mb-4">${block.trim()}</p>`;
+      let text = block.trim();
+      text = text.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+      return `<p class="text-white/60 leading-relaxed mb-4">${text}</p>`;
     })
     .join("");
 
