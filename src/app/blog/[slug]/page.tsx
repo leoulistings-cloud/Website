@@ -65,29 +65,37 @@ export default async function BlogPostPage({
     .filter((p) => p.id !== post.id && p.category === post.category && isPublished(p))
     .slice(0, 2);
 
+  const processInlineMarkdown = (text: string) => {
+    return text.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+  };
+
   const htmlContent = post.content
     .split("\n\n")
     .map((block) => {
       if (block.startsWith("## ")) {
-        return `<h2 class="font-serif text-white text-2xl mt-10 mb-4">${block.slice(3)}</h2>`;
+        return `<h2 class="font-serif text-white text-2xl mt-10 mb-4">${processInlineMarkdown(block.slice(3))}</h2>`;
       }
       if (block.startsWith("### ")) {
-        return `<h3 class="font-serif text-white text-xl mt-6 mb-3">${block.slice(4)}</h3>`;
+        return `<h3 class="font-serif text-white text-xl mt-6 mb-3">${processInlineMarkdown(block.slice(4))}</h3>`;
       }
-      if (block.trim().startsWith("-")) {
-        const items = block
-          .split("\n")
+
+      const lines = block.split("\n");
+      const hasListItems = lines.some((l) => l.trim().startsWith("-"));
+
+      if (hasListItems) {
+        const items = lines
           .filter((l) => l.trim().startsWith("-"))
           .map((l) => {
-            let text = l.slice(1).trim();
-            text = text.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+            let text = l.slice(l.indexOf("-") + 1).trim();
+            text = processInlineMarkdown(text);
             return `<li>${text}</li>`;
           })
           .join("");
         return `<ul class="list-disc list-inside text-white/60 space-y-1.5 mb-4">${items}</ul>`;
       }
+
       let text = block.trim();
-      text = text.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+      text = processInlineMarkdown(text);
       return `<p class="text-white/60 leading-relaxed mb-4">${text}</p>`;
     })
     .join("");
