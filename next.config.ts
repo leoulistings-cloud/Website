@@ -23,6 +23,18 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "upload.wikimedia.org",
       },
+      {
+        protocol: "https",
+        hostname: "www.rent.com",
+      },
+      {
+        protocol: "https",
+        hostname: "decorilla.com",
+      },
+      {
+        protocol: "https",
+        hostname: "hbr.org",
+      },
     ],
   },
 };
