@@ -31,6 +31,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "imagescdn.homes.com",
       },
+      {
+        protocol: "https",
+        hostname: "bluprinthomeloans.com",
+      },
     ],
   },
 };

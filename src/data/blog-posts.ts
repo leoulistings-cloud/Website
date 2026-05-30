@@ -165,7 +165,7 @@ And when you're competing with other offers, that pre-approval letter might be t
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
     authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
-    coverImage: "https://images.unsplash.com/photo-1554224311-beee415c15cb?w=1200&h=630&fit=crop",
+    coverImage: "https://bluprinthomeloans.com/wp-content/uploads/2024/09/pre-approval.jpg",
     category: "Buyer Guide",
     tags: ["Pre-Approval", "Mortgage", "First-Time Homebuyer", "Financing", "Home Buying Process", "Los Angeles Real Estate", "Buyer Education", "Loan Process", "DRE 02064780"],
     publishedAt: "2026-05-29",
