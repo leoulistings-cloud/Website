@@ -66,7 +66,13 @@ export default async function BlogPostPage({
     .slice(0, 2);
 
   const processInlineMarkdown = (text: string) => {
-    return text.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+    // Replace **text** with <strong>text</strong>
+    return text.split("**").reduce((acc, part, index) => {
+      if (index % 2 === 0) {
+        return acc + part;
+      }
+      return acc + `<strong>${part}</strong>`;
+    }, "");
   };
 
   const htmlContent = post.content
