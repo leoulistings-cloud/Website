@@ -3,11 +3,54 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, Clock, Tag, ArrowRight } from "lucide-react";
 import { getBlogPostBySlug, blogPosts } from "@/data/blog-posts";
+import type { Metadata } from "next";
 
 const isPublished = (post: typeof blogPosts[0]): boolean => {
   const scheduledDate = post.scheduledAt ? new Date(post.scheduledAt) : new Date(post.publishedAt);
   return scheduledDate <= new Date();
 };
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const post = getBlogPostBySlug(slug);
+
+  if (!post || !isPublished(post)) {
+    return {};
+  }
+
+  const url = `https://leoulistings.com/blog/${post.slug}`;
+
+  return {
+    title: post.title,
+    description: post.excerpt,
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      url,
+      type: "article",
+      images: [
+        {
+          url: post.coverImage,
+          width: 1200,
+          height: 630,
+          alt: post.title,
+        },
+      ],
+      authors: [post.author],
+      publishedTime: post.publishedAt,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.excerpt,
+      images: [post.coverImage],
+    },
+  };
+}
 
 export default async function BlogPostPage({
   params,
