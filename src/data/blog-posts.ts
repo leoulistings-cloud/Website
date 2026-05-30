@@ -436,7 +436,7 @@ And be honest with yourself about whether the number a lender gives you is actua
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
     authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
-    coverImage: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200&h=630&fit=crop",
+    coverImage: "https://www.rogerperry.com/wp-content/uploads/2026/03/Luxury-Home-In-Brentwood-Los-Angeles-During-Golden-Hour-1024x683.png",
     category: "Buyer Guide",
     tags: ["Home Affordability", "Mortgage Rates", "First-Time Homebuyer", "Los Angeles Real Estate", "Debt-to-Income Ratio", "Down Payment", "LA Housing Market", "Buyer Education", "DRE 02064780"],
     publishedAt: "2026-05-26",
