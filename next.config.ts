@@ -27,6 +27,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "www.rogerperry.com",
       },
+      {
+        protocol: "https",
+        hostname: "imagescdn.homes.com",
+      },
     ],
   },
 };

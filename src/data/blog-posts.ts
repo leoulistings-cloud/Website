@@ -263,7 +263,7 @@ The honest truth: Irvine is a great place to live. But 2026 is a better time to 
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
     authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
-    coverImage: "https://images.unsplash.com/photo-1605276374104-dee2a0bb1e1f?w=1200&h=630&fit=crop",
+    coverImage: "https://imagescdn.homes.com/i2/H9q0qXqv4C8vstzTIf0afhcu-P0TGK0KqXVRd5yf_tQ/117/211-birdseye-irvine-ca--3.jpg?p=1",
     category: "Market Update",
     tags: ["Orange County Real Estate", "Irvine", "Home Buying", "Market Analysis", "2026 Real Estate", "California", "School Districts", "Investment Decision", "First-Time Homebuyer"],
     publishedAt: "2026-05-29",
