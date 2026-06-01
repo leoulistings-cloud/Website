@@ -159,8 +159,8 @@ export default function ContactPage() {
                 <p className="text-gold-500 text-xs tracking-[0.2em] uppercase mb-4">Hours</p>
                 <div className="space-y-2 text-sm">
                   <div className="flex justify-between">
-                    <span className="text-white/50">Mon - Fri</span>
-                    <span className="text-white/80">8:00 AM - 6:00 PM</span>
+                    <span className="text-white/50">Mon – Fri</span>
+                    <span className="text-white/80">8:00 AM – 6:00 PM</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-white/50">Saturday</span>
@@ -261,7 +261,7 @@ export default function ContactPage() {
                     <div>
                       <label className="text-white/40 text-xs tracking-widest uppercase block mb-2">Budget / Price Range</label>
                       <select name="budget" value={formData.budget} onChange={handleChange} className="w-full bg-navy-950 border border-white/10 text-white/70 text-sm px-4 py-3 outline-none focus:border-gold-500 transition-colors">
-                        {["$600K - $700K", "$700K - $800K", "$800K - $900K", "$900K - $1M", "$1M - $1.1M", "$1.1M - $1.2M", "$1.2M - $1.3M", "$1.3M - $1.4M", "$1.4M - $1.5M", "$1.5M - $2M", "$2M - $3M", "$3M - $4M", "$4M - $5M", "$5M+", "Prefer not to say"].map((r) => (
+                        {["$600K – $700K", "$700K – $800K", "$800K – $900K", "$900K – $1M", "$1M – $1.1M", "$1.1M – $1.2M", "$1.2M – $1.3M", "$1.3M – $1.4M", "$1.4M – $1.5M", "$1.5M – $2M", "$2M – $3M", "$3M – $4M", "$4M – $5M", "$5M+", "Prefer not to say"].map((r) => (
                           <option key={r} className="bg-navy-950">{r}</option>
                         ))}
                       </select>
@@ -284,7 +284,7 @@ export default function ContactPage() {
                         I understand that all information shared will be handled with complete confidentiality.
                       </label>
                     </div>
-                    <button type="submit" disabled={isLoading} className="w-full py-4 text-sm tracking-widest uppercase bg-gold-500 hover:bg-gold-600 text-navy-950 font-semibold disabled:opacity-60 disabled:cursor-not-allowed transition-colors">
+                    <button type="submit" disabled={isLoading} className="btn-gold w-full py-4 text-sm tracking-widest uppercase disabled:opacity-50 disabled:cursor-not-allowed">
                       {isLoading ? "Sending..." : "Send Message"}
                     </button>
                   </form>
