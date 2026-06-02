@@ -24,7 +24,7 @@ Echo Park and Silver Lake have seen massive price appreciation. If you bought 5-
 
 The problem: Buyers today are comparing your house to homes sold *last month*, not homes you remember selling for $650K three years ago.
 
-**The fix:** Get a recent comp analysis. Look at what actually sold in the last 30 days within 0.25 miles. Not what's listed—what *closed*. If you're 5-8% higher than recent sales, you're pricing yourself out of your own market.
+The fix: Get a recent comp analysis. Look at what actually sold in the last 30 days within 0.25 miles. Not what's listed—what *closed*. If you're 5-8% higher than recent sales, you're pricing yourself out of your own market.
 
 ## 2. Your Photos Don't Show the Real Home
 
@@ -34,7 +34,7 @@ Echo Park and Silver Lake buyers are savvy. They're looking at 10-20 listings pe
 
 Bad lighting. Cluttered counter. Photos taken on a cloudy day. A weird angle that makes your main bedroom look small.
 
-**The fix:** Hire a professional photographer, not a relative with an iPhone. Spend $400-600. It will sell your house faster and often for more money. Seriously.
+The fix: Hire a professional photographer, not a relative with an iPhone. Spend $400-600. It will sell your house faster and often for more money. Seriously.
 
 ## 3. Your Home Description Sounds Like Every Other Listing
 
@@ -44,7 +44,7 @@ That's literally what 30 other Echo Park listings say right now.
 
 Buyers scrolling Zillow aren't looking for generic description #47. They're looking for specificity. What makes *your* home different?
 
-**The fix:** Lead with what makes it unique. "Original 1924 Craftsman with exposed beam ceilings, mature garden, and direct Echo Park Lake views from the backyard." That's specific. That's interesting. That gets clicks.
+The fix: Lead with what makes it unique. "Original 1924 Craftsman with exposed beam ceilings, mature garden, and direct Echo Park Lake views from the backyard." That's specific. That's interesting. That gets clicks.
 
 ## 4. You're Missing the "Walkability and Neighborhood" Angle
 
@@ -52,7 +52,7 @@ Here's what Echo Park and Silver Lake buyers actually want: walkability, communi
 
 Most listings focus on the house. They should focus on the lifestyle.
 
-**The fix:** Your listing description should mention nearby coffee shops, restaurants, parks, schools, and transit. "Walking distance to Silverlake Ramen, Cafe Stella, and Echo Park Lake" beats "hardwood floors" every single time for these buyers.
+The fix: Your listing description should mention nearby coffee shops, restaurants, parks, schools, and transit. "Walking distance to Silverlake Ramen, Cafe Stella, and Echo Park Lake" beats "hardwood floors" every single time for these buyers.
 
 ## 5. You're Not Addressing the Obvious Flaws
 
@@ -60,7 +60,7 @@ Every house has something: old plumbing, small bathroom, lack of parking, outdat
 
 Sellers often try to hide these by not mentioning them. Buyers find out during the inspection and back out.
 
-**The fix:** Address the elephant in the room *in your listing*. "1920s plumbing updated in 2008, more work may be needed" is better than surprising someone during inspection. Transparency kills fewer deals than surprise.
+The fix: Address the elephant in the room *in your listing*. "1920s plumbing updated in 2008, more work may be needed" is better than surprising someone during inspection. Transparency kills fewer deals than surprise.
 
 ## 6. The Market Wants Move-In Ready (Or At Least Honest About It)
 
@@ -70,7 +70,7 @@ If your home needs work, you need to either price for renovation, or actually do
 
 The in-between—a home that *looks* like it needs work—is the worst position.
 
-**The fix:** Either do a basic refresh (paint, landscaping, minor repairs) for $5-8K and get move-in appeal, or price aggressively as a fixer and attract renovators.
+The fix: Either do a basic refresh (paint, landscaping, minor repairs) for $5-8K and get move-in appeal, or price aggressively as a fixer and attract renovators.
 
 ## 7. Your Open House Strategy Is Weak
 
@@ -78,7 +78,7 @@ Online lookers don't always convert to in-person buyers. Some people need to wal
 
 If you're not holding regular open houses (weekend mornings, 10 AM-1 PM), you're missing walk-by traffic.
 
-**The fix:** Open house every Saturday and Sunday for the first 4-6 weeks. Host it during peak showing times. Consider an open house happy hour on Thursday evening for local professionals.
+The fix: Open house every Saturday and Sunday for the first 4-6 weeks. Host it during peak showing times. Consider an open house happy hour on Thursday evening for local professionals.
 
 ## The Real Issue: Echo Park and Silver Lake Are Competitive
 
@@ -90,7 +90,7 @@ The good news: All seven of these issues are fixable. Most can be fixed for unde
 
 If you're stuck, let's talk. I work this market constantly and know exactly what buyers in Echo Park and Silver Lake are looking for.
 
-**Johnny Leou**
+Johnny Leou
 DRE #02064780
 (949) 300-4485
 leoulistings@gmail.com
@@ -121,28 +121,28 @@ It's a reasonable thought. But here's the reality of FSBO (For Sale By Owner) in
 
 Let's say your Los Angeles home sells for $1.2 million.
 
-**With an agent:** You pay $60,000 in commission. You net $1.14 million.
+With an agent: You pay $60,000 in commission. You net $1.14 million.
 
-**Without an agent:** You keep the $60,000. You net $1.26 million. Sounds amazing, right?
+Without an agent: You keep the $60,000. You net $1.26 million. Sounds amazing, right?
 
 Here's what actually happens.
 
 ## What You're Actually Responsible For (FSBO in LA)
 
-**Photography:** Professional photos = $500-800
-**Listing platform:** Zillow, Redfin, Realtor.com = $100-500/month
-**Staging:** Decluttering, furniture rental, design = $1000-3000
-**Inspections you order upfront:** $800-1200
-**Appraisal (buyer's lender will order theirs, but you might do pre-appraisal):** $600
-**Title search and insurance:** $1000-1500
-**Document preparation:** Forms, disclosures, purchase agreements = $300-500
-**Escrow/closing coordinator:** You might DIY, but most people hire help = $500-1000
-**Repairs revealed during inspection:** Budget 1-2% of sale price minimum = $12,000-24,000
-**Your time:** ~200 hours of work over 3-4 months (unpaid)
+Photography: Professional photos = $500-800
+Listing platform: Zillow, Redfin, Realtor.com = $100-500/month
+Staging: Decluttering, furniture rental, design = $1000-3000
+Inspections you order upfront: $800-1200
+Appraisal (buyer's lender will order theirs, but you might do pre-appraisal): $600
+Title search and insurance: $1000-1500
+Document preparation: Forms, disclosures, purchase agreements = $300-500
+Escrow/closing coordinator: You might DIY, but most people hire help = $500-1000
+Repairs revealed during inspection: Budget 1-2% of sale price minimum = $12,000-24,000
+Your time: ~200 hours of work over 3-4 months (unpaid)
 
-**Real FSBO cost: $17,700-$32,600** (before unexpected repairs)
+Real FSBO cost: $17,700-$32,600 (before unexpected repairs)
 
-**Actual net proceeds: $1.167-1.242 million**
+Actual net proceeds: $1.167-1.242 million
 
 You saved maybe $20K after real costs. But you gave 200 hours of your time to do it.
 
@@ -150,19 +150,19 @@ That's $100/hour if you're lucky. More realistically, you'll spend more time tha
 
 ## The Timeline Difference: FSBO vs. Agent
 
-**FSBO Timeline:**
+FSBO Timeline:
 - Week 1-2: Listing prep, photography
 - Week 3-12: Showing your home yourself, screening buyers, scheduling
 - Week 13-16: Negotiation and inspection period (slow without agent expertise)
 - Week 17-20: Closing coordination
-- **Total: 20-24 weeks (5-6 months)**
+- Total: 20-24 weeks (5-6 months)
 
-**Agent Timeline:**
+Agent Timeline:
 - Week 1-2: Listing prep, professional photography
 - Week 3-8: Active showing period (agent networks = more qualified buyers)
 - Week 9-12: Negotiation and inspection (faster resolution with experience)
 - Week 13-16: Closing
-- **Total: 16-18 weeks (4-4.5 months)**
+- Total: 16-18 weeks (4-4.5 months)
 
 Agents often close faster because they have:
 - Access to other agents' buyer networks
@@ -209,7 +209,7 @@ If you're considering FSBO, at minimum get a CMA (Comparative Market Analysis) f
 
 Most sellers who do the math choose representation.
 
-**Johnny Leou**
+Johnny Leou
 DRE #02064780
 (949) 300-4485
 leoulistings@gmail.com
