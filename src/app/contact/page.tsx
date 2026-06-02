@@ -280,7 +280,7 @@ export default function ContactPage() {
                             handleChange({ ...e, target: { ...e.target, value } });
                           }}
                           pattern="[0-9]{10}"
-                          maxLength="10"
+                          maxLength={10}
                           className="w-full bg-navy-950 border border-white/10 text-white text-sm px-4 py-3 outline-none focus:border-gold-500 transition-colors placeholder:text-white/20"
                           placeholder="5550000000"
                           title="Please enter exactly 10 digits with a valid US area code"
