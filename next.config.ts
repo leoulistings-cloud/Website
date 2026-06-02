@@ -39,6 +39,14 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "s.yimg.com",
       },
+      {
+        protocol: "https",
+        hostname: "www.gtspiritmedia.com",
+      },
+      {
+        protocol: "https",
+        hostname: "loisllc.com",
+      },
     ],
   },
 };
