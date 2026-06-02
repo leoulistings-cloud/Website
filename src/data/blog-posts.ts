@@ -217,7 +217,7 @@ leoulistings@gmail.com
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
     authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
-    coverImage: "https://imgur.com/gallery/cheeetah-6BKK3as#6SXD1k6",
+    coverImage: "https://www.gtspiritmedia.com/gtspirit/uploads/2019/09/Bugatti-Chiron-Price-1068x716.jpg",
     category: "Selling",
     tags: ["FSBO", "Selling Tips", "Real Estate Commission", "LA Market"],
     publishedAt: "2026-06-02",
