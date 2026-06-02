@@ -238,15 +238,18 @@ export default function ContactPage() {
                         />
                       </div>
                       <div>
-                        <label className="text-white/40 text-xs tracking-widest uppercase block mb-2">Phone *</label>
+                        <label className="text-white/40 text-xs tracking-widest uppercase block mb-2">Phone * (10 digits)</label>
                         <input
                           required
                           type="tel"
                           name="phone"
                           value={formData.phone}
                           onChange={handleChange}
+                          pattern="[0-9]{10}"
+                          maxLength="10"
                           className="w-full bg-navy-950 border border-white/10 text-white text-sm px-4 py-3 outline-none focus:border-gold-500 transition-colors placeholder:text-white/20"
-                          placeholder="+1 (555) 000-0000"
+                          placeholder="5550000000"
+                          title="Please enter exactly 10 digits"
                         />
                       </div>
                     </div>
