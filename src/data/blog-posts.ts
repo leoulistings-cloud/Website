@@ -102,7 +102,7 @@ leoulistings@gmail.com
     category: "Selling",
     tags: ["Echo Park", "Silver Lake", "Selling Tips", "LA Real Estate"],
     publishedAt: "2026-06-02",
-    readTime: "6 min",
+    readTime: 6,
   },
   {
     id: "32",
@@ -221,7 +221,7 @@ leoulistings@gmail.com
     category: "Selling",
     tags: ["FSBO", "Selling Tips", "Real Estate Commission", "LA Market"],
     publishedAt: "2026-06-02",
-    readTime: "7 min",
+    readTime: 7,
   },
   {
     id: "31",
