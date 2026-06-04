@@ -8,7 +8,6 @@ export async function POST(request: NextRequest) {
 
     console.log("SMTP_EMAIL:", process.env.SMTP_EMAIL);
     console.log("SMTP_PASSWORD exists:", !!process.env.SMTP_PASSWORD);
-    console.log("FUB_API_KEY exists:", !!process.env.FUB_API_KEY);
 
     if (!process.env.SMTP_EMAIL || !process.env.SMTP_PASSWORD) {
       throw new Error("SMTP credentials not configured");
@@ -25,8 +24,6 @@ export async function POST(request: NextRequest) {
       },
     });
 
-    console.log("Transporter created");
-
     const emailContent = `
 New Contact Form Submission
 
@@ -40,7 +37,6 @@ Message:
 ${message}
     `.trim();
 
-    console.log("Sending email...");
     await transporter.sendMail({
       from: process.env.SMTP_EMAIL,
       to: process.env.SMTP_EMAIL,
@@ -48,36 +44,22 @@ ${message}
       text: emailContent,
     });
 
-    console.log("Email sent successfully to", process.env.SMTP_EMAIL);
+    console.log("Email sent successfully");
 
-    // Send to Follow Up Boss
+    // Send to Follow Up Boss - minimal test
     const FUB_API_KEY = process.env.FUB_API_KEY;
-    console.log("DEBUG: FUB_API_KEY is set:", !!FUB_API_KEY);
-    console.log("DEBUG: FUB_API_KEY first 10 chars:", FUB_API_KEY ? FUB_API_KEY.substring(0, 10) : "NOT SET");
-
     if (FUB_API_KEY) {
       try {
-        // Format phone as 949-300-5586
-        const formattedPhone = `${phone.substring(0, 3)}-${phone.substring(3, 6)}-${phone.substring(6)}`;
-
         const personData: any = {
           firstName,
           lastName,
-          phoneNumber: formattedPhone,
-          tags: ["website"],
-          customFields: {
-            inquiryType,
-            budget,
-            message,
-          },
         };
 
         if (email && email.trim()) {
           personData.email = email;
         }
 
-        console.log("FUB API Key length:", FUB_API_KEY.length);
-        console.log("Sending to Follow Up Boss with data:", JSON.stringify(personData, null, 2));
+        console.log("Sending to FUB with data:", JSON.stringify(personData));
 
         const fubResponse = await fetch("https://api.followupboss.com/v1/people", {
           method: "POST",
@@ -89,30 +71,24 @@ ${message}
         });
 
         const fubResponseText = await fubResponse.text();
-        console.log("FUB Response Status:", fubResponse.status);
-        console.log("FUB Response Body:", fubResponseText);
+        console.log("FUB Status:", fubResponse.status);
+        console.log("FUB Response:", fubResponseText);
 
         if (!fubResponse.ok) {
-          console.error("Follow Up Boss API error:", {
-            status: fubResponse.status,
-            body: fubResponseText,
-            request: personData,
-          });
+          console.error("FUB Error:", fubResponseText);
         } else {
-          console.log("Contact successfully sent to Follow Up Boss");
+          console.log("Contact sent to FUB successfully");
         }
       } catch (fubError) {
-        console.error("FUB attempt failed:", fubError);
+        console.error("FUB Error:", fubError);
       }
-    } else {
-      console.warn("FUB_API_KEY not set - skipping Follow Up Boss integration");
     }
 
     return NextResponse.json({ success: true });
   } catch (error) {
-    console.error("Contact form error:", error);
+    console.error("Error:", error);
     return NextResponse.json(
-      { error: "Failed to submit contact form", details: String(error) },
+      { error: "Failed to submit", details: String(error) },
       { status: 500 }
     );
   }
