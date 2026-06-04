@@ -55,10 +55,6 @@ ${message}
           lastName,
         };
 
-        if (email && email.trim()) {
-          personData.email = email;
-        }
-
         console.log("Sending to FUB with data:", JSON.stringify(personData));
 
         const fubResponse = await fetch("https://api.followupboss.com/v1/people", {
