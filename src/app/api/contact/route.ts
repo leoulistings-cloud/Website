@@ -57,15 +57,24 @@ ${message}
 
     if (FUB_API_KEY) {
       try {
-        // Format phone as (949) 300-5586
-        const formattedPhone = `(${phone.substring(0, 3)}) ${phone.substring(3, 6)}-${phone.substring(6)}`;
+        // Format phone as 949-300-5586
+        const formattedPhone = `${phone.substring(0, 3)}-${phone.substring(3, 6)}-${phone.substring(6)}`;
 
         const personData: any = {
           firstName,
           lastName,
           phoneNumber: formattedPhone,
-          email,
+          tags: ["website"],
+          customFields: {
+            inquiryType,
+            budget,
+            message,
+          },
         };
+
+        if (email && email.trim()) {
+          personData.email = email;
+        }
 
         console.log("FUB API Key length:", FUB_API_KEY.length);
         console.log("Sending to Follow Up Boss with data:", JSON.stringify(personData, null, 2));
