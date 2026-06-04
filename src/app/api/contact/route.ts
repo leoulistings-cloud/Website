@@ -60,12 +60,7 @@ ${message}
         const personData: any = {
           firstName,
           lastName,
-          tags: ["website"],
         };
-
-        if (email && email.trim()) {
-          personData.email = email;
-        }
 
         console.log("FUB API Key length:", FUB_API_KEY.length);
         console.log("Sending to Follow Up Boss with data:", JSON.stringify(personData, null, 2));
