@@ -8,6 +8,7 @@ export async function POST(request: NextRequest) {
 
     console.log("SMTP_EMAIL:", process.env.SMTP_EMAIL);
     console.log("SMTP_PASSWORD exists:", !!process.env.SMTP_PASSWORD);
+    console.log("FUB_API_KEY exists:", !!process.env.FUB_API_KEY);
 
     if (!process.env.SMTP_EMAIL || !process.env.SMTP_PASSWORD) {
       throw new Error("SMTP credentials not configured");
@@ -49,21 +50,27 @@ ${message}
 
     console.log("Email sent successfully to", process.env.SMTP_EMAIL);
 
-    // Also try to send to FUB if available (optional bonus)
+    // Send to Follow Up Boss
     const FUB_API_KEY = process.env.FUB_API_KEY;
     if (FUB_API_KEY) {
       try {
         const personData: any = {
           firstName,
           lastName,
-          phone,
+          phoneNumber: phone,
           tags: ["website"],
+          customFields: {
+            inquiryType,
+            budget,
+            message,
+          },
         };
 
         if (email && email.trim()) {
           personData.email = email;
         }
 
+        console.log("FUB API Key length:", FUB_API_KEY.length);
         console.log("Sending to Follow Up Boss with data:", JSON.stringify(personData, null, 2));
 
         const fubResponse = await fetch("https://api.followupboss.com/v1/people", {
@@ -75,20 +82,24 @@ ${message}
           body: JSON.stringify(personData),
         });
 
-        const fubData = await fubResponse.json();
+        const fubResponseText = await fubResponse.text();
+        console.log("FUB Response Status:", fubResponse.status);
+        console.log("FUB Response Body:", fubResponseText);
 
-        if (fubResponse.ok) {
-          console.log("Contact also sent to Follow Up Boss:", fubData);
-        } else {
-          console.error("FUB submission failed:", {
+        if (!fubResponse.ok) {
+          console.error("Follow Up Boss API error:", {
             status: fubResponse.status,
-            error: fubData,
-            personData,
+            body: fubResponseText,
+            request: personData,
           });
+        } else {
+          console.log("Contact successfully sent to Follow Up Boss");
         }
       } catch (fubError) {
         console.error("FUB attempt failed:", fubError);
       }
+    } else {
+      console.warn("FUB_API_KEY not set - skipping Follow Up Boss integration");
     }
 
     return NextResponse.json({ success: true });
