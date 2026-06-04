@@ -53,7 +53,7 @@ ${message}
         const personData: any = {
           firstName,
           lastName,
-          phoneNumber: `1${phone}`,
+          phoneNumber: phone,
           tags: ["website"],
           customFields: {
             inquiryType,
