@@ -53,6 +53,8 @@ ${message}
         const personData: any = {
           firstName,
           lastName,
+          phoneNumber: `1${phone}`,
+          email,
         };
 
         console.log("Sending to FUB with data:", JSON.stringify(personData));
