@@ -67,19 +67,13 @@ export default function ContactPage() {
     setIsLoading(true);
     setError(null);
 
-    if (formData.phone.length !== 11) {
-      setError("Phone number must be exactly 11 digits (including country code)");
+    if (formData.phone.length !== 10) {
+      setError("Phone number must be exactly 10 digits");
       setIsLoading(false);
       return;
     }
 
-    if (formData.phone[0] !== '1') {
-      setError("Phone number must start with country code 1");
-      setIsLoading(false);
-      return;
-    }
-
-    const areaCode = formData.phone.substring(1, 4);
+    const areaCode = formData.phone.substring(0, 3);
     if (!validAreaCodes.has(areaCode)) {
       setError(`Invalid area code: ${areaCode}. Please enter a valid US phone number.`);
       setIsLoading(false);
@@ -280,7 +274,7 @@ export default function ContactPage() {
                         />
                       </div>
                       <div>
-                        <label className="text-white/40 text-xs tracking-widest uppercase block mb-2">Phone * (11 digits with country code)</label>
+                        <label className="text-white/40 text-xs tracking-widest uppercase block mb-2">Phone * (10 digits)</label>
                         <input
                           required
                           type="tel"
@@ -288,13 +282,13 @@ export default function ContactPage() {
                           name="phone"
                           value={formData.phone}
                           onChange={(e) => {
-                            const value = e.target.value.replace(/[^0-9]/g, '').slice(0, 11);
+                            const value = e.target.value.replace(/[^0-9]/g, '').slice(0, 10);
                             setFormData((prev) => ({ ...prev, phone: value }));
                           }}
-                          maxLength={11}
+                          maxLength={10}
                           className="w-full bg-navy-950 border border-white/10 text-white text-sm px-4 py-3 outline-none focus:border-gold-500 transition-colors placeholder:text-white/20"
-                          placeholder="19493005586"
-                          title="Please enter 11 digits starting with country code 1"
+                          placeholder="9493005586"
+                          title="Please enter exactly 10 digits"
                         />
                       </div>
                     </div>

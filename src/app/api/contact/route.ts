@@ -53,18 +53,7 @@ ${message}
         const personData: any = {
           firstName,
           lastName,
-          phoneNumber: phone,
-          tags: ["website"],
-          customFields: {
-            inquiryType,
-            budget,
-            message,
-          },
         };
-
-        if (email && email.trim()) {
-          personData.email = email;
-        }
 
         console.log("Sending to FUB with data:", JSON.stringify(personData));
 
