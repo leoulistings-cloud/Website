@@ -69,6 +69,8 @@ ${message}
           personData.email = email;
         }
 
+        console.log("Sending to Follow Up Boss with data:", JSON.stringify(personData, null, 2));
+
         const fubResponse = await fetch("https://api.followupboss.com/v1/people", {
           method: "POST",
           headers: {
@@ -78,13 +80,19 @@ ${message}
           body: JSON.stringify(personData),
         });
 
+        const fubData = await fubResponse.json();
+
         if (fubResponse.ok) {
-          console.log("Contact also sent to Follow Up Boss");
+          console.log("Contact also sent to Follow Up Boss:", fubData);
         } else {
-          console.log("FUB submission failed but email was sent");
+          console.error("FUB submission failed:", {
+            status: fubResponse.status,
+            error: fubData,
+            personData,
+          });
         }
       } catch (fubError) {
-        console.log("FUB attempt failed but email was sent:", fubError);
+        console.error("FUB attempt failed:", fubError);
       }
     }
 
