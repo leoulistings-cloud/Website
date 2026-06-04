@@ -52,6 +52,9 @@ ${message}
 
     // Send to Follow Up Boss
     const FUB_API_KEY = process.env.FUB_API_KEY;
+    console.log("DEBUG: FUB_API_KEY is set:", !!FUB_API_KEY);
+    console.log("DEBUG: FUB_API_KEY first 10 chars:", FUB_API_KEY ? FUB_API_KEY.substring(0, 10) : "NOT SET");
+
     if (FUB_API_KEY) {
       try {
         const personData: any = {
