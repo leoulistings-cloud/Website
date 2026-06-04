@@ -50,11 +50,13 @@ ${message}
     const FUB_API_KEY = process.env.FUB_API_KEY;
     if (FUB_API_KEY) {
       try {
+        const formattedPhone = `+1-${phone.substring(0, 3)}-${phone.substring(3, 6)}-${phone.substring(6)}`;
+
         const personData: any = {
           firstName,
           lastName,
-          phone: `1${phone}`,
-          emailAddress: email,
+          phone: formattedPhone,
+          email,
         };
 
         console.log("Sending to FUB with data:", JSON.stringify(personData));
