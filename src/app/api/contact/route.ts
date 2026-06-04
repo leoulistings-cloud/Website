@@ -60,6 +60,8 @@ ${message}
         const personData: any = {
           firstName,
           lastName,
+          mobilePhone: phone,
+          emailAddress: email,
         };
 
         console.log("FUB API Key length:", FUB_API_KEY.length);
