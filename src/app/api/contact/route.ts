@@ -60,7 +60,6 @@ ${message}
         const personData: any = {
           firstName,
           lastName,
-          phone,
           tags: ["website"],
         };
 
