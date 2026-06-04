@@ -57,13 +57,8 @@ ${message}
         const personData: any = {
           firstName,
           lastName,
-          phoneNumber: phone,
+          phone,
           tags: ["website"],
-          customFields: {
-            inquiryType,
-            budget,
-            message,
-          },
         };
 
         if (email && email.trim()) {
