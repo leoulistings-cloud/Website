@@ -67,6 +67,12 @@ export default function ContactPage() {
     setIsLoading(true);
     setError(null);
 
+    if (formData.phone.length !== 10) {
+      setError("Phone number must be exactly 10 digits");
+      setIsLoading(false);
+      return;
+    }
+
     const areaCode = formData.phone.substring(0, 3);
     if (!validAreaCodes.has(areaCode)) {
       setError(`Invalid area code: ${areaCode}. Please enter a valid US phone number.`);
