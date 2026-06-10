@@ -29,10 +29,6 @@ export default function PaleBlueDotPage() {
 
         {/* Content */}
         <div className="relative z-10 max-w-2xl text-center">
-          {/* Pale blue dot */}
-          <div className="mb-8 flex justify-center">
-            <div className="w-24 h-24 rounded-full bg-gradient-to-br from-blue-400 to-cyan-300 shadow-2xl shadow-blue-400/50 animate-pulse" />
-          </div>
 
           <h1 className="text-5xl md:text-6xl font-serif text-white mb-6">
             A Pale Blue Dot
@@ -115,6 +111,11 @@ export default function PaleBlueDotPage() {
             <p className="text-blue-400/60 text-xs mt-3">— Carl Sagan, Pale Blue Dot</p>
             <VisitorCounter />
           </div>
+        </div>
+
+        {/* Small pale blue dot - bottom right */}
+        <div className="fixed bottom-8 right-8 z-20">
+          <div className="w-8 h-8 rounded-full bg-gradient-to-br from-blue-400 to-cyan-300 shadow-lg shadow-blue-400/50 animate-pulse" />
         </div>
       </div>
     </div>
