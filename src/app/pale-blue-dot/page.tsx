@@ -113,10 +113,6 @@ export default function PaleBlueDotPage() {
           </div>
         </div>
 
-        {/* Small pale blue dot - bottom right */}
-        <div className="fixed bottom-8 right-8 z-20">
-          <div className="w-8 h-8 rounded-full bg-gradient-to-br from-blue-400 to-cyan-300 shadow-lg shadow-blue-400/50 animate-pulse" />
-        </div>
       </div>
     </div>
   );
