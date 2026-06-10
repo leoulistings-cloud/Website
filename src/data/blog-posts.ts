@@ -146,7 +146,7 @@ That's worth a premium. But it's not an emerging market play—it's a matured ne
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
     authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
-    coverImage: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=1200&q=80",
+    coverImage: "https://i.pinimg.com/736x/16/b9/bc/16b9bc0b86cc00470162f0fb19ff1221.jpg",
     category: "Neighborhood Guide",
     tags: ["Arts District", "Downtown LA", "DTLA Real Estate", "Walkability", "Gentrification", "Warehouse Lofts", "Emerging Markets", "LA Neighborhoods", "DRE 02064780"],
     publishedAt: "2026-06-10",
