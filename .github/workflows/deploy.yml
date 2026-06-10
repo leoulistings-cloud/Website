@@ -1,0 +1,50 @@
+name: Validate & Deploy to Production
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate-and-deploy:
+    name: Validate & Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install --legacy-peer-deps
+
+      - name: Run deployment validation
+        run: node scripts/validate-deployment.js
+
+      - name: Deploy to Vercel
+        if: success()
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+        run: |
+          npm install -g vercel
+          # Deploy to production
+          vercel deploy --prod --token $VERCEL_TOKEN
+
+      - name: Notify on success
+        if: success()
+        run: |
+          echo "✅ Validation passed"
+          echo "✅ Deployed to production"
+          echo "🚀 Live at johnnyleou.com"
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "❌ Validation failed - deployment blocked"
+          exit 1
