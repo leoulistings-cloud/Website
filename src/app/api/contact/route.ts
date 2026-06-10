@@ -75,6 +75,8 @@ ${message}
           headers: {
             "Authorization": `Basic ${Buffer.from(`${FUB_API_KEY}:`).toString("base64")}`,
             "Content-Type": "application/json",
+            "X-System": process.env.FUB_SYSTEM || "website-contact-form",
+            "X-System-Key": process.env.FUB_SYSTEM_KEY || "",
           },
           body: JSON.stringify(personData),
         });
