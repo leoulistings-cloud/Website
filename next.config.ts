@@ -33,6 +33,10 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
+        hostname: "www.decorilla.com",
+      },
+      {
+        protocol: "https",
         hostname: "hbr.org",
       },
       {
