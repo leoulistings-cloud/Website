@@ -87,7 +87,34 @@ ${message}
         console.log("FUB Response:", fubText);
 
         if (fubResponse.ok) {
-          console.log("✅ Contact synced to Follow Up Boss with 'website' tag");
+          const fubData = JSON.parse(fubText);
+          const personId = fubData.data?.id;
+          console.log("✅ Contact synced to Follow Up Boss with 'website' tag, ID:", personId);
+
+          // Add note with inquiry details
+          if (personId) {
+            try {
+              const noteContent = `Inquiry Type: ${inquiryType}\nBudget: ${budget}\n\nMessage:\n${message}`;
+              const noteResponse = await fetch(`https://api.followupboss.com/v1/people/${personId}/notes`, {
+                method: "POST",
+                headers: {
+                  "Authorization": `Basic ${Buffer.from(`${FUB_API_KEY}:`).toString("base64")}`,
+                  "Content-Type": "application/json",
+                  "X-System": process.env.FUB_SYSTEM || "website-contact-form",
+                  "X-System-Key": process.env.FUB_SYSTEM_KEY || "",
+                },
+                body: JSON.stringify({ text: noteContent }),
+              });
+
+              if (noteResponse.ok) {
+                console.log("✅ Note added to contact");
+              } else {
+                console.log("⚠️ Note failed but contact was created");
+              }
+            } catch (noteError) {
+              console.log("⚠️ Note error but contact was created:", noteError);
+            }
+          }
         } else {
           fubError = `FUB API Error (${fubResponse.status}): ${fubText}`;
           console.log("❌ FUB sync failed:", fubError);
