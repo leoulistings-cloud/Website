@@ -58,13 +58,16 @@ ${message}
         const personData: any = {
           firstName,
           lastName,
-          email: email || undefined,
-          phoneNumber: phone || undefined,
           tags: ["website"],
         };
 
-        // Remove undefined fields
-        Object.keys(personData).forEach(key => personData[key] === undefined && delete personData[key]);
+        // FUB API uses arrays for emails and phones
+        if (email && email.trim()) {
+          personData.emails = [{ value: email.trim() }];
+        }
+        if (phone && phone.trim()) {
+          personData.phones = [{ value: phone.trim() }];
+        }
 
         console.log("Sending to FUB:", JSON.stringify(personData));
 
