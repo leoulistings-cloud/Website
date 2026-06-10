@@ -67,6 +67,14 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "s.yimg.com",
       },
+      {
+        protocol: "https",
+        hostname: "assets.site-static.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.laconservancy.org",
+      },
     ],
   },
 };
