@@ -2,6 +2,379 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "34",
+    slug: "arts-district-dtla-real-estate-creatives-priced-out",
+    title: "Arts District DTLA: The Neighborhood Where Creatives Are Actually Getting Priced In",
+    excerpt:
+      "The Arts District has been LA's comeback story for a decade. But 2026 is different. Warehouse conversions are complete. Prices are climbing. And the creatives who built the neighborhood are starting to lose it.",
+    content: `
+The Arts District sits in South Downtown LA, south of the 101 freeway, between the 10 and 110 freeways. It's been the last "emerging neighborhood" in central LA that still felt genuinely undiscovered—until now.
+
+For the last 15 years, the narrative has been consistent: artists move in, cheap warehouse space becomes studio lofts, galleries open, restaurants follow, prices rise, artists get pushed out. It's the gentrification cycle that's played out in Williamsburg, Oakland, and San Francisco.
+
+The Arts District isn't different from that cycle. But 2026 is the year where that cycle accelerates visibly. And if you're thinking about buying there—or if you're a landlord with vacant warehouse space—you need to understand what's actually happening.
+
+## The Arts District Moment: From Underground to Obvious
+
+The Arts District's reputation has always been "LA's secret." That narrative worked through 2024. Plenty of creative types, few tourists, galleries you had to know about, restaurants where you actually sat at communal tables with artists and musicians.
+
+But Instagram found the Arts District. Then TikTok. Then *everyone's parents* found it on Instagram.
+
+The Broad Museum draws 800,000 visitors per year—but that's downtown proper. The Arts District has been the "cool overflow"—the place you go after the museum, the place where street art is permission and chaos is aesthetic.
+
+Now there are tour buses. There are tasting rooms and wine bars next to tattoo shops. There are boutique hotels planned. The transformation from genuine neighborhood to "experience destination" has accelerated in the last 18 months.
+
+## The Real Estate Math in the Arts District: 2026
+
+Arts District home prices sit in a specific range:
+- **Lofts (2BR, 1.5BA in converted warehouses)**: $750K-$1.1M
+- **Historic casitas/bungalows**: $600K-$850K
+- **New construction/modern conversions**: $900K-$1.3M
+- **Days on market**: 18-28 days (faster than Highland Park, slower than Silver Lake)
+
+For comparison:
+- **Grand Avenue (downtown proper)**: $950K-$1.4M (same square footage, premium location)
+- **Boyle Heights**: $650K-$950K (same demographics, less walkability)
+- **Echo Park fringe**: $850K-$1.1M (similar price, less industrial aesthetic)
+
+The Arts District sits in the middle—close enough to downtown employment/walkability to command a premium, far enough from the "official" DTLA to stay 10-15% cheaper.
+
+## Why the Arts District Is Actually Worth Paying Attention To
+
+**1. The Walkability Is Real (Not Aspirational)**
+
+Most of DTLA is still car-dependent. Grand Avenue has cultural institutions, but you're walking past parking lots and office buildings. The Arts District has something different: human-scaled blocks.
+
+You can walk from a gallery opening to a taco stand to a coffee roastery to a bar, all on the same street, all within 10 minutes, with interesting street art on every wall. That's not "emerging walkability"—that's actual walkability that exists now.
+
+For remote workers, parents who work from home, or anyone tired of car-dependent LA, that matters. And it's priced 10-15% cheaper than established walkable neighborhoods like Silver Lake.
+
+**2. The Live-Work Market Is Expanding**
+
+The Arts District isn't just lofts anymore. There are creative office spaces, shared studio facilities, and mixed-use buildings where you can literally live and work in the same structure.
+
+For entrepreneurs, freelancers, and anyone whose work blends into their living space, that's valuable infrastructure. You're not just buying a home—you're buying a lifestyle ecosystem.
+
+**3. The Institutional Investment Is Real**
+
+It's not just developers buying warehouse space. Major developers (Stockbridge, Paramount, Bluerock) are acquiring and converting. The LA World Trade Center (512 apartments) is literally adjacent to the Arts District. The $300M TM Group tower on Grand Avenue signals that downtown is no longer "emerging"—it's official.
+
+When institutional capital commits at that scale, neighborhood momentum compounds. The Arts District isn't riding on creative vibes alone anymore—it's riding on capital.
+
+**4. Inventory Is Still Available (Unlike Silver Lake/Echo Park)**
+
+Silver Lake has maybe 20-30 active listings on any given day. Echo Park has 15-25. The Arts District typically has 40-60 active listings—almost 2x the inventory of established neighborhoods at similar prices.
+
+For buyers, that means negotiating power. For sellers, that means you need to price right and stage well. The density of options is higher here.
+
+## The Truth About Who Lives in the Arts District
+
+The narrative is "creatives and artists." The reality is more complicated.
+
+Yes, there are working artists. But there are also:
+- Tech workers priced out of Silver Lake
+- Young families who want walkability without the Eastside tax
+- Entrepreneurs with live-work operations
+- Renovators who bought warehouse shells at $400K in 2018 and are now sitting on $900K value
+
+The Arts District has three populations:
+1. **The OGs**: Artists who moved in 2008-2014 when it was genuinely cheap. Many are now landlords themselves, renting studios to younger artists.
+2. **The Converters**: Developers and investors who bought warehouse buildings, converted them, and are selling at 2-3x their acquisition cost.
+3. **The Newcomers**: People priced out of established neighborhoods who are choosing the Arts District specifically for walkability and cultural energy.
+
+All three groups are coexisting, but not without friction. Rent for artist studios has gone from $600-800/month (2014) to $1,500-2,500 now. That's a 2-3x increase in a decade.
+
+The creatives who built the Arts District aesthetic are increasingly being priced out of actually *living* there.
+
+## The Gentrification Question: Is This Cycle Inevitable?
+
+Here's the uncomfortable truth: yes. The neighborhood that artists discovered and made cool eventually becomes too expensive for artists.
+
+But the Arts District has something most emerging neighborhoods don't: institutional diversity.
+
+It's not becoming a luxury enclave (like Williamsburg or Oakland). It's becoming a mixed-income neighborhood with cultural infrastructure that actual institutions are betting on. The Broad Museum, MOCA, and smaller galleries aren't going anywhere. The restaurants and bars aren't pop-ups—they're built-out, permanent operations.
+
+The Arts District is gentrifying, but it's gentrifying into a neighborhood with real cultural density, not just luxury retail.
+
+That matters for long-term value. Neighborhoods that gentrify into homogeneous wealth (all luxury towers, all high-end restaurants) are fragile. Neighborhoods that gentrify while maintaining cultural institutions and mixed income populations are durable.
+
+## For Buyers: The Arts District Case
+
+**You should buy in the Arts District if:**
+- You value walkability and cultural density over single-family character
+- You're OK with urban noise, street-level activity, and neighbors living literally above/below/beside you
+- You work downtown or remote and want proximity to employment/culture
+- You want loft/industrial space (12-foot ceilings, open floor plans, exposed brick) and are willing to pay premium for it
+- You're buying a converted warehouse—not a newly built condo (older conversions have more character, newer ones have better systems)
+
+**You should NOT buy in the Arts District if:**
+- You need a backyard, garage, or single-family structure
+- You're sensitive to urban noise and street-level activity
+- You're buying primarily for investment appreciation (it's a mature neighborhood, not emerging)
+- You're priced out of Silver Lake by $200K and hoping Arts District is the answer (the gap is narrowing—you're spending $900K now when you couldn't spend $800K in Silver Lake, so the real savings aren't there)
+
+## For Sellers: The Arts District Opportunity
+
+If you own property in the Arts District in 2026, you're in a unique position. Institutional investment is flowing in. Days on market are fast. Buyer interest is high.
+
+But—and this is important—you need to present the neighborhood's value correctly.
+
+Generic "Industrial loft in trendy neighborhood" won't work. Buyers can get that narrative anywhere.
+
+What you need to lead with:
+- Walkability specificity ("Walking distance to Hauser & Wirth, Bestia, Sugarfactory, and the Broad Museum")
+- Live-work potential ("Zoning allows home office, studio, and commercial use; perfect for creative professionals")
+- Cultural anchor ("Permanent gallery/museum district, not a temporary arts neighborhood")
+- Infrastructure ("Red Line station 0.8 miles; bikeable to downtown employment centers")
+
+The creatives who built the Arts District aesthetic care about those things. The tech workers and entrepreneurs moving in care about those things. Lead with value, not lifestyle fantasy.
+
+## The 2026 Inflection Point
+
+The Arts District isn't emerging anymore. It's mature. Prices reflect that. Inventory is competitive. Days on market are getting tighter.
+
+But it's not fully settled like Silver Lake or Highland Park. There's still room for neighborhoods dynamics to shift. New development (like the World Trade Center conversions) will bring foot traffic and density. That compounds value.
+
+If you're thinking about buying in the Arts District, you're not getting the "undiscovered" moment anymore. You're getting a neighborhood that's actually been discovered, has real cultural institutions, has walkability that works, and is positioned to benefit from downtown LA's momentum.
+
+That's worth a premium. But it's not an emerging market play—it's a matured neighborhood play.
+
+---
+
+**Johnny Leou (DRE#02064780)** helps buyers and investors navigate central LA neighborhoods—from emerging Boyle Heights to maturing Arts District to established Silver Lake. If you're trying to understand whether the Arts District is the right fit for your situation, or if you're looking at a specific warehouse conversion, let's talk through the actual numbers and the neighborhood fit.
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=1200&q=80",
+    category: "Neighborhood Guide",
+    tags: ["Arts District", "Downtown LA", "DTLA Real Estate", "Walkability", "Gentrification", "Warehouse Lofts", "Emerging Markets", "LA Neighborhoods", "DRE 02064780"],
+    publishedAt: "2026-06-10",
+    readTime: 9,
+  },
+  {
+    id: "33",
+    slug: "why-house-not-selling-echo-park-silver-lake",
+    title: "Why Your House Isn't Selling in Echo Park & Silver Lake: 7 Reasons & Fixes",
+    excerpt:
+      "Your Echo Park or Silver Lake home has been on the market for months. You think it's the market. It's not. Here's exactly why it's sitting and how to fix it.",
+    content: `
+You list your house in Echo Park or Silver Lake. Your agent says it's a hot market. The photos look great. Your price seems reasonable.
+
+Then... nothing. Weeks pass. Maybe a few showings. No offers.
+
+You start wondering: Is it the market? Is my price too high? Is my neighborhood falling out of favor?
+
+The answer is usually none of those things.
+
+After 20+ years in LA real estate, I've seen this happen dozens of times in these neighborhoods. And it's almost always one of seven specific issues—most of which you can fix.
+
+## 1. Your Price Doesn't Match Market Reality (Even If It Feels Right)
+
+Echo Park and Silver Lake have seen massive price appreciation. If you bought 5-10 years ago, your mental price might be anchored to 2018-2019 values.
+
+The problem: Buyers today are comparing your house to homes sold *last month*, not homes you remember selling for $650K three years ago.
+
+The fix: Get a recent comp analysis. Look at what actually sold in the last 30 days within 0.25 miles. Not what's listed—what *closed*. If you're 5-8% higher than recent sales, you're pricing yourself out of your own market.
+
+## 2. Your Photos Don't Show the Real Home
+
+This is where most sellers lose offers before anyone walks through the door.
+
+Echo Park and Silver Lake buyers are savvy. They're looking at 10-20 listings per weekend. Your listing gets 6 seconds before they swipe to the next one. If those photos don't stop them, you get zero showings.
+
+Bad lighting. Cluttered counter. Photos taken on a cloudy day. A weird angle that makes your main bedroom look small.
+
+The fix: Hire a professional photographer, not a relative with an iPhone. Spend $400-600. It will sell your house faster and often for more money. Seriously.
+
+## 3. Your Home Description Sounds Like Every Other Listing
+
+"Charming bungalow with hardwood floors and character."
+
+That's literally what 30 other Echo Park listings say right now.
+
+Buyers scrolling Zillow aren't looking for generic description #47. They're looking for specificity. What makes *your* home different?
+
+The fix: Lead with what makes it unique. "Original 1924 Craftsman with exposed beam ceilings, mature garden, and direct Echo Park Lake views from the backyard." That's specific. That's interesting. That gets clicks.
+
+## 4. You're Missing the "Walkability and Neighborhood" Angle
+
+Here's what Echo Park and Silver Lake buyers actually want: walkability, community feel, local businesses, and the vibe of being in a real neighborhood.
+
+Most listings focus on the house. They should focus on the lifestyle.
+
+The fix: Your listing description should mention nearby coffee shops, restaurants, parks, schools, and transit. "Walking distance to Silverlake Ramen, Cafe Stella, and Echo Park Lake" beats "hardwood floors" every single time for these buyers.
+
+## 5. You're Not Addressing the Obvious Flaws
+
+Every house has something: old plumbing, small bathroom, lack of parking, outdated kitchen, shared driveway.
+
+Sellers often try to hide these by not mentioning them. Buyers find out during the inspection and back out.
+
+The fix: Address the elephant in the room *in your listing*. "1920s plumbing updated in 2008, more work may be needed" is better than surprising someone during inspection. Transparency kills fewer deals than surprise.
+
+## 6. The Market Wants Move-In Ready (Or At Least Honest About It)
+
+Echo Park and Silver Lake attract a specific buyer: young professionals, entrepreneurs, creatives, and tech workers. Most don't want a 2-year renovation project.
+
+If your home needs work, you need to either price for renovation, or actually do the work before selling.
+
+The in-between—a home that *looks* like it needs work—is the worst position.
+
+The fix: Either do a basic refresh (paint, landscaping, minor repairs) for $5-8K and get move-in appeal, or price aggressively as a fixer and attract renovators.
+
+## 7. Your Open House Strategy Is Weak
+
+Online lookers don't always convert to in-person buyers. Some people need to walk through and *feel* the space.
+
+If you're not holding regular open houses (weekend mornings, 10 AM-1 PM), you're missing walk-by traffic.
+
+The fix: Open house every Saturday and Sunday for the first 4-6 weeks. Host it during peak showing times. Consider an open house happy hour on Thursday evening for local professionals.
+
+## The Real Issue: Echo Park and Silver Lake Are Competitive
+
+These neighborhoods are where LA's most educated, most informed buyers shop. They know the market. They know neighborhoods deeply. They won't overpay, and they can smell desperation.
+
+If your home is sitting, it's because something in the package—price, presentation, or positioning—isn't aligned with market reality.
+
+The good news: All seven of these issues are fixable. Most can be fixed for under $2K. Price adjustments and presentation changes move homes fast.
+
+If you're stuck, let's talk. I work this market constantly and know exactly what buyers in Echo Park and Silver Lake are looking for.
+
+Johnny Leou
+DRE #02064780
+(949) 300-4485
+leoulistings@gmail.com
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://loisllc.com/wp-content/uploads/coachs-corner-fear-of-failure.jpg",
+    category: "Selling",
+    tags: ["Echo Park", "Silver Lake", "Selling Tips", "LA Real Estate"],
+    publishedAt: "2026-06-02",
+    readTime: 6,
+  },
+  {
+    id: "32",
+    slug: "selling-house-without-realtor-los-angeles",
+    title: "Selling Your House Fast in Los Angeles Without a Real Estate Agent: Pros, Cons & Timeline",
+    excerpt:
+      "Thinking about selling FSBO (For Sale By Owner)? Here's what actually happens when you try to sell without an agent in LA—the math, the timeline, and whether it makes sense for you.",
+    content: `
+You see the real estate commission: 5-6% of your sale price. On a $1.2 million home in Los Angeles, that's $60,000-$72,000 going to agents.
+
+You think: I could sell this myself and keep that money.
+
+It's a reasonable thought. But here's the reality of FSBO (For Sale By Owner) in Los Angeles.
+
+## The Math Sounds Good (Then Reality Hits)
+
+Let's say your Los Angeles home sells for $1.2 million.
+
+With an agent: You pay $60,000 in commission. You net $1.14 million.
+
+Without an agent: You keep the $60,000. You net $1.26 million. Sounds amazing, right?
+
+Here's what actually happens.
+
+## What You're Actually Responsible For (FSBO in LA)
+
+Photography: Professional photos = $500-800
+Listing platform: Zillow, Redfin, Realtor.com = $100-500/month
+Staging: Decluttering, furniture rental, design = $1000-3000
+Inspections you order upfront: $800-1200
+Appraisal (buyer's lender will order theirs, but you might do pre-appraisal): $600
+Title search and insurance: $1000-1500
+Document preparation: Forms, disclosures, purchase agreements = $300-500
+Escrow/closing coordinator: You might DIY, but most people hire help = $500-1000
+Repairs revealed during inspection: Budget 1-2% of sale price minimum = $12,000-24,000
+Your time: ~200 hours of work over 3-4 months (unpaid)
+
+Real FSBO cost: $17,700-$32,600 (before unexpected repairs)
+
+Actual net proceeds: $1.167-1.242 million
+
+You saved maybe $20K after real costs. But you gave 200 hours of your time to do it.
+
+That's $100/hour if you're lucky. More realistically, you'll spend more time than you anticipated.
+
+## The Timeline Difference: FSBO vs. Agent
+
+FSBO Timeline:
+- Week 1-2: Listing prep, photography
+- Week 3-12: Showing your home yourself, screening buyers, scheduling
+- Week 13-16: Negotiation and inspection period (slow without agent expertise)
+- Week 17-20: Closing coordination
+- Total: 20-24 weeks (5-6 months)
+
+Agent Timeline:
+- Week 1-2: Listing prep, professional photography
+- Week 3-8: Active showing period (agent networks = more qualified buyers)
+- Week 9-12: Negotiation and inspection (faster resolution with experience)
+- Week 13-16: Closing
+- Total: 16-18 weeks (4-4.5 months)
+
+Agents often close faster because they have:
+- Access to other agents' buyer networks
+- Experience negotiating repairs and disputes
+- Escrow coordination relationships
+- Knowledge of what kills deals and how to prevent it
+
+## The Real Risk: Underpricing
+
+This is where FSBO sellers leave the most money on the table.
+
+Without market expertise, FSBO sellers typically underprice by 3-7% because:
+1. They're uncertain about true market value
+2. They're anxious about the home sitting
+3. The first serious offer feels "good enough"
+4. They don't have leverage in negotiation
+
+On a $1.2M home, even a 3% underpricing = $36,000 lost.
+
+You just gave up $36K to save $20K in commission. You're underwater.
+
+A good agent knows your market, your neighborhood comparables, and understands exactly what you can get. They also have a network of buyers actively looking—FSBO sellers rely on random internet traffic.
+
+## Who Should Actually Sell FSBO in LA?
+
+Honestly? Very few people.
+
+You might consider FSBO if:
+- Your home is in a hot, move-in-ready neighborhood (West Hollywood, Santa Monica) where demand is so high homes sell themselves
+- You have real estate experience or a background in contracts/negotiation
+- Your timeline is flexible (you can afford to wait 5-6 months)
+- You're selling a relatively simple property with no title issues
+- You're OK potentially leaving $20-40K on the table for the sake of doing it yourself
+
+## The Bottom Line
+
+When you do the real math—including your time, unexpected costs, and the risk of underpricing—agents usually pay for themselves.
+
+The 5-6% commission isn't free money agents take. It's their value: market knowledge, buyer network, negotiation expertise, and professional closing coordination.
+
+In Los Angeles specifically, where homes are expensive and neighborhoods vary wildly, that knowledge has real financial value.
+
+If you're considering FSBO, at minimum get a CMA (Comparative Market Analysis) from an agent for free. You'll get real pricing data. Then decide if the $20K savings is worth 200 hours of your time and the risk of underpricing.
+
+Most sellers who do the math choose representation.
+
+Johnny Leou
+DRE #02064780
+(949) 300-4485
+leoulistings@gmail.com
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://www.gtspiritmedia.com/gtspirit/uploads/2019/09/Bugatti-Chiron-Price-1068x716.jpg",
+    category: "Selling",
+    tags: ["FSBO", "Selling Tips", "Real Estate Commission", "LA Market"],
+    publishedAt: "2026-06-02",
+    readTime: 7,
+  },
+  {
     id: "31",
     slug: "pre-approval-vs-pre-qualification-home-buying",
     title: "Pre-Approval vs. Pre-Qualification: Why First-Time Buyers Get This Wrong",
