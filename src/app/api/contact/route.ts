@@ -55,16 +55,12 @@ ${message}
     const FUB_API_KEY = process.env.FUB_API_KEY;
     if (FUB_API_KEY) {
       try {
-        // Build notes from inquiry details
-        const notes = `Inquiry Type: ${inquiryType}\nBudget: ${budget}\n\nMessage:\n${message}`;
-
         const personData: any = {
           firstName,
           lastName,
           email: email || undefined,
           phoneNumber: phone || undefined,
           tags: ["website"],
-          notes,
         };
 
         // Remove undefined fields
