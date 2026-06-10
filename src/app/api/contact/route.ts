@@ -90,11 +90,14 @@ ${message}
           const fubData = JSON.parse(fubText);
           const personId = fubData.data?.id;
           console.log("✅ Contact synced to Follow Up Boss with 'website' tag, ID:", personId);
+          console.log("Full FUB response:", fubText);
 
           // Add note with inquiry details
           if (personId) {
             try {
               const noteContent = `Inquiry Type: ${inquiryType}\nBudget: ${budget}\n\nMessage:\n${message}`;
+              console.log("Adding note with content:", noteContent);
+
               const noteResponse = await fetch(`https://api.followupboss.com/v1/people/${personId}/notes`, {
                 method: "POST",
                 headers: {
@@ -106,14 +109,20 @@ ${message}
                 body: JSON.stringify({ text: noteContent }),
               });
 
+              const noteText = await noteResponse.text();
+              console.log("Note response status:", noteResponse.status);
+              console.log("Note response:", noteText);
+
               if (noteResponse.ok) {
                 console.log("✅ Note added to contact");
               } else {
-                console.log("⚠️ Note failed but contact was created");
+                console.log("❌ Note failed:", noteText);
               }
             } catch (noteError) {
-              console.log("⚠️ Note error but contact was created:", noteError);
+              console.log("❌ Note error:", noteError);
             }
+          } else {
+            console.log("❌ No person ID returned from FUB");
           }
         } else {
           fubError = `FUB API Error (${fubResponse.status}): ${fubText}`;
