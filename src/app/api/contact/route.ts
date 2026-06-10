@@ -49,25 +49,22 @@ ${message}
 
     console.log("Email sent successfully to", process.env.SMTP_EMAIL);
 
-    // Also try to send to FUB if available (optional bonus)
+    // Send to Follow Up Boss
     const FUB_API_KEY = process.env.FUB_API_KEY;
     if (FUB_API_KEY) {
       try {
         const personData: any = {
           firstName,
           lastName,
-          phoneNumber: phone,
+          email: email || undefined,
+          phoneNumber: phone || undefined,
           tags: ["website"],
-          customFields: {
-            inquiryType,
-            budget,
-            message,
-          },
         };
 
-        if (email && email.trim()) {
-          personData.email = email;
-        }
+        // Remove undefined fields
+        Object.keys(personData).forEach(key => personData[key] === undefined && delete personData[key]);
+
+        console.log("Sending to FUB:", JSON.stringify(personData));
 
         const fubResponse = await fetch("https://api.followupboss.com/v1/people", {
           method: "POST",
@@ -78,13 +75,17 @@ ${message}
           body: JSON.stringify(personData),
         });
 
+        const fubText = await fubResponse.text();
+        console.log("FUB Response Status:", fubResponse.status);
+        console.log("FUB Response:", fubText);
+
         if (fubResponse.ok) {
-          console.log("Contact also sent to Follow Up Boss");
+          console.log("✅ Contact synced to Follow Up Boss with 'website' tag");
         } else {
-          console.log("FUB submission failed but email was sent");
+          console.log("❌ FUB sync failed:", fubText);
         }
       } catch (fubError) {
-        console.log("FUB attempt failed but email was sent:", fubError);
+        console.log("❌ FUB error:", fubError);
       }
     }
 
