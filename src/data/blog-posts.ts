@@ -8,140 +8,64 @@ export const blogPosts: BlogPost[] = [
     excerpt:
       "The Arts District has been LA's comeback story for a decade. But 2026 is different. Warehouse conversions are complete. Prices are climbing. And the creatives who built the neighborhood are starting to lose it.",
     content: `
-The Arts District sits in South Downtown LA, south of the 101 freeway, between the 10 and 110 freeways. It's been the last "emerging neighborhood" in central LA that still felt genuinely undiscovered—until now.
+The Arts District sits south of downtown, between the 10 and 110 freeways. For 15 years it's been LA's "secret"—cheap warehouse space, authentic galleries, real artists. That era is ending. It's 2026, and the neighborhood you didn't know about is becoming the neighborhood everyone's visiting.
 
-For the last 15 years, the narrative has been consistent: artists move in, cheap warehouse space becomes studio lofts, galleries open, restaurants follow, prices rise, artists get pushed out. It's the gentrification cycle that's played out in Williamsburg, Oakland, and San Francisco.
+## The Price Reality
 
-The Arts District isn't different from that cycle. But 2026 is the year where that cycle accelerates visibly. And if you're thinking about buying there—or if you're a landlord with vacant warehouse space—you need to understand what's actually happening.
-
-## The Arts District Moment: From Underground to Obvious
-
-The Arts District's reputation has always been "LA's secret." That narrative worked through 2024. Plenty of creative types, few tourists, galleries you had to know about, restaurants where you actually sat at communal tables with artists and musicians.
-
-But Instagram found the Arts District. Then TikTok. Then *everyone's parents* found it on Instagram.
-
-The Broad Museum draws 800,000 visitors per year—but that's downtown proper. The Arts District has been the "cool overflow"—the place you go after the museum, the place where street art is permission and chaos is aesthetic.
-
-Now there are tour buses. There are tasting rooms and wine bars next to tattoo shops. There are boutique hotels planned. The transformation from genuine neighborhood to "experience destination" has accelerated in the last 18 months.
-
-## The Real Estate Math in the Arts District: 2026
-
-Arts District home prices sit in a specific range:
-- **Lofts (2BR, 1.5BA in converted warehouses)**: $750K-$1.1M
-- **Historic casitas/bungalows**: $600K-$850K
-- **New construction/modern conversions**: $900K-$1.3M
-- **Days on market**: 18-28 days (faster than Highland Park, slower than Silver Lake)
+Arts District warehouse lofts (2BR/1.5BA): **$750K-$1.1M**
+Days on market: 18-28 days
 
 For comparison:
-- **Grand Avenue (downtown proper)**: $950K-$1.4M (same square footage, premium location)
-- **Boyle Heights**: $650K-$950K (same demographics, less walkability)
-- **Echo Park fringe**: $850K-$1.1M (similar price, less industrial aesthetic)
+- Grand Avenue DTLA: $950K-$1.4M (same size, premium location)
+- Boyle Heights: $650K-$950K (less walkable)
+- Silver Lake: $950K-$1.3M (established, saturated inventory)
 
-The Arts District sits in the middle—close enough to downtown employment/walkability to command a premium, far enough from the "official" DTLA to stay 10-15% cheaper.
+The Arts District sits in the middle—walkable and culturally dense, but 10-15% cheaper than established neighborhoods.
 
-## Why the Arts District Is Actually Worth Paying Attention To
+## Why It Actually Works
 
-**1. The Walkability Is Real (Not Aspirational)**
+**Walkability that exists now.** You walk from gallery to taco stand to coffee roastery to bar—all within 10 minutes, all authentic. That's not aspirational walkability. It's the real thing. And it's cheaper than Silver Lake.
 
-Most of DTLA is still car-dependent. Grand Avenue has cultural institutions, but you're walking past parking lots and office buildings. The Arts District has something different: human-scaled blocks.
+**Institutional money is flowing in.** The $300M TM Group tower on Grand Avenue. The LA World Trade Center (512 apartments) right next door. Major developers (Stockbridge, Paramount, Bluerock) are acquiring warehouse buildings. When this much capital commits, neighborhood trajectory compounds.
 
-You can walk from a gallery opening to a taco stand to a coffee roastery to a bar, all on the same street, all within 10 minutes, with interesting street art on every wall. That's not "emerging walkability"—that's actual walkability that exists now.
+**Live-work opportunity.** Zoning allows home office + creative studio + commercial use. For entrepreneurs and freelancers, you're buying an ecosystem, not just a house.
 
-For remote workers, parents who work from home, or anyone tired of car-dependent LA, that matters. And it's priced 10-15% cheaper than established walkable neighborhoods like Silver Lake.
+**Inventory density.** Silver Lake has 20-30 listings. The Arts District has 40-60. That gives you negotiating power.
 
-**2. The Live-Work Market Is Expanding**
+## The Gentrification Conversation
 
-The Arts District isn't just lofts anymore. There are creative office spaces, shared studio facilities, and mixed-use buildings where you can literally live and work in the same structure.
+Here's the honest part: artists discovered this neighborhood, made it cool, and are now being priced out. Rent for artist studios went from $600-800/month (2014) to $1,500-2,500 now.
 
-For entrepreneurs, freelancers, and anyone whose work blends into their living space, that's valuable infrastructure. You're not just buying a home—you're buying a lifestyle ecosystem.
+But the Arts District has something most gentrifying neighborhoods don't: **institutional anchors**. The Broad Museum, MOCA, permanent galleries and restaurants—not pop-ups. That cultural density creates durability that pure luxury enclaves (Williamsburg, Oakland) don't have.
 
-**3. The Institutional Investment Is Real**
+So yes, it's gentrifying. But into something with real cultural infrastructure, not just luxury towers.
 
-It's not just developers buying warehouse space. Major developers (Stockbridge, Paramount, Bluerock) are acquiring and converting. The LA World Trade Center (512 apartments) is literally adjacent to the Arts District. The $300M TM Group tower on Grand Avenue signals that downtown is no longer "emerging"—it's official.
+## Should You Buy Here?
 
-When institutional capital commits at that scale, neighborhood momentum compounds. The Arts District isn't riding on creative vibes alone anymore—it's riding on capital.
+**Buy the Arts District if:**
+- You value walkability and cultural density over single-family quietness
+- You work downtown or remote
+- You want loft space (12-foot ceilings, exposed brick, industrial character)
+- You can handle urban noise and street-level activity
+- You're buying a converted warehouse (older = more character, newer = better systems)
 
-**4. Inventory Is Still Available (Unlike Silver Lake/Echo Park)**
-
-Silver Lake has maybe 20-30 active listings on any given day. Echo Park has 15-25. The Arts District typically has 40-60 active listings—almost 2x the inventory of established neighborhoods at similar prices.
-
-For buyers, that means negotiating power. For sellers, that means you need to price right and stage well. The density of options is higher here.
-
-## The Truth About Who Lives in the Arts District
-
-The narrative is "creatives and artists." The reality is more complicated.
-
-Yes, there are working artists. But there are also:
-- Tech workers priced out of Silver Lake
-- Young families who want walkability without the Eastside tax
-- Entrepreneurs with live-work operations
-- Renovators who bought warehouse shells at $400K in 2018 and are now sitting on $900K value
-
-The Arts District has three populations:
-1. **The OGs**: Artists who moved in 2008-2014 when it was genuinely cheap. Many are now landlords themselves, renting studios to younger artists.
-2. **The Converters**: Developers and investors who bought warehouse buildings, converted them, and are selling at 2-3x their acquisition cost.
-3. **The Newcomers**: People priced out of established neighborhoods who are choosing the Arts District specifically for walkability and cultural energy.
-
-All three groups are coexisting, but not without friction. Rent for artist studios has gone from $600-800/month (2014) to $1,500-2,500 now. That's a 2-3x increase in a decade.
-
-The creatives who built the Arts District aesthetic are increasingly being priced out of actually *living* there.
-
-## The Gentrification Question: Is This Cycle Inevitable?
-
-Here's the uncomfortable truth: yes. The neighborhood that artists discovered and made cool eventually becomes too expensive for artists.
-
-But the Arts District has something most emerging neighborhoods don't: institutional diversity.
-
-It's not becoming a luxury enclave (like Williamsburg or Oakland). It's becoming a mixed-income neighborhood with cultural infrastructure that actual institutions are betting on. The Broad Museum, MOCA, and smaller galleries aren't going anywhere. The restaurants and bars aren't pop-ups—they're built-out, permanent operations.
-
-The Arts District is gentrifying, but it's gentrifying into a neighborhood with real cultural density, not just luxury retail.
-
-That matters for long-term value. Neighborhoods that gentrify into homogeneous wealth (all luxury towers, all high-end restaurants) are fragile. Neighborhoods that gentrify while maintaining cultural institutions and mixed income populations are durable.
-
-## For Buyers: The Arts District Case
-
-**You should buy in the Arts District if:**
-- You value walkability and cultural density over single-family character
-- You're OK with urban noise, street-level activity, and neighbors living literally above/below/beside you
-- You work downtown or remote and want proximity to employment/culture
-- You want loft/industrial space (12-foot ceilings, open floor plans, exposed brick) and are willing to pay premium for it
-- You're buying a converted warehouse—not a newly built condo (older conversions have more character, newer ones have better systems)
-
-**You should NOT buy in the Arts District if:**
+**Don't buy if:**
 - You need a backyard, garage, or single-family structure
-- You're sensitive to urban noise and street-level activity
-- You're buying primarily for investment appreciation (it's a mature neighborhood, not emerging)
-- You're priced out of Silver Lake by $200K and hoping Arts District is the answer (the gap is narrowing—you're spending $900K now when you couldn't spend $800K in Silver Lake, so the real savings aren't there)
+- You're sensitive to urban noise
+- You're buying primarily for appreciation (this is a maturing neighborhood, not emerging)
+- You think you'll save $200K vs. Silver Lake (the gap is closing—you're spending $900K in Arts District when you couldn't spend $800K in Silver Lake, so the real savings aren't there)
 
-## For Sellers: The Arts District Opportunity
+## The 2026 Position
 
-If you own property in the Arts District in 2026, you're in a unique position. Institutional investment is flowing in. Days on market are fast. Buyer interest is high.
+The Arts District isn't emerging anymore. Prices reflect that. Days on market are tightening. Inventory is competitive.
 
-But—and this is important—you need to present the neighborhood's value correctly.
+But it's not fully matured like Silver Lake or Highland Park. New development will bring density and foot traffic. That compounds value over the next 3-5 years.
 
-Generic "Industrial loft in trendy neighborhood" won't work. Buyers can get that narrative anywhere.
-
-What you need to lead with:
-- Walkability specificity ("Walking distance to Hauser & Wirth, Bestia, Sugarfactory, and the Broad Museum")
-- Live-work potential ("Zoning allows home office, studio, and commercial use; perfect for creative professionals")
-- Cultural anchor ("Permanent gallery/museum district, not a temporary arts neighborhood")
-- Infrastructure ("Red Line station 0.8 miles; bikeable to downtown employment centers")
-
-The creatives who built the Arts District aesthetic care about those things. The tech workers and entrepreneurs moving in care about those things. Lead with value, not lifestyle fantasy.
-
-## The 2026 Inflection Point
-
-The Arts District isn't emerging anymore. It's mature. Prices reflect that. Inventory is competitive. Days on market are getting tighter.
-
-But it's not fully settled like Silver Lake or Highland Park. There's still room for neighborhoods dynamics to shift. New development (like the World Trade Center conversions) will bring foot traffic and density. That compounds value.
-
-If you're thinking about buying in the Arts District, you're not getting the "undiscovered" moment anymore. You're getting a neighborhood that's actually been discovered, has real cultural institutions, has walkability that works, and is positioned to benefit from downtown LA's momentum.
-
-That's worth a premium. But it's not an emerging market play—it's a matured neighborhood play.
+You're not getting the undiscovered moment. You're getting a neighborhood with real cultural institutions, actual walkability, positioned to benefit from downtown's momentum. That's worth the premium—but it's a mature neighborhood play, not a speculative one.
 
 ---
 
-**Johnny Leou (DRE#02064780)** helps buyers and investors navigate central LA neighborhoods—from emerging Boyle Heights to maturing Arts District to established Silver Lake. If you're trying to understand whether the Arts District is the right fit for your situation, or if you're looking at a specific warehouse conversion, let's talk through the actual numbers and the neighborhood fit.
+**Johnny Leou (DRE#02064780)** helps buyers and investors navigate central LA neighborhoods. If you're considering the Arts District or looking at a specific warehouse conversion, let's talk through the actual numbers and whether it fits your situation.
     `,
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
@@ -150,7 +74,7 @@ That's worth a premium. But it's not an emerging market play—it's a matured ne
     category: "Neighborhood Guide",
     tags: ["Arts District", "Downtown LA", "DTLA Real Estate", "Walkability", "Gentrification", "Warehouse Lofts", "Emerging Markets", "LA Neighborhoods", "DRE 02064780"],
     publishedAt: "2026-06-10",
-    readTime: 9,
+    readTime: 5,
   },
   {
     id: "33",
