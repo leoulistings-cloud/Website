@@ -2864,7 +2864,7 @@ Head to El Moro, grab some churros, and fall in love with your neighborhood all 
     readTime: 4,
   },
   {
-    id: "32",
+    id: "36",
     slug: "highland-park-real-estate-los-angeles",
     title: "Highland Park Real Estate: LA's Hottest Neighborhood for 2026 Buyers",
     excerpt:
@@ -2929,7 +2929,7 @@ The homes that will appreciate most: well-maintained Craftsmen that didn't get "
     readTime: 8,
   },
   {
-    id: "33",
+    id: "37",
     slug: "boyle-heights-real-estate-authentic-la-neighborhood",
     title: "Boyle Heights Real Estate: Authentic LA Living Below Market Price",
     excerpt:
@@ -2997,7 +2997,7 @@ The key variable: what happens to Downtown LA. If Downtown appreciates faster, t
     readTime: 7,
   },
   {
-    id: "34",
+    id: "38",
     slug: "echo-park-los-angeles-buying-guide",
     title: "Echo Park Homes: The Best Time to Buy Was 2020, Second Best Is Now",
     excerpt:
