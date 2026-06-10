@@ -63,6 +63,19 @@ export default function PaleBlueDotPage() {
                     </audio>
                   </div>
                 </div>
+                {/* Avengers Teaser */}
+                <div className="space-y-2">
+                  <h3 className="text-blue-200 font-serif text-lg">Avengers: Doomsday Teaser Reaction</h3>
+                  <div className="w-full border border-blue-400/40 rounded px-3 py-2 flex items-center">
+                    <audio
+                      controls
+                      className="w-full accent-blue-400"
+                    >
+                      <source src="https://crazy4comiccon.wordpress.com/wp-content/uploads/2025/12/avengers-teaser.m4a" type="audio/mp4" />
+                      Your browser does not support the audio element.
+                    </audio>
+                  </div>
+                </div>
                 {/* Supergirl Teaser */}
                 <div className="space-y-2">
                   <h3 className="text-blue-200 font-serif text-lg">Supergirl Teaser</h3>
