@@ -39,6 +39,30 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "i.pinimg.com",
       },
+      {
+        protocol: "https",
+        hostname: "www.gtspiritmedia.com",
+      },
+      {
+        protocol: "https",
+        hostname: "loisllc.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.rogerperry.com",
+      },
+      {
+        protocol: "https",
+        hostname: "imagescdn.homes.com",
+      },
+      {
+        protocol: "https",
+        hostname: "bluprinthomeloans.com",
+      },
+      {
+        protocol: "https",
+        hostname: "s.yimg.com",
+      },
     ],
   },
 };
