@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
 export async function POST(request: NextRequest) {
+  let fubError: string | null = null;
+
   try {
     const body = await request.json();
     const { firstName, lastName, email, phone, inquiryType, budget, message } = body;
@@ -88,14 +90,20 @@ ${message}
         if (fubResponse.ok) {
           console.log("✅ Contact synced to Follow Up Boss with 'website' tag");
         } else {
-          console.log("❌ FUB sync failed:", fubText);
+          fubError = `FUB API Error (${fubResponse.status}): ${fubText}`;
+          console.log("❌ FUB sync failed:", fubError);
         }
-      } catch (fubError) {
+      } catch (fubErrorObj) {
+        fubError = `FUB Error: ${fubErrorObj instanceof Error ? fubErrorObj.message : String(fubErrorObj)}`;
         console.log("❌ FUB error:", fubError);
       }
     }
 
-    return NextResponse.json({ success: true });
+    return NextResponse.json({
+      success: true,
+      message: "Contact form submitted successfully",
+      fubStatus: fubError ? `FUB Sync Failed: ${fubError}` : "Synced to FUB"
+    });
   } catch (error) {
     console.error("Contact form error:", error);
     return NextResponse.json(
