@@ -3,6 +3,7 @@ import nodemailer from "nodemailer";
 
 export async function POST(request: NextRequest) {
   let fubError: string | null = null;
+  let noteStatus: string = "not attempted";
 
   try {
     const body = await request.json();
@@ -115,14 +116,18 @@ ${message}
 
               if (noteResponse.ok) {
                 console.log("✅ Note added to contact");
+                noteStatus = "Note added successfully";
               } else {
                 console.log("❌ Note failed:", noteText);
+                noteStatus = `Note failed: ${noteResponse.status}`;
               }
             } catch (noteError) {
               console.log("❌ Note error:", noteError);
+              noteStatus = `Note error: ${noteError instanceof Error ? noteError.message : String(noteError)}`;
             }
           } else {
             console.log("❌ No person ID returned from FUB");
+            noteStatus = "No person ID returned";
           }
         } else {
           fubError = `FUB API Error (${fubResponse.status}): ${fubText}`;
@@ -137,7 +142,8 @@ ${message}
     return NextResponse.json({
       success: true,
       message: "Contact form submitted successfully",
-      fubStatus: fubError ? `FUB Sync Failed: ${fubError}` : "Synced to FUB"
+      fubStatus: fubError ? `FUB Sync Failed: ${fubError}` : "Synced to FUB",
+      noteStatus: noteStatus
     });
   } catch (error) {
     console.error("Contact form error:", error);
