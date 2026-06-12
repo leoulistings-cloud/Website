@@ -46,16 +46,30 @@ ${message}
 
     console.log("Email sent successfully");
 
-    // Send to Follow Up Boss - minimal test
+    // Send to Follow Up Boss
     const FUB_API_KEY = process.env.FUB_API_KEY;
     if (FUB_API_KEY) {
       try {
+        // Format phone as 949-300-5586
+        const formattedPhone = `${phone.substring(0, 3)}-${phone.substring(3, 6)}-${phone.substring(6)}`;
+
         const personData: any = {
           firstName,
           lastName,
+          phoneNumber: formattedPhone,
+          tags: ["website"],
+          customFields: {
+            inquiryType,
+            budget,
+            message,
+          },
         };
 
-        console.log("Sending to FUB with data:", JSON.stringify(personData));
+        if (email && email.trim()) {
+          personData.email = email;
+        }
+
+        console.log("Sending to Follow Up Boss with data:", JSON.stringify(personData, null, 2));
 
         const fubResponse = await fetch("https://api.followupboss.com/v1/people", {
           method: "POST",
@@ -67,11 +81,15 @@ ${message}
         });
 
         const fubResponseText = await fubResponse.text();
-        console.log("FUB Status:", fubResponse.status);
-        console.log("FUB Response:", fubResponseText);
+        console.log("FUB Response Status:", fubResponse.status);
+        console.log("FUB Response Body:", fubResponseText);
 
         if (!fubResponse.ok) {
-          console.error("FUB Error:", fubResponseText);
+          console.error("Follow Up Boss API error:", {
+            status: fubResponse.status,
+            body: fubResponseText,
+            request: personData,
+          });
         } else {
           console.log("Contact sent to FUB successfully");
         }
