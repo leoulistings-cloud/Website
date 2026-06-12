@@ -56,35 +56,14 @@ ${message}
 
     // Send to Follow Up Boss
     const FUB_API_KEY = process.env.FUB_API_KEY;
-    console.log("FUB_API_KEY exists:", !!FUB_API_KEY);
-
-    if (!FUB_API_KEY) {
-      console.warn("FUB_API_KEY is not configured - skipping Follow Up Boss sync");
-    } else {
+    if (FUB_API_KEY) {
       try {
-        // Format phone as 949-300-5586 (only if valid 10-digit number)
-        let formattedPhone = phone;
-        if (phone && phone.length >= 10) {
-          formattedPhone = `${phone.substring(0, 3)}-${phone.substring(3, 6)}-${phone.substring(6)}`;
-        }
-
         const personData: any = {
           firstName,
           lastName,
-          phoneNumber: formattedPhone,
-          tags: ["website"],
-          customFields: {
-            inquiryType,
-            budget,
-            message,
-          },
         };
 
-        if (email && email.trim()) {
-          personData.email = email;
-        }
-
-        console.log("Sending to Follow Up Boss with data:", JSON.stringify(personData, null, 2));
+        console.log("Sending to FUB with data:", JSON.stringify(personData));
 
         const fubResponse = await fetch("https://api.followupboss.com/v1/people", {
           method: "POST",
@@ -96,24 +75,16 @@ ${message}
         });
 
         const fubResponseText = await fubResponse.text();
-        console.log("FUB Response Status:", fubResponse.status);
-        console.log("FUB Response Body:", fubResponseText);
+        console.log("FUB Status:", fubResponse.status);
+        console.log("FUB Response:", fubResponseText);
 
         if (!fubResponse.ok) {
-          console.error("Follow Up Boss API error:", {
-            status: fubResponse.status,
-            body: fubResponseText,
-            request: personData,
-          });
-          // Return success anyway since email was sent
-          return NextResponse.json({ success: true, fubError: `FUB sync failed: ${fubResponseText}` });
+          console.error("FUB Error:", fubResponseText);
         } else {
           console.log("Contact sent to FUB successfully");
         }
       } catch (fubError) {
         console.error("FUB Error:", fubError);
-        // Return success anyway since email was sent
-        return NextResponse.json({ success: true, fubError: String(fubError) });
       }
     }
 
