@@ -56,7 +56,11 @@ ${message}
 
     // Send to Follow Up Boss
     const FUB_API_KEY = process.env.FUB_API_KEY;
-    if (FUB_API_KEY) {
+    console.log("FUB_API_KEY exists:", !!FUB_API_KEY);
+
+    if (!FUB_API_KEY) {
+      console.warn("FUB_API_KEY is not configured - skipping Follow Up Boss sync");
+    } else {
       try {
         // Format phone as 949-300-5586 (only if valid 10-digit number)
         let formattedPhone = phone;
@@ -101,11 +105,15 @@ ${message}
             body: fubResponseText,
             request: personData,
           });
+          // Return success anyway since email was sent
+          return NextResponse.json({ success: true, fubError: `FUB sync failed: ${fubResponseText}` });
         } else {
           console.log("Contact sent to FUB successfully");
         }
       } catch (fubError) {
         console.error("FUB Error:", fubError);
+        // Return success anyway since email was sent
+        return NextResponse.json({ success: true, fubError: String(fubError) });
       }
     }
 
