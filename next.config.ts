@@ -47,6 +47,26 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "loisllc.com",
       },
+      {
+        protocol: "https",
+        hostname: "i.pinimg.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.rent.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.laconservancy.org",
+      },
+      {
+        protocol: "https",
+        hostname: "assets.site-static.com",
+      },
+      {
+        protocol: "https",
+        hostname: "hbr.org",
+      },
     ],
   },
 };
