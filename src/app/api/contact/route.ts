@@ -56,11 +56,7 @@ ${message}
 
     // Send to Follow Up Boss
     const FUB_API_KEY = process.env.FUB_API_KEY;
-    console.log("DEBUG: FUB_API_KEY exists:", !!FUB_API_KEY);
-    console.log("DEBUG: FUB_API_KEY length:", FUB_API_KEY?.length || 0);
     if (FUB_API_KEY) {
-      console.log("DEBUG: FUB_API_KEY first 10 chars:", FUB_API_KEY.substring(0, 10));
-      console.log("DEBUG: FUB_API_KEY last 10 chars:", FUB_API_KEY.substring(FUB_API_KEY.length - 10));
       try {
         const personData: any = {
           firstName,
@@ -78,13 +74,10 @@ ${message}
 
         console.log("Sending to FUB:", JSON.stringify(personData));
 
-        const authHeader = `Basic ${Buffer.from(`${FUB_API_KEY}:`).toString("base64")}`;
-        console.log("DEBUG: Auth header created, length:", authHeader.length);
-
         const fubResponse = await fetch("https://api.followupboss.com/v1/people", {
           method: "POST",
           headers: {
-            "Authorization": authHeader,
+            "Authorization": `Basic ${Buffer.from(`${FUB_API_KEY}:`).toString("base64")}`,
             "Content-Type": "application/json",
             "X-System": process.env.FUB_SYSTEM || "website-contact-form",
             "X-System-Key": process.env.FUB_SYSTEM_KEY || "",
@@ -92,21 +85,45 @@ ${message}
           body: JSON.stringify(personData),
         });
 
-        const fubResponseText = await fubResponse.text();
-        console.log("FUB Status:", fubResponse.status);
-        console.log("FUB Headers:", JSON.stringify(Object.fromEntries(fubResponse.headers)));
-        console.log("FUB Response:", fubResponseText);
+        const fubText = await fubResponse.text();
+        console.log("FUB Response Status:", fubResponse.status);
+        console.log("FUB Response:", fubText);
 
-        if (!fubResponse.ok) {
-          console.error("FUB Error - Status:", fubResponse.status, "Response:", fubResponseText);
+        if (fubResponse.ok) {
+          const fubData = JSON.parse(fubText);
+          const personId = fubData.data?.id;
+          console.log("✅ Contact synced to Follow Up Boss with 'website' tag, ID:", personId);
+
+          // Add note with inquiry details
+          if (personId) {
+            try {
+              const noteContent = `Inquiry Type: ${inquiryType}\nBudget: ${budget}\n\nMessage:\n${message}`;
+              const noteResponse = await fetch(`https://api.followupboss.com/v1/people/${personId}/notes`, {
+                method: "POST",
+                headers: {
+                  "Authorization": `Basic ${Buffer.from(`${FUB_API_KEY}:`).toString("base64")}`,
+                  "Content-Type": "application/json",
+                  "X-System": process.env.FUB_SYSTEM || "website-contact-form",
+                  "X-System-Key": process.env.FUB_SYSTEM_KEY || "",
+                },
+                body: JSON.stringify({ text: noteContent }),
+              });
+
+              if (noteResponse.ok) {
+                console.log("✅ Note added to contact");
+              } else {
+                console.log("⚠️ Note failed but contact was created");
+              }
+            } catch (noteError) {
+              console.log("⚠️ Note error but contact was created:", noteError);
+            }
+          }
         } else {
-          console.log("Contact sent to FUB successfully");
+          console.log("❌ FUB sync failed:", fubText);
         }
       } catch (fubError) {
         console.error("FUB Error:", fubError);
       }
-    } else {
-      console.warn("WARNING: FUB_API_KEY is not set in environment variables!");
     }
 
     return NextResponse.json({ success: true });
