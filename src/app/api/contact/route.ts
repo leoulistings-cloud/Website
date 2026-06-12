@@ -6,6 +6,14 @@ export async function POST(request: NextRequest) {
     const body = await request.json();
     const { firstName, lastName, email, phone, inquiryType, budget, message } = body;
 
+    // Validate required fields
+    if (!firstName || !lastName || !message) {
+      return NextResponse.json(
+        { error: "First name, last name, and message are required" },
+        { status: 400 }
+      );
+    }
+
     console.log("SMTP_EMAIL:", process.env.SMTP_EMAIL);
     console.log("SMTP_PASSWORD exists:", !!process.env.SMTP_PASSWORD);
 
@@ -50,8 +58,11 @@ ${message}
     const FUB_API_KEY = process.env.FUB_API_KEY;
     if (FUB_API_KEY) {
       try {
-        // Format phone as 949-300-5586
-        const formattedPhone = `${phone.substring(0, 3)}-${phone.substring(3, 6)}-${phone.substring(6)}`;
+        // Format phone as 949-300-5586 (only if valid 10-digit number)
+        let formattedPhone = phone;
+        if (phone && phone.length >= 10) {
+          formattedPhone = `${phone.substring(0, 3)}-${phone.substring(3, 6)}-${phone.substring(6)}`;
+        }
 
         const personData: any = {
           firstName,
