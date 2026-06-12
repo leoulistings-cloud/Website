@@ -3,8 +3,13 @@ import Link from "next/link";
 import { ArrowRight, MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "LA Neighborhood Guides | Real Estate by Area | Johnny Leou",
-  description: "Hyperlocal real estate guides for Los Angeles neighborhoods. Johnny Leou (DRE#02064780) covers Silver Lake, Los Feliz, Echo Park, Koreatown, Highland Park, and Boyle Heights with current market data.",
+  title: "Los Angeles Neighborhoods Guide | Real Estate Prices & Insights",
+  description: "Comprehensive LA neighborhood guides covering Silver Lake, Los Feliz, Echo Park, Koreatown, Highland Park & Boyle Heights. Pricing, market conditions & expert insights.",
+  openGraph: {
+    title: "Los Angeles Neighborhoods Guide | Real Estate Prices & Insights",
+    description: "Comprehensive LA neighborhood guides with pricing, market conditions, and expert insights.",
+    url: "https://johnnyleou.com/neighborhoods",
+  },
 };
 
 const neighborhoods = [

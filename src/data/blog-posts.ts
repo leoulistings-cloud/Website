@@ -5,6 +5,7 @@ export const blogPosts: BlogPost[] = [
     id: "33",
     slug: "why-house-not-selling-echo-park-silver-lake",
     title: "Why Your House Isn't Selling in Echo Park & Silver Lake: 7 Reasons & Fixes",
+    metaDescription: "Why homes don't sell in Echo Park & Silver Lake: 7 reasons from pricing to staging. Plus proven fixes to sell your LA house faster in 2026.",
     excerpt:
       "Your Echo Park or Silver Lake home has been on the market for months. You think it's the market. It's not. Here's exactly why it's sitting and how to fix it.",
     content: `
@@ -108,6 +109,7 @@ leoulistings@gmail.com
     id: "32",
     slug: "selling-house-without-realtor-los-angeles",
     title: "Selling Your House Fast in Los Angeles Without a Real Estate Agent: Pros, Cons & Timeline",
+    metaDescription: "How to sell your LA house without an agent: legal requirements, marketing tips, showing strategies, and when you should hire a realtor. Complete FSBO guide 2026.",
     excerpt:
       "Thinking about selling FSBO (For Sale By Owner)? Here's what actually happens when you try to sell without an agent in LA—the math, the timeline, and whether it makes sense for you.",
     content: `
@@ -227,6 +229,7 @@ leoulistings@gmail.com
     id: "31",
     slug: "pre-approval-vs-pre-qualification-home-buying",
     title: "Pre-Approval vs. Pre-Qualification: Why First-Time Buyers Get This Wrong",
+    metaDescription: "Pre-approval vs pre-qualification explained for first-time home buyers in LA. Learn the difference, requirements, and why pre-approval matters for offers in 2026.",
     excerpt:
       "Most first-time homebuyers think pre-approval and pre-qualification are the same thing. They're not. And that mistake can cost you opportunities, negotiating power, and money.",
     content: `
@@ -397,6 +400,7 @@ And when you're competing with other offers, that pre-approval letter might be t
     id: "30",
     slug: "is-irvine-worth-buying-2026-orange-county-real-estate",
     title: "Is Irvine Worth Buying in 2026? The Honest Orange County Real Estate Analysis",
+    metaDescription: "Should you buy in Irvine, California in 2026? Real estate analysis: median prices, new construction, schools, HOA costs, and investment potential.",
     excerpt:
       "Irvine's master-planned neighborhoods, top-rated schools, and family-friendly reputation make it attractive. But in 2026, is it the right move? Here's what the data actually shows.",
     content: `
@@ -495,6 +499,7 @@ The honest truth: Irvine is a great place to live. But 2026 is a better time to 
     id: "29",
     slug: "how-much-house-can-i-afford-la-2026",
     title: "How Much House Can I Afford? The Real Numbers for LA Buyers in 2026",
+    metaDescription: "How much house can you afford in LA 2026? Use our real numbers formula for down payment, mortgage calculations, and affordability factors for first-time buyers.",
     excerpt:
       "You think you can afford $800K. But can you really? Here's exactly how lenders calculate your maximum home price - and what numbers actually matter.",
     content: `
@@ -668,6 +673,7 @@ And be honest with yourself about whether the number a lender gives you is actua
     id: "28",
     slug: "what-are-closing-costs-la-real-estate",
     title: "What Are Closing Costs? The Complete Breakdown for LA Home Buyers",
+    metaDescription: "Los Angeles closing costs explained: what to expect, average amounts, buyer vs seller costs, and how to reduce closing costs when buying a home in 2026.",
     excerpt:
       "You budgeted for down payment and mortgage. But closing costs blindside most buyers. Here's exactly what they are, why they cost so much, and how to budget for them.",
     content: `
@@ -862,6 +868,7 @@ Add another 1-2% for any last-minute surprises.
     id: "27",
     slug: "lincoln-heights-real-estate-undervalued-neighborhood-appraisal",
     title: "Lincoln Heights Real Estate: The East LA Neighborhood Agents Overlook (And Why That Matters for Your Appraisal)",
+    metaDescription: "Lincoln Heights Los Angeles real estate: undervalued East LA neighborhood guide with median prices, investment potential, and why agents overlook this area.",
     excerpt:
       "Lincoln Heights homes are priced 15-25% below comparable LA neighborhoods. Here's why that low comps problem creates appraisal anxiety - and what it means for your deal.",
     content: `
@@ -987,6 +994,7 @@ If you're a seller in Lincoln Heights, the window to sell into rising buyer inte
     id: "26",
     slug: "mortgage-rates-6-37-percent-what-it-means-la-buyers-may-2026",
     title: "Mortgage Rates Just Hit 6.37% - What $1M Homes Actually Cost Right Now",
+    metaDescription: "Mortgage rates at 6.37% in May 2026: What it means for LA buyers, refinancing strategies, rate trends, and how to lock in your rate.",
     excerpt:
       "The 30-year mortgage rate climbed to 6.37% this week. For LA buyers watching neighborhoods like Highland Park, Boyle Heights, and El Sereno, this means one thing: the math just got harder. Here's what you're actually paying.",
     content: `
@@ -1067,6 +1075,7 @@ If you're a buyer stuck between "can't quite afford Silver Lake" and "is Highlan
     id: "25",
     slug: "macarthur-park-federal-crackdown-westlake-koreatown-echo-park-real-estate-2026",
     title: "Federal Agents Swept MacArthur Park Yesterday. Here's What That Means for Buyers Watching the Westlake Corridor.",
+    metaDescription: "MacArthur Park LA real estate: neighborhood safety, gentrification trends, Westlake, Koreatown, and what federal intervention means for property values in 2026.",
     excerpt:
       "A major federal fentanyl and meth operation at MacArthur Park on May 6 resulted in the capture of the area's alleged top drug trafficker. For buyers who have been tracking Westlake, Koreatown, and Echo Park - this is worth understanding before you write it off or write it in.",
     content: `
@@ -1131,6 +1140,7 @@ I'm Johnny Leou (DRE#02064780), Los Angeles and Orange County real estate agent 
     id: "24",
     slug: "300-million-dtla-condo-tower-613-s-grand-avenue-tm-group-2026",
     title: "A $300M+ Condo Tower Just Got Announced for 613 S Grand Ave. DTLA's Development Moment Is Real.",
+    metaDescription: "Downtown LA real estate market: new $300M condo tower at 613 S Grand Avenue. What it means for DTLA real estate prices and investment opportunities in 2026.",
     excerpt:
       "TM Group announced a 55+ story, 300+ unit condominium tower at 613 S Grand Ave in Downtown Los Angeles yesterday. The investment exceeds $300 million. Combined with the World Trade Center conversion and the graffiti towers sale, DTLA is seeing a level of institutional conviction it hasn't had in years.",
     content: `
@@ -1207,6 +1217,7 @@ I'm Johnny Leou (DRE#02064780), Los Angeles and Orange County real estate agent 
     id: "23",
     slug: "federal-reserve-holds-rates-mortgage-outlook-june-2026-la-buyers",
     title: "The Fed Held Rates Again. Here's What LA Buyers Should Actually Do About It.",
+    metaDescription: "Federal Reserve holds interest rates steady in June 2026: mortgage outlook impact for LA buyers. How fed decisions affect home prices and buyer affordability.",
     excerpt:
       "The Fed held at 3.50-3.75% on April 29. Mortgage rates are 6.38% today. The next decision isn't until June 16. Buyers waiting for rates to fall before they buy are making a calculation that deserves a harder look.",
     content: `

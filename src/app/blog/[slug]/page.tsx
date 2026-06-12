@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
@@ -8,6 +9,45 @@ const isPublished = (post: typeof blogPosts[0]): boolean => {
   const scheduledDate = post.scheduledAt ? new Date(post.scheduledAt) : new Date(post.publishedAt);
   return scheduledDate <= new Date();
 };
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const post = getBlogPostBySlug(slug);
+
+  if (!post) {
+    return {
+      title: "Post Not Found",
+    };
+  }
+
+  const description = post.metaDescription || post.excerpt;
+
+  return {
+    title: `${post.title} | Johnny Leou Real Estate`,
+    description,
+    openGraph: {
+      title: post.title,
+      description,
+      type: "article",
+      publishedTime: post.publishedAt,
+      authors: ["Johnny Leou"],
+      tags: post.tags,
+      url: `https://johnnyleou.com/blog/${post.slug}`,
+      images: [
+        {
+          url: post.coverImage,
+          width: 1200,
+          height: 630,
+          alt: post.title,
+        },
+      ],
+    },
+  };
+}
 
 export default async function BlogPostPage({
   params,

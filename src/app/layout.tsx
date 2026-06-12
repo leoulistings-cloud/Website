@@ -6,15 +6,18 @@ import PaleBlueEgg from "@/components/PaleBlueEgg";
 
 export const metadata: Metadata = {
   title: {
-    default: "Johnny Leou Real Estate | Los Angeles & Orange County Homes",
+    default: "Johnny Leou | LA Real Estate Agent (20+ Yrs, DRE#02064780)",
     template: "%s | Johnny Leou Real Estate",
   },
   description:
-    "Johnny Leou (DRE#02064780) specializes in buying, selling, and investing in residential real estate, luxury homes, and income properties across Los Angeles and Orange County.",
-  keywords: ["Los Angeles real estate", "Orange County homes", "luxury real estate", "investment properties", "first-time buyers"],
+    "Los Angeles real estate agent with 20+ years experience & $8.4M sold. Specializing in luxury homes, investment properties & first-time buyers. Free market analysis.",
+  keywords: ["Los Angeles real estate", "Orange County homes", "luxury real estate", "investment properties", "first-time buyers", "real estate agent Los Angeles", "LA real estate"],
   openGraph: {
     type: "website",
     siteName: "Johnny Leou Real Estate",
+    title: "Johnny Leou | LA Real Estate Agent (20+ Yrs, DRE#02064780)",
+    description: "Los Angeles real estate agent with 20+ years experience & $8.4M sold. Specializing in luxury homes, investment properties & first-time buyers.",
+    url: "https://johnnyleou.com",
   },
 };
 

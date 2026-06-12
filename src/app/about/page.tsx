@@ -1,7 +1,18 @@
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Phone, Mail, ArrowRight, Star, MapPin, Check } from "lucide-react";
 import { agents, testimonials } from "@/data/agents";
+
+export const metadata: Metadata = {
+  title: "About Johnny Leou | Los Angeles Real Estate Agent",
+  description: "Meet Johnny Leou, a Los Angeles real estate agent with 20+ years of experience. Specializes in residential, luxury homes, and investment properties across LA & Orange County.",
+  openGraph: {
+    title: "About Johnny Leou | Los Angeles Real Estate Agent",
+    description: "Meet Johnny Leou, a Los Angeles real estate agent with 20+ years of experience.",
+    url: "https://johnnyleou.com/about",
+  },
+};
 
 const agent = agents[0];
 
