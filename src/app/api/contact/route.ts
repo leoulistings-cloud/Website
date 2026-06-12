@@ -56,7 +56,11 @@ ${message}
 
     // Send to Follow Up Boss
     const FUB_API_KEY = process.env.FUB_API_KEY;
+    console.log("DEBUG: FUB_API_KEY exists:", !!FUB_API_KEY);
+    console.log("DEBUG: FUB_API_KEY length:", FUB_API_KEY?.length || 0);
     if (FUB_API_KEY) {
+      console.log("DEBUG: FUB_API_KEY first 10 chars:", FUB_API_KEY.substring(0, 10));
+      console.log("DEBUG: FUB_API_KEY last 10 chars:", FUB_API_KEY.substring(FUB_API_KEY.length - 10));
       try {
         const personData: any = {
           firstName,
@@ -65,10 +69,13 @@ ${message}
 
         console.log("Sending to FUB with data:", JSON.stringify(personData));
 
+        const authHeader = `Basic ${Buffer.from(`${FUB_API_KEY}:`).toString("base64")}`;
+        console.log("DEBUG: Auth header created, length:", authHeader.length);
+
         const fubResponse = await fetch("https://api.followupboss.com/v1/people", {
           method: "POST",
           headers: {
-            "Authorization": `Basic ${Buffer.from(`${FUB_API_KEY}:`).toString("base64")}`,
+            "Authorization": authHeader,
             "Content-Type": "application/json",
           },
           body: JSON.stringify(personData),
@@ -76,16 +83,19 @@ ${message}
 
         const fubResponseText = await fubResponse.text();
         console.log("FUB Status:", fubResponse.status);
+        console.log("FUB Headers:", JSON.stringify(Object.fromEntries(fubResponse.headers)));
         console.log("FUB Response:", fubResponseText);
 
         if (!fubResponse.ok) {
-          console.error("FUB Error:", fubResponseText);
+          console.error("FUB Error - Status:", fubResponse.status, "Response:", fubResponseText);
         } else {
           console.log("Contact sent to FUB successfully");
         }
       } catch (fubError) {
         console.error("FUB Error:", fubError);
       }
+    } else {
+      console.warn("WARNING: FUB_API_KEY is not set in environment variables!");
     }
 
     return NextResponse.json({ success: true });
