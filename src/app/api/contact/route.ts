@@ -2,9 +2,6 @@ import { NextRequest, NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
 export async function POST(request: NextRequest) {
-  let fubError: string | null = null;
-  let noteStatus: string = "not attempted";
-
   try {
     const body = await request.json();
     const { firstName, lastName, email, phone, inquiryType, budget, message } = body;
@@ -27,8 +24,6 @@ export async function POST(request: NextRequest) {
       },
     });
 
-    console.log("Transporter created");
-
     const emailContent = `
 New Contact Form Submission
 
@@ -42,7 +37,6 @@ Message:
 ${message}
     `.trim();
 
-    console.log("Sending email...");
     await transporter.sendMail({
       from: process.env.SMTP_EMAIL,
       to: process.env.SMTP_EMAIL,
@@ -50,105 +44,47 @@ ${message}
       text: emailContent,
     });
 
-    console.log("Email sent successfully to", process.env.SMTP_EMAIL);
+    console.log("Email sent successfully");
 
-    // Send to Follow Up Boss
+    // Send to Follow Up Boss - minimal test
     const FUB_API_KEY = process.env.FUB_API_KEY;
     if (FUB_API_KEY) {
       try {
         const personData: any = {
           firstName,
           lastName,
-          tags: ["website"],
         };
 
-        // FUB API uses arrays for emails and phones
-        if (email && email.trim()) {
-          personData.emails = [{ value: email.trim() }];
-        }
-        if (phone && phone.trim()) {
-          personData.phones = [{ value: phone.trim() }];
-        }
-
-        console.log("Sending to FUB:", JSON.stringify(personData));
+        console.log("Sending to FUB with data:", JSON.stringify(personData));
 
         const fubResponse = await fetch("https://api.followupboss.com/v1/people", {
           method: "POST",
           headers: {
             "Authorization": `Basic ${Buffer.from(`${FUB_API_KEY}:`).toString("base64")}`,
             "Content-Type": "application/json",
-            "X-System": process.env.FUB_SYSTEM || "website-contact-form",
-            "X-System-Key": process.env.FUB_SYSTEM_KEY || "",
           },
           body: JSON.stringify(personData),
         });
 
-        const fubText = await fubResponse.text();
-        console.log("FUB Response Status:", fubResponse.status);
-        console.log("FUB Response:", fubText);
+        const fubResponseText = await fubResponse.text();
+        console.log("FUB Status:", fubResponse.status);
+        console.log("FUB Response:", fubResponseText);
 
-        if (fubResponse.ok) {
-          const fubData = JSON.parse(fubText);
-          const personId = fubData.data?.id;
-          console.log("✅ Contact synced to Follow Up Boss with 'website' tag, ID:", personId);
-          console.log("Full FUB response:", fubText);
-
-          // Add note with inquiry details
-          if (personId) {
-            try {
-              const noteContent = `Inquiry Type: ${inquiryType}\nBudget: ${budget}\n\nMessage:\n${message}`;
-              console.log("Adding note with content:", noteContent);
-
-              const noteResponse = await fetch(`https://api.followupboss.com/v1/people/${personId}/notes`, {
-                method: "POST",
-                headers: {
-                  "Authorization": `Basic ${Buffer.from(`${FUB_API_KEY}:`).toString("base64")}`,
-                  "Content-Type": "application/json",
-                  "X-System": process.env.FUB_SYSTEM || "website-contact-form",
-                  "X-System-Key": process.env.FUB_SYSTEM_KEY || "",
-                },
-                body: JSON.stringify({ text: noteContent }),
-              });
-
-              const noteText = await noteResponse.text();
-              console.log("Note response status:", noteResponse.status);
-              console.log("Note response:", noteText);
-
-              if (noteResponse.ok) {
-                console.log("✅ Note added to contact");
-                noteStatus = "Note added successfully";
-              } else {
-                console.log("❌ Note failed:", noteText);
-                noteStatus = `Note failed: ${noteResponse.status}`;
-              }
-            } catch (noteError) {
-              console.log("❌ Note error:", noteError);
-              noteStatus = `Note error: ${noteError instanceof Error ? noteError.message : String(noteError)}`;
-            }
-          } else {
-            console.log("❌ No person ID returned from FUB");
-            noteStatus = "No person ID returned";
-          }
+        if (!fubResponse.ok) {
+          console.error("FUB Error:", fubResponseText);
         } else {
-          fubError = `FUB API Error (${fubResponse.status}): ${fubText}`;
-          console.log("❌ FUB sync failed:", fubError);
+          console.log("Contact sent to FUB successfully");
         }
-      } catch (fubErrorObj) {
-        fubError = `FUB Error: ${fubErrorObj instanceof Error ? fubErrorObj.message : String(fubErrorObj)}`;
-        console.log("❌ FUB error:", fubError);
+      } catch (fubError) {
+        console.error("FUB Error:", fubError);
       }
     }
 
-    return NextResponse.json({
-      success: true,
-      message: "Contact form submitted successfully",
-      fubStatus: fubError ? `FUB Sync Failed: ${fubError}` : "Synced to FUB",
-      noteStatus: noteStatus
-    });
+    return NextResponse.json({ success: true });
   } catch (error) {
-    console.error("Contact form error:", error);
+    console.error("Error:", error);
     return NextResponse.json(
-      { error: "Failed to submit contact form", details: String(error) },
+      { error: "Failed to submit", details: String(error) },
       { status: 500 }
     );
   }

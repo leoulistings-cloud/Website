@@ -1,8 +1,13 @@
-import type { Metadata } from "next";
+import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Real Estate Blog | Market Insights, Buying Guides & Neighborhood Tips",
-  description: "Read expert real estate tips, neighborhood guides, and home buying advice from Johnny Leou. Learn about LA market trends, first-time buyer strategies, and investment opportunities.",
+  title: "Real Estate Blog | Los Angeles & Orange County Insights",
+  description: "Expert LA real estate blog covering buyer guides, seller tips, market updates, neighborhood guides, and investment strategies for Los Angeles & Orange County.",
+  openGraph: {
+    title: "Real Estate Blog | Los Angeles & Orange County Insights",
+    description: "Expert LA real estate blog covering buyer guides, seller tips, market updates, and neighborhood guides.",
+    url: "https://johnnyleou.com/blog",
+  },
 };
 
 export default function BlogLayout({

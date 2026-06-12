@@ -25,34 +25,6 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "www.rent.com",
-      },
-      {
-        protocol: "https",
-        hostname: "decorilla.com",
-      },
-      {
-        protocol: "https",
-        hostname: "www.decorilla.com",
-      },
-      {
-        protocol: "https",
-        hostname: "hbr.org",
-      },
-      {
-        protocol: "https",
-        hostname: "i.pinimg.com",
-      },
-      {
-        protocol: "https",
-        hostname: "www.gtspiritmedia.com",
-      },
-      {
-        protocol: "https",
-        hostname: "loisllc.com",
-      },
-      {
-        protocol: "https",
         hostname: "www.rogerperry.com",
       },
       {
@@ -69,11 +41,11 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "assets.site-static.com",
+        hostname: "www.gtspiritmedia.com",
       },
       {
         protocol: "https",
-        hostname: "www.laconservancy.org",
+        hostname: "loisllc.com",
       },
     ],
   },

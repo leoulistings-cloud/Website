@@ -1,5 +1,16 @@
+import { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, TrendingUp, TrendingDown, MapPin, Calendar } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "LA & Orange County Real Estate Market Report 2026",
+  description: "Latest Los Angeles & Orange County real estate market data: median prices, inventory trends, buyer's vs seller's market. Updated monthly with neighborhood insights.",
+  openGraph: {
+    title: "LA & Orange County Real Estate Market Report 2026",
+    description: "Latest Los Angeles & Orange County real estate market data with monthly neighborhood insights.",
+    url: "https://johnnyleou.com/market",
+  },
+};
 
 const laNeighborhoods = [
   { name: "Silver Lake", medianPrice: "$1.29M", dom: "22 days", trend: "stable", note: "Buyer negotiating room emerging on stale listings" },
