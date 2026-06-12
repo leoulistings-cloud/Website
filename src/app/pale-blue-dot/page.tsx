@@ -67,6 +67,19 @@ export default function PaleBlueDotPage() {
                     </audio>
                   </div>
                 </div>
+                {/* Avengers Teaser */}
+                <div className="space-y-2">
+                  <h3 className="text-blue-200 font-serif text-lg">Avengers: Doomsday Teaser Reaction</h3>
+                  <div className="w-full border border-blue-400/40 rounded px-3 py-2 flex items-center">
+                    <audio
+                      controls
+                      className="w-full accent-blue-400"
+                    >
+                      <source src="https://crazy4comiccon.wordpress.com/wp-content/uploads/2025/12/avengers-teaser.m4a" type="audio/mp4" />
+                      Your browser does not support the audio element.
+                    </audio>
+                  </div>
+                </div>
                 {/* Supergirl Teaser */}
                 <div className="space-y-2">
                   <h3 className="text-blue-200 font-serif text-lg">Supergirl Teaser</h3>
@@ -100,9 +113,17 @@ export default function PaleBlueDotPage() {
             <div className="bg-slate-900/30 backdrop-blur border border-blue-400/30 rounded-lg p-8 hover:border-blue-400/60 transition-colors">
               <div className="text-4xl mb-4">🎬</div>
               <h2 className="text-2xl font-serif text-white mb-3">Video</h2>
-              <p className="text-blue-200 mb-6">Visual journeys and behind-the-scenes.</p>
-              <div className="px-6 py-3 bg-blue-500/20 border border-blue-400/50 rounded text-blue-300 inline-block cursor-not-allowed opacity-75">
-                Coming Soon
+              <div className="w-full aspect-video rounded overflow-hidden border border-blue-400/40">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src="https://www.youtube.com/embed/ney7PpmqUjA"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                  className="w-full h-full"
+                />
               </div>
             </div>
           </div>
