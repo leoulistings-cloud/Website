@@ -65,9 +65,18 @@ ${message}
         const personData: any = {
           firstName,
           lastName,
+          tags: ["website"],
         };
 
-        console.log("Sending to FUB with data:", JSON.stringify(personData));
+        // FUB API uses arrays for emails and phones
+        if (email && email.trim()) {
+          personData.emails = [{ value: email.trim() }];
+        }
+        if (phone && phone.trim()) {
+          personData.phones = [{ value: phone.trim() }];
+        }
+
+        console.log("Sending to FUB:", JSON.stringify(personData));
 
         const authHeader = `Basic ${Buffer.from(`${FUB_API_KEY}:`).toString("base64")}`;
         console.log("DEBUG: Auth header created, length:", authHeader.length);
