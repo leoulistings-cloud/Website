@@ -2,10 +2,84 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "34",
+    slug: "arts-district-dtla-real-estate-creatives-priced-out",
+    title: "Arts District DTLA: The Neighborhood Where Creatives Are Actually Getting Priced In",
+    excerpt:
+      "The Arts District has been LA's comeback story for a decade. But 2026 is different. Warehouse conversions are complete. Prices are climbing. And the creatives who built the neighborhood are starting to lose it.",
+    content: `
+The Arts District sits south of downtown, between the 10 and 110 freeways. For 15 years it's been LA's "secret"—cheap warehouse space, authentic galleries, real artists. That era is ending. It's 2026, and the neighborhood you didn't know about is becoming the neighborhood everyone's visiting.
+
+## The Price Reality
+
+Arts District warehouse lofts (2BR/1.5BA): **$750K-$1.1M**
+Days on market: 18-28 days
+
+For comparison:
+- Grand Avenue DTLA: $950K-$1.4M (same size, premium location)
+- Boyle Heights: $650K-$950K (less walkable)
+- Silver Lake: $950K-$1.3M (established, saturated inventory)
+
+The Arts District sits in the middle—walkable and culturally dense, but 10-15% cheaper than established neighborhoods.
+
+## Why It Actually Works
+
+**Walkability that exists now.** You walk from gallery to taco stand to coffee roastery to bar—all within 10 minutes, all authentic. That's not aspirational walkability. It's the real thing. And it's cheaper than Silver Lake.
+
+**Institutional money is flowing in.** The $300M TM Group tower on Grand Avenue. The LA World Trade Center (512 apartments) right next door. Major developers (Stockbridge, Paramount, Bluerock) are acquiring warehouse buildings. When this much capital commits, neighborhood trajectory compounds.
+
+**Live-work opportunity.** Zoning allows home office + creative studio + commercial use. For entrepreneurs and freelancers, you're buying an ecosystem, not just a house.
+
+**Inventory density.** Silver Lake has 20-30 listings. The Arts District has 40-60. That gives you negotiating power.
+
+## The Gentrification Conversation
+
+Here's the honest part: artists discovered this neighborhood, made it cool, and are now being priced out. Rent for artist studios went from $600-800/month (2014) to $1,500-2,500 now.
+
+But the Arts District has something most gentrifying neighborhoods don't: **institutional anchors**. The Broad Museum, MOCA, permanent galleries and restaurants—not pop-ups. That cultural density creates durability that pure luxury enclaves (Williamsburg, Oakland) don't have.
+
+So yes, it's gentrifying. But into something with real cultural infrastructure, not just luxury towers.
+
+## Should You Buy Here?
+
+**Buy the Arts District if:**
+- You value walkability and cultural density over single-family quietness
+- You work downtown or remote
+- You want loft space (12-foot ceilings, exposed brick, industrial character)
+- You can handle urban noise and street-level activity
+- You're buying a converted warehouse (older = more character, newer = better systems)
+
+**Don't buy if:**
+- You need a backyard, garage, or single-family structure
+- You're sensitive to urban noise
+- You're buying primarily for appreciation (this is a maturing neighborhood, not emerging)
+- You think you'll save $200K vs. Silver Lake (the gap is closing—you're spending $900K in Arts District when you couldn't spend $800K in Silver Lake, so the real savings aren't there)
+
+## The 2026 Position
+
+The Arts District isn't emerging anymore. Prices reflect that. Days on market are tightening. Inventory is competitive.
+
+But it's not fully matured like Silver Lake or Highland Park. New development will bring density and foot traffic. That compounds value over the next 3-5 years.
+
+You're not getting the undiscovered moment. You're getting a neighborhood with real cultural institutions, actual walkability, positioned to benefit from downtown's momentum. That's worth the premium—but it's a mature neighborhood play, not a speculative one.
+
+---
+
+**Johnny Leou (DRE#02064780)** helps buyers and investors navigate central LA neighborhoods. If you're considering the Arts District or looking at a specific warehouse conversion, let's talk through the actual numbers and whether it fits your situation.
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://i.pinimg.com/736x/16/b9/bc/16b9bc0b86cc00470162f0fb19ff1221.jpg",
+    category: "Neighborhood Guide",
+    tags: ["Arts District", "Downtown LA", "DTLA Real Estate", "Walkability", "Gentrification", "Warehouse Lofts", "Emerging Markets", "LA Neighborhoods", "DRE 02064780"],
+    publishedAt: "2026-06-10",
+    readTime: 5,
+  },
+  {
     id: "33",
     slug: "why-house-not-selling-echo-park-silver-lake",
     title: "Why Your House Isn't Selling in Echo Park & Silver Lake: 7 Reasons & Fixes",
-    metaDescription: "Why homes don't sell in Echo Park & Silver Lake: 7 reasons from pricing to staging. Plus proven fixes to sell your LA house faster in 2026.",
     excerpt:
       "Your Echo Park or Silver Lake home has been on the market for months. You think it's the market. It's not. Here's exactly why it's sitting and how to fix it.",
     content: `
@@ -109,7 +183,6 @@ leoulistings@gmail.com
     id: "32",
     slug: "selling-house-without-realtor-los-angeles",
     title: "Selling Your House Fast in Los Angeles Without a Real Estate Agent: Pros, Cons & Timeline",
-    metaDescription: "How to sell your LA house without an agent: legal requirements, marketing tips, showing strategies, and when you should hire a realtor. Complete FSBO guide 2026.",
     excerpt:
       "Thinking about selling FSBO (For Sale By Owner)? Here's what actually happens when you try to sell without an agent in LA—the math, the timeline, and whether it makes sense for you.",
     content: `
@@ -229,7 +302,6 @@ leoulistings@gmail.com
     id: "31",
     slug: "pre-approval-vs-pre-qualification-home-buying",
     title: "Pre-Approval vs. Pre-Qualification: Why First-Time Buyers Get This Wrong",
-    metaDescription: "Pre-approval vs pre-qualification explained for first-time home buyers in LA. Learn the difference, requirements, and why pre-approval matters for offers in 2026.",
     excerpt:
       "Most first-time homebuyers think pre-approval and pre-qualification are the same thing. They're not. And that mistake can cost you opportunities, negotiating power, and money.",
     content: `
@@ -390,7 +462,7 @@ And when you're competing with other offers, that pre-approval letter might be t
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
     authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
-    coverImage: "https://bluprinthomeloans.com/wp-content/uploads/2024/09/pre-approval.jpg",
+    coverImage: "https://assets.site-static.com/userFiles/440/image/mortgage-pre-approval.jpg",
     category: "Buyer Guide",
     tags: ["Pre-Approval", "Mortgage", "First-Time Homebuyer", "Financing", "Home Buying Process", "Los Angeles Real Estate", "Buyer Education", "Loan Process", "DRE 02064780"],
     publishedAt: "2026-05-29",
@@ -400,7 +472,6 @@ And when you're competing with other offers, that pre-approval letter might be t
     id: "30",
     slug: "is-irvine-worth-buying-2026-orange-county-real-estate",
     title: "Is Irvine Worth Buying in 2026? The Honest Orange County Real Estate Analysis",
-    metaDescription: "Should you buy in Irvine, California in 2026? Real estate analysis: median prices, new construction, schools, HOA costs, and investment potential.",
     excerpt:
       "Irvine's master-planned neighborhoods, top-rated schools, and family-friendly reputation make it attractive. But in 2026, is it the right move? Here's what the data actually shows.",
     content: `
@@ -489,7 +560,7 @@ The honest truth: Irvine is a great place to live. But 2026 is a better time to 
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
     authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
-    coverImage: "https://imagescdn.homes.com/i2/H9q0qXqv4C8vstzTIf0afhcu-P0TGK0KqXVRd5yf_tQ/117/211-birdseye-irvine-ca--3.jpg?p=1",
+    coverImage: "https://www.rent.com/blog/wp-content/uploads/2024/10/Shutterstock-pc-irvca-1-1024x683.jpg",
     category: "Market Update",
     tags: ["Orange County Real Estate", "Irvine", "Home Buying", "Market Analysis", "2026 Real Estate", "California", "School Districts", "Investment Decision", "First-Time Homebuyer"],
     publishedAt: "2026-05-29",
@@ -499,7 +570,6 @@ The honest truth: Irvine is a great place to live. But 2026 is a better time to 
     id: "29",
     slug: "how-much-house-can-i-afford-la-2026",
     title: "How Much House Can I Afford? The Real Numbers for LA Buyers in 2026",
-    metaDescription: "How much house can you afford in LA 2026? Use our real numbers formula for down payment, mortgage calculations, and affordability factors for first-time buyers.",
     excerpt:
       "You think you can afford $800K. But can you really? Here's exactly how lenders calculate your maximum home price - and what numbers actually matter.",
     content: `
@@ -663,7 +733,7 @@ And be honest with yourself about whether the number a lender gives you is actua
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
     authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
-    coverImage: "https://www.rogerperry.com/wp-content/uploads/2026/03/Luxury-Home-In-Brentwood-Los-Angeles-During-Golden-Hour-1024x683.png",
+    coverImage: "https://www.decorilla.com/online-decorating/wp-content/uploads/2024/07/Expert-decorating-for-a-small-living-room-by-Decorilla-scaled.jpg",
     category: "Buyer Guide",
     tags: ["Home Affordability", "Mortgage Rates", "First-Time Homebuyer", "Los Angeles Real Estate", "Debt-to-Income Ratio", "Down Payment", "LA Housing Market", "Buyer Education", "DRE 02064780"],
     publishedAt: "2026-05-26",
@@ -673,7 +743,6 @@ And be honest with yourself about whether the number a lender gives you is actua
     id: "28",
     slug: "what-are-closing-costs-la-real-estate",
     title: "What Are Closing Costs? The Complete Breakdown for LA Home Buyers",
-    metaDescription: "Los Angeles closing costs explained: what to expect, average amounts, buyer vs seller costs, and how to reduce closing costs when buying a home in 2026.",
     excerpt:
       "You budgeted for down payment and mortgage. But closing costs blindside most buyers. Here's exactly what they are, why they cost so much, and how to budget for them.",
     content: `
@@ -858,7 +927,7 @@ Add another 1-2% for any last-minute surprises.
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
     authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
-    coverImage: "https://s.yimg.com/ny/api/res/1.2/mndGO9CLAlIOpLEnv48JqQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD05MDA-/https://s.yimg.com/os/creatr-uploaded-images/2024-08/1abddaf0-55bb-11ef-add3-f113b214b6f6",
+    coverImage: "https://hbr.org/resources/images/article_assets/2020/07/AAug20_07_KlaweRzeczy_Finances.jpg",
     category: "Buyer Guide",
     tags: ["Closing Costs", "First-Time Homebuyer", "Los Angeles Real Estate", "Home Buying Costs", "Escrow", "Down Payment", "Buyer Education", "LA Housing", "DRE 02064780"],
     publishedAt: "2026-05-26",
@@ -868,7 +937,6 @@ Add another 1-2% for any last-minute surprises.
     id: "27",
     slug: "lincoln-heights-real-estate-undervalued-neighborhood-appraisal",
     title: "Lincoln Heights Real Estate: The East LA Neighborhood Agents Overlook (And Why That Matters for Your Appraisal)",
-    metaDescription: "Lincoln Heights Los Angeles real estate: undervalued East LA neighborhood guide with median prices, investment potential, and why agents overlook this area.",
     excerpt:
       "Lincoln Heights homes are priced 15-25% below comparable LA neighborhoods. Here's why that low comps problem creates appraisal anxiety - and what it means for your deal.",
     content: `
@@ -994,7 +1062,6 @@ If you're a seller in Lincoln Heights, the window to sell into rising buyer inte
     id: "26",
     slug: "mortgage-rates-6-37-percent-what-it-means-la-buyers-may-2026",
     title: "Mortgage Rates Just Hit 6.37% - What $1M Homes Actually Cost Right Now",
-    metaDescription: "Mortgage rates at 6.37% in May 2026: What it means for LA buyers, refinancing strategies, rate trends, and how to lock in your rate.",
     excerpt:
       "The 30-year mortgage rate climbed to 6.37% this week. For LA buyers watching neighborhoods like Highland Park, Boyle Heights, and El Sereno, this means one thing: the math just got harder. Here's what you're actually paying.",
     content: `
@@ -1075,7 +1142,6 @@ If you're a buyer stuck between "can't quite afford Silver Lake" and "is Highlan
     id: "25",
     slug: "macarthur-park-federal-crackdown-westlake-koreatown-echo-park-real-estate-2026",
     title: "Federal Agents Swept MacArthur Park Yesterday. Here's What That Means for Buyers Watching the Westlake Corridor.",
-    metaDescription: "MacArthur Park LA real estate: neighborhood safety, gentrification trends, Westlake, Koreatown, and what federal intervention means for property values in 2026.",
     excerpt:
       "A major federal fentanyl and meth operation at MacArthur Park on May 6 resulted in the capture of the area's alleged top drug trafficker. For buyers who have been tracking Westlake, Koreatown, and Echo Park - this is worth understanding before you write it off or write it in.",
     content: `
@@ -1140,7 +1206,6 @@ I'm Johnny Leou (DRE#02064780), Los Angeles and Orange County real estate agent 
     id: "24",
     slug: "300-million-dtla-condo-tower-613-s-grand-avenue-tm-group-2026",
     title: "A $300M+ Condo Tower Just Got Announced for 613 S Grand Ave. DTLA's Development Moment Is Real.",
-    metaDescription: "Downtown LA real estate market: new $300M condo tower at 613 S Grand Avenue. What it means for DTLA real estate prices and investment opportunities in 2026.",
     excerpt:
       "TM Group announced a 55+ story, 300+ unit condominium tower at 613 S Grand Ave in Downtown Los Angeles yesterday. The investment exceeds $300 million. Combined with the World Trade Center conversion and the graffiti towers sale, DTLA is seeing a level of institutional conviction it hasn't had in years.",
     content: `
@@ -1217,7 +1282,6 @@ I'm Johnny Leou (DRE#02064780), Los Angeles and Orange County real estate agent 
     id: "23",
     slug: "federal-reserve-holds-rates-mortgage-outlook-june-2026-la-buyers",
     title: "The Fed Held Rates Again. Here's What LA Buyers Should Actually Do About It.",
-    metaDescription: "Federal Reserve holds interest rates steady in June 2026: mortgage outlook impact for LA buyers. How fed decisions affect home prices and buyer affordability.",
     excerpt:
       "The Fed held at 3.50-3.75% on April 29. Mortgage rates are 6.38% today. The next decision isn't until June 16. Buyers waiting for rates to fall before they buy are making a calculation that deserves a harder look.",
     content: `
@@ -2798,6 +2862,292 @@ Head to El Moro, grab some churros, and fall in love with your neighborhood all 
     tags: ["El Moro", "Food", "Los Angeles", "Neighborhoods"],
     publishedAt: "2025-04-24",
     readTime: 4,
+  },
+  {
+    id: "36",
+    slug: "highland-park-real-estate-los-angeles",
+    title: "Highland Park Real Estate: LA's Hottest Neighborhood for 2026 Buyers",
+    excerpt:
+      "Highland Park has become the new Silver Lake. Discover why this East LA neighborhood is rapidly appreciating and what to expect as a buyer in today's market.",
+    content: `
+Highland Park used to be the secret everyone knew about but nobody wanted to admit. Now it's the secret that's out.
+
+In 2020-2021, you could find a charming Craftsman bungalow in Highland Park for $750K. The same home today would list for $950K-$1.1M. That's not Silicon Valley momentum - that's a neighborhood in mid-appreciation.
+
+## Why Highland Park is Exploding
+
+The fundamentals are obvious in hindsight:
+- **Location**: 15 minutes to Downtown, 20 minutes to Silver Lake, 25 minutes to Griffith Park
+- **Architecture**: Pre-1920s Craftsman homes, Spanish Colonial Revival houses, and 1920s-30s duplexes
+- **Community**: York Boulevard and Figueroa Street now have legitimate restaurants, cafes, and galleries
+- **Schools**: Lincoln and Marshall are solid elementary schools; Roosevelt High is strong for the area
+- **Walkability**: You can walk to coffee, dinner, groceries - something LA rarely offers
+
+## The Market Reality Right Now
+
+**Median prices**: $950K-$1.15M for 2-bedroom single-family homes (May 2026)
+
+**Inventory**: Tight. When homes hit the market, they sell within 7-14 days if priced correctly.
+
+**Buyer competition**: High. You'll see 5-10 offers on a well-positioned home. Multiple offer situations are the norm, not the exception.
+
+**What you're actually buying**: A $650K home (in 2020 dollars) that has appreciated 50% in 6 years. That rate of appreciation is slowing, but the neighborhood is nowhere near peak.
+
+## The Smart Highland Park Strategy
+
+If you're buying in Highland Park, stop shopping by address and start shopping by house type:
+
+**1. Craftsman bungalows ($850K-$1.0M)** — These are the classic Highland Park home. They're charming, character-filled, and they appreciate. But they come with small footprints (800-1000 sq ft) and funky layouts. If you need modern open-concept, don't buy one expecting to keep it original.
+
+**2. Duplexes ($900K-$1.15M)** — Own one half, rent the other. At $950K total price, you might get $1,500-1,800/month from the rented unit. Not enough to cover a mortgage, but meaningful. Plus, you're building equity on property that costs 50% less per unit than a single-family home.
+
+**3. Spanish Colonial Revival ($1.0M-$1.35M)** — Rare, beautiful, and expensive. These homes have high ceilings, character details, and they hold value. But they're typically larger (2500+ sq ft) and more costly to maintain.
+
+## Appreciation or Gentrification?
+
+Highland Park is experiencing classic gentrification. Long-time residents are being pushed out by rising property taxes and rents. That's real. It's also a fact of California real estate.
+
+From a buyer perspective, it means: **you're buying into a neighborhood that's already changed dramatically and will continue to change**. If you're buying for equity appreciation, Highland Park probably has another 3-5 years of 4-6% annual appreciation before it normalizes closer to Silver Lake growth rates (2-3% annually).
+
+## The Next 12 Months
+
+Expect prices to stay flat or grow modestly (0-3%) as interest rates remain elevated and buyer sentiment softens. But don't panic-buy, and don't expect discounts. Highland Park is still a strong neighborhood with strong fundamentals.
+
+The homes that will appreciate most: well-maintained Craftsmen that didn't get "Instagram renovated," and duplexes in walkable blocks near York Boulevard.
+
+---
+
+**Johnny Leou (DRE#02064780)** helps buyers navigate East LA neighborhoods like Highland Park, Silver Lake, Los Feliz, and Echo Park. If you're serious about Highland Park but not sure whether it's the right neighborhood or the right time, let's talk through your specific situation.
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://images.unsplash.com/photo-1449844908441-8829872d2607?w=1200&h=630&fit=crop",
+    category: "Neighborhood Guides",
+    tags: ["Highland Park", "Los Angeles", "Real Estate 2026", "Buying Strategy", "East LA"],
+    publishedAt: "2026-05-15",
+    readTime: 8,
+  },
+  {
+    id: "37",
+    slug: "boyle-heights-real-estate-authentic-la-neighborhood",
+    title: "Boyle Heights Real Estate: Authentic LA Living Below Market Price",
+    excerpt:
+      "Boyle Heights offers walkability, community, and culture that comparable LA neighborhoods charge a premium for. Here's why smart buyers are looking here.",
+    content: `
+Boyle Heights doesn't market itself. It doesn't have a trendy coffee culture or Instagram-famous restaurants (though it has great food). It doesn't have a specific architectural style that real estate agents can package.
+
+What it has is realness. Generational communities. Street life. A sense that you're living in actual Los Angeles, not a neighborhood designed for outsiders.
+
+For buyers, that translates to value.
+
+## The Market Positioning
+
+Boyle Heights sits between two appreciating neighborhoods:
+- **Lincoln Heights** (east): $650K-$950K median
+- **Downtown LA Arts District** (west): $850K-$1.3M median
+- **Boyle Heights** (center): $700K-$1.0M median
+
+It should be cheaper than both. Usually, it is. Sometimes, a well-positioned home in Boyle Heights will list for less than an equivalent property in Lincoln Heights or Downtown, even though it's more walkable than both.
+
+## What's Driving Boyle Heights Now
+
+**1. Proximity**: You can walk to Downtown LA in 20 minutes. The Boyle Heights-to-Downtown corridor has become the most interesting part of the city.
+
+**2. Walkability**: First Street, Whittier Boulevard, and César Chávez Avenue have legitimate local businesses. Not all tourist-facing. Actual neighborhood commerce.
+
+**3. Gentrification pressure from above**: As Downtown LA appreciates, that pressure flows east. Not fast. But real.
+
+**4. Housing stock**: Small single-family homes, duplexes, and apartment buildings. Older construction (pre-1940s), which means character. Also means potential rehab costs.
+
+## The Boyle Heights Buyer Profile
+
+You buy Boyle Heights if:
+- You want walkability without paying Silver Lake prices
+- You value community and cultural authenticity
+- You can tolerate older homes that need updates
+- You're comfortable living in a neighborhood where you're gentrifying (whether you acknowledge it or not)
+- You see long-term value in the Downtown LA-Boyle Heights corridor
+
+You skip Boyle Heights if:
+- You need a modern, move-in-ready home
+- You prioritize luxury finishes
+- You want a neighborhood with a clear "type" of person (Boyle Heights is genuinely mixed)
+- You're uncomfortable with commercial corridors that feel gritty
+
+## The Appreciation Story
+
+Boyle Heights has appreciated 30-40% in the last 6-7 years. That's real. Is it over?
+
+Probably not. But it's slowing. Expect 2-4% annual appreciation going forward if the neighborhood continues its gentrification trajectory, and closer to inflation (2-3%) if gentrification stalls.
+
+The key variable: what happens to Downtown LA. If Downtown appreciates faster, that pressure flows to Boyle Heights. If Downtown stalls, Boyle Heights stalls with it.
+
+---
+
+**Johnny Leou (DRE#02064780)** specializes in East LA neighborhoods including Boyle Heights, Lincoln Heights, and El Sereno. If you're considering Boyle Heights but want to understand neighborhood trajectory and appreciation potential, I can walk you through the specifics of any property or block you're considering.
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://www.laconservancy.org/wp-content/uploads/2022/11/BoyleHotelMariachiPlaza.jpg",
+    category: "Neighborhood Guides",
+    tags: ["Boyle Heights", "Los Angeles", "Real Estate 2026", "Community", "East LA", "Walkable Neighborhoods"],
+    publishedAt: "2026-05-12",
+    readTime: 7,
+  },
+  {
+    id: "38",
+    slug: "echo-park-los-angeles-buying-guide",
+    title: "Echo Park Homes: The Best Time to Buy Was 2020, Second Best Is Now",
+    excerpt:
+      "Echo Park has become one of LA's most desirable neighborhoods. If you're serious about buying here, here's what realistic prices and timelines look like.",
+    content: `
+In 2020, you could find a 2-bedroom bungalow in Echo Park for $700K-$800K.
+
+In 2026, that same home lists for $1.1M-$1.3M.
+
+The "best time to buy was 5 years ago" joke is real in Echo Park. But if you're buying now, understanding what's driving these prices—and whether they'll stay there—is critical.
+
+## Why Echo Park Became Expensive So Fast
+
+Echo Park was always charming. Tree-lined streets, Echo Park Lake, walkable community, young creative energy. But in 2018-2019, it crossed from "charming Los Angeles neighborhood" to "trendy real estate market."
+
+What changed: recognition. The rest of LA realized Echo Park had been sitting there the whole time.
+
+By 2020, COVID accelerated everything. Remote work meant young professionals could afford to live somewhere beautiful. Echo Park had beauty, walkability, and community. Prices followed.
+
+## Current Market (May 2026)
+
+**Median prices**: $1.15M-$1.4M depending on block
+
+**Inventory**: Extremely tight. Homes list and sell within 7-10 days if priced correctly.
+
+**Buyer competition**: High, but not insane. You'll see 3-6 offers on a good home, not the 15-20 offers you see in Silver Lake.
+
+**What's expensive**: Anything on or near the Echo Park Lake circuit commands a premium.
+
+**What's relatively affordable**: Homes 3-4 blocks away from the lake, away from the Sunset Boulevard corridor, and in the Angelino Heights section (northwest Echo Park).
+
+## The Echo Park Appreciation Question
+
+Is it over?
+
+Probably 60% over. Echo Park won't see 30-50% appreciation again (2016-2021 style). But it will continue appreciating slowly because:
+
+1. **Location fundamentals are real**: Walking to cafes, restaurants, lake, parks—this is rare in LA
+2. **Limited supply**: You can't build new homes here. Growth is capped.
+3. **Gentrification continues**: Rents are rising. That pressure flows to buyer interest.
+4. **Quality of life**: People genuinely prefer living here. That matters over time.
+
+Expect 2-4% annual appreciation for the next 5-7 years. Not wealth-creating. But better than inflation.
+
+## Where to Actually Find Value in Echo Park
+
+**1. Angelino Heights (northwest)**: Victorian and Craftsman homes dating to the 1900s-1920s. Less trendy than central Echo Park. Prices 5-10% lower. Same neighborhood fundamentals.
+
+**2. Away from the lake**: Properties 4+ blocks from Echo Park Lake circle are 10-15% cheaper despite being in the same neighborhood.
+
+**3. Smaller/fixer properties**: A 800 sq ft bungalow needs updating but costs $200K-300K less than a renovated equivalent. If you plan to stay 7+ years, the numbers work.
+
+---
+
+**Johnny Leou (DRE#02064780)** helps buyers navigate Echo Park and similar Eastside neighborhoods. If you're serious about Echo Park, I can show you where the value actually is and help you avoid overpaying for location premium.
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://images.unsplash.com/photo-1559772775-1a5a7732a02b?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    category: "Neighborhood Guides",
+    tags: ["Echo Park", "Los Angeles", "Buying Guide", "Neighborhoods 2026", "Real Estate Investment"],
+    publishedAt: "2026-05-08",
+    readTime: 7,
+  },
+  {
+    id: "35",
+    slug: "first-time-home-buyer-checklist-los-angeles",
+    title: "First-Time Home Buyer Checklist: Everything Before You Make an Offer",
+    excerpt:
+      "Stop. Before you make an offer on your first LA home, use this checklist to make sure you're ready financially, emotionally, and strategically.",
+    content: `
+First-time home buyers in Los Angeles often skip steps. They see a home they love, fall in love with the neighborhood, and make an offer before they're actually ready.
+
+Then they panic.
+
+Here's the checklist you should work through before you're anywhere near an offer.
+
+## Financial Readiness (Do These First)
+
+**[ ] Know your actual credit score.** Not the estimate you saw online. Your actual score from all three bureaus (Equifax, Experian, TransUnion). Lenders pull all three. Scores in the 620-680 range mean you'll pay a premium interest rate. 720+ means you're in normal pricing.
+
+**[ ] Get pre-approved (not pre-qualified).** This is real. It takes 3-7 days. Do it before you start seriously looking. Pre-qualification is worthless to sellers.
+
+**[ ] Know your down payment.** How much can you actually put down? 3%? 5%? 10%? 20%? This determines your maximum purchase price. Don't guess.
+
+**[ ] Understand your debt-to-income ratio.** Your lender can explain this. It's roughly: (all monthly debts) / (gross monthly income). Most lenders want this under 43%. High ratio? You can't borrow as much as you think.
+
+**[ ] Clean up your credit.** If you have delinquencies, late payments, or errors, now is the time to address them. Don't do this the week before you're ready to close.
+
+**[ ] Save 2-3% extra beyond down payment for closing costs.** You'll need inspections ($400-$800), appraisal ($500-$700), title insurance, homeowners insurance, property taxes, HOA fees, and loan origination costs. These add up to 2-5% of your purchase price.
+
+## Neighborhood Homework
+
+**[ ] Visit neighborhoods at different times of day.** 10 AM on Saturday looks different than 11 PM on Friday. Walk the area. Sit at the coffee shop. Eat at the restaurants. Do you actually want to live here?
+
+**[ ] Research schools (even if you don't have kids).** School quality drives long-term neighborhood appreciation. Check California's school rating websites.
+
+**[ ] Check commute times realistically.** Don't assume Google Maps' "optimistic" time. Add 20%. Does it still work?
+
+**[ ] Research neighborhood trends.** Are prices going up or down? Are restaurants opening or closing? Is this neighborhood in appreciation or decline? Blogs and news articles help. So does talking to local agents.
+
+## The Home Itself
+
+**[ ] Get a professional inspection.** This is non-negotiable. A $400 inspection can save you $50K in surprise repairs. Always hire your own inspector, not the seller's.
+
+**[ ] Understand what needs repair.** Your inspector will tell you. Some things are deal-killers (foundation issues, serious roof damage, termites). Some things are cosmetic. Know the difference.
+
+**[ ] Get a foundation specialist if there are any red flags.** Foundation repair is expensive ($10K-$50K+). If there's any question, get a specialist's opinion.
+
+**[ ] Check flood maps and fire zones.** California has tools that show flood and fire risk. If the home is in a high-risk zone, understand the insurance and long-term risk.
+
+**[ ] Request utilities cost history.** Ask the seller for the last 12 months of utility bills. High bills = poor insulation or expensive to heat/cool. This matters for long-term affordability.
+
+## Offer Strategy
+
+**[ ] Don't waive contingencies.** Especially inspection and appraisal. They exist to protect you.
+
+**[ ] Understand appraisal contingency.** If the home appraises for less than your offer, you need a plan. Do you cover the gap? Renegotiate? Walk?
+
+**[ ] Know your financing contingency.** Usually 21 days. If you can't get financing in 21 days, you lose earnest money.
+
+**[ ] Budget for PMI (if down payment < 20%).** Private mortgage insurance costs 0.5-1.5% of your loan annually. On a $500K loan, that's $2,500-$7,500/year. Budget for it.
+
+**[ ] Have an earnest money contingency plan.** You lose earnest money if you walk for non-contingency reasons. How much can you afford to lose?
+
+## Emotional Readiness
+
+**[ ] Are you actually ready to stop renting?** Homeownership is different. Repairs are your responsibility. HOA fees (if applicable) are mandatory. You can't just move next year.
+
+**[ ] Can you afford to stay 5+ years?** Buying and selling costs 8-10% of the home value (realtor commissions, title insurance, closing costs). You need appreciation or 5+ years of equity building to break even.
+
+**[ ] Do you have an emergency fund?** Beyond your down payment, you should have 3-6 months of expenses saved. Homeownership has surprises.
+
+**[ ] Are you comfortable with this neighborhood long-term?** Even if prices go up, you have to live there. Make sure you actually want to.
+
+---
+
+Work through this checklist before you make an offer. It'll save you from panic, from walking away after investing earnest money, and from buying the wrong home at the wrong time.
+
+**Johnny Leou (DRE#02064780)** helps first-time buyers navigate every step of this checklist. If you're new to LA real estate and want a partner who actually explains these things (instead of just pushing you to sign), let's connect.
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1200&h=630&fit=crop",
+    category: "Buying Guide",
+    tags: ["First-Time Buyers", "Los Angeles", "Checklist", "Home Buying Process", "Real Estate 2026"],
+    publishedAt: "2026-05-20",
+    readTime: 10,
   }
 ];
 
