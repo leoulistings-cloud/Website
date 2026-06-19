@@ -2,6 +2,149 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "40",
+    slug: "how-to-find-assumable-mortgages-la-sub-3-percent-rates",
+    title: "How to Find Assumable Mortgages in LA: Lock in Sub-3% Rates Today",
+    excerpt: "Discover how to find and buy homes with assumable mortgages in Los Angeles. Step-by-step guide to locking in 2.5-3% mortgage rates while others pay 6.5%.",
+    coverImage: "https://aarp.widen.net/content/taa4xgdooo/jpeg/102934-Fed-Rate-Cut.jpg?crop=true&anchor=0,0&q=80&color=ffffffff&u=ovnylx&w=1140&h=655",
+    content: `The Secret Strategy Most LA Buyers Don't Know About
+
+Imagine this: You're shopping for a home in Los Angeles. You find a house you love. But instead of getting a 6.5% mortgage rate like everyone else, you get a 2.8% rate locked in for 30 years.
+
+**This isn't fantasy. It's called an assumable mortgage.**
+
+And it's the fastest way to beat 2026's high rates without waiting for the Fed to cut them.
+
+---
+
+## What is an Assumable Mortgage?
+
+An assumable mortgage lets you **take over the seller's existing mortgage** and lock in their interest rate—even if they bought the house years ago when rates were 2-3%.
+
+**Real example happening RIGHT NOW in LA:**
+- Seller bought in 2021 at 2.8% rate
+- Home now worth $850,000, they owe $520,000
+- You buy the home for $850,000
+- You assume their $520,000 mortgage at 2.8%
+- You finance the remaining $330,000 at current rates (6.5%)
+- Your blended rate: ~4.5% instead of 6.5%
+- **Monthly savings: $800-1,200**
+
+---
+
+## Not All Mortgages Are Assumable
+
+**The Critical Question:** Does the seller's loan allow assumptions?
+
+**Mortgages that ARE assumable:**
+- FHA loans (most common)
+- VA loans (if you're a veteran)
+- USDA loans
+- Older conventional loans (pre-2000s)
+
+**Mortgages that are NOT assumable:**
+- Most modern conventional mortgages (2000+)
+- PMC mortgages
+- Bank of America mortgages (most)
+
+**The catch:** The lender must approve the assumption, but approval rates are typically 90%+.
+
+---
+
+## How to Find Assumable Mortgages in LA
+
+### **Step 1: Use AssumableList.com**
+This is the industry's best tool for finding homes with assumable mortgages.
+
+**What it does:**
+- Shows you every home with an assumable mortgage
+- Lists the current rate (2.5-3.8% range typically)
+- Filters by LA neighborhood, price, and interest rate
+
+**How to use it:**
+1. Go to AssumableList.com
+2. Filter: Los Angeles, CA
+3. Sort by rate (lowest first)
+4. You'll see homes with 2.8%, 3.1%, 3.5% mortgages available
+
+### **Step 2: Identify High-Equity Homes**
+Look for homes where the seller owes much less than the sale price:
+
+**Example:**
+- Home price: $750,000
+- Seller's mortgage balance: $400,000
+- Equity available: $350,000
+- Buyer's down payment: $350,000
+- Your assumption: $400,000 at 2.8%
+
+This is ideal because you're not taking over a large mortgage at a low rate—you're taking over a SMALLER mortgage.
+
+### **Step 3: Make Your Offer**
+When you find a home with an assumable mortgage:
+
+1. **Make an offer** that accounts for the mortgage assumption advantage
+2. **Include language:** "Subject to assumption of seller's mortgage at [rate]%"
+3. **Timeline:** Approval typically takes 2-4 weeks
+4. **Costs:** ~$500-1,500 in assumption processing fees
+
+---
+
+## The Numbers: Why This Beats Waiting for Rates to Drop
+
+**Scenario: $600,000 home purchase**
+
+**Option A: Standard mortgage at 6.5%**
+- Monthly payment: $3,796
+- 30-year interest paid: $766,560
+
+**Option B: Assume 2.8% mortgage ($300K) + Finance $300K at 6.5%**
+- Assumption (2.8%): $1,265/month
+- New financing (6.5%): $1,896/month
+- **Total: $3,161/month**
+- Monthly savings: **$635**
+- 30-year savings: **$228,600**
+
+**Even if rates drop to 5.5% nationwide, you're still ahead.**
+
+---
+
+## The Fastest Path to a Sub-3% Rate in 2026
+
+1. **Search AssumableList.com** (5 minutes)
+2. **Find 3-5 homes** with good assumption rates (1 hour)
+3. **Call your agent** (me!) to make offers (immediate)
+4. **Close in 30-45 days** with a 2.8-3.5% rate
+
+No waiting for the Fed. No hoping rates drop. No refinancing risk.
+
+---
+
+## Ready to Find Your Sub-3% Assumable Mortgage?
+
+**Start here:** Visit [AssumableList.com](https://assumelist.com) and search your target LA neighborhood. Screenshot homes with rates below 3.5%.
+
+**Then contact me:**
+- Tell me which homes interest you
+- I'll negotiate the best assumption terms
+- We'll close with you locked in at their low rate
+
+The market is shifting toward assumable mortgages—savvy buyers are already using this strategy. Don't wait.
+
+📞 **(949) 300-4485**
+📧 **leoulistings@gmail.com**
+📅 **[Book a free 15-min assumable mortgage strategy call](https://calendly.com)**
+
+**P.S.** Interested in how this compares to other rate-lowering strategies? Read our full guide: [Will Interest Rates Drop in 2026? 5 Proven Strategies to Lower Your Rate](/blog/interest-rates-2026-forecast-mortgage-rates-drop-assumable-mortgages)
+`,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    category: "Buying Guide",
+    tags: ["assumable mortgages", "sub-3% rates", "LA real estate", "mortgage strategy", "2026 home buying", "low interest rates", "assumable mortgage LA"],
+    publishedAt: "2026-06-19",
+    readTime: 8,
+  },
+  {
     id: "39",
     slug: "interest-rates-2026-forecast-mortgage-rates-drop-assumable-mortgages",
     title: "Will Interest Rates Drop in 2026? Mortgage Rate Forecast & Expert Predictions",
