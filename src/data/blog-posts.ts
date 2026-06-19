@@ -271,7 +271,7 @@ Want to explore assumable mortgages in your area?
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
     authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
-    coverImage: "https://images.unsplash.com/photo-1579621970563-7ae8fcf27359?w=1200&h=700&fit=crop",
+    coverImage: "https://loisllc.com/wp-content/uploads/coachs-corner-fear-of-failure.jpg",
     category: "Market Analysis",
     tags: ["interest rates", "mortgage rates", "2026 forecast", "rate buydowns", "assumable mortgages", "LA real estate", "mortgage strategies", "home buyer tips"],
     publishedAt: "2026-06-19",
