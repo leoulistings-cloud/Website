@@ -3424,7 +3424,8 @@ Work through this checklist before you make an offer. It'll save you from panic,
     tags: ["First-Time Buyers", "Los Angeles", "Checklist", "Home Buying Process", "Real Estate 2026"],
     publishedAt: "2026-05-20",
     readTime: 10,
-  },
+  }
+];
 
 export const getBlogPostBySlug = (slug: string) =>
   blogPosts.find((p) => p.slug === slug);
