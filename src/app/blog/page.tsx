@@ -107,9 +107,9 @@ export default function BlogPage() {
             <>
               {/* Featured article */}
               {featured && (
-                <div className="mb-16">
+                <div className="mb-16 overflow-hidden">
                   <Link href={`/blog/${featured.slug}`} className="group block">
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 overflow-hidden border border-white/5 hover:border-gold-500/30 transition-all duration-500">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 overflow-hidden border border-white/5 hover:border-gold-500/30 transition-all duration-500 w-full">
                       {/* Image */}
                       <div className="relative aspect-[4/3] overflow-hidden">
                         <Image
@@ -124,11 +124,11 @@ export default function BlogPage() {
                       </div>
 
                       {/* Content */}
-                      <div className="bg-navy-900 p-10 lg:p-14 flex flex-col justify-center">
+                      <div className="bg-navy-900 p-10 lg:p-14 flex flex-col justify-center overflow-hidden w-full">
                         <span className="inline-block bg-gold-500 text-navy-950 text-[10px] font-semibold tracking-widest uppercase px-2.5 py-1 mb-5 self-start">
                           {featured.category}
                         </span>
-                        <h2 className="font-serif text-white text-3xl lg:text-4xl leading-snug mb-5 group-hover:text-gold-400 transition-colors">
+                        <h2 className="font-serif text-white text-3xl lg:text-4xl leading-snug mb-5 group-hover:text-gold-400 transition-colors line-clamp-3">
                           {featured.title}
                         </h2>
                         <p className="text-white/50 text-sm leading-relaxed mb-8">
