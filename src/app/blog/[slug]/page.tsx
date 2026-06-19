@@ -65,18 +65,46 @@ export default async function BlogPostPage({
   const htmlContent = post.content
     .split("\n\n")
     .map((block) => {
+      // Handle horizontal dividers
+      if (block.trim() === "---") {
+        return `<hr class="border-t border-white/10 my-8" />`;
+      }
+      // Handle h2 headers
       if (block.startsWith("## ")) {
         return `<h2 class="font-serif text-white text-2xl mt-10 mb-4">${block.slice(3)}</h2>`;
       }
-      if (block.trim().startsWith("-")) {
+      // Handle h3 headers
+      if (block.startsWith("### ")) {
+        return `<h3 class="font-serif text-white text-xl mt-8 mb-3">${block.slice(4)}</h3>`;
+      }
+      // Handle h4 headers
+      if (block.startsWith("#### ")) {
+        return `<h4 class="font-serif text-white text-lg mt-6 mb-2">${block.slice(5)}</h4>`;
+      }
+      // Handle bullet lists
+      if (block.trim().startsWith("-") || block.trim().startsWith("*")) {
         const items = block
           .split("\n")
-          .filter((l) => l.trim().startsWith("-"))
+          .filter((l) => l.trim().startsWith("-") || l.trim().startsWith("*"))
           .map((l) => `<li>${l.slice(1).trim()}</li>`)
           .join("");
-        return `<ul class="list-disc list-inside text-white/60 space-y-1.5 mb-4">${items}</ul>`;
+        return `<ul class="list-disc list-inside text-white/60 space-y-1.5 mb-4 ml-4">${items}</ul>`;
       }
-      return `<p class="text-white/60 leading-relaxed mb-4">${block.trim()}</p>`;
+      // Handle numbered lists
+      if (block.trim().match(/^\d+\./)) {
+        const items = block
+          .split("\n")
+          .filter((l) => l.trim().match(/^\d+\./))
+          .map((l) => `<li>${l.replace(/^\d+\.\s*/, "").trim()}</li>`)
+          .join("");
+        return `<ol class="list-decimal list-inside text-white/60 space-y-1.5 mb-4 ml-4">${items}</ol>`;
+      }
+      // Handle bold text in paragraphs
+      const processedBlock = block
+        .trim()
+        .replace(/\*\*([^*]+)\*\*/g, '<strong class="text-gold-400">$1</strong>')
+        .replace(/\*([^*]+)\*/g, '<em>$1</em>');
+      return `<p class="text-white/60 leading-relaxed mb-4">${processedBlock}</p>`;
     })
     .join("");
 
