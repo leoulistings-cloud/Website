@@ -75,6 +75,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "aarp.widen.net",
       },
+      {
+        protocol: "https",
+        hostname: "assumelist.com",
+      },
     ],
   },
 };

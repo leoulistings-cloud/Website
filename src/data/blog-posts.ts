@@ -6,7 +6,7 @@ export const blogPosts: BlogPost[] = [
     slug: "how-to-find-assumable-mortgages-la-sub-3-percent-rates",
     title: "How to Find Assumable Mortgages in LA: Lock in Sub-3% Rates Today",
     excerpt: "Discover how to find and buy homes with assumable mortgages in Los Angeles. Step-by-step guide to locking in 2.5-3% mortgage rates while others pay 6.5%.",
-    coverImage: "https://aarp.widen.net/content/taa4xgdooo/jpeg/102934-Fed-Rate-Cut.jpg?crop=true&anchor=0,0&q=80&color=ffffffff&u=ovnylx&w=1140&h=655",
+    coverImage: "https://assumelist.com/wp-content/uploads/2023/07/Logo_main-1024px.jpg",
     content: `The Secret Strategy Most LA Buyers Don't Know About
 
 Imagine this: You're shopping for a home in Los Angeles. You find a house you love. But instead of getting a 6.5% mortgage rate like everyone else, you get a 2.8% rate locked in for 30 years.
@@ -123,6 +123,9 @@ No waiting for the Fed. No hoping rates drop. No refinancing risk.
 
 **Start here:** Visit [AssumableList.com](https://assumelist.com) and search your target LA neighborhood. Screenshot homes with rates below 3.5%.
 
+**⚠️ Limited Free Accounts Available**
+I have a limited number of **free premium accounts** to AssumableList that unlock advanced filters and saved searches. If you're serious about finding an assumable mortgage in the next 30 days, claim yours now—they're going fast.
+
 **Then contact me:**
 - Tell me which homes interest you
 - I'll negotiate the best assumption terms
@@ -130,9 +133,10 @@ No waiting for the Fed. No hoping rates drop. No refinancing risk.
 
 The market is shifting toward assumable mortgages—savvy buyers are already using this strategy. Don't wait.
 
-📞 **(949) 300-4485**
+**GET YOUR FREE ACCOUNT + STRATEGY CALL:**
+📞 **(949) 300-4485** — Mention "free account" for priority access
 📧 **leoulistings@gmail.com**
-📅 **[Book a free 15-min assumable mortgage strategy call](https://calendly.com)**
+📅 **[BOOK NOW: Free 15-min assumable mortgage strategy call](https://calendly.com)** ← Includes free AssumableList premium account
 
 **P.S.** Interested in how this compares to other rate-lowering strategies? Read our full guide: [Will Interest Rates Drop in 2026? 5 Proven Strategies to Lower Your Rate](/blog/interest-rates-2026-forecast-mortgage-rates-drop-assumable-mortgages)
 `,
