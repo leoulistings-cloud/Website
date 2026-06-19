@@ -31,7 +31,6 @@ export async function generateMetadata({
   return {
     title: `${post.title} | Johnny Leou Real Estate`,
     description,
-    canonical: postUrl,
     openGraph: {
       title: post.title,
       description,
@@ -93,6 +92,7 @@ export default async function BlogPostPage({
 
   return (
     <>
+      <link rel="canonical" href={`https://johnnyleou.com/blog/${post.slug}`} />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
