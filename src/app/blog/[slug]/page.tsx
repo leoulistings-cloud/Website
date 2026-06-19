@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, Clock, Tag, ArrowRight } from "lucide-react";
+import ReactMarkdown from "react-markdown";
 import { getBlogPostBySlug, blogPosts } from "@/data/blog-posts";
 
 const isPublished = (post: typeof blogPosts[0]): boolean => {
@@ -62,51 +63,6 @@ export default async function BlogPostPage({
     .filter((p) => p.id !== post.id && p.category === post.category && isPublished(p))
     .slice(0, 2);
 
-  const htmlContent = post.content
-    .split("\n\n")
-    .map((block) => {
-      // Handle horizontal dividers
-      if (block.trim() === "---") {
-        return `<hr class="border-t border-white/10 my-8" />`;
-      }
-      // Handle h2 headers
-      if (block.startsWith("## ")) {
-        return `<h2 class="font-serif text-white text-2xl mt-10 mb-4">${block.slice(3)}</h2>`;
-      }
-      // Handle h3 headers
-      if (block.startsWith("### ")) {
-        return `<h3 class="font-serif text-white text-xl mt-8 mb-3">${block.slice(4)}</h3>`;
-      }
-      // Handle h4 headers
-      if (block.startsWith("#### ")) {
-        return `<h4 class="font-serif text-white text-lg mt-6 mb-2">${block.slice(5)}</h4>`;
-      }
-      // Handle bullet lists
-      if (block.trim().startsWith("-") || block.trim().startsWith("*")) {
-        const items = block
-          .split("\n")
-          .filter((l) => l.trim().startsWith("-") || l.trim().startsWith("*"))
-          .map((l) => `<li>${l.slice(1).trim()}</li>`)
-          .join("");
-        return `<ul class="list-disc list-inside text-white/60 space-y-1.5 mb-4 ml-4">${items}</ul>`;
-      }
-      // Handle numbered lists
-      if (block.trim().match(/^\d+\./)) {
-        const items = block
-          .split("\n")
-          .filter((l) => l.trim().match(/^\d+\./))
-          .map((l) => `<li>${l.replace(/^\d+\.\s*/, "").trim()}</li>`)
-          .join("");
-        return `<ol class="list-decimal list-inside text-white/60 space-y-1.5 mb-4 ml-4">${items}</ol>`;
-      }
-      // Handle bold text in paragraphs
-      const processedBlock = block
-        .trim()
-        .replace(/\*\*([^*]+)\*\*/g, '<strong class="text-gold-400">$1</strong>')
-        .replace(/\*([^*]+)\*/g, '<em>$1</em>');
-      return `<p class="text-white/60 leading-relaxed mb-4">${processedBlock}</p>`;
-    })
-    .join("");
 
   return (
     <>
@@ -179,10 +135,85 @@ export default async function BlogPostPage({
           </p>
 
           {/* Body */}
-          <div
-            className="prose-content"
-            dangerouslySetInnerHTML={{ __html: htmlContent }}
-          />
+          <div className="prose-content prose prose-invert">
+            <ReactMarkdown
+              components={{
+                h2: ({ children }) => (
+                  <h2 className="font-serif text-white text-2xl mt-10 mb-4">
+                    {children}
+                  </h2>
+                ),
+                h3: ({ children }) => (
+                  <h3 className="font-serif text-white text-xl mt-8 mb-3">
+                    {children}
+                  </h3>
+                ),
+                h4: ({ children }) => (
+                  <h4 className="font-serif text-white text-lg mt-6 mb-2">
+                    {children}
+                  </h4>
+                ),
+                p: ({ children }) => (
+                  <p className="text-white/60 leading-relaxed mb-4">
+                    {children}
+                  </p>
+                ),
+                ul: ({ children }) => (
+                  <ul className="list-disc list-inside text-white/60 space-y-1.5 mb-4 ml-4">
+                    {children}
+                  </ul>
+                ),
+                ol: ({ children }) => (
+                  <ol className="list-decimal list-inside text-white/60 space-y-1.5 mb-4 ml-4">
+                    {children}
+                  </ol>
+                ),
+                li: ({ children }) => (
+                  <li className="ml-2">
+                    {children}
+                  </li>
+                ),
+                strong: ({ children }) => (
+                  <strong className="text-gold-400">
+                    {children}
+                  </strong>
+                ),
+                em: ({ children }) => (
+                  <em className="italic">
+                    {children}
+                  </em>
+                ),
+                hr: () => <hr className="border-t border-white/10 my-8" />,
+                table: ({ children }) => (
+                  <table className="w-full border border-white/10 mb-4">
+                    {children}
+                  </table>
+                ),
+                thead: ({ children }) => (
+                  <thead className="bg-white/5">
+                    {children}
+                  </thead>
+                ),
+                tr: ({ children }) => (
+                  <tr className="border-b border-white/10">
+                    {children}
+                  </tr>
+                ),
+                td: ({ children }) => (
+                  <td className="text-white/60 px-4 py-2 text-sm">
+                    {children}
+                  </td>
+                ),
+                th: ({ children }) => (
+                  <th className="text-white px-4 py-2 text-sm text-left font-semibold">
+                    {children}
+                  </th>
+                ),
+              }}
+            >
+              {post.content}
+            </ReactMarkdown>
+          </div>
 
           {/* Tags */}
           <div className="mt-12 pt-8 border-t border-white/10">
