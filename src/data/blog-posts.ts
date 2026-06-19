@@ -6,6 +6,7 @@ export const blogPosts: BlogPost[] = [
     slug: "interest-rates-2026-forecast-mortgage-rates-drop-assumable-mortgages",
     title: "Will Interest Rates Drop in 2026? Mortgage Rate Forecast & Expert Predictions",
     excerpt: "Will interest rates drop in 2026? Expert mortgage rate forecast for Los Angeles buyers. Learn about rate predictions, refinancing opportunities, assumable mortgages, and strategies to lower your rate.",
+    coverImage: "https://aarp.widen.net/content/taa4xgdooo/jpeg/102934-Fed-Rate-Cut.jpg?crop=true&anchor=0,0&q=80&color=ffffffff&u=ovnylx&w=1140&h=655",
     content: `Will Interest Rates Drop in 2026? What Experts Are Predicting
 
 The #1 question homebuyers are asking right now: "Will interest rates drop in 2026?"
@@ -271,7 +272,6 @@ Want to explore assumable mortgages in your area?
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
     authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
-    coverImage: "https://loisllc.com/wp-content/uploads/coachs-corner-fear-of-failure.jpg",
     category: "Market Analysis",
     tags: ["interest rates", "mortgage rates", "2026 forecast", "rate buydowns", "assumable mortgages", "LA real estate", "mortgage strategies", "home buyer tips"],
     publishedAt: "2026-06-19",

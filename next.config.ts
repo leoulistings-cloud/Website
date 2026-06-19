@@ -71,6 +71,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "www.decorilla.com",
       },
+      {
+        protocol: "https",
+        hostname: "aarp.widen.net",
+      },
     ],
   },
 };
