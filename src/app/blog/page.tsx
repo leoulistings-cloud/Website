@@ -15,6 +15,19 @@ export default function BlogPage() {
   const [activeCategory, setActiveCategory] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
 
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "The Leou Insider - Real Estate Blog",
+    description: "Neighborhood guides, market insights, buying & selling tips, and lifestyle stories from LA real estate agent Johnny Leou",
+    url: "https://johnnyleou.com/blog",
+    publisher: {
+      "@type": "Organization",
+      name: "Johnny Leou Real Estate",
+      url: "https://johnnyleou.com",
+    },
+  };
+
   const filtered = blogPosts
     .filter(isPublished)
     .filter((post) => {
@@ -32,6 +45,10 @@ export default function BlogPage() {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
+      />
       {/* Header */}
       <section className="relative pt-32 pb-16 overflow-hidden">
         <div className="absolute inset-0">

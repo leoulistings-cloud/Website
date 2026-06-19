@@ -26,10 +26,12 @@ export async function generateMetadata({
   }
 
   const description = post.metaDescription || post.excerpt;
+  const postUrl = `https://johnnyleou.com/blog/${post.slug}`;
 
   return {
     title: `${post.title} | Johnny Leou Real Estate`,
     description,
+    canonical: postUrl,
     openGraph: {
       title: post.title,
       description,
@@ -37,7 +39,7 @@ export async function generateMetadata({
       publishedTime: post.publishedAt,
       authors: ["Johnny Leou"],
       tags: post.tags,
-      url: `https://johnnyleou.com/blog/${post.slug}`,
+      url: postUrl,
       images: [
         {
           url: post.coverImage,
@@ -64,8 +66,37 @@ export default async function BlogPostPage({
     .slice(0, 2);
 
 
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.excerpt,
+    image: post.coverImage,
+    datePublished: post.publishedAt,
+    dateModified: post.publishedAt,
+    author: {
+      "@type": "Person",
+      name: post.author,
+      url: "https://johnnyleou.com",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Johnny Leou Real Estate",
+      url: "https://johnnyleou.com",
+      logo: "https://johnnyleou.com/logo.png",
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://johnnyleou.com/blog/${post.slug}`,
+    },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
+      />
       {/* Back */}
       <div className="pt-24 pb-4 bg-navy-900 border-b border-white/5">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
