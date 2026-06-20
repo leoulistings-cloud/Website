@@ -2,6 +2,194 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "35",
+    slug: "first-time-home-buyer-guide-los-angeles-complete-checklist",
+    title: "First-Time Home Buyer Guide: Complete LA Homebuying Checklist",
+    excerpt: "Everything first-time homebuyers need to know about buying a home in LA. Pre-approval to closing: step-by-step guide with expert tips and common mistakes to avoid.",
+    coverImage: "https://images.unsplash.com/photo-1560518099-ce2b3394fdf0?w=1200&h=630&fit=crop",
+    content: `Your Complete First-Time Home Buyer Roadmap
+
+Thinking about buying your first home in Los Angeles? You're not alone. Thousands of first-time buyers enter the LA market each year. But without a clear roadmap, the process can feel overwhelming.
+
+This guide breaks down exactly what you need to know—from pre-approval to the day you get your keys.
+
+---
+
+## Step 1: Get Pre-Approved (Weeks 1-2)
+
+Before you start house hunting, get a mortgage pre-approval. This isn't just for show—it tells sellers you're serious and determines your budget.
+
+**What you need:**
+- 2 months of recent pay stubs
+- 2 months of bank statements
+- Last 2 years of tax returns
+- Valid ID and Social Security number
+
+**What happens:**
+- Lender pulls your credit
+- Verifies your income
+- Gives you a pre-approval letter
+- You learn your maximum budget
+
+**Pro tip:** Get pre-approved with 2-3 lenders to compare rates. You can shop rates for 14 days without it affecting your credit score.
+
+---
+
+## Step 2: Assemble Your Team (Week 2)
+
+You can't do this alone. Here's who you need:
+
+**Real Estate Agent** - Your guide through the entire process. A good agent knows neighborhoods, negotiates offers, and advocates for you.
+
+**Loan Officer** - Already assigned if you're getting a mortgage. They handle pre-approval, underwriting, and closing.
+
+**Home Inspector** - Examines the property for structural issues and hidden problems ($300-500).
+
+**Title Company** - Searches property records and ensures clear ownership transfer ($200-400).
+
+---
+
+## Step 3: Understand Your Budget (Week 2)
+
+Pre-approval gives you a number, but what can you actually afford?
+
+**Rule of thumb:** Your monthly mortgage shouldn't exceed 28% of your gross monthly income.
+
+**Example:**
+- Gross income: $6,000/month
+- Max affordable payment: $1,680/month
+- At 6.5% rate: This buys ~$260,000
+
+**But also consider:**
+- Property taxes (CA average: 1.25% of home value annually)
+- Homeowners insurance ($1,200-1,800/year in LA)
+- HOA fees (if applicable)
+- Maintenance (1-2% of home value annually)
+
+---
+
+## Step 4: House Hunt Smart (Weeks 3-8)
+
+Now the fun part. Here's the strategy:
+
+**Focus on value, not perfection.** Your first home doesn't need to be your forever home. Buy based on:
+- Location (commute, neighborhood, schools)
+- Price (80% of your max budget gives you flexibility)
+- Condition (repairable issues are okay; structural problems are not)
+
+**Make offers strategically:**
+- In LA's competitive market, pre-approval letters help
+- Include 3-5 day inspection period (non-waivable)
+- Avoid waiving appraisal contingency
+
+---
+
+## Step 5: Get a Home Inspection (Week 9)
+
+Once your offer is accepted, hire an inspector. They'll spend 2-3 hours examining:
+- Roof condition
+- Plumbing and electrical systems
+- HVAC systems
+- Foundation and structure
+- Water damage and mold
+
+**Budget:** $300-500
+
+**What to do after:**
+- Review the report carefully
+- Request repairs or credits for major issues
+- Don't skip this step—it's your protection
+
+---
+
+## Step 6: Finalize Your Mortgage (Weeks 9-11)
+
+Your lender orders the appraisal ($500-700) and begins underwriting—the detailed review of your finances and the property.
+
+**During underwriting, they'll ask for:**
+- Updated pay stubs
+- Explanation of any credit inquiries
+- Documentation of large deposits
+
+**This is NOT the time to:**
+- Change jobs
+- Make large purchases
+- Open new credit cards
+- Cosign loans
+
+---
+
+## Step 7: Final Walkthrough & Closing (Week 12)
+
+**2 days before closing:** Walk the property to confirm repairs were done and no damage occurred.
+
+**At closing:**
+- You sign loan documents (30-40 pages)
+- You get a Closing Disclosure (shows all loan terms)
+- You pay closing costs ($5,000-10,000 typically)
+- You get your keys
+
+---
+
+## First-Time Buyer Mistakes to Avoid
+
+❌ **Mistake #1:** Comparing yourself to others
+- Your neighbor's mortgage isn't your mortgage
+- Buy based on YOUR budget, not theirs
+
+❌ **Mistake #2:** Waiving inspection to make offer stronger
+- This is where problems get discovered
+- Problems get expensive fast
+
+❌ **Mistake #3:** Maxing out your pre-approval
+- Just because you CAN afford $600K doesn't mean you should
+- Life happens—keep a buffer for emergencies
+
+❌ **Mistake #4:** Ignoring property taxes and HOA fees
+- These can be $400-800/month
+- They add up fast
+
+❌ **Mistake #5:** Making big purchases before closing
+- Lender re-pulls your credit days before closing
+- New debt can kill your approval
+
+---
+
+## LA First-Time Buyer Tips
+
+**Timing:** May-August is peak season (higher prices). October-March is slower (better negotiating power).
+
+**Neighborhoods:** Look beyond Westside/Santa Monica. El Segundo, Long Beach, Torrance offer better value for first-timers.
+
+**Rates:** Interest rates matter. A 0.5% difference = $100+/month on a $300K mortgage. Shop rates.
+
+**Unique to LA:** Watch for earthquake insurance requirements and tsunami zones in coastal areas.
+
+---
+
+## Ready to Make Your Move?
+
+First-time buying is intimidating, but you don't have to figure it out alone. I've helped dozens of first-time buyers navigate this exact process.
+
+**Let's talk about your situation:**
+
+📞 **(949) 300-4485**
+📧 **leoulistings@gmail.com**
+📅 **[Book a free 15-min first-time buyer consultation](https://calendly.com/johnnyleou)**
+
+Whether you're ready to buy next month or next year, let's create a plan that works for YOUR timeline and budget.
+
+**P.S.** Want to learn about a strategy that could save you thousands in interest? Check out our guide on [Assumable Mortgages: Lock in Sub-3% Rates](/blog/how-to-find-assumable-mortgages-la-sub-3-percent-rates).
+`,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    category: "Buying Guide",
+    tags: ["first time home buyer", "home buying guide", "LA real estate", "mortgage tips", "first time buyer mistakes", "home buying process", "Los Angeles homes"],
+    publishedAt: "2026-06-20",
+    readTime: 11,
+  },
+  {
     id: "40",
     slug: "how-to-find-assumable-mortgages-la-sub-3-percent-rates",
     title: "How to Find Assumable Mortgages in LA: Lock in Sub-3% Rates Today",
