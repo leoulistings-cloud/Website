@@ -79,6 +79,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "assumelist.com",
       },
+      {
+        protocol: "https",
+        hostname: "svprojectmanagement.com",
+      },
     ],
   },
 };

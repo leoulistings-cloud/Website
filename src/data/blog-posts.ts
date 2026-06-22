@@ -6,7 +6,7 @@ export const blogPosts: BlogPost[] = [
     slug: "first-time-home-buyer-guide-los-angeles-complete-checklist",
     title: "First-Time Home Buyer Guide: Complete LA Homebuying Checklist",
     excerpt: "Everything first-time homebuyers need to know about buying a home in LA. Pre-approval to closing: step-by-step guide with expert tips and common mistakes to avoid.",
-    coverImage: "https://images.unsplash.com/photo-1560518099-ce2b3394fdf0?w=1200&h=630&fit=crop",
+    coverImage: "https://svprojectmanagement.com/wp-content/uploads/2007/06/A-660cac5e9b62b8c0d28b20a5_checklist-de-un-evento.jpg",
     content: `Your Complete First-Time Home Buyer Roadmap
 
 Thinking about buying your first home in Los Angeles? You're not alone. Thousands of first-time buyers enter the LA market each year. But without a clear roadmap, the process can feel overwhelming.
