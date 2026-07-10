@@ -6,7 +6,7 @@ export const blogPosts: BlogPost[] = [
     slug: "how-to-negotiate-lower-home-price-los-angeles-buyer-tactics",
     title: "How to Negotiate a Lower Home Price in LA: Proven Buyer Tactics",
     excerpt: "Master negotiation strategies for LA home buyers. Learn how to make lower offers, counter effectively, and close deals below asking price even in competitive markets.",
-    coverImage: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=630&fit=crop",
+    coverImage: "https://usercontent.one/wp/www.shortsmedia.org/wp-content/uploads/2017/10/Negotiation-1.jpg",
     content: `The Art of Negotiating a Lower Home Price in LA
 
 Most LA home buyers never negotiate. They see the asking price and assume it's final. That's a $50K-100K+ mistake.

@@ -87,6 +87,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "spiceupyourhome.com",
       },
+      {
+        protocol: "https",
+        hostname: "usercontent.one",
+      },
     ],
   },
 };
