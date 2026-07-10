@@ -83,6 +83,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "svprojectmanagement.com",
       },
+      {
+        protocol: "https",
+        hostname: "spiceupyourhome.com",
+      },
     ],
   },
 };

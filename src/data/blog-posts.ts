@@ -252,7 +252,7 @@ I'll review comparable sales data for YOUR target homes and show you exactly wha
     slug: "how-to-sell-home-fast-la-staging-tips-increase-sale-price",
     title: "How to Sell Your Home Fast in LA: Staging Secrets That Increase Price",
     excerpt: "Proven staging strategies to sell your LA home faster and for more money. Real numbers on ROI for home staging, decluttering, and showings that close deals.",
-    coverImage: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1200&h=630&fit=crop",
+    coverImage: "https://spiceupyourhome.com/wp-content/uploads/2025/01/Home-Staging-Services-Professional-Staged-Family-Room-SUYH-scaled.jpg",
     content: `Sell Your LA Home 40% Faster (And For More Money)
 
 Here's what most LA sellers don't know: Homes that are staged sell 73% faster and for 6-10% more money.
