@@ -2,7 +2,7 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
-    id: "42",
+    id: "47",
     slug: "down-payment-assistance-programs-los-angeles-first-time-buyers",
     title: "Down Payment Assistance Programs LA: Get Into a Home With Less Money",
     excerpt: "Discover down payment assistance programs available to LA first-time buyers. Learn grant programs, 0-down options, and how to qualify to buy with minimal upfront cash.",
@@ -282,7 +282,7 @@ I'll review:
     readTime: 12,
   },
   {
-    id: "41",
+    id: "46",
     slug: "home-inspection-red-flags-what-not-to-ignore-los-angeles",
     title: "Home Inspection Red Flags: Critical Issues That Kill Deals in LA",
     excerpt: "Learn the home inspection red flags that derail LA real estate deals. Know which problems are fixable and which mean walk away—plus repair cost estimates.",
@@ -619,7 +619,7 @@ I'll walk you through what to expect, help interpret findings, and show you how 
     readTime: 13,
   },
   {
-    id: "40",
+    id: "45",
     slug: "cash-offer-strategy-pros-cons-los-angeles-real-estate-2026",
     title: "Cash Offer Strategy in LA: Should You Make an All-Cash Offer?",
     excerpt: "Complete guide to making cash offers in LA real estate. Learn when cash offers win, costs to consider, and whether it's worth giving up liquidity.",
@@ -838,7 +838,7 @@ I'll analyze: Your finances, market conditions, target property, and whether cas
     readTime: 11,
   },
   {
-    id: "39",
+    id: "44",
     slug: "how-to-improve-credit-score-for-home-buying-mortgage-approval",
     title: "How to Improve Your Credit Score for Home Buying: 30-Day Action Plan",
     excerpt: "Proven strategy to boost your credit score and mortgage approval odds. Actionable steps to increase score 50-100 points in 30 days for home buyers.",
@@ -1123,7 +1123,7 @@ I'll review: Your current credit situation, realistic timeline to improvement, p
     readTime: 12,
   },
   {
-    id: "38",
+    id: "43",
     slug: "fha-loans-vs-conventional-loans-which-is-right-for-you-los-angeles",
     title: "FHA Loans vs Conventional Loans: Complete LA Home Buyer Comparison",
     excerpt: "FHA vs conventional mortgages: pros, cons, and which type wins for your LA home purchase. Real numbers on rates, down payments, and monthly costs.",
