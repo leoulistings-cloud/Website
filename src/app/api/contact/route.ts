@@ -46,23 +46,34 @@ ${message}
 
     console.log("Email sent successfully");
 
-    // Send to Follow Up Boss - minimal test
+    // Send to Follow Up Boss
     const FUB_API_KEY = process.env.FUB_API_KEY;
+    const FUB_SYSTEM = process.env.FUB_SYSTEM || "website-contact-form";
+    const FUB_SYSTEM_KEY = process.env.FUB_SYSTEM_KEY || "";
+
     if (FUB_API_KEY) {
       try {
-        const personData: any = {
+        const fubHeaders = {
+          "Authorization": `Basic ${Buffer.from(`${FUB_API_KEY}:`).toString("base64")}`,
+          "Content-Type": "application/json",
+          "X-System": FUB_SYSTEM,
+          "X-System-Key": FUB_SYSTEM_KEY,
+        };
+
+        // Step 1: Create person with contact details
+        const personData = {
           firstName,
           lastName,
+          tags: ["website"],
+          emails: email ? [{ value: email }] : [],
+          phones: phone ? [{ value: phone }] : [],
         };
 
         console.log("Sending to FUB with data:", JSON.stringify(personData));
 
         const fubResponse = await fetch("https://api.followupboss.com/v1/people", {
           method: "POST",
-          headers: {
-            "Authorization": `Basic ${Buffer.from(`${FUB_API_KEY}:`).toString("base64")}`,
-            "Content-Type": "application/json",
-          },
+          headers: fubHeaders,
           body: JSON.stringify(personData),
         });
 
@@ -70,10 +81,32 @@ ${message}
         console.log("FUB Status:", fubResponse.status);
         console.log("FUB Response:", fubResponseText);
 
-        if (!fubResponse.ok) {
-          console.error("FUB Error:", fubResponseText);
+        if (fubResponse.ok) {
+          try {
+            const personResponse = JSON.parse(fubResponseText);
+            const personId = personResponse.id;
+
+            // Step 2: Add inquiry details as note
+            if (personId) {
+              const noteData = {
+                text: `Inquiry Type: ${inquiryType}\nBudget: ${budget}\n\nMessage:\n${message}`,
+              };
+
+              await fetch(`https://api.followupboss.com/v1/people/${personId}/notes`, {
+                method: "POST",
+                headers: fubHeaders,
+                body: JSON.stringify(noteData),
+              });
+
+              console.log("Note added to FUB contact");
+            }
+
+            console.log("Contact sent to FUB successfully");
+          } catch (parseError) {
+            console.error("FUB Response parse error:", parseError);
+          }
         } else {
-          console.log("Contact sent to FUB successfully");
+          console.error("FUB Error:", fubResponseText);
         }
       } catch (fubError) {
         console.error("FUB Error:", fubError);
