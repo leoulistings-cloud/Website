@@ -120,6 +120,9 @@ export default function Footer() {
           <p className="text-white/30 text-xs">
             Licensed Real Estate Broker. Equal Housing Opportunity.
           </p>
+          <Link href="/pale-blue-dot" className="group">
+            <div className="w-2 h-2 rounded-full bg-blue-400/40 hover:bg-blue-400/80 transition-all duration-300 group-hover:shadow-lg group-hover:shadow-blue-400/50" title="easter egg" />
+          </Link>
         </div>
       </div>
     </footer>

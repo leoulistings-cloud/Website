@@ -1,142 +1,71 @@
-"use client";
 import Link from "next/link";
-import Image from "next/image";
-import { ArrowLeft } from "lucide-react";
-import VisitorCounter from "@/components/VisitorCounter";
+import { ArrowLeft, Music, Video } from "lucide-react";
+import { Metadata } from "next";
 
-export default function PaleBlueDotPage() {
+export const metadata: Metadata = {
+  title: "Pale Blue Dot",
+  description: "A pale blue dot in a vast universe of real estate.",
+  robots: "noindex, nofollow",
+};
+
+export default function PaleBlueDot() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-black via-slate-950 to-black">
-      {/* Return button */}
-      <div className="fixed top-8 left-8 z-50">
+    <div className="min-h-screen bg-navy-950 flex flex-col items-center justify-center px-6">
+      <div className="max-w-2xl w-full text-center">
+        {/* Easter Egg Header */}
+        <div className="mb-12">
+          <div className="w-8 h-8 rounded-full bg-gradient-to-br from-blue-400 to-blue-600 mx-auto mb-8 shadow-2xl shadow-blue-400/50" />
+          <h1 className="font-serif text-4xl md:text-5xl text-white mb-4">
+            Pale Blue Dot
+          </h1>
+          <p className="text-white/60 text-lg leading-relaxed">
+            A small token of curiosity. You found the Easter egg.
+          </p>
+        </div>
+
+        {/* Coming Soon Section */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+          {/* Audio */}
+          <div className="bg-white/5 border border-gold-500/20 rounded-lg p-8 backdrop-blur-sm hover:border-gold-500/40 transition-all duration-300">
+            <Music className="w-12 h-12 text-blue-400 mx-auto mb-4" />
+            <h2 className="text-white font-serif text-xl mb-2">Audio Content</h2>
+            <p className="text-white/50 text-sm mb-4">
+              Stories, insights, and conversations about Los Angeles real estate.
+            </p>
+            <div className="inline-block bg-gold-500/10 text-gold-400 text-xs font-semibold tracking-widest px-3 py-1 rounded">
+              Coming Soon
+            </div>
+          </div>
+
+          {/* Video */}
+          <div className="bg-white/5 border border-gold-500/20 rounded-lg p-8 backdrop-blur-sm hover:border-gold-500/40 transition-all duration-300">
+            <Video className="w-12 h-12 text-blue-400 mx-auto mb-4" />
+            <h2 className="text-white font-serif text-xl mb-2">Video Content</h2>
+            <p className="text-white/50 text-sm mb-4">
+              Neighborhood tours, market analysis, and buyer education.
+            </p>
+            <div className="inline-block bg-gold-500/10 text-gold-400 text-xs font-semibold tracking-widest px-3 py-1 rounded">
+              Coming Soon
+            </div>
+          </div>
+        </div>
+
+        {/* Quote */}
+        <div className="mb-16 py-8 border-t border-white/10">
+          <p className="text-white/70 italic text-sm leading-relaxed max-w-xl mx-auto">
+            "Look again at that dot. That is here, that is home, that is us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives."
+          </p>
+          <p className="text-white/40 text-xs mt-4">- Carl Sagan, Pale Blue Dot</p>
+        </div>
+
+        {/* Back Link */}
         <Link
           href="/"
-          className="flex items-center gap-2 text-blue-300 hover:text-blue-100 transition-colors"
+          className="inline-flex items-center gap-2 text-gold-500 hover:text-gold-400 transition-colors"
         >
-          <ArrowLeft size={20} />
-          <span>Back</span>
+          <ArrowLeft size={16} />
+          <span className="text-sm tracking-widest uppercase">Return Home</span>
         </Link>
-      </div>
-
-      {/* Content */}
-      <div className="relative min-h-screen flex flex-col items-center justify-center px-6 py-20">
-        {/* Background accent - cosmic glow */}
-        <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl" />
-          <div className="absolute top-1/4 right-1/4 w-64 h-64 bg-purple-500/3 rounded-full blur-3xl" />
-          <div className="absolute bottom-1/4 left-1/3 w-48 h-48 bg-blue-400/2 rounded-full blur-3xl" />
-        </div>
-
-        {/* Content */}
-        <div className="relative z-10 max-w-2xl text-center">
-          {/* Pale blue dot */}
-          <div className="mb-8 flex justify-center">
-            <div className="w-24 h-24 rounded-full bg-gradient-to-br from-blue-400 to-cyan-300 shadow-2xl shadow-blue-400/50 animate-pulse" />
-          </div>
-
-          <h1 className="text-5xl md:text-6xl font-serif text-white mb-6">
-            A Pale Blue Dot
-          </h1>
-
-          <p className="text-lg text-blue-100 mb-12 leading-relaxed max-w-xl mx-auto">
-            Fair warning - you're about to learn things about me that don't belong in a listing presentation.
-          </p>
-
-          {/* Content sections */}
-          <div className="space-y-8 mb-12 w-full max-w-3xl">
-            {/* Audio section */}
-            <div className="bg-slate-900/30 backdrop-blur border border-blue-400/30 rounded-lg p-8 hover:border-blue-400/60 transition-colors">
-              <div className="mb-6 w-full bg-black rounded flex items-center justify-center py-6">
-                <img
-                  src="https://i.imgur.com/pjNkTH5.png"
-                  alt="Audio"
-                  style={{ height: '144px', width: 'auto' }}
-                />
-              </div>
-              <div className="space-y-4">
-                {/* Mando Podcast */}
-                <div className="space-y-2">
-                  <h3 className="text-blue-200 font-serif text-lg">Mando Podcast</h3>
-                  <div className="w-full border border-blue-400/40 rounded px-3 py-2 flex items-center">
-                    <audio
-                      controls
-                      className="w-full accent-blue-400"
-                    >
-                      <source src="https://crazy4comiccon.wordpress.com/wp-content/uploads/2026/05/mando-podcast.m4a" type="audio/mp4" />
-                      Your browser does not support the audio element.
-                    </audio>
-                  </div>
-                </div>
-                {/* Avengers Teaser */}
-                <div className="space-y-2">
-                  <h3 className="text-blue-200 font-serif text-lg">Avengers: Doomsday Teaser Reaction</h3>
-                  <div className="w-full border border-blue-400/40 rounded px-3 py-2 flex items-center">
-                    <audio
-                      controls
-                      className="w-full accent-blue-400"
-                    >
-                      <source src="https://crazy4comiccon.wordpress.com/wp-content/uploads/2025/12/avengers-teaser.m4a" type="audio/mp4" />
-                      Your browser does not support the audio element.
-                    </audio>
-                  </div>
-                </div>
-                {/* Supergirl Teaser */}
-                <div className="space-y-2">
-                  <h3 className="text-blue-200 font-serif text-lg">Supergirl Teaser</h3>
-                  <div className="w-full border border-blue-400/40 rounded px-3 py-2 flex items-center">
-                    <audio
-                      controls
-                      className="w-full accent-blue-400"
-                    >
-                      <source src="https://crazy4comiccon.wordpress.com/wp-content/uploads/2025/12/supergirl-teaser-1.m4a" type="audio/mp4" />
-                      Your browser does not support the audio element.
-                    </audio>
-                  </div>
-                </div>
-                {/* Superman Review */}
-                <div className="space-y-2">
-                  <h3 className="text-blue-200 font-serif text-lg">Superman Review</h3>
-                  <div className="w-full border border-blue-400/40 rounded px-3 py-2 flex items-center">
-                    <audio
-                      controls
-                      className="w-full accent-blue-400"
-                    >
-                      <source src="https://crazy4comiccon.wordpress.com/wp-content/uploads/2025/07/superman-review.m4a" type="audio/mp4" />
-                      Your browser does not support the audio element.
-                    </audio>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Video section */}
-            <div className="bg-slate-900/30 backdrop-blur border border-blue-400/30 rounded-lg p-8 hover:border-blue-400/60 transition-colors">
-              <div className="text-4xl mb-4">🎬</div>
-              <h2 className="text-2xl font-serif text-white mb-3">Video</h2>
-              <div className="w-full aspect-video rounded overflow-hidden border border-blue-400/40">
-                <iframe
-                  width="100%"
-                  height="100%"
-                  src="https://www.youtube.com/embed/ney7PpmqUjA"
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                  className="w-full h-full"
-                />
-              </div>
-            </div>
-          </div>
-
-          {/* Sagan quote */}
-          <div className="mt-16 pt-8 border-t border-blue-400/30">
-            <p className="text-blue-300 italic text-sm leading-relaxed max-w-xl mx-auto">
-              "Look again at that dot. That's here. That's home. That's us."
-            </p>
-            <p className="text-blue-400/60 text-xs mt-3">— Carl Sagan, Pale Blue Dot</p>
-            <VisitorCounter />
-          </div>
-        </div>
       </div>
     </div>
   );
