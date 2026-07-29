@@ -103,6 +103,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "theplayersaid.com",
       },
+      {
+        protocol: "https",
+        hostname: "stephencook.com.au",
+      },
     ],
   },
 };

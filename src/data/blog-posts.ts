@@ -841,7 +841,7 @@ I'll analyze: Your finances, market conditions, target property, and whether cas
     slug: "how-to-improve-credit-score-for-home-buying-mortgage-approval",
     title: "How to Improve Your Credit Score for Home Buying: 30-Day Action Plan",
     excerpt: "Proven strategy to boost your credit score and mortgage approval odds. Actionable steps to increase score 50-100 points in 30 days for home buyers.",
-    coverImage: "https://images.unsplash.com/photo-1554224311-beee415c15c9?w=1200&h=630&fit=crop",
+    coverImage: "https://stephencook.com.au/wp-content/uploads/2020/11/wateryearcalendar.jpg?w=700",
     content: `Boost Your Credit Score 50-100 Points Before Buying a Home
 
 Your credit score determines:
