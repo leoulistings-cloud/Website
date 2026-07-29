@@ -6,7 +6,7 @@ export const blogPosts: BlogPost[] = [
     slug: "down-payment-assistance-programs-los-angeles-first-time-buyers",
     title: "Down Payment Assistance Programs LA: Get Into a Home With Less Money",
     excerpt: "Discover down payment assistance programs available to LA first-time buyers. Learn grant programs, 0-down options, and how to qualify to buy with minimal upfront cash.",
-    coverImage: "https://images.unsplash.com/photo-1543269865-cbdf26861551?w=1200&h=630&fit=crop",
+    coverImage: "https://www.bankrate.com/2022/07/27104406/Homes-Average-down-payment-for-first-time-homebuyers-How-much-is-it-and-how-can-you-lower-it.jpg?auto=webp&optimize=high&crop=16:9",
     content: `Stop Waiting for Savings: Down Payment Assistance Programs in LA
 
 The #1 excuse first-time buyers give: "I can't afford the down payment."
@@ -286,7 +286,7 @@ I'll review:
     slug: "home-inspection-red-flags-what-not-to-ignore-los-angeles",
     title: "Home Inspection Red Flags: Critical Issues That Kill Deals in LA",
     excerpt: "Learn the home inspection red flags that derail LA real estate deals. Know which problems are fixable and which mean walk away—plus repair cost estimates.",
-    coverImage: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=630&fit=crop",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStoGLbZeO6wxdNvnm4qCIyVP---GNd4MAou9q2QM_twZooC6yV5aNPjg4&s=10",
     content: `The 10 Home Inspection Red Flags That Make Buyers Walk Away
 
 You found the perfect home. The inspection comes back and reveals problems.
@@ -623,7 +623,7 @@ I'll walk you through what to expect, help interpret findings, and show you how 
     slug: "cash-offer-strategy-pros-cons-los-angeles-real-estate-2026",
     title: "Cash Offer Strategy in LA: Should You Make an All-Cash Offer?",
     excerpt: "Complete guide to making cash offers in LA real estate. Learn when cash offers win, costs to consider, and whether it's worth giving up liquidity.",
-    coverImage: "https://images.unsplash.com/photo-1579621970563-7ae8fcf27359?w=1200&h=630&fit=crop",
+    coverImage: "https://theplayersaid.com/wp-content/uploads/2021/04/war-room-eto-board.jpg?w=616",
     content: `The All-Cash Offer Strategy That Wins in LA's Competitive Market
 
 Cash is king in real estate. An all-cash offer in LA can beat 10 financed offers.

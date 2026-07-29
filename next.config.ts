@@ -91,6 +91,18 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "usercontent.one",
       },
+      {
+        protocol: "https",
+        hostname: "www.bankrate.com",
+      },
+      {
+        protocol: "https",
+        hostname: "encrypted-tbn0.gstatic.com",
+      },
+      {
+        protocol: "https",
+        hostname: "theplayersaid.com",
+      },
     ],
   },
 };
