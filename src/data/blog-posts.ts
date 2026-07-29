@@ -748,12 +748,11 @@ Step 2: The Offer
 
 Step 3: The Letter
 Include with your offer:
-```
-"We are prepared to close immediately with cash.
-No financing contingency, no inspection contingency.
-Your timeline is our timeline.
-We're flexible on closing date to accommodate your needs."
-```
+
+> "We are prepared to close immediately with cash.
+> No financing contingency, no inspection contingency.
+> Your timeline is our timeline.
+> We're flexible on closing date to accommodate your needs."
 
 Step 4: Negotiate
 - If seller counters $780K, you can walk
