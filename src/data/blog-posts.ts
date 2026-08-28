@@ -2646,21 +2646,31 @@ Los Angeles has long been one of the most welcoming cities in the world for LGBT
 
 ## Silver Lake: The Historic Heart
 
-Silver Lake has been a center of LGBTQ+ life in Los Angeles since the 1970s, and remains one of the most affirming neighborhoods in the city. The community is deeply established, the local businesses are welcoming, and the neighborhood's mix of longtime residents and newer arrivals creates a rich, layered culture. Home prices are competitive, but the investment in Silver Lake has historically been sound.
+Silver Lake has been a center of LGBTQ+ life in Los Angeles since the 1970s, and remains one of the most affirming neighborhoods in the city. The community is deeply established, the local businesses are welcoming, and the neighborhood's mix of longtime residents and newer arrivals creates a rich, layered culture. Home prices are competitive, ranging from $850K-$1.2M for a 2-bed, but the investment in Silver Lake has historically been sound with consistent 5-7% annual appreciation.
+
+The Reservoir—Silver Lake's crown jewel—hosts a vibrant community of joggers, dog walkers, and neighbors who gather year-round. The neighborhood's walkable corridors along Sunset Boulevard and Micheltorena Street host hundreds of LGBTQ+ owned and friendly coffee shops, restaurants, galleries, and boutiques.
 
 ## West Hollywood: The Gold Standard
 
-WeHo is one of the most famous LGBTQ+ communities in the world, and for good reason. As its own incorporated city, West Hollywood has enacted some of the country's most progressive protections and boasts an unmatched concentration of LGBTQ+ owned and friendly businesses, nightlife, and services. Prices are among the highest in the LA market, but WeHo condos and townhomes hold their value exceptionally well.
+WeHo is one of the most famous LGBTQ+ communities in the world, and for good reason. As its own incorporated city (population ~35,000), West Hollywood has enacted some of the country's most progressive protections and boasts an unmatched concentration of LGBTQ+ owned and friendly businesses, nightlife, and services. Prices are among the highest in the LA market ($1.1M-$1.8M for a 2-bed condo), but WeHo condos and townhomes hold their value exceptionally well.
+
+The city council is majority LGBTQ+, and legal protections for housing, employment, and public accommodations are some of the strongest in the nation. Santa Monica Boulevard is the cultural heart—home to legendary venues, restaurants, and community institutions that have served the community for decades.
 
 ## Echo Park & Los Feliz
 
-Both neighborhoods have strong LGBTQ+ presences and welcoming, progressive communities. Echo Park in particular offers more attainable entry prices while still delivering the inclusive, arts-forward energy that many LGBTQ+ buyers seek.
+Both neighborhoods have strong LGBTQ+ presences and welcoming, progressive communities. Echo Park in particular offers more attainable entry prices ($750K-$1M for a 2-bed) while still delivering the inclusive, arts-forward energy that many LGBTQ+ buyers seek. The newly renovated Echo Park Lake has become a hub for community gathering.
+
+Los Feliz, just north, offers hillside living with similar values and slightly more space for comparable prices. Both neighborhoods have progressive local leadership and an unmissable arts and music culture.
 
 ## Long Beach
 
-Often overlooked, Long Beach has a thriving LGBTQ+ community centered around the Belmont Shore and East Village neighborhoods. Home prices are significantly more attainable than WeHo or Silver Lake, and the city's commitment to LGBTQ+ inclusion is deep and genuine.
+Often overlooked, Long Beach has a thriving LGBTQ+ community centered around the Belmont Shore and East Village neighborhoods. Home prices are significantly more attainable ($650K-$950K for a 2-bed), and the city's commitment to LGBTQ+ inclusion is deep and genuine. Long Beach Pride is one of the largest in the country, and the city offers excellent schools, diverse dining, and beach access that many LGBTQ+ families prioritize.
 
-As an agent who proudly serves the LGBTQ+ community, I understand what you're looking for in a neighborhood - not just the property itself. Let's find the right fit together.
+## Affordability vs. Established Community
+
+The trade-off in choosing an LGBTQ+ neighborhood is often affordability vs. established infrastructure. Silver Lake and WeHo have the deepest community institutions but highest prices. Echo Park and Long Beach offer newer, more affordable entry points with growing (rather than established) community presence.
+
+As an agent who proudly serves the LGBTQ+ community, I understand what you're looking for in a neighborhood—not just the property itself. Let's find the right fit together.
     `,
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
@@ -2682,21 +2692,33 @@ If you're building a Southern California real estate portfolio, at some point yo
 
 ## Los Angeles: Higher Upside, More Complexity
 
-Los Angeles offers incredible diversity of investment options - from multi-unit buildings in Boyle Heights to small mixed-use properties in Silver Lake to single-family rentals in Los Feliz. Entry prices are high, but rental demand is enormous and vacancy rates in desirable neighborhoods remain extremely low.
+Los Angeles offers incredible diversity of investment options - from multi-unit buildings in Boyle Heights to small mixed-use properties in Silver Lake to single-family rentals in Los Feliz. Entry prices are high (typical 2-unit: $1.2M-$1.6M), but rental demand is enormous and vacancy rates in desirable neighborhoods remain extremely low (2-4%).
 
-The complexity is real, though. LA has some of the country's most tenant-protective rent control laws, and navigating them requires careful preparation and ideally an experienced property management partner.
+The complexity is real, though. LA has some of the country's most tenant-protective rent control laws, particularly in cities like Santa Monica, West Hollywood, and Los Angeles proper. LA's Rent Stabilization Ordinance caps annual increases at 3-5% and requires just cause for eviction. Navigating this requires careful property selection, experienced legal counsel, and ideally a property management partner who knows the local landscape.
+
+Multi-unit properties in gentrifying neighborhoods (Boyle Heights, Lincoln Heights, Koreatown) have appreciated 8-12% annually over the past five years, but rent control limits your income upside. Single-family rentals in less regulated areas (Irvine-adjacent parts of LA County) offer better cash flow but slightly lower appreciation.
 
 ## Orange County: Stability and Strong Tenant Profiles
 
-Orange County tends to attract higher-income tenants, particularly in Irvine and Tustin, where proximity to the Irvine Company's employment ecosystem creates consistent rental demand from tech and finance professionals. Appreciation is steady if less dramatic than some LA micro-markets.
+Orange County tends to attract higher-income tenants, particularly in Irvine, Tustin, and Aliso Viejo, where proximity to major employment centers (Irvine Tech Corridor, Newport Corporate Center) creates consistent rental demand from tech, finance, and healthcare professionals. Entry prices are 15-20% lower than comparable LA properties ($900K-$1.2M for a 2-unit), but appreciation is steady if less dramatic—typically 4-6% annually.
 
-OC also has fewer regulatory complexities around rent control - most OC cities fall under the state's AB 1482 framework rather than stricter local ordinances.
+OC has fewer regulatory complexities around rent control. Most OC cities fall under the state's AB 1482 framework rather than stricter local ordinances, meaning landlords have greater control over rent increases and tenant management. The tradeoff: lower regulation also means less tenant stability and potentially higher turnover costs.
+
+Tenant profiles are markedly different. OC tenants typically have higher household incomes, longer lease tenure (average 3-5 years vs. 1-2 years in LA), and lower eviction risk. This translates to more predictable cash flow and lower vacancy risk.
+
+## Capital Appreciation vs. Monthly Cash Flow
+
+**LA strategy:** Lower monthly cash flow, higher appreciation. Expect 3-5% cap rates but 8-10% total return via appreciation. Better for investors who can weather 6-12 month vacancies and have capital to weather market cycles.
+
+**OC strategy:** Better monthly cash flow, steadier appreciation. Expect 5-7% cap rates plus 4-6% appreciation. Better for investors who need reliable income and want to refinance/buy additional properties every 3-5 years.
 
 ## My Recommendation
 
-For investors who want maximum long-term appreciation potential and have time to manage complexity, LA's east side neighborhoods still offer compelling opportunities. For investors who prioritize stability, cash flow predictability, and tenant quality, Irvine and Tustin are excellent choices.
+For investors who want maximum long-term appreciation potential and have time to manage complexity, LA's east side neighborhoods (Boyle Heights, Lincoln Heights, Koreatown) still offer compelling opportunities if you can navigate rent control and hold long-term (10+ years).
 
-The best strategy often combines both: a small multi-unit in an appreciating LA neighborhood alongside a single-family rental in Irvine. I've helped investors build exactly this kind of portfolio - reach out if you want to talk strategy.
+For investors who prioritize stability, cash flow predictability, and tenant quality, Irvine, Tustin, and Aliso Viejo are excellent choices.
+
+The best strategy often combines both: a small multi-unit in an appreciating LA neighborhood (for 10-year hold appreciation) alongside a single-family rental or 2-unit in Irvine (for monthly cash flow to fund additional acquisitions). I've helped investors build exactly this kind of portfolio—reach out if you want to talk strategy.
     `,
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
