@@ -81,16 +81,18 @@ export default function BlogPage() {
             </div>
 
             {/* Search */}
-            <div className="flex items-center gap-2 bg-navy-900 border border-white/10 px-3 py-2 w-full sm:w-auto">
-              <Search size={14} className="text-white/40 shrink-0" />
+            <label htmlFor="blog-search" className="flex items-center gap-2 bg-navy-900 border border-white/10 px-3 py-2 w-full sm:w-auto">
+              <Search size={14} className="text-white/40 shrink-0" aria-hidden="true" />
               <input
+                id="blog-search"
                 type="text"
                 placeholder="Search articles..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="bg-transparent text-white text-sm outline-none placeholder:text-white/30 w-48"
+                className="bg-transparent text-white text-sm outline-none placeholder:text-white/30 w-48 focus-visible:outline-2 focus-visible:outline-gold-500 focus-visible:outline-offset-2"
+                aria-label="Search articles"
               />
-            </div>
+            </label>
           </div>
         </div>
       </section>

@@ -91,6 +91,7 @@ export default function Navbar() {
             onClick={() => setMenuOpen(!menuOpen)}
             className="md:hidden text-white p-2"
             aria-label="Toggle menu"
+            aria-expanded={menuOpen}
           >
             {menuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>

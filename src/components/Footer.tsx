@@ -42,7 +42,7 @@ export default function Footer() {
 
           {/* Properties */}
           <div>
-            <h4 className="text-gold-500 text-xs tracking-[0.2em] uppercase mb-6">Properties</h4>
+            <h3 className="text-gold-500 text-xs tracking-[0.2em] uppercase mb-6">Properties</h3>
             <ul className="space-y-3">
               {["Featured Listings", "New to Market", "Sold Properties", "For Lease", "Off-Market", "New Development"].map((item) => (
                 <li key={item}>
@@ -59,7 +59,7 @@ export default function Footer() {
 
           {/* Company */}
           <div>
-            <h4 className="text-gold-500 text-xs tracking-[0.2em] uppercase mb-6">Company</h4>
+            <h3 className="text-gold-500 text-xs tracking-[0.2em] uppercase mb-6">Company</h3>
             <ul className="space-y-3">
               {[
                 { label: "About Us", href: "/about" },
@@ -83,7 +83,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="text-gold-500 text-xs tracking-[0.2em] uppercase mb-6">Contact</h4>
+            <h3 className="text-gold-500 text-xs tracking-[0.2em] uppercase mb-6">Contact</h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin size={14} className="text-gold-500 mt-0.5 shrink-0" />

@@ -251,16 +251,16 @@ export default function ContactPage() {
                       </div>
                     </div>
                     <div>
-                      <label className="text-white/40 text-xs tracking-widest uppercase block mb-2">Inquiry Type</label>
-                      <select name="inquiryType" value={formData.inquiryType} onChange={handleChange} className="w-full bg-navy-950 border border-white/10 text-white/70 text-sm px-4 py-3 outline-none focus:border-gold-500 transition-colors">
+                      <label htmlFor="inquiry-type" className="text-white/70 text-xs tracking-widest uppercase block mb-2">Inquiry Type</label>
+                      <select id="inquiry-type" name="inquiryType" value={formData.inquiryType} onChange={handleChange} className="w-full bg-navy-950 border border-white/10 text-white/70 text-sm px-4 py-3 outline-none focus:border-gold-500 transition-colors focus-visible:outline-2 focus-visible:outline-gold-500 focus-visible:outline-offset-2">
                         {inquiryTypes.map((t) => (
                           <option key={t} value={t} className="bg-navy-950">{t}</option>
                         ))}
                       </select>
                     </div>
                     <div>
-                      <label className="text-white/40 text-xs tracking-widest uppercase block mb-2">Budget / Price Range</label>
-                      <select name="budget" value={formData.budget} onChange={handleChange} className="w-full bg-navy-950 border border-white/10 text-white/70 text-sm px-4 py-3 outline-none focus:border-gold-500 transition-colors">
+                      <label htmlFor="budget-range" className="text-white/70 text-xs tracking-widest uppercase block mb-2">Budget / Price Range</label>
+                      <select id="budget-range" name="budget" value={formData.budget} onChange={handleChange} className="w-full bg-navy-950 border border-white/10 text-white/70 text-sm px-4 py-3 outline-none focus:border-gold-500 transition-colors focus-visible:outline-2 focus-visible:outline-gold-500 focus-visible:outline-offset-2">
                         {["$600K – $700K", "$700K – $800K", "$800K – $900K", "$900K – $1M", "$1M – $1.1M", "$1.1M – $1.2M", "$1.2M – $1.3M", "$1.3M – $1.4M", "$1.4M – $1.5M", "$1.5M – $2M", "$2M – $3M", "$3M – $4M", "$4M – $5M", "$5M+", "Prefer not to say"].map((r) => (
                           <option key={r} className="bg-navy-950">{r}</option>
                         ))}
