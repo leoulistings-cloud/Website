@@ -1,9 +1,9 @@
-import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, Clock, Tag, ArrowRight } from "lucide-react";
 import { getBlogPostBySlug, blogPosts } from "@/data/blog-posts";
+import type { Metadata } from "next";
 
 const isPublished = (post: typeof blogPosts[0]): boolean => {
   const scheduledDate = post.scheduledAt ? new Date(post.scheduledAt) : new Date(post.publishedAt);
@@ -18,25 +18,23 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = getBlogPostBySlug(slug);
 
-  if (!post) {
-    return {
-      title: "Post Not Found",
-    };
+  if (!post || !isPublished(post)) {
+    return {};
   }
 
-  const description = post.metaDescription || post.excerpt;
+  const url = `https://leoulistings.com/blog/${post.slug}`;
 
   return {
-    title: `${post.title} | Johnny Leou Real Estate`,
-    description,
+    title: post.title,
+    description: post.excerpt,
+    alternates: {
+      canonical: url,
+    },
     openGraph: {
       title: post.title,
-      description,
+      description: post.excerpt,
+      url,
       type: "article",
-      publishedTime: post.publishedAt,
-      authors: ["Johnny Leou"],
-      tags: post.tags,
-      url: `https://johnnyleou.com/blog/${post.slug}`,
       images: [
         {
           url: post.coverImage,
@@ -45,6 +43,14 @@ export async function generateMetadata({
           alt: post.title,
         },
       ],
+      authors: [post.author],
+      publishedTime: post.publishedAt,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.excerpt,
+      images: [post.coverImage],
     },
   };
 }
@@ -62,21 +68,66 @@ export default async function BlogPostPage({
     .filter((p) => p.id !== post.id && p.category === post.category && isPublished(p))
     .slice(0, 2);
 
+  const processInlineMarkdown = (text: string) => {
+    // Replace **text** with <strong>text</strong>
+    return text.split("**").reduce((acc, part, index) => {
+      if (index % 2 === 0) {
+        return acc + part;
+      }
+      return acc + `<strong>${part}</strong>`;
+    }, "");
+  };
+
   const htmlContent = post.content
     .split("\n\n")
     .map((block) => {
+      // Handle H2 headings
       if (block.startsWith("## ")) {
-        return `<h2 class="font-serif text-white text-2xl mt-10 mb-4">${block.slice(3)}</h2>`;
+        return `<h2 class="font-serif text-white text-2xl mt-10 mb-4">${processInlineMarkdown(block.slice(3))}</h2>`;
       }
-      if (block.trim().startsWith("-")) {
-        const items = block
-          .split("\n")
+      // Handle H3 headings
+      if (block.startsWith("### ")) {
+        return `<h3 class="font-serif text-white text-xl mt-6 mb-3">${processInlineMarkdown(block.slice(4))}</h3>`;
+      }
+      // Handle horizontal rules
+      if (block.trim() === "---") {
+        return `<hr class="my-8 border-white/10" />`;
+      }
+
+      const lines = block.split("\n");
+
+      // Check for bullet lists
+      const hasBulletItems = lines.some((l) => l.trim().startsWith("-"));
+      if (hasBulletItems) {
+        const items = lines
           .filter((l) => l.trim().startsWith("-"))
-          .map((l) => `<li>${l.slice(1).trim()}</li>`)
+          .map((l) => {
+            let text = l.slice(l.indexOf("-") + 1).trim();
+            text = processInlineMarkdown(text);
+            return `<li>${text}</li>`;
+          })
           .join("");
         return `<ul class="list-disc list-inside text-white/60 space-y-1.5 mb-4">${items}</ul>`;
       }
-      return `<p class="text-white/60 leading-relaxed mb-4">${block.trim()}</p>`;
+
+      // Check for numbered lists
+      const hasNumberedItems = lines.some((l) => /^\s*\d+\./.test(l));
+      if (hasNumberedItems) {
+        const items = lines
+          .filter((l) => /^\s*\d+\./.test(l))
+          .map((l) => {
+            let text = l.replace(/^\s*\d+\.\s*/, "").trim();
+            text = processInlineMarkdown(text);
+            return `<li>${text}</li>`;
+          })
+          .join("");
+        return `<ol class="list-decimal list-inside text-white/60 space-y-1.5 mb-4">${items}</ol>`;
+      }
+
+      // Regular paragraphs
+      let text = block.trim();
+      text = processInlineMarkdown(text);
+      return `<p class="text-white/60 leading-relaxed mb-4">${text}</p>`;
     })
     .join("");
 

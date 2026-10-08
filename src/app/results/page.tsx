@@ -112,7 +112,7 @@ export default function ResultsPage() {
                     }`}>
                       {c.type}
                     </span>
-                    <h3 className="font-serif text-white text-2xl leading-tight">{c.outcome}</h3>
+                    <h2 className="font-serif text-white text-2xl leading-tight">{c.outcome}</h2>
                     <p className="text-gold-500 text-sm mt-1">{c.detail}</p>
                   </div>
                   <div className="bg-gold-500/10 p-3 shrink-0">

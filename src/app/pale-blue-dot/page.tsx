@@ -29,10 +29,6 @@ export default function PaleBlueDotPage() {
 
         {/* Content */}
         <div className="relative z-10 max-w-2xl text-center">
-          {/* Pale blue dot */}
-          <div className="mb-8 flex justify-center">
-            <div className="w-24 h-24 rounded-full bg-gradient-to-br from-blue-400 to-cyan-300 shadow-2xl shadow-blue-400/50 animate-pulse" />
-          </div>
 
           <h1 className="text-5xl md:text-6xl font-serif text-white mb-6">
             A Pale Blue Dot
@@ -69,7 +65,7 @@ export default function PaleBlueDotPage() {
                 </div>
                 {/* Avengers Teaser */}
                 <div className="space-y-2">
-                  <h3 className="text-blue-200 font-serif text-lg">Avengers: Doomsday Teaser Reaction</h3>
+                  <h3 className="text-blue-200 font-serif text-lg">Avengers Teaser</h3>
                   <div className="w-full border border-blue-400/40 rounded px-3 py-2 flex items-center">
                     <audio
                       controls
@@ -117,12 +113,12 @@ export default function PaleBlueDotPage() {
                 <iframe
                   width="100%"
                   height="100%"
-                  src="https://www.youtube.com/embed/ney7PpmqUjA"
+                  src="https://www.youtube.com/embed/zAL5FcZLJvQ?si=9rB1sN1zQqLtYe_u"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
-                  className="w-full h-full"
+                  className="bg-black"
                 />
               </div>
             </div>
@@ -136,6 +132,11 @@ export default function PaleBlueDotPage() {
             <p className="text-blue-400/60 text-xs mt-3">— Carl Sagan, Pale Blue Dot</p>
             <VisitorCounter />
           </div>
+        </div>
+
+        {/* Small pale blue dot - bottom right */}
+        <div className="fixed bottom-8 right-8 z-20">
+          <div className="w-8 h-8 rounded-full bg-gradient-to-br from-blue-400 to-cyan-300 shadow-lg shadow-blue-400/50 animate-pulse" />
         </div>
       </div>
     </div>

@@ -25,6 +25,25 @@ const schemaMarkup = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "Person",
+      "@id": "https://johnnyleou.com/#person",
+      "name": "Johnny Leou",
+      "jobTitle": "Real Estate Agent",
+      "description": "Johnny Leou is a Los Angeles real estate agent (DRE#02064780) specializing in residential homes, luxury properties, and investment real estate.",
+      "url": "https://johnnyleou.com",
+      "image": "https://i.imgur.com/hxM6WgE.jpg",
+      "sameAs": [
+        "https://www.instagram.com/leoulistings",
+        "https://www.linkedin.com/in/johnnyleou"
+      ],
+      "hasCredential": {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Real Estate License",
+        "recognizedBy": { "@type": "Organization", "name": "California Department of Real Estate" },
+        "identifier": "DRE #02064780"
+      }
+    },
+    {
       "@type": ["RealEstateAgent", "LocalBusiness"],
       "@id": "https://johnnyleou.com/#agent",
       "name": "Johnny Leou Real Estate",
@@ -98,8 +117,11 @@ export default function RootLayout({
         />
       </head>
       <body>
+        <a href="#main-content" className="skip-to-main">
+          Skip to main content
+        </a>
         <Navbar />
-        <main>{children}</main>
+        <main id="main-content">{children}</main>
         <Footer />
         <PaleBlueEgg />
       </body>

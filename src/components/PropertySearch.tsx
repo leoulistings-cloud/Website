@@ -50,18 +50,22 @@ function Select({
   value,
   onChange,
   label,
+  id,
 }: {
   options: string[];
   value: string;
   onChange: (v: string) => void;
   label: string;
+  id?: string;
 }) {
+  const selectId = id || `select-${label.toLowerCase().replace(/\s+/g, '-')}`;
   return (
     <div className="relative">
       <select
+        id={selectId}
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        className="w-full bg-transparent text-white/80 text-sm border-0 outline-none appearance-none pr-8 py-2 cursor-pointer"
+        className="w-full bg-transparent text-white/80 text-sm border-0 outline-none appearance-none pr-8 py-2 cursor-pointer focus-visible:outline-2 focus-visible:outline-gold-500 focus-visible:outline-offset-2"
         aria-label={label}
       >
         {options.map((opt) => (
@@ -70,7 +74,7 @@ function Select({
           </option>
         ))}
       </select>
-      <ChevronDown size={12} className="absolute right-0 top-1/2 -translate-y-1/2 text-gold-500 pointer-events-none" />
+      <ChevronDown size={12} className="absolute right-0 top-1/2 -translate-y-1/2 text-gold-500 pointer-events-none" aria-hidden="true" />
     </div>
   );
 }
@@ -118,17 +122,18 @@ export default function PropertySearch({ compact = false }: { compact?: boolean 
       <div className="grid grid-cols-1 md:grid-cols-4 gap-0 divide-y md:divide-y-0 md:divide-x divide-white/10">
         {/* Keyword */}
         <div className="md:pr-6 pb-4 md:pb-0">
-          <p className="text-gold-500 text-[10px] tracking-[0.2em] uppercase mb-2">
+          <label htmlFor="search-keyword" className="text-gold-500 text-[10px] tracking-[0.2em] uppercase mb-2 block">
             Search
-          </p>
+          </label>
           <div className="flex items-center gap-2">
-            <Search size={14} className="text-white/40 shrink-0" />
+            <Search size={14} className="text-white/40 shrink-0" aria-hidden="true" />
             <input
+              id="search-keyword"
               type="text"
               placeholder="City, neighborhood..."
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              className="w-full bg-transparent text-white/80 text-sm outline-none placeholder:text-white/30"
+              className="w-full bg-transparent text-white/80 text-sm outline-none placeholder:text-white/30 focus-visible:outline-2 focus-visible:outline-gold-500 focus-visible:outline-offset-2"
             />
           </div>
         </div>

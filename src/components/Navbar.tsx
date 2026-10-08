@@ -42,7 +42,7 @@ export default function Navbar() {
             <span className="text-white font-serif text-xl tracking-[0.15em] uppercase leading-none">
               Johnny <span className="text-gold-500">Leou</span>
             </span>
-            <span className="text-gold-500/60 text-[10px] tracking-[0.3em] uppercase">
+            <span className="text-gold-500 text-[10px] tracking-[0.3em] uppercase opacity-75">
               Real Estate | DRE #02064780
             </span>
           </Link>
@@ -91,6 +91,7 @@ export default function Navbar() {
             onClick={() => setMenuOpen(!menuOpen)}
             className="md:hidden text-white p-2"
             aria-label="Toggle menu"
+            aria-expanded={menuOpen}
           >
             {menuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
