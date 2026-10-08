@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowRight, TrendingUp, Home, Key, Award } from "lucide-react";
 
 const caseStudies = [
+  // Buyers (left)
   {
     icon: TrendingUp,
     outcome: "$25K Below + $25K Repair Credit",
@@ -31,6 +32,21 @@ const caseStudies = [
     ],
   },
   {
+    icon: Key,
+    outcome: "$115K Down Payment Assistance",
+    detail: "MIPA Program",
+    neighborhood: "North Hollywood",
+    type: "Buyer",
+    description:
+      "Successfully navigated the MIPA program - one of California's most complex down payment assistance programs - securing $115,000 in assistance for a first-time buyer. Closed $14,000 below asking with a $5,000 credit to the buyer within a strict 60-day escrow.",
+    stats: [
+      { label: "Assistance Secured", value: "$115K" },
+      { label: "Below Asking", value: "$14K" },
+      { label: "Buyer Credit", value: "$5K" },
+    ],
+  },
+  // Sellers (right)
+  {
     icon: TrendingUp,
     outcome: "$120K Over Asking",
     detail: "10 Offers Generated",
@@ -56,20 +72,6 @@ const caseStudies = [
       { label: "Result", value: "+$30K" },
       { label: "Market", value: "Boyle Heights" },
       { label: "Offers", value: "Multiple" },
-    ],
-  },
-  {
-    icon: Key,
-    outcome: "$115K Down Payment Assistance",
-    detail: "MIPA Program",
-    neighborhood: "North Hollywood",
-    type: "Buyer",
-    description:
-      "Successfully navigated the MIPA program - one of California's most complex down payment assistance programs - securing $115,000 in assistance for a first-time buyer. Closed $14,000 below asking with a $5,000 credit to the buyer within a strict 60-day escrow.",
-    stats: [
-      { label: "Assistance Secured", value: "$115K" },
-      { label: "Below Asking", value: "$14K" },
-      { label: "Buyer Credit", value: "$5K" },
     ],
   },
   {
