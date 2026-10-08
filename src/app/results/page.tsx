@@ -4,6 +4,34 @@ import { ArrowRight, TrendingUp, Home, Key, Award } from "lucide-react";
 const caseStudies = [
   {
     icon: TrendingUp,
+    outcome: "$25K Below + $25K Repair Credit",
+    detail: "Appraised $30K Above Offer",
+    neighborhood: "Pasadena",
+    type: "Buyer",
+    description:
+      "Secured a purchase $25,000 below asking price while negotiating an additional $25,000 in repair credits - a dual advantage that positioned the buyer perfectly. The property subsequently appraised $30,000 above the accepted offer price, proving the true value was captured through strategic negotiation, not market luck.",
+    stats: [
+      { label: "Price Reduction", value: "$25K Below" },
+      { label: "Repair Credits", value: "$25K" },
+      { label: "Appraisal Premium", value: "$30K Above" },
+    ],
+  },
+  {
+    icon: TrendingUp,
+    outcome: "$24K Below Asking",
+    detail: "Sub 3% Interest Rate Secured",
+    neighborhood: "Inglewood",
+    type: "Buyer",
+    description:
+      "Navigated a highly competitive Inglewood market to close at $24,000 below asking price while securing an exceptional sub-3% interest rate - a rare advantage in today's lending environment. Strategic negotiation on both price and financing terms created significant long-term value for the buyer.",
+    stats: [
+      { label: "Price Below Asking", value: "$24K" },
+      { label: "Interest Rate", value: "Sub 3%" },
+      { label: "Market", value: "Inglewood" },
+    ],
+  },
+  {
+    icon: TrendingUp,
     outcome: "$120K Over Asking",
     detail: "10 Offers Generated",
     neighborhood: "Los Angeles",
