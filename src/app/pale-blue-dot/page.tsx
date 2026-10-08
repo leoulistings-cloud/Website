@@ -113,12 +113,12 @@ export default function PaleBlueDotPage() {
                 <iframe
                   width="100%"
                   height="100%"
-                  src="https://www.youtube.com/embed/zAL5FcZLJvQ?si=9rB1sN1zQqLtYe_u"
+                  src="https://www.youtube.com/embed/ney7PpmqUjA"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowFullScreen
-                  className="bg-black"
+                  className="w-full h-full"
                 />
               </div>
             </div>
