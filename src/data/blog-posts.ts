@@ -130,7 +130,7 @@ Prop 37 passed November 3, 2026. The California Housing Finance Agency began iss
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
     authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSicfsVHS20B26-jDP8qfqoejMpipQ0LMqMhA2ZAZjTE2_5AEW2uZcWEA&s=10",
+    coverImage: "https://media.abc10.com/assets/KXTV/images/bc569a63-4798-480d-977a-0e80ab15354a/20261104T062524/bc569a63-4798-480d-977a-0e80ab15354a_1920x1080.jpg",
     category: "Market Insights",
     tags: ["Proposition 37", "Prop 37", "Down Payment Assistance", "Homebuyer Programs", "California Real Estate", "Home Buying Guide", "New Construction Homes", "Homebuying Tips", "2026 California Housing", "Los Angeles Real Estate", "First-Time Homebuyer", "Mortgage Programs", "Housing Finance", "Homeownership", "Real Estate 2026"],
     publishedAt: "2026-11-17",
