@@ -4,9 +4,9 @@ export const blogPosts: BlogPost[] = [
   {
     id: "39",
     slug: "california-prop-37-homebuyer-loan-program",
-    title: "Prop 37: What You Need to Know About California's New Homebuyer Loan Program",
+    title: "California Prop 37: 2026 Down Payment Assistance Program for Homebuyers | Complete Guide",
     excerpt:
-      "Proposition 37 just passed with 61% voter approval. It's a $25 billion loan program designed to help middle-income buyers purchase newly built homes. Here's how it works and whether it benefits you.",
+      "Proposition 37 passed November 2026 with 61% voter approval. Learn how California's $25 billion homebuyer loan program works, who qualifies, and whether it helps you save on down payments for new construction homes.",
     content: `
 Proposition 37 is California's newest attempt to solve the homebuying crisis—but not in the way you might think. This isn't a grant. It's not free money. It's a loan program designed specifically for middle-income buyers looking to purchase newly constructed homes.
 
@@ -98,16 +98,41 @@ But go in with realistic expectations. This is loan assistance, not a gift. The 
 
 ---
 
-**Questions about how Prop 37 affects your buying situation in LA?** Real estate financing is complicated, and rules change. If you're considering buying a newly built home and want to understand your actual options—Prop 37, conventional financing, or other programs—let's talk through your specific scenario.
+## FAQ: Proposition 37 Questions Answered
 
-**Johnny Leou (DRE#02064780)** helps LA buyers navigate every available program and financing structure. Because the right loan structure can be the difference between buying now or waiting another two years.
+**Is Prop 37 free money?**
+No. Prop 37 is a loan you must repay, not a grant or gift. You'll make monthly payments on both your primary mortgage and the Prop 37 loan.
+
+**Can I use Prop 37 to buy an existing home?**
+No. Prop 37 only applies to newly constructed homes priced below $1.5 million. Existing homes, condos, and properties built before the program launch are not eligible.
+
+**What income do I need to qualify for Prop 37?**
+You must have income at or below 200% of your area's median income (AMI). In Los Angeles County, this varies by family size but roughly means $150K-$200K+ annually for families of four.
+
+**How much can Prop 37 cover?**
+Prop 37 can cover up to 17% of a new home's purchase price. You still need to contribute a minimum 3% down payment of your own money.
+
+**Can I get pre-approved for Prop 37?**
+Yes, lenders now offer Prop 37 pre-approvals. You'll still need to qualify for a primary mortgage. Contact your lender to inquire about Prop 37 financing options in California.
+
+**Is Prop 37 available statewide?**
+Yes. Prop 37 is a California state program available throughout California, not limited to specific regions. If you're buying newly built in Los Angeles, San Francisco, San Diego, or anywhere in California, you may qualify.
+
+**When does Prop 37 take effect?**
+Prop 37 passed November 3, 2026. The California Housing Finance Agency began issuing bonds immediately, and lending programs started rolling out in late 2026.
+
+---
+
+**Have questions about Prop 37 or your homebuying options in Los Angeles?** Real estate financing is complex, and programs change. If you're considering buying a newly built home and want to understand how Prop 37, conventional financing, or other homebuyer assistance programs affect your specific situation, let's discuss your options.
+
+**Johnny Leou (DRE#02064780)** helps Los Angeles homebuyers navigate down payment assistance programs, financing structures, and home buying strategies. The right program can be the difference between homeownership now and years of waiting.
     `,
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
     authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
     coverImage: "https://claude.ai/artifact/TvG7XtMhXUy9GAZfU5zwgv",
     category: "Market Insights",
-    tags: ["Proposition 37", "Homebuyer Programs", "Down Payment Assistance", "New Construction", "California Real Estate", "2026 Housing", "Financing"],
+    tags: ["Proposition 37", "Prop 37", "Down Payment Assistance", "Homebuyer Programs", "California Real Estate", "Home Buying Guide", "New Construction Homes", "Homebuying Tips", "2026 California Housing", "Los Angeles Real Estate", "First-Time Homebuyer", "Mortgage Programs", "Housing Finance", "Homeownership", "Real Estate 2026"],
     publishedAt: "2026-11-17",
     readTime: 7,
   },
