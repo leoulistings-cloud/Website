@@ -67,6 +67,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "hbr.org",
       },
+      {
+        protocol: "https",
+        hostname: "encrypted-tbn0.gstatic.com",
+      },
     ],
   },
 };
