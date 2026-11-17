@@ -105,7 +105,7 @@ But go in with realistic expectations. This is loan assistance, not a gift. The 
     author: "Johnny Leou",
     authorRole: "Real Estate Agent | DRE #02064780",
     authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
-    coverImage: "https://images.unsplash.com/photo-1600966553552-8b90e1f80a4f?w=1200&q=80",
+    coverImage: "https://claude.ai/artifact/TvG7XtMhXUy9GAZfU5zwgv",
     category: "Market Insights",
     tags: ["Proposition 37", "Homebuyer Programs", "Down Payment Assistance", "New Construction", "California Real Estate", "2026 Housing", "Financing"],
     publishedAt: "2026-11-17",
