@@ -2,7 +2,7 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
-    id: "35",
+    id: "39",
     slug: "california-prop-37-homebuyer-loan-program",
     title: "Prop 37: What You Need to Know About California's New Homebuyer Loan Program",
     excerpt:
