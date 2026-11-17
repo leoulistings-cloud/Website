@@ -126,7 +126,7 @@ export default function BlogPage() {
                       </div>
 
                       {/* Content */}
-                      <div className="bg-navy-900 p-10 lg:p-14 flex flex-col justify-center">
+                      <div className="bg-navy-900 p-10 lg:p-14 flex flex-col justify-center aspect-[4/3]">
                         <span className="inline-block bg-gold-500 text-navy-950 text-[10px] font-semibold tracking-widest uppercase px-2.5 py-1 mb-5 self-start">
                           {featured.category}
                         </span>
