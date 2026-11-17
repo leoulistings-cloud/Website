@@ -2,6 +2,116 @@ import { BlogPost } from "@/types";
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "35",
+    slug: "california-prop-37-homebuyer-loan-program",
+    title: "Prop 37: What You Need to Know About California's New Homebuyer Loan Program",
+    excerpt:
+      "Proposition 37 just passed with 61% voter approval. It's a $25 billion loan program designed to help middle-income buyers purchase newly built homes. Here's how it works and whether it benefits you.",
+    content: `
+Proposition 37 is California's newest attempt to solve the homebuying crisis—but not in the way you might think. This isn't a grant. It's not free money. It's a loan program designed specifically for middle-income buyers looking to purchase newly constructed homes.
+
+If you've been following California housing headlines, you've heard the message: homes are expensive, down payments are brutal, and many qualified buyers can't get in. Prop 37 is the state's answer. Let's break down what it actually is, how it works, and whether it helps you.
+
+## When Did Prop 37 Pass?
+
+Prop 37 was approved on **November 3, 2026**, with strong support—**61% of voters said yes**. This homeownership bond initiative authorizes the California Housing Finance Agency to issue up to **$25 billion in bonds** to assist middle-income buyers with down payments on newly constructed homes.
+
+For context: This is real money. This is the state committing capital to a specific problem.
+
+## How Does Prop 37 Actually Work?
+
+Here's the structure, without the jargon:
+
+**Down Payment Assistance:**
+- The program can cover up to **17% of a new home's purchase price**
+- Applies to newly constructed homes priced below **$1.5 million**
+- You still need to contribute a minimum **3% down payment of your own money**
+- The state loan bridges the gap, up to that 17% threshold
+
+**Who Qualifies:**
+- Income at or below **200% of area median income** (AMI)
+- In LA County, this means roughly $150K-$200K+ for a family of four (varies by area)
+- You must occupy the property as your primary residence
+- You need to be able to qualify for a standard mortgage alongside this loan
+
+**Key Detail:**
+This is a **loan, not a grant**. You repay it monthly, just like a mortgage. It's structured as a secondary loan—you have your primary mortgage plus this Prop 37 loan, both on your monthly payment obligations.
+
+## Real Numbers Example
+
+Say you're buying a newly constructed home for **$600,000**:
+- 17% of $600K = $102,000
+- Your down payment: 3% = $18,000 (your money)
+- Prop 37 covers: $102,000 (state loan)
+- You still need to qualify for a mortgage on the remaining balance (~$480,000)
+
+Your total monthly payments = Primary mortgage + Prop 37 loan payment.
+
+## Who Benefits Most?
+
+Prop 37 is built for a specific buyer profile:
+
+✅ **Buy if you:**
+- Can afford the monthly payments on both loans
+- Want to purchase a newly built home
+- Have stable income within the 200% AMI range
+- Can qualify for a primary mortgage
+- Don't have $80K-$100K+ sitting in savings for a down payment
+
+❌ **Skip it if you:**
+- Want to buy an existing/older home (doesn't apply)
+- Can't afford dual monthly loan payments
+- Want free money or a grant (this is a loan you repay)
+- Are buying in areas where new construction is limited
+
+## What It Doesn't Do
+
+**It doesn't lower home prices.** The home costs what it costs. Prop 37 just makes it easier to access financing for the down payment.
+
+**It doesn't guarantee approval.** You still need to qualify for a primary mortgage. If your credit is poor or income unstable, you won't qualify for either loan.
+
+**It's not a first-time buyer program.** Repeat buyers qualify too—as long as they meet income and occupancy requirements.
+
+**It's not for existing homes.** The program only applies to newly constructed homes. If you're buying a 1980s fixer-upper in the Arts District, this doesn't help.
+
+## The Realistic Impact
+
+Will this solve California's housing crisis? No. But it removes one specific barrier: the down payment.
+
+For a buyer who can afford the monthly payments but doesn't have $80K-$100K in liquid savings, this is meaningful. You could buy a new construction home in 2026 that you couldn't afford in 2025.
+
+That matters.
+
+**The estimate:** Supporters project this could support roughly **190,000 new home purchases** statewide over the program's lifetime. For context, California sells ~400K homes per year. So this is incremental, not revolutionary.
+
+## Should You Explore It?
+
+If you're:
+- Looking to buy newly built in California
+- Income-qualified (around 200% AMI)
+- Unable to save a 15-20% down payment on your own
+- Able to handle dual loan payments
+
+...then yes, it's worth a conversation with a lender. They can run numbers and see if you qualify.
+
+But go in with realistic expectations. This is loan assistance, not a gift. The state is helping you access credit, not giving you money.
+
+---
+
+**Questions about how Prop 37 affects your buying situation in LA?** Real estate financing is complicated, and rules change. If you're considering buying a newly built home and want to understand your actual options—Prop 37, conventional financing, or other programs—let's talk through your specific scenario.
+
+**Johnny Leou (DRE#02064780)** helps LA buyers navigate every available program and financing structure. Because the right loan structure can be the difference between buying now or waiting another two years.
+    `,
+    author: "Johnny Leou",
+    authorRole: "Real Estate Agent | DRE #02064780",
+    authorImage: "https://i.imgur.com/xA4a1Zr.jpg",
+    coverImage: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&q=80",
+    category: "Market Insights",
+    tags: ["Proposition 37", "Homebuyer Programs", "Down Payment Assistance", "New Construction", "California Real Estate", "2026 Housing", "Financing"],
+    publishedAt: "2026-11-17",
+    readTime: 7,
+  },
+  {
     id: "34",
     slug: "arts-district-dtla-real-estate-creatives-priced-out",
     title: "Arts District DTLA: The Neighborhood Where Creatives Are Actually Getting Priced In",
